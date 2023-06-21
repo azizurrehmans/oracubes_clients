@@ -1,0 +1,1 @@
+insert into national.CPO_TYPE select * from askari4.CPO_TYPE

@@ -1,0 +1,185 @@
+
+Starting report carton_label [Tue Feb 14 14:43:35 2023] ...
+End report carton_label [Tue Feb 14 14:44:04 2023].
+
+Starting report carton_label [Tue Feb 14 14:44:41 2023] ...
+End report carton_label [Tue Feb 14 14:44:44 2023].
+
+Starting report carton_label [Tue Feb 14 14:45:22 2023] ...
+End report carton_label [Tue Feb 14 14:45:25 2023].
+
+Starting report carton_label [Tue Feb 14 14:54:40 2023] ...
+End report carton_label [Tue Feb 14 14:54:45 2023].
+
+Starting report carton_label [Tue Feb 14 14:55:27 2023] ...
+REP-1401: 'total_cartonsformula': Fatal PL/SQL error occurred.
+ORA-00942: table or view does not exist
+
+REP-0594: No report output generated.
+End report carton_label [Tue Feb 14 14:55:40 2023].
+
+Starting report carton_label [Tue Feb 14 14:59:09 2023] ...
+REP-1401: 'total_cartonsformula': Fatal PL/SQL error occurred.
+ORA-00942: table or view does not exist
+
+REP-0594: No report output generated.
+End report carton_label [Tue Feb 14 14:59:16 2023].
+
+Starting report carton_label [Tue Feb 14 14:59:41 2023] ...
+End report carton_label [Tue Feb 14 14:59:49 2023].
+
+Starting report carton_label [Tue Feb 14 15:04:39 2023] ...
+End report carton_label [Tue Feb 14 15:04:47 2023].
+
+Starting report carton_label [Tue Feb 14 15:08:02 2023] ...
+ORA-00942: table or view does not exist
+ SELECT ALL company_prefix || '/' || case when pd . packing_year > 15 then translate ( pd . packing_year - 1 || to_char ( pd . packing_id , '00' ) , '0123456789 ' , '0123456789' ) else pd . packing_id end || '/' || PD . PACKING_YEAR PACKING_NO , COMP
+End report carton_label [Tue Feb 14 15:08:07 2023].
+
+Starting report carton_label [Tue Feb 14 15:08:08 2023] ...
+ORA-00942: table or view does not exist
+ SELECT ALL company_prefix || '/' || case when pd . packing_year > 15 then translate ( pd . packing_year - 1 || to_char ( pd . packing_id , '00' ) , '0123456789 ' , '0123456789' ) else pd . packing_id end || '/' || PD . PACKING_YEAR PACKING_NO , COMP
+End report carton_label [Tue Feb 14 15:08:12 2023].
+
+Starting report igp_r [Tue Feb 14 16:03:58 2023] ...
+End report igp_r [Tue Feb 14 16:04:13 2023].
+
+Starting report sub_ledger [Tue Feb 14 16:21:59 2023] ...
+End report sub_ledger [Tue Feb 14 16:22:44 2023].
+
+Starting report sub_ledger [Tue Feb 14 16:25:03 2023] ...
+End report sub_ledger [Tue Feb 14 16:25:16 2023].
+
+Starting report carton_label [Wed Feb 15 13:49:44 2023] ...
+End report carton_label [Wed Feb 15 13:49:46 2023].
+
+Starting report carton_label [Wed Feb 15 13:50:48 2023] ...
+End report carton_label [Wed Feb 15 13:50:50 2023].
+
+Starting report carton_label [Wed Feb 15 13:51:04 2023] ...
+End report carton_label [Wed Feb 15 13:51:06 2023].
+
+Starting report carton_label [Wed Feb 15 13:52:23 2023] ...
+End report carton_label [Wed Feb 15 13:52:26 2023].
+
+Starting report packing_list [Wed Feb 15 13:52:50 2023] ...
+End report packing_list [Wed Feb 15 13:52:54 2023].
+
+Starting report packing_list_enika [Wed Feb 15 13:52:55 2023] ...
+End report packing_list_enika [Wed Feb 15 13:52:59 2023].
+
+Starting report carton_label [Wed Feb 15 13:53:01 2023] ...
+End report carton_label [Wed Feb 15 13:53:03 2023].
+
+Starting report carton_label [Wed Feb 15 15:38:07 2023] ...
+End report carton_label [Wed Feb 15 15:38:40 2023].
+
+Starting report carton_label [Wed Feb 15 15:38:49 2023] ...
+End report carton_label [Wed Feb 15 15:38:53 2023].
+
+Starting report carton_label [Wed Feb 15 15:39:12 2023] ...
+End report carton_label [Wed Feb 15 15:39:18 2023].
+
+Starting report carton_label [Wed Feb 15 15:50:21 2023] ...
+End report carton_label [Wed Feb 15 15:50:23 2023].
+
+Starting report san_single [Sat Feb 18 12:03:20 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report san_single [Sat Feb 18 12:03:59 2023].
+
+Starting report packing_list [Wed Feb 22 12:10:09 2023] ...
+End report packing_list [Wed Feb 22 12:11:48 2023].
+
+Starting report packing_performa_inv [Wed Feb 22 12:16:54 2023] ...
+ORA-00918: column ambiguously defined
+ SELECT ALL c . special_ins , c . currency , c . final_cpo , rate , p . amt amt00 , p . amt1 amt01 , p . amt2 amt02 , p . amt_remarks amt_remartk00 , p . amt_remarks1 amt_remartk01 , p . amt_remarks2 amt_remartk02 , company_prefix || '/' || case when
+End report packing_performa_inv [Wed Feb 22 12:16:57 2023].
+
+Starting report packing_list [Wed Feb 22 12:16:59 2023] ...
+ORA-00918: column ambiguously defined
+ SELECT ALL company_prefix || '/' || case when pd . packing_year > 15 then translate ( pd . packing_year - 1 || to_char ( pd . packing_id , '00' ) , '0123456789 ' , '0123456789' ) else pd . packing_id end || '/' || PD . PACKING_YEAR PACKING_ID , p . 
+End report packing_list [Wed Feb 22 12:17:01 2023].
+
+Starting report packing_list_enika [Wed Feb 22 12:17:02 2023] ...
+End report packing_list_enika [Wed Feb 22 12:17:08 2023].
+
+Starting report carton_label [Wed Feb 22 12:17:10 2023] ...
+End report carton_label [Wed Feb 22 12:17:24 2023].
+
+Starting report export_invoice [Wed Feb 22 12:17:27 2023] ...
+ORA-00918: column ambiguously defined
+ select p . customer_name , c . customer_id , p . customer_address || ' ' || p . country customer_address , p . packing_date , c . delivery_terms , c . via , c . final_cpo , c . currency , p . country , p . destination || ' AIRPORT' desination_airpor
+End report export_invoice [Wed Feb 22 12:17:30 2023].
+
+Starting report packing_performa_inv [Wed Feb 22 12:19:57 2023] ...
+End report packing_performa_inv [Wed Feb 22 12:20:11 2023].
+
+Starting report export_invoice [Wed Feb 22 12:20:15 2023] ...
+End report export_invoice [Wed Feb 22 12:20:21 2023].
+
+Starting report packing_list [Wed Feb 22 12:20:22 2023] ...
+End report packing_list [Wed Feb 22 12:20:29 2023].
+
+Starting report packing_list_enika [Wed Feb 22 12:20:30 2023] ...
+End report packing_list_enika [Wed Feb 22 12:20:33 2023].
+
+Starting report carton_label [Wed Feb 22 12:20:34 2023] ...
+End report carton_label [Wed Feb 22 12:20:39 2023].
+
+Starting report packing_list [Wed Feb 22 13:05:54 2023] ...
+End report packing_list [Wed Feb 22 13:06:02 2023].
+
+Starting report packing_list [Wed Feb 22 15:57:09 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report packing_list [Wed Feb 22 15:57:09 2023].
+
+Starting report salary_temp2 [Thu Apr 20 16:26:57 2023] ...
+End report salary_temp2 [Thu Apr 20 16:30:03 2023].
+
+Starting report salary_temp [Thu Apr 20 16:39:50 2023] ...
+End report salary_temp [Thu Apr 20 16:41:47 2023].
+
+Starting report salary_temp2 [Thu Apr 20 16:48:36 2023] ...
+End report salary_temp2 [Thu Apr 20 16:55:17 2023].
+
+Starting report salary_temp2 [Thu Apr 20 16:55:20 2023] ...
+End report salary_temp2 [Sat Apr 22 18:55:11 2023].
+
+Starting report export_customs_invoice [Sat Apr 22 18:55:11 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report export_customs_invoice [Sat Apr 22 18:55:14 2023].
+
+Starting report export_customs_invoice [Sat Apr 22 20:53:35 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-24323: value not allowed
+
+REP-0501: Unable to connect to the specified database.
+End report export_customs_invoice [Sat Apr 22 20:53:38 2023].
+
+Starting report export_instruction_letter [Mon May 22 16:25:36 2023] ...
+End report export_instruction_letter [Tue May 23 13:29:51 2023].
+
+Starting report carton_label [Mon May 22 16:25:26 2023] ...
+End report carton_label [Tue May 23 13:29:50 2023].
+
+Starting report packing_summary_customs [Mon May 22 16:25:20 2023] ...
+End report packing_summary_customs [Tue May 23 11:19:09 2023].
+
+Starting report packing_summary_customs [Mon May 22 16:25:12 2023] ...
+End report packing_summary_customs [Mon May 22 16:27:27 2023].
+
+Starting report VOUCHER_HFP_14 [Tue May 23 13:31:58 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report VOUCHER_HFP_14 [Tue May 23 13:32:02 2023].

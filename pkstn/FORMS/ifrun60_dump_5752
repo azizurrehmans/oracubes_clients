@@ -1,0 +1,44 @@
+[12/24/13 12:09:07 Pakistan Standard Time]::Client Status [ConnId=0, PID=5752]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  004B3370 01:000A2370
+Module: C:\orant\BIN\PLS805.dll
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7601 Service Pack 1
+Command line: "C:\orant\BIN\ifrun60.EXE" m:\forms\user_checking5 askari4/one
+FORM/BLOCK/FIELD: USER_CHECKING5:BLOCK2.IMAGE5
+Last Trigger: WHEN-IMAGE-PRESSED - (In Progress)
+Msg: <NULL>
+Last Builtin: CREATE_PARAMETER_LIST - (Successfully Completed)
+
+Registers:
+EAX:00000000
+EBX:0612BAE8
+ECX:00000000
+EDX:017854B0
+ESI:0012E750
+EDI:017373DC
+CS:EIP:001B:004B3370
+SS:ESP:0023:0012DA40  EBP:0012DA60
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010246
+
+
+Call stack:
+Address   Frame
+004B3370  0012DA60  0001:000A2370 C:\orant\BIN\PLS805.dll
+004782B9  0012EBC8  0001:000672B9 C:\orant\BIN\PLS805.dll
+67E26797  0012EC54  depxcrun
+67593E25  0012EC78  kghsmf
+67595B94  0012EC98  kghalo
+6759679D  0012ECE8  kghalf
+675CD477  0012ED04  kohalc
+675CD308  0012EDF4  kohalc
+67F27F56  0012EE00  sltsmnr
+67F351C5  0012EE20  ssltssigmask
+5D15C85A  0012EE38  simfr
+5D12F57C  0012EF60  ipdemf
+

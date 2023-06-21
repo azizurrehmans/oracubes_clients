@@ -1,0 +1,215 @@
+
+Starting report pmb [Tue Jul 05 16:09:30 2022] ...
+End report pmb [Tue Jul 05 16:11:05 2022].
+
+Starting report GIR_LISTING [Wed Jul 06 14:36:23 2022] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report GIR_LISTING [Wed Jul 06 14:36:29 2022].
+
+Starting report po [Wed Aug 31 14:54:51 2022] ...
+End report po [Wed Aug 31 14:56:48 2022].
+
+Starting report po [Wed Aug 31 14:57:12 2022] ...
+End report po [Wed Aug 31 14:57:30 2022].
+
+Starting report po [Wed Aug 31 15:04:18 2022] ...
+End report po [Wed Aug 31 15:04:23 2022].
+
+Starting report hr_loan_ledger [Wed Aug 31 16:42:00 2022] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report hr_loan_ledger [Wed Aug 31 16:42:04 2022].
+
+Starting report igp_receipt [Tue Nov 15 17:22:48 2022] ...
+End report igp_receipt [Tue Nov 15 17:26:14 2022].
+
+Starting report cpo_det_pcs [Wed Nov 16 19:16:46 2022] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report cpo_det_pcs [Wed Nov 16 19:16:55 2022].
+
+Starting report pmb [Thu Nov 17 13:02:16 2022] ...
+End report pmb [Thu Nov 17 13:07:12 2022].
+
+Starting report pmb [Thu Nov 17 13:23:59 2022] ...
+End report pmb [Thu Nov 17 17:41:27 2022].
+
+Starting report pmb [Thu Nov 17 17:41:27 2022] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report pmb [Thu Nov 17 17:41:27 2022].
+
+Starting report pmb [Thu Nov 17 17:41:31 2022] ...
+REP-0501: Unable to connect to the specified database.
+ORA-24323: value not allowed
+
+REP-0501: Unable to connect to the specified database.
+End report pmb [Thu Nov 17 17:41:33 2022].
+
+Starting report pmb [Thu Nov 17 17:41:38 2022] ...
+REP-4202: Error occurred while logging on to the Mail subsystem.
+REP-4220: There is a problem with the Mail subsystem.
+REP-4202: Error occurred while logging on to the Mail subsystem.
+REP-4220: There is a problem with the Mail subsystem.
+REP-4202: Error occurred while logging on to the Mail subsystem.
+End report pmb [Thu Nov 17 19:48:49 2022].
+
+Starting report pmb [Thu Nov 17 19:56:50 2022] ...
+REP-4202: Error occurred while logging on to the Mail subsystem.
+REP-4220: There is a problem with the Mail subsystem.
+REP-4202: Error occurred while logging on to the Mail subsystem.
+End report pmb [Fri Nov 18 14:11:36 2022].
+
+Starting report salary_detail_dept_mis [Sat Nov 19 18:39:30 2022] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report salary_detail_dept_mis [Sat Nov 19 18:39:33 2022].
+
+Starting report pmb [Sat Nov 26 14:04:28 2022] ...
+End report pmb [Sat Nov 26 14:06:47 2022].
+
+Starting report pmb [Sat Nov 26 14:12:18 2022] ...
+End report pmb [Sat Nov 26 14:12:42 2022].
+
+Starting report pmb [Sat Nov 26 14:05:13 2022] ...
+End report pmb [Sat Nov 26 14:06:52 2022].
+
+Starting report pmb [Sat Nov 26 14:16:41 2022] ...
+End report pmb [Sat Nov 26 14:18:52 2022].
+
+Starting report pmb [Sat Nov 26 14:18:57 2022] ...
+End report pmb [Sat Nov 26 14:19:08 2022].
+
+Starting report pmb [Sat Nov 26 14:21:27 2022] ...
+End report pmb [Sat Nov 26 14:21:39 2022].
+
+Starting report po [Sat Nov 26 14:48:09 2022] ...
+End report po [Sat Nov 26 14:48:39 2022].
+
+Starting report po [Sat Nov 26 15:02:32 2022] ...
+End report po [Sat Nov 26 15:02:57 2022].
+
+Starting report po [Sat Nov 26 15:03:01 2022] ...
+End report po [Sat Nov 26 15:03:16 2022].
+
+Starting report po [Sat Nov 26 15:03:24 2022] ...
+End report po [Sat Nov 26 15:03:39 2022].
+
+Starting report po [Sat Nov 26 15:08:52 2022] ...
+End report po [Sat Nov 26 15:08:59 2022].
+
+Starting report po [Sat Nov 26 15:09:01 2022] ...
+End report po [Sat Nov 26 15:09:07 2022].
+
+Starting report po [Sat Nov 26 15:09:09 2022] ...
+End report po [Sat Nov 26 15:09:27 2022].
+
+Starting report po [Sat Nov 26 15:09:33 2022] ...
+End report po [Sat Nov 26 15:09:48 2022].
+
+Starting report cpo_det_pcs [Sat Nov 26 18:01:27 2022] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report cpo_det_pcs [Sat Nov 26 18:01:29 2022].
+
+Starting report cpo_det_pcs [Sat Nov 26 18:59:33 2022] ...
+REP-0501: Unable to connect to the specified database.
+ORA-24323: value not allowed
+
+REP-0501: Unable to connect to the specified database.
+End report cpo_det_pcs [Sat Nov 26 18:59:35 2022].
+
+Starting report ROGP_BILL [Tue Jan 24 16:40:01 2023] ...
+End report ROGP_BILL [Tue Jan 24 16:42:03 2023].
+
+Starting report ROGP_BILL [Tue Jan 24 16:42:15 2023] ...
+End report ROGP_BILL [Tue Jan 24 16:42:27 2023].
+
+Starting report sample_isu_rec [Tue Jan 24 18:33:43 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report sample_isu_rec [Tue Jan 24 18:33:46 2023].
+
+Starting report igp_r [Sat Feb 04 07:23:13 2023] ...
+End report igp_r [Sat Feb 04 07:24:35 2023].
+
+Starting report igp_r [Sat Feb 04 07:26:32 2023] ...
+End report igp_r [Sat Feb 04 07:26:38 2023].
+
+Starting report igp_r [Tue Feb 14 13:29:04 2023] ...
+End report igp_r [Tue Feb 14 13:29:40 2023].
+
+Starting report igp_r [Tue Feb 14 13:36:11 2023] ...
+End report igp_r [Tue Feb 14 13:36:17 2023].
+
+Starting report carton_label [Tue Feb 14 14:43:18 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report carton_label [Tue Feb 14 14:43:19 2023].
+
+Starting report anti_narcotic [Wed Mar 08 09:30:11 2023] ...
+End report anti_narcotic [Wed Mar 08 09:31:41 2023].
+
+Starting report anti_narcotic [Wed Mar 08 09:39:00 2023] ...
+End report anti_narcotic [Wed Mar 08 14:00:26 2023].
+
+Starting report anti_narcotic [Wed Mar 08 15:27:07 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report anti_narcotic [Wed Mar 08 15:27:07 2023].
+
+Starting report anti_narcotic [Wed Mar 08 15:27:32 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-24323: value not allowed
+
+REP-0501: Unable to connect to the specified database.
+End report anti_narcotic [Wed Mar 08 15:27:36 2023].
+
+Starting report anti_narcotic [Wed Mar 08 15:27:45 2023] ...
+REP-1203: Field 'F_3' references invalid column.
+End report anti_narcotic [Wed Mar 08 15:28:21 2023].
+
+Starting report anti_narcotic [Wed Mar 08 15:29:46 2023] ...
+REP-1213: Field 'F_3' references column 'awb' at a frequency below its group.
+End report anti_narcotic [Wed Mar 08 15:29:53 2023].
+
+Starting report anti_narcotic [Wed Mar 08 15:34:52 2023] ...
+End report anti_narcotic [Wed Mar 08 15:35:16 2023].
+
+Starting report anti_narcotic [Wed Mar 08 15:41:09 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report anti_narcotic [Wed Mar 08 15:41:09 2023].
+
+Starting report po [Fri Mar 17 17:34:20 2023] ...
+End report po [Fri Mar 17 17:36:09 2023].
+
+Starting report po [Fri Mar 17 17:36:09 2023] ...
+End report po [Fri Mar 17 17:36:12 2023].
+
+Starting report store_ledger_qty [Mon Mar 20 20:05:34 2023] ...
+End report store_ledger_qty [Mon Mar 20 20:05:45 2023].
+
+Starting report store_ledger_NEW [Mon Mar 20 20:05:47 2023] ...
+End report store_ledger_NEW [Mon Mar 20 20:06:21 2023].

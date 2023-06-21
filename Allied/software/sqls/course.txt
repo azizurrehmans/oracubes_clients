@@ -1,0 +1,10 @@
+create table course (
+			course_id	 varchar2(50),
+			description 	 varchar2(500) not null,
+			duration	 varchar2(50)  not null,
+			fee 		 number(6)     not null,
+			fdatetime 	 date default sysdate,
+			user_id 	 varchar2(50),
+			status_id 	 varchar2(50) default 'HOLD',
+			constraint student_user_fk foreign key (user_id) references users(user_id),
+			constraint course_pk primary key (course_id));

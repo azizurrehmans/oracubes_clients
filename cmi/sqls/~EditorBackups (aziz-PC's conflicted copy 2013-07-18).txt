@@ -1,0 +1,20 @@
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebDFD.tmp,"TEST.MAT_RES_OTHER_MO [FUNCTION] (not compiled)","5/22/2013 5:10:58 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb77D7.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\~eb77D7.tmp,"7/18/2013 10:04:18 AM",5
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebCD67.tmp,"CREATE OR REPLACE FORCE VIEW cpo_material_reserve_veiw1 (cpo_id,","5/22/2013 5:07:58 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb8D5C.tmp,"TEST.PO_IN_PIPELINE [FUNCTION] (not compiled)","5/22/2013 5:07:58 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb42A8.tmp,"SELECT DISTINCT STYLE FROM MP_VIEW","5/22/2013 5:07:58 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebDA67.tmp,"select po_balance_QTY(578,1,'13','CASH') FROM DUAL","6/7/2013 5:21:57 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb9A2D.tmp,"SELECT SUM(ACCEPTED_QTY) FROM GIR_DETAIL_VIEW WHERE PO_ID='578' AND PO_YEAR='13' AND PO_TYPE='CASH' AND PO_DETAIL_ID=1","6/7/2013 5:21:57 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb3ED6.tmp,"ASKARI1.PO_BALANCE_QTY [FUNCTION]","6/7/2013 5:22:06 PM",5
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebEC35.tmp,"CREATE OR REPLACE FORCE VIEW cpo_material_reserve_veiw1 (preq_qty,","6/7/2013 5:21:47 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebE033.tmp,"SELECT CONSTRAINT_NAME, TABLE_NAME FROM USER_CONSTRAINTS","6/17/2013 5:34:04 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb9407.tmp,"select distinct our_cpo from cpo_material","6/17/2013 5:33:42 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebCB8C.tmp,"CREATE OR REPLACE FORCE VIEW igp_detail_view (po_type_new,","6/17/2013 3:03:41 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebE9AA.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\COMPANY_SETUP.sql,"6/17/2013 3:03:41 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebA904.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\COMPANY_SETUP1.sql,"6/17/2013 3:03:41 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebA905.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\material_reserve.sql,"6/17/2013 3:03:41 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebC01F.tmp,"select operation_id from production.job_Card_detail_view","6/17/2013 5:33:27 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb77D2.tmp,"grant dba to classic1","7/16/2013 7:03:33 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb48C6.tmp,"delete from store.sc_opening where sc_opening_year='13-14'","7/18/2013 10:27:53 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebBE93.tmp,"select sc_opening_qty_fdate(901,1,1,sysdate,'GENERAL') FROM DUAL;","7/18/2013 10:27:53 AM",4
+,,"7/18/2013 10:10:17 AM",4

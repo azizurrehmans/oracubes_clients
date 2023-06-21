@@ -1,0 +1,3 @@
+ALTER TABLE ASKARI.TASK
+ ADD (executer  VARCHAR2(20));
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<History>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>BAK</Schema>
+    <Name>SAL_ADV_CONT</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>USERS</Table>
+    <TableSchema>41538.3921527778</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>25</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>BAK</Schema>
+    <Name>SAL_CONT_DETAIL</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>USERS</Table>
+    <TableSchema>41517.3923263889</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>13</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>BAK</Schema>
+    <Name>VOUCHER_08122012</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>USERS</Table>
+    <TableSchema>41479.8799421296</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>4773</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>BAK</Schema>
+    <Name>VOUCHER</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>USERS</Table>
+    <TableSchema>41517.3925231481</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>681</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>BAK</Schema>
+    <Name>AC_SETUP</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>USERS</Table>
+    <TableSchema>41503.3956828704</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>1</ObjID>
+  </Object>
+</History>

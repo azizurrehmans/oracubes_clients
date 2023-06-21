@@ -1,0 +1,1 @@
+update coa_sub set status_id='RELEASE';

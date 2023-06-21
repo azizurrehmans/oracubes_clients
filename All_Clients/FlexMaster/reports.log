@@ -1,0 +1,16 @@
+
+Starting report daily_sale [Tue Feb 28 13:17:17 2023] ...
+End report daily_sale [Tue Feb 28 13:27:30 2023].
+
+Starting report daily_sale [Tue Mar 14 18:15:46 2023] ...
+End report daily_sale [Tue Mar 14 18:17:07 2023].
+
+Starting report store_trial [Tue May 16 13:59:29 2023] ...
+End report store_trial [Tue May 16 14:01:46 2023].
+
+Starting report ogp [Wed May 17 11:38:55 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report ogp [Wed May 17 11:38:57 2023].

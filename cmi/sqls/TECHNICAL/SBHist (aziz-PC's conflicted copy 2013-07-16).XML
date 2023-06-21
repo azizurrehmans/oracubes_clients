@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<History>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>STORE</Schema>
+    <Name>STORE_TRIAL</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>STORE</Table>
+    <TableSchema>41461.3532291667</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>62238</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>MIS</Schema>
+    <Name>YEAR</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>MIS</Table>
+    <TableSchema>41419.3548148148</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>11</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>STORE</Schema>
+    <Name>YEAR_CLOSE</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>STORE</Table>
+    <TableSchema>41464.9176967593</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>9</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>STORE</Schema>
+    <Name>IGP</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>STORE</Table>
+    <TableSchema>41461.3536805556</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>22048</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>PRODUCTION</Schema>
+    <Name>JOB_CARD_DETAIL_STATUS</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>PRODUCTION</Table>
+    <TableSchema>41377.3697337963</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>560271</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>PRODUCTION</Schema>
+    <Name>JOB_CARD_DETAIL</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>PRODUCTION</Table>
+    <TableSchema>41363.3669212963</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>942452</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>PRODUCTION</Schema>
+    <Name>JOB_CARD</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>PRODUCTION</Table>
+    <TableSchema>41412.3735532407</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>23019</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>PRODUCTION</Schema>
+    <Name>DP_DETAIL</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>PRODUCTION</Table>
+    <TableSchema>41241.9172569444</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>536579</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>PRODUCTION</Schema>
+    <Name>DP</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>PRODUCTION</Table>
+    <TableSchema>41285.9180092593</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>47834</ObjID>
+  </Object>
+  <Object>
+    <Type>VIEW</Type>
+    <Schema>STORE</Schema>
+    <Name>INVOICE_DETAIL_VIEW</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>0</XtraFlag>
+    <Table />
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>54051</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>HR</Schema>
+    <Name>YEAR</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>MIS</Table>
+    <TableSchema>41155.9855324074</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>11</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>STORE</Schema>
+    <Name>INVOICE</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>STORE</Table>
+    <TableSchema>41419.3552083333</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>1052</ObjID>
+  </Object>
+</History>

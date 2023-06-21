@@ -1,0 +1,32 @@
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb77D7.tmp,"TEST.MAT_RES_OTHER_MO [FUNCTION] (not compiled)","5/22/2013 6:20:01 PM",5
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebCD67.tmp,"CREATE OR REPLACE FORCE VIEW cpo_material_reserve_veiw1 (cpo_id,","5/22/2013 5:07:58 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb8D5C.tmp,"TEST.PO_IN_PIPELINE [FUNCTION] (not compiled)","5/22/2013 5:07:58 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb42A8.tmp,"SELECT DISTINCT STYLE FROM MP_VIEW","5/22/2013 5:07:58 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebDA67.tmp,"select po_balance_QTY(578,1,'13','CASH') FROM DUAL","6/7/2013 5:21:57 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb9A2D.tmp,"SELECT SUM(ACCEPTED_QTY) FROM GIR_DETAIL_VIEW WHERE PO_ID='578' AND PO_YEAR='13' AND PO_TYPE='CASH' AND PO_DETAIL_ID=1","6/7/2013 5:21:57 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb3ED6.tmp,"ASKARI1.PO_BALANCE_QTY [FUNCTION]","6/7/2013 5:22:06 PM",5
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebEC35.tmp,"CREATE OR REPLACE FORCE VIEW cpo_material_reserve_veiw1 (preq_qty,","6/7/2013 5:21:47 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebE033.tmp,"SELECT CONSTRAINT_NAME, TABLE_NAME FROM USER_CONSTRAINTS","6/17/2013 5:37:04 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb9407.tmp,"select distinct our_cpo from cpo_material","6/17/2013 5:36:42 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebCB8C.tmp,"CREATE OR REPLACE FORCE VIEW igp_detail_view (po_type_new,","6/17/2013 3:03:41 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebE9AA.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\COMPANY_SETUP.sql,"6/17/2013 3:03:41 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebA904.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\COMPANY_SETUP1.sql,"6/17/2013 3:03:41 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebA905.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\material_reserve.sql,"6/17/2013 3:03:41 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebC01F.tmp,"select operation_id from production.job_Card_detail_view","6/17/2013 5:36:27 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb585F.tmp,"insert into sal_adv_cont (employee_id,","7/2/2013 6:13:38 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb136A.tmp,"GRANT DBA TO SCHOOL","7/4/2013 12:09:17 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb7432.tmp,"select coa_main_id, coa_sub_id, coa_id,","7/10/2013 9:10:19 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebC8FA.tmp,"select employee_TYPE, SUM(loan_balance) from employee","7/10/2013 9:10:19 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb9343.tmp,"SELECT SAL_CONT_ID, SAL_CONT_NO, EMPLOYEE_ID, COUNT(*) FROM SAL_CONT_DETAIL","7/13/2013 5:38:57 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebD11E.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\sal_cont_de1t.sql,"7/13/2013 5:38:57 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebD12F.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\sal_cont1.sql,"7/13/2013 5:38:57 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb90A7.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\sal_cont2.sql,"7/13/2013 5:38:57 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb9106.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\sal_cont3.sql,"7/13/2013 5:38:57 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb9116.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\sal_cont4.sql,"7/13/2013 5:38:57 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb9127.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\sal_cont_detail.sql,"7/13/2013 5:38:57 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb1036.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\sal_cont_detail2.sql,"7/13/2013 5:38:57 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebE73.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\sal_cont_mo_det.sql,"7/13/2013 5:38:57 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb629F.tmp,"insert into voucher","7/15/2013 6:48:57 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb77D2.tmp,"grant dba to classic1","7/16/2013 1:14:26 PM",4
+,"create table module as select * from","7/16/2013 12:40:02 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb6C3F.tmp,"delete from coa_main where coa_main_id < 21","7/16/2013 1:13:02 PM",4

@@ -1,0 +1,39 @@
+
+create table inquiry_course (
+			inquiry_id number(6),
+			course_id VARCHAR(6),
+			constraint inquiry_course_course_fk foreign key (course_id) references course(course_id),
+			constraint inquiry_course_inquiry_fk foreign key (inquiry_id) references inquiry(inquiry_id));
+
+
+
+create table student_photo (
+			student_id number(6),
+			photo blob,
+			constraint student_photo_student_fk foreign key (student_id) references student(student_id));
+
+
+
+create table student_qualification (
+			student_id 	 number(6),
+			qualification_id varchar2(50),
+			constraint student_qual_stu_fk 	  foreign key (student_id) references student(student_id),
+			constraint student_qual_qual_fk foreign key (qualification_id) references qualification(qualification_id));
+
+
+
+
+
+
+
+create table course_fee (
+			course_id	course_id VARCHAR(6),
+			fee 		number(5),
+			fdatetime 	date default sysdate,
+			user_id 	varchar2(50));
+
+
+
+
+
+

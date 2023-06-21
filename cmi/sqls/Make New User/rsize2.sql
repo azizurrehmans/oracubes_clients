@@ -1,0 +1,1 @@
+insert into national.RSIZE select * from askari3.RSIZE

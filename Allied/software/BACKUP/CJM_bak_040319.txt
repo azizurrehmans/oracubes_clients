@@ -1,0 +1,283 @@
+
+Connected to: Oracle Database 10g Enterprise Edition Release 10.2.0.1.0 - Production
+With the Partitioning, OLAP and Data Mining options
+Export done in WE8MSWIN1252 character set and AL16UTF16 NCHAR character set
+
+About to export specified users ...
+. exporting pre-schema procedural objects and actions
+. exporting foreign function library names for user CJMA 
+. exporting PUBLIC type synonyms
+. exporting private type synonyms
+. exporting object type definitions for user CJMA 
+About to export CJMA's objects ...
+. exporting database links
+. exporting sequence numbers
+. exporting cluster definitions
+. about to export CJMA's tables via Conventional Path ...
+. . exporting table           ACCOUNTS_MONTH_CLOSE         51 rows exported
+. . exporting table                       AC_SETUP          1 rows exported
+. . exporting table              ADMISSION_CHALLAN          0 rows exported
+. . exporting table                   ADVANCE_20TH          0 rows exported
+. . exporting table               ADVANCE_20TH_DET          0 rows exported
+. . exporting table                      ALLOWANCE         28 rows exported
+. . exporting table                APP_MAIN_MODULE          0 rows exported
+. . exporting table                     APP_MODULE          0 rows exported
+. . exporting table                 APP_MODULE_LOV          0 rows exported
+. . exporting table               APP_MODULE_RIGHT          0 rows exported
+. . exporting table               APP_MODULE_TABLE          0 rows exported
+. . exporting table         APP_MODULE_TABLE_OTHER          0 rows exported
+. . exporting table                     APP_REPORT          0 rows exported
+. . exporting table               APP_REPORT_RIGHT          0 rows exported
+. . exporting table               APP_REVOKE_RIGHT          0 rows exported
+. . exporting table                       APP_USER          0 rows exported
+. . exporting table                           AREA          0 rows exported
+. . exporting table                ARTICLE_HISTORY          0 rows exported
+. . exporting table                     ATTENDANCE          0 rows exported
+. . exporting table              ATTENDANCE_DETAIL          0 rows exported
+. . exporting table                ATTENDANCE_TEMP          0 rows exported
+. . exporting table                   ATTEN_ERRORS          0 rows exported
+. . exporting table                      BAD_TRIAL          0 rows exported
+. . exporting table                           BANK          0 rows exported
+. . exporting table                   BANK_ACCOUNT          2 rows exported
+. . exporting table             BARCODE_ATTENDANCE          0 rows exported
+. . exporting table                           BILL          0 rows exported
+. . exporting table                    BILL_DETAIL          0 rows exported
+. . exporting table                      BILL_TYPE          0 rows exported
+. . exporting table                         BRANCH          5 rows exported
+. . exporting table                BRANCH_AC_SETUP          0 rows exported
+. . exporting table                   BRANCH_CLASS         11 rows exported
+. . exporting table               BRANCH_CLASS_SEC         46 rows exported
+. . exporting table                            BTN          0 rows exported
+. . exporting table                             CB          0 rows exported
+. . exporting table              CHANGE_MANAGEMENT          0 rows exported
+. . exporting table                    CHEQUE_BOOK          0 rows exported
+. . exporting table                CHEQUE_BOOK_DET          0 rows exported
+. . exporting table                           CITY          7 rows exported
+. . exporting table                          CLASS         11 rows exported
+. . exporting table               CLOSING_QTY_TEMP          0 rows exported
+. . exporting table                            COA        179 rows exported
+. . exporting table                   COA_20121129          0 rows exported
+. . exporting table                 COA_CLOSING_16        176 rows exported
+. . exporting table                 COA_CLOSING_18         71 rows exported
+. . exporting table                       COA_MAIN          5 rows exported
+. . exporting table                   COA_MAIN_NEW          0 rows exported
+. . exporting table                        COA_NEW          0 rows exported
+. . exporting table                   COA_OPENING_        307 rows exported
+. . exporting table           COA_OPENING_20130708          0 rows exported
+. . exporting table                        COA_SUB         64 rows exported
+. . exporting table                    COA_SUB_NEW          0 rows exported
+. . exporting table                          COLOR          0 rows exported
+. . exporting table                  COMPANY_SETUP          1 rows exported
+. . exporting table                      COUNTRIES          0 rows exported
+. . exporting table                        COUNTRY          4 rows exported
+. . exporting table                            CPO          0 rows exported
+. . exporting table              CREDITOR_BALANCES          0 rows exported
+. . exporting table                       CURRENCY          0 rows exported
+. . exporting table                       CUSTOMER          0 rows exported
+. . exporting table                  CUSTOMER_CODE          0 rows exported
+. . exporting table                  DELETED_TRANS          0 rows exported
+. . exporting table                 DEMO_CUSTOMERS          0 rows exported
+. . exporting table                    DEMO_ORDERS          0 rows exported
+. . exporting table               DEMO_ORDER_ITEMS          0 rows exported
+. . exporting table            DEMO_PAGE_HIERARCHY          0 rows exported
+. . exporting table                    DEMO_STATES          0 rows exported
+. . exporting table                     DEMO_USERS          0 rows exported
+. . exporting table                     DEPARTMENT         36 rows exported
+. . exporting table                    DEPARTMENTS          0 rows exported
+. . exporting table                           DEPT          0 rows exported
+. . exporting table                    DESIGNATION        182 rows exported
+. . exporting table                DISCOUNT_DETAIL          0 rows exported
+. . exporting table                          EFROM          0 rows exported
+. . exporting table                            EMP          0 rows exported
+. . exporting table                       EMPLOYEE        184 rows exported
+. . exporting table                      EMPLOYEES          0 rows exported
+. . exporting table                   EMPLOYEE_ACC          0 rows exported
+. . exporting table  EMPLOYEE_BRANCH_CLASS_SECTION        182 rows exported
+. . exporting table            EMPLOYEE_DEPT_DESIG        183 rows exported
+. . exporting table             EMPLOYEE_FINANCIAL          0 rows exported
+. . exporting table                    EMPLOYEE_JD         78 rows exported
+. . exporting table           EMPLOYEE_LATE_POLICY          0 rows exported
+. . exporting table                    EMPLOYEE_MV          0 rows exported
+. . exporting table                  EMPLOYEE_NOTE          0 rows exported
+. . exporting table              EMPLOYEE_OFFICIAL          0 rows exported
+. . exporting table              EMPLOYEE_OLD_DATA          0 rows exported
+. . exporting table                 EMPLOYEE_PHOTO         59 rows exported
+. . exporting table                 EMPLOYEE_SHIFT          0 rows exported
+. . exporting table               EMPLOYE_29102005          0 rows exported
+. . exporting table                    EMP_DISEASE          4 rows exported
+. . exporting table                        EMP_EXP         91 rows exported
+. . exporting table                        EMP_FIN        918 rows exported
+. . exporting table                    EMP_FIN_DET      21895 rows exported
+. . exporting table           EMP_FIN_DET_04102016       9296 rows exported
+. . exporting table           EMP_FIN_DET_08112016       9415 rows exported
+. . exporting table                         EMP_OP          0 rows exported
+. . exporting table              EMP_QUALIFICATION        314 rows exported
+. . exporting table                        EMP_REF          0 rows exported
+. . exporting table                    EXPORT_RATE          0 rows exported
+. . exporting table                   EXPORT_SETUP          0 rows exported
+. . exporting table                       FEE_HEAD         10 rows exported
+. . exporting table                     FEE_MONTHS          4 rows exported
+. . exporting table                    FEE_SESSION         12 rows exported
+. . exporting table                  FEE_STRUCTURE          1 rows exported
+. . exporting table        FEE_STRUCTURE_CLASS_DET         98 rows exported
+. . exporting table              FEE_STRUCTURE_DET         11 rows exported
+. . exporting table               FINAL_SETTLEMENT          0 rows exported
+. . exporting table                         FINISH          0 rows exported
+. . exporting table                       FIREWALL          1 rows exported
+. . exporting table                             FX          0 rows exported
+. . exporting table                         FX_DET          0 rows exported
+. . exporting table                        F_CYCLE          2 rows exported
+. . exporting table                             GH          0 rows exported
+. . exporting table                            GIR          0 rows exported
+. . exporting table                GROUP_INSURANCE          0 rows exported
+. . exporting table                        HR_LATE          0 rows exported
+. . exporting table                       HR_SETUP          0 rows exported
+. . exporting table                       HR_SHIFT          0 rows exported
+. . exporting table                        INQUIRY          0 rows exported
+. . exporting table                        INVOICE          0 rows exported
+. . exporting table                 INVOICE_DETAIL          0 rows exported
+. . exporting table                             IR          0 rows exported
+. . exporting table                    IR_28072007          0 rows exported
+. . exporting table                      IR_DETAIL          0 rows exported
+. . exporting table             IR_DETAIL_28072007          0 rows exported
+. . exporting table                   IR_DETAIL_JC          0 rows exported
+. . exporting table                 IR_DETAIL_TEMP          0 rows exported
+. . exporting table                      ITEM_SIZE          0 rows exported
+. . exporting table                             JC          0 rows exported
+. . exporting table                            JCD          0 rows exported
+. . exporting table                   JC_MAT_SETUP          0 rows exported
+. . exporting table               JC_MAT_SETUP_DET          0 rows exported
+. . exporting table                           JOBS          0 rows exported
+. . exporting table                    JOB_HISTORY          0 rows exported
+. . exporting table                          LEAVE          0 rows exported
+. . exporting table                      LEAVE_APP          0 rows exported
+. . exporting table                  LEAVE_BALANCE          0 rows exported
+. . exporting table                  LEAVE_HISTORY          0 rows exported
+. . exporting table                     LEAVE_TYPE          0 rows exported
+. . exporting table                    LEDGER_TEMP          0 rows exported
+. . exporting table                           LOAN          0 rows exported
+. . exporting table                       LOAN_APP          0 rows exported
+. . exporting table                   LOAN_APP_DET          0 rows exported
+. . exporting table                 LOAN_DEDUCTION          0 rows exported
+. . exporting table                    LOAN_LEDGER          0 rows exported
+. . exporting table                      LOCATIONS          0 rows exported
+. . exporting table                            LOV          0 rows exported
+. . exporting table             MAIN_SCREEN_ALERTS          0 rows exported
+. . exporting table                        MANSOOR          0 rows exported
+. . exporting table                       MESSAGES          0 rows exported
+. . exporting table                        MESSGES          0 rows exported
+. . exporting table                           MGIR          0 rows exported
+. . exporting table                    MGIR_DETAIL          0 rows exported
+. . exporting table                         MODULE          7 rows exported
+. . exporting table                          MONTH          0 rows exported
+. . exporting table             MONTHLY_ATTENDANCE         31 rows exported
+. . exporting table             MONTHLY_CHALLAN_NO       1960 rows exported
+. . exporting table                     MONTHLY_OT          0 rows exported
+. . exporting table                    MONTH_CLOSE          0 rows exported
+. . exporting table                             MP          0 rows exported
+. . exporting table                            MPD          0 rows exported
+. . exporting table                   MPD_01032013          0 rows exported
+. . exporting table                            MPR          0 rows exported
+. . exporting table                    MP_01032013          0 rows exported
+. . exporting table                          MP_OP          0 rows exported
+. . exporting table                 MP_OP_01032013          0 rows exported
+. . exporting table                      MP_OP_EMP          0 rows exported
+. . exporting table                       MP_PHOTO          0 rows exported
+. . exporting table                     MP_REMARKS          0 rows exported
+. . exporting table            MP_REMARKS_01032013          0 rows exported
+. . exporting table                       NEXTCHAR          0 rows exported
+. . exporting table                     OCCUPATION        236 rows exported
+. . exporting table                             OT          0 rows exported
+. . exporting table                             PI          0 rows exported
+. . exporting table                      PI_DETAIL          0 rows exported
+. . exporting table                       POSITION          0 rows exported
+. . exporting table                             PR          0 rows exported
+. . exporting table                           PREQ          0 rows exported
+. . exporting table                       PREQ_DET          0 rows exported
+. . exporting table                      PR_DETAIL          0 rows exported
+. . exporting table                  QUALIFICATION         20 rows exported
+. . exporting table                         REASON          0 rows exported
+. . exporting table                        REGIONS          0 rows exported
+. . exporting table                       RELATION          4 rows exported
+. . exporting table                       RELIGION          5 rows exported
+. . exporting table                  REP_DUPLICATE          2 rows exported
+. . exporting table                      REP_PARAM          0 rows exported
+. . exporting table                          RSIZE          0 rows exported
+. . exporting table                         SALARY         38 rows exported
+. . exporting table                 SALARY_ADVANCE          0 rows exported
+. . exporting table        SALARY_ADVANCE_EMPLOYEE          0 rows exported
+. . exporting table                  SALARY_DETAIL       4963 rows exported
+. . exporting table              SALARY_DETAIL_EMP     116612 rows exported
+. . exporting table                   SALARY_GROUP          0 rows exported
+. . exporting table                      SALARY_JV          0 rows exported
+. . exporting table               SALARY_JV_DETAIL          0 rows exported
+. . exporting table                   SALARY_MONTH          0 rows exported
+. . exporting table              SALARY_OTHER_INFO          0 rows exported
+. . exporting table                    SALARY_TEMP         18 rows exported
+. . exporting table                   SAL_ADV_CONT          0 rows exported
+. . exporting table                       SAL_CONT          0 rows exported
+. . exporting table                SAL_CONT_DETAIL          0 rows exported
+. . exporting table             SAL_CONT_MO_DETAIL          0 rows exported
+. . exporting table                 SAMPLE_ISU_REC          0 rows exported
+. . exporting table                            SAN          0 rows exported
+. . exporting table                             SC          0 rows exported
+. . exporting table                         SC_CAT          0 rows exported
+. . exporting table                      SC_FINISH          0 rows exported
+. . exporting table                    SC_LOCATION          0 rows exported
+. . exporting table              SC_LOCATION_PHOTO          0 rows exported
+. . exporting table                        SC_MAIN          0 rows exported
+. . exporting table                  SC_MAIN_PHOTO          0 rows exported
+. . exporting table                         SC_REQ          0 rows exported
+. . exporting table                  SC_STAGE_WISE          0 rows exported
+. . exporting table                         SC_SUB          0 rows exported
+. . exporting table              SHIPMENT_CALANDER          0 rows exported
+. . exporting table                         STATUS          0 rows exported
+. . exporting table                        STUDENT          0 rows exported
+. . exporting table                STUDENT_HISTORY          0 rows exported
+. . exporting table                   STU_HIST_DET          0 rows exported
+. . exporting table                   SUB_CUSTOMER          0 rows exported
+. . exporting table                    SUB_SECTION          0 rows exported
+. . exporting table             SUNDAY_WORKING_DAY          0 rows exported
+. . exporting table                       SUPPLIER          0 rows exported
+. . exporting table                           TASK          0 rows exported
+. . exporting table                        TASK_CC          0 rows exported
+. . exporting table                      TASK_USER          0 rows exported
+. . exporting table                           TEMP          0 rows exported
+. . exporting table                      TRIAL_COA         21 rows exported
+. . exporting table                     TRIAL_TEMP          0 rows exported
+. . exporting table                       TRX_TEST          0 rows exported
+. . exporting table           UNCLOSED_QTY_HISTORY          0 rows exported
+. . exporting table                           UNIT          0 rows exported
+. . exporting table                    UNVALUED_SC          0 rows exported
+. . exporting table                          USERS          5 rows exported
+. . exporting table                    USER_MODULE         22 rows exported
+. . exporting table               VALUATION_ERRORS          0 rows exported
+. . exporting table                        VOUCHER       8880 rows exported
+. . exporting table                VOUCHER_DELETED        560 rows exported
+. . exporting table             VOUCHER_DETAIL_NEW      17951 rows exported
+. . exporting table     VOUCHER_DETAIL_NEW_DELETED       1056 rows exported
+. . exporting table                   VOUCHER_TYPE          3 rows exported
+. . exporting table            VOUCHER_TYPE_DETAIL          6 rows exported
+. . exporting table                            XFR          0 rows exported
+. . exporting table                           YEAR          5 rows exported
+. . exporting table                    YEAR_BUDGET        131 rows exported
+. . exporting table                     YEAR_CLOSE          0 rows exported
+. . exporting table                             cb          0 rows exported
+. . exporting table                        test.cb          0 rows exported
+. exporting synonyms
+. exporting views
+. exporting stored procedures
+. exporting operators
+. exporting referential integrity constraints
+. exporting triggers
+. exporting indextypes
+. exporting bitmap, functional and extensible indexes
+. exporting posttables actions
+. exporting materialized views
+. exporting snapshot logs
+. exporting job queues
+. exporting refresh groups and children
+. exporting dimensions
+. exporting post-schema procedural objects and actions
+. exporting statistics
+Export terminated successfully without warnings.

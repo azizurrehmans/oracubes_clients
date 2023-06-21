@@ -1,0 +1,3 @@
+ALTER TABLE ASKARI2.CPO_PAYMENT
+ ADD (voucher_seq  NUMBER(10));
+

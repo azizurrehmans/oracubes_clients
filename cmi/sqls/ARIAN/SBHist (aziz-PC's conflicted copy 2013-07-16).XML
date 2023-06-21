@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<History>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>SAL_CONT</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41463.9171527778</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>34</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>VOUCHER</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41463.9168287037</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>11275</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>SUPPLIER</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41460.9174884259</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>188</ObjID>
+  </Object>
+  <Object>
+    <Type>VIEW</Type>
+    <Schema>TEST</Schema>
+    <Name>TRIAL_VIEW</Name>
+    <Valid>False</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>0</XtraFlag>
+    <Table />
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>53554</ObjID>
+  </Object>
+  <Object>
+    <Type>VIEW</Type>
+    <Schema>TEST</Schema>
+    <Name>VOUCHER_DETAIL_VIEW_NEW</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>0</XtraFlag>
+    <Table />
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>53544</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>SAL_ADV_CONT</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41449.9171180556</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>101</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>AC_SETUP</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41463.9167939815</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>1</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>DEPARTMENT</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41121.9168634259</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>16</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>VOUCHER_DETAIL_NEW</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41435.9174074074</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>22424</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>VOUCHER_DELETED</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41459.9168865741</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>213</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>PO</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41444.9171180556</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>1391</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>PO_DETAIL</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41430.9176157407</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>2260</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>SAL_CONT_DETAIL</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41459.9171412037</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>1994</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>VOUCHER_DETAIL_NEW_DELETED</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41459.9167824074</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>401</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>SAL_CONT_MO_DETAIL</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>-1</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>SC</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41456.9171643518</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>1626</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>CPO</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41459.9171412037</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>52</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>OGP</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41449.9175115741</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>1407</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>GIR_DETAIL</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41458.9171412037</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>2243</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>GIR</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41453.9173032407</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>1413</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>TRANS</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41456.9171296296</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>5920</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>LOAN</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41443.9177893519</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>126</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>VOUCHER_TYPE_DETAIL</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41453.9167361111</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>0</ObjID>
+  </Object>
+  <Object>
+    <Type>VIEW</Type>
+    <Schema>TEST</Schema>
+    <Name>VOUCHERS_ON_HOLD_VIEW</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>0</XtraFlag>
+    <Table />
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>80642</ObjID>
+  </Object>
+  <Object>
+    <Type>VIEW</Type>
+    <Schema>TEST</Schema>
+    <Name>ACCOUNTS_CASH_BANK_STS_VIEW</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>0</XtraFlag>
+    <Table />
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>72866</ObjID>
+  </Object>
+</History>

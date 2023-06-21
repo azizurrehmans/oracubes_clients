@@ -1,0 +1,8 @@
+ALTER TABLE ASKARI.SALARY_DETAIL
+ ADD (voucher_seq  NUMBER);
+
+ALTER TABLE ASKARI.SALARY_DETAIL
+ ADD CONSTRAINT salary_det_voucher_seq_fk 
+ FOREIGN KEY (voucher_seq) 
+ REFERENCES ASKARI.VOUCHER (voucher_seq);
+

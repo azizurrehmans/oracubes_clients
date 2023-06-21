@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><STYLE TYPE="text/css" TITLE="Bright Colours">
+#seDefault {color: #000000; font-family: "Courier New"; text-decoration: none;font-weight: normal; font-style: normal; background-color: #FFFFFF; font: 10pt;}
+#Marked_block {background-color: #3399FF; color: #FFFFFF;}
+#PurpleBold { color: #800080; font-weight: bold; font-style: normal; text-decoration: none;}
+#Green { color: #008000; font-weight: normal; font-style: normal; text-decoration: none;}
+#RedBold { color: #FF0000; font-weight: bold; font-style: normal; text-decoration: none;}
+#BlackBold { color: #000000; font-weight: bold; font-style: normal; text-decoration: none;}
+</STYLE>
+</head>
+<body id="seDefault"><SPAN id="PurpleBold">********************************************************************</span><br>
+<SPAN id="PurpleBold">*** TCP-LOOPBACK.WORLD &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6/8/2013 3:17:28 PM &nbsp;***</span><br>
+<SPAN id="PurpleBold">********************************************************************</span><br>
+<SPAN id="RedBold">! DUAL's data is suspect!</span><br>
+<SPAN id="RedBold">! DUAL has too many columns!</span><br>
+<SPAN id="RedBold">! DUAL has been altered!!</span><br>
+<SPAN id="RedBold">! &nbsp;THIS CAN CAUSE MANY PROBLEMS!</span><br>
+<br>
+<SPAN id="Green">~Time to Connect &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 0 seconds.</span><br>
+<br>
+<SPAN id="Green">~Database Version &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 10.2.0.1.0</span><br>
+<SPAN id="Green">~Database Up Since &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 02:58:51 PM, June 8 2013</span><br>
+<SPAN id="Green">~Statistics Level &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: TYPICAL</span><br>
+<SPAN id="Green">~Undo Management &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: AUTO</span><br>
+<SPAN id="Green">~Library Cache Miss Ratio &nbsp;&nbsp;&nbsp;: 0.4815</span><br>
+<br>
+<SPAN id="BlackBold">[Shared Pool Usage]</span> Exec Time 0 seconds<br>
+<SPAN id="Green">~ Total Mb Unused : 32.07</span><br>
+<SPAN id="Green">~ Total Mb Used &nbsp;&nbsp;: 43.93</span><br>
+<SPAN id="Green">~ Total Mb &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 76</span><br>
+<SPAN id="Green">~ Shared Pool Percent Used : 57.8</span><br>
+<br>
+<br>
+<SPAN id="BlackBold">[Archive Log Mode Info]</span> Exec Time 0 seconds<br>
+<SPAN id="RedBold">! Archiver : STOPPED</span><br>
+<SPAN id="RedBold">! Log Mode : NOARCHIVELOG</span><br>
+<br>
+<SPAN id="BlackBold">[Archive Log Info]</span> Exec Time 0 seconds<br>
+<SPAN id="Green">~ Average Log Switches Per Day &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 1.76</span><br>
+<SPAN id="Green">~ Hard Drive Storage (in Mb) for this many archive logs : 87.82</span><br>
+<br>
+<SPAN id="RedBold">! &nbsp;Error using UTL_FILE</span><br>
+<SPAN id="RedBold">! &nbsp;Possible causes:</span><br>
+<SPAN id="RedBold">! &nbsp;1) &nbsp;You don't have privileges to execute the UTL_FILE package.</span><br>
+<SPAN id="RedBold">! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To verify, try excuting this pl/sql block in Editor.</span><br>
+<SPAN id="RedBold">! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you don't have the required privileges, it will give an error.</span><br>
+<br>
+declare<br>
+ &nbsp;afile utl_file.file_type;<br>
+begin<br>
+ &nbsp;if &nbsp;utl_file.is_open(afile) then<br>
+ &nbsp;&nbsp;&nbsp;null;<br>
+ &nbsp;end if;<br>
+end;<br>
+<br>
+<SPAN id="RedBold">! &nbsp;2) &nbsp;UTL_FILE_DIR initialization parameter does not include one of these lines:</span><br>
+<SPAN id="RedBold">! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;utl_file_dir=G:\ORACLE\PRODUCT\10.2.0\DB_1\ADMIN\ORCL\BDUMP</span><br>
+<SPAN id="RedBold">! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;utl_file_dir=*</span><br>
+<SPAN id="RedBold">! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To verify, look under DBA -&gt; Oracle Parameters</span><br>
+<SPAN id="RedBold">! &nbsp;3) &nbsp;alert.log file name is not among the following:</span><br>
+<SPAN id="RedBold">! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(if this is the case please inform Quest support)</span><br>
+<SPAN id="RedBold">! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alert_orcl.log</span><br>
+<SPAN id="RedBold">! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;orclalrt.log</span><br>
+<SPAN id="RedBold">! &nbsp;4) &nbsp;No directory exists in the database for the OS path: G:\ORACLE\PRODUCT\10.2.0\DB_1\ADMIN\ORCL\BDUMP,</span><br>
+<SPAN id="RedBold">! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or directory exists but privileges have not been granted for it.</span><br>
+<SPAN id="RedBold">! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Execute these SQL Statements to remedy:</span><br>
+<br>
+CREATE OR REPLACE DIRECTORY TOAD_BDUMP_DIR as 'G:\ORACLE\PRODUCT\10.2.0\DB_1\ADMIN\ORCL\BDUMP';<br>
+GRANT READ, WRITE on DIRECTORY TOAD_BDUMP_DIR to &lt;oracle user executing health check&gt;;<br>
+<br>
+<br>
+<SPAN id="RedBold">! &nbsp;Error using UTL_FILE to examine alert log!</span><br>
+<SPAN id="RedBold">! &nbsp;Error using UTL_FILE</span><br>
+<SPAN id="RedBold">! &nbsp;Possible causes:</span><br>
+<SPAN id="RedBold">! &nbsp;1) &nbsp;You don't have privileges to execute the UTL_FILE package.</span><br>
+<SPAN id="RedBold">! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To verify, try excuting this pl/sql block in Editor.</span><br>
+<SPAN id="RedBold">! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you don't have the required privileges, it will give an error.</span><br>
+<br>
+declare<br>
+ &nbsp;afile utl_file.file_type;<br>
+begin<br>
+ &nbsp;if &nbsp;utl_file.is_open(afile) then<br>
+ &nbsp;&nbsp;&nbsp;null;<br>
+ &nbsp;end if;<br>
+end;<br>
+<br>
+<SPAN id="RedBold">! &nbsp;2) &nbsp;UTL_FILE_DIR initialization parameter does not include one of these lines:</span><br>
+<SPAN id="RedBold">! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;utl_file_dir=G:\ORACLE\PRODUCT\10.2.0\DB_1\ADMIN\ORCL\BDUMP</span><br>
+<SPAN id="RedBold">! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;utl_file_dir=*</span><br>
+<SPAN id="RedBold">! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To verify, look under DBA -&gt; Oracle Parameters</span><br>
+<SPAN id="RedBold">! &nbsp;3) &nbsp;alert.log file name is not among the following:</span><br>
+<SPAN id="RedBold">! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(if this is the case please inform Quest support)</span><br>
+<SPAN id="RedBold">! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alert_orcl.log</span><br>
+<SPAN id="RedBold">! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;orclalrt.log</span><br>
+<SPAN id="RedBold">! &nbsp;4) &nbsp;No directory exists in the database for the OS path: G:\ORACLE\PRODUCT\10.2.0\DB_1\ADMIN\ORCL\BDUMP,</span><br>
+<SPAN id="RedBold">! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or directory exists but privileges have not been granted for it.</span><br>
+<SPAN id="RedBold">! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Execute these SQL Statements to remedy:</span><br>
+<br>
+CREATE OR REPLACE DIRECTORY TOAD_BDUMP_DIR as 'G:\ORACLE\PRODUCT\10.2.0\DB_1\ADMIN\ORCL\BDUMP';<br>
+GRANT READ, WRITE on DIRECTORY TOAD_BDUMP_DIR to &lt;oracle user executing health check&gt;;<br>
+<br>
+<br>
+<br>
+<SPAN id="BlackBold">[Rollback Segments with wait ratios &gt; 1 %]</span> &nbsp;Query Failed<SPAN id="RedBold">! ORA-01219: database not open: queries allowed on fixed tables/views only</span><br>
+<br>
+<br>
+<br>
+<SPAN id="BlackBold">[Objects with Mixed-Case Names]</span> &nbsp;Query Failed<SPAN id="RedBold">! ORA-01219: database not open: queries allowed on fixed tables/views only</span><br>
+<br>
+<br>
+<br>
+<SPAN id="BlackBold">[Tables with &gt; 5 % chained rows and &gt; 500 total rows]</span> &nbsp;Query Failed<SPAN id="RedBold">! ORA-01219: database not open: queries allowed on fixed tables/views only</span><br>
+<br>
+<br>
+<br>
+<SPAN id="BlackBold">[Table Partitions with &gt; 5 % chained rows and &gt; 500 total rows]</span> &nbsp;Query Failed<SPAN id="RedBold">! ORA-01219: database not open: queries allowed on fixed tables/views only</span><br>
+<br>
+<br>
+<br>
+<SPAN id="BlackBold">[Segments with &lt; 10% of extents remaining and (maxextents &gt; 1)]</span> &nbsp;Query Failed<SPAN id="RedBold">! ORA-01219: database not open: queries allowed on fixed tables/views only</span><br>
+<br>
+<br>
+<br>
+<SPAN id="BlackBold">[Segments with &gt; 100 extents]</span> &nbsp;Query Failed<SPAN id="RedBold">! ORA-01219: database not open: queries allowed on fixed tables/views only</span><br>
+<br>
+<br>
+<br>
+<SPAN id="BlackBold">[Objects which can't extend because there is not</span><br>
+enough room in the tablespace] &nbsp;Query Failed<SPAN id="RedBold">! ORA-01219: database not open: queries allowed on fixed tables/views only</span><br>
+<br>
+<br>
+<br>
+<SPAN id="BlackBold">[Jobs]</span> &nbsp;Query Failed<SPAN id="RedBold">! ORA-01219: database not open: queries allowed on fixed tables/views only</span><br>
+<br>
+<br>
+<br>
+<SPAN id="BlackBold">[Profiles that are not granted to any user]</span> &nbsp;Query Failed<SPAN id="RedBold">! ORA-01219: database not open: queries allowed on fixed tables/views only</span><br>
+<br>
+<br>
+<br>
+<SPAN id="BlackBold">[FK's w/o Matching Indexes (or an unusable one)]</span> &nbsp;Query Failed<SPAN id="RedBold">! ORA-01219: database not open: queries allowed on fixed tables/views only</span><br>
+<br>
+<br>
+<br>
+<SPAN id="BlackBold">[Tablespace Fragmentation]</span> &nbsp;Query Failed<SPAN id="RedBold">! ORA-01219: database not open: queries allowed on fixed tables/views only</span><br>
+<br>
+<br>
+<br>
+<SPAN id="BlackBold">[Tablespaces with less than 10% free space]</span> &nbsp;Query Failed<SPAN id="RedBold">! ORA-01219: database not open: queries allowed on fixed tables/views only</span><br>
+<br>
+<br>
+<br>
+<SPAN id="BlackBold">[redundant object privs with conflicting grant option]</span> &nbsp;Query Failed<SPAN id="RedBold">! ORA-01219: database not open: queries allowed on fixed tables/views only</span><br>
+<br>
+</body></html>

@@ -1,0 +1,251 @@
+;;; 
+Export: Release 11.2.0.1.0 - Production on Wed Sep 29 20:30:24 2021
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Starting "SYSTEM"."SYS_EXPORT_SCHEMA_01":  userid=system/********@orcl directory=data_pump_dir schemas=gillani dumpfile=jil_29-Se.dmp logfile=jil_29-Se.log 
+Estimate in progress using BLOCKS method...
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 1007. MB
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/TABLESPACE_QUOTA
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SYNONYM/SYNONYM
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/PACKAGE/PACKAGE_SPEC
+Processing object type SCHEMA_EXPORT/PACKAGE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/FUNCTION/FUNCTION
+Processing object type SCHEMA_EXPORT/FUNCTION/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+Processing object type SCHEMA_EXPORT/PROCEDURE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/PACKAGE/COMPILE_PACKAGE/PACKAGE_SPEC/ALTER_PACKAGE_SPEC
+Processing object type SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+Processing object type SCHEMA_EXPORT/VIEW/VIEW
+Processing object type SCHEMA_EXPORT/VIEW/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/PACKAGE/PACKAGE_BODY
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+. . exported "GILLANI"."HR_EMPLOYEE_PHOTO"               1.528 MB       1 rows
+. . exported "GILLANI"."AC_VOUCHER_DETAIL"                43.5 KB     340 rows
+. . exported "GILLANI"."ADM_ACTIVITY_LOG"                10.39 KB       1 rows
+. . exported "GILLANI"."HR_ATTENDANCE"                   18.77 KB      53 rows
+. . exported "GILLANI"."PPC_MP_PHOTO"                    339.4 KB       9 rows
+. . exported "GILLANI"."AC_VOUCHER"                      58.07 KB     224 rows
+. . exported "GILLANI"."HR_BARCODE_ATTENDANCE"           7.867 KB      21 rows
+. . exported "GILLANI"."AC_CTRL"                         9.195 KB      99 rows
+. . exported "GILLANI"."AC_PARENT"                       5.531 KB       5 rows
+. . exported "GILLANI"."AC_SUB"                          6.320 KB      19 rows
+. . exported "GILLANI"."INV_IR_DETAIL"                   9.953 KB       3 rows
+. . exported "GILLANI"."EXP_CUSTOMER_STYLE_COLOR_PHOTO"  2.845 MB      17 rows
+. . exported "GILLANI"."HR_SALARY_DETAIL_EMP"            7.359 KB      10 rows
+. . exported "GILLANI"."INV_IR"                          13.12 KB       2 rows
+. . exported "GILLANI"."INV_TRANS"                       18.92 KB      17 rows
+. . exported "GILLANI"."INV_IGP_DETAIL"                  14.33 KB       9 rows
+. . exported "GILLANI"."EXP_CPO_DETAIL"                  125.8 KB     896 rows
+. . exported "GILLANI"."HR_SAL_CONT_MO_DETAIL"           174.9 KB    2215 rows
+. . exported "GILLANI"."INV_IGP"                         19.18 KB       6 rows
+. . exported "GILLANI"."INV_IR_EXPENSE"                  6.054 KB      10 rows
+. . exported "GILLANI"."INV_OGP"                            73 KB     335 rows
+. . exported "GILLANI"."INV_OGP_DETAIL"                  108.5 KB     834 rows
+. . exported "GILLANI"."INV_PO_DETAIL"                   18.19 KB      37 rows
+. . exported "GILLANI"."INV_SC_OPENING"                  7.703 KB       5 rows
+. . exported "GILLANI"."INV_TRANS_AZIZ"                  22.72 KB       3 rows
+. . exported "GILLANI"."PROD_JCD"                        300.8 KB    2299 rows
+. . exported "GILLANI"."INV_SC"                          38.96 KB     159 rows
+. . exported "GILLANI"."ADM_COMPANY_SETUP"               63.72 KB       1 rows
+. . exported "GILLANI"."HR_EMP_FIN_DET"                  6.992 KB      14 rows
+. . exported "GILLANI"."INV_GIR"                         9.023 KB       4 rows
+. . exported "GILLANI"."INV_GIR_DETAIL"                  12.77 KB       9 rows
+. . exported "GILLANI"."INV_PO"                          18.57 KB      28 rows
+. . exported "GILLANI"."AC_COA"                          44.32 KB     375 rows
+. . exported "GILLANI"."HR_SAL_CONT_DETAIL"              21.26 KB     136 rows
+. . exported "GILLANI"."INV_SAN"                         376.4 KB    3431 rows
+. . exported "GILLANI"."INV_L4"                          6.828 KB       5 rows
+. . exported "GILLANI"."EXP_CPO"                         30.07 KB      21 rows
+. . exported "GILLANI"."HR_EMPLOYEE"                     61.71 KB     103 rows
+. . exported "GILLANI"."HR_SAL_ADV_CONT"                 16.94 KB     145 rows
+. . exported "GILLANI"."INV_OPENING_QTY_1920"            208.5 KB   11583 rows
+. . exported "GILLANI"."AC_COA_OPENING"                  8.960 KB       2 rows
+. . exported "GILLANI"."HR_EMP_FIN"                      12.16 KB      15 rows
+. . exported "GILLANI"."INV_OPENING_QTY_1718"             94.5 KB    5079 rows
+. . exported "GILLANI"."INV_PO_HISTORY"                  9.312 KB       2 rows
+. . exported "GILLANI"."PPC_MP_OP"                       50.61 KB     872 rows
+. . exported "GILLANI"."AC_BANK_ACCOUNT"                 11.49 KB       1 rows
+. . exported "GILLANI"."AC_CHEQUE_BOOK"                  8.671 KB       1 rows
+. . exported "GILLANI"."AC_CHEQUE_BOOK_DET"              10.01 KB     100 rows
+. . exported "GILLANI"."AC_VOUCHER_DELETED"              26.68 KB       8 rows
+. . exported "GILLANI"."AC_VOUCHER_DETAIL_DELETED"       10.10 KB      16 rows
+. . exported "GILLANI"."AC_VOUCHER_TYPE"                 10.10 KB       3 rows
+. . exported "GILLANI"."AC_VOUCHER_TYPE_DETAIL"          9.664 KB      10 rows
+. . exported "GILLANI"."AC_YEAR"                         7.523 KB       2 rows
+. . exported "GILLANI"."ADM_CITY"                          7.5 KB      22 rows
+. . exported "GILLANI"."ADM_COUNTRY"                     6.914 KB       8 rows
+. . exported "GILLANI"."ADM_CURRENCY"                    9.656 KB       4 rows
+. . exported "GILLANI"."ADM_ERROR_LOG"                   47.81 KB     579 rows
+. . exported "GILLANI"."ADM_FIREWALL"                    7.539 KB      19 rows
+. . exported "GILLANI"."ADM_FRM_RPT_ACCESS"              7.015 KB      10 rows
+. . exported "GILLANI"."ADM_FRM_RPT_ACCESS_DET"          9.164 KB      26 rows
+. . exported "GILLANI"."ADM_HELP"                        7.664 KB       5 rows
+. . exported "GILLANI"."ADM_MODULE"                      8.765 KB      23 rows
+. . exported "GILLANI"."ADM_MONTH"                       6.226 KB       1 rows
+. . exported "GILLANI"."ADM_USERS"                       8.281 KB      10 rows
+. . exported "GILLANI"."ADM_USER_MODULE"                 20.56 KB     170 rows
+. . exported "GILLANI"."EXPORT_SETUP"                    15.25 KB       1 rows
+. . exported "GILLANI"."EXP_COLOR"                       6.937 KB      57 rows
+. . exported "GILLANI"."EXP_CPO_TYPE"                    5.484 KB       3 rows
+. . exported "GILLANI"."EXP_CSC_SPECIAL_INS"             31.39 KB      29 rows
+. . exported "GILLANI"."EXP_CUSTOMER"                    17.50 KB       5 rows
+. . exported "GILLANI"."EXP_CUSTOMER_STYLE_COLOR"        16.94 KB     124 rows
+. . exported "GILLANI"."EXP_SIZE"                        7.234 KB      32 rows
+. . exported "GILLANI"."HR_ALLOWANCE"                    8.601 KB       8 rows
+. . exported "GILLANI"."HR_DEPARTMENT"                   8.757 KB      11 rows
+. . exported "GILLANI"."HR_DESIGNATION"                  10.66 KB      24 rows
+. . exported "GILLANI"."HR_EMPLOYEE_DEPT_DESIG"          12.64 KB      70 rows
+. . exported "GILLANI"."HR_EMPLOYEE_JD"                  6.718 KB       1 rows
+. . exported "GILLANI"."HR_EMPLOYEE_NOTE"                7.898 KB       1 rows
+. . exported "GILLANI"."HR_EMP_DISEASE"                  6.695 KB       1 rows
+. . exported "GILLANI"."HR_EMP_EXP"                      8.421 KB       1 rows
+. . exported "GILLANI"."HR_EMP_QUALIFICATION"             8.75 KB       1 rows
+. . exported "GILLANI"."HR_EMP_REF"                      6.718 KB       2 rows
+. . exported "GILLANI"."HR_RAW_ATTENDANCE"               30.67 KB     244 rows
+. . exported "GILLANI"."HR_REASON"                       5.460 KB       2 rows
+. . exported "GILLANI"."HR_SALARY"                       8.382 KB       1 rows
+. . exported "GILLANI"."HR_SALARY_ADVANCE"               10.28 KB       2 rows
+. . exported "GILLANI"."HR_SALARY_TEMP"                  19.89 KB       1 rows
+. . exported "GILLANI"."HR_SAL_CONT"                     7.718 KB       6 rows
+. . exported "GILLANI"."HR_SETUP"                        16.56 KB       1 rows
+. . exported "GILLANI"."INV_CUSTOMER_CODE_20180419"      42.89 KB     652 rows
+. . exported "GILLANI"."INV_EXPENSE_TYPE"                5.492 KB      30 rows
+. . exported "GILLANI"."INV_L1"                          5.070 KB       5 rows
+. . exported "GILLANI"."INV_L2"                          5.531 KB       6 rows
+. . exported "GILLANI"."INV_L3"                          5.937 KB       5 rows
+. . exported "GILLANI"."INV_L5"                          7.023 KB       1 rows
+. . exported "GILLANI"."INV_PO_TYPE"                     5.031 KB       2 rows
+. . exported "GILLANI"."INV_PREQ"                        9.226 KB       1 rows
+. . exported "GILLANI"."INV_PREQ_DET"                    6.390 KB       3 rows
+. . exported "GILLANI"."INV_SC_RETAIL_RATE"              19.03 KB     440 rows
+. . exported "GILLANI"."INV_STORE_RACK_ROW_COL"          7.195 KB       3 rows
+. . exported "GILLANI"."INV_TRIAL_TEMP"                  9.585 KB       8 rows
+. . exported "GILLANI"."INV_UOM"                         6.421 KB       7 rows
+. . exported "GILLANI"."INV_VEHICLE_TYPE"                5.101 KB       7 rows
+. . exported "GILLANI"."PPC_MP"                          16.67 KB     114 rows
+. . exported "GILLANI"."PPC_MP_REMARKS"                  6.695 KB       2 rows
+. . exported "GILLANI"."PPC_OPERATION"                   9.601 KB      31 rows
+. . exported "GILLANI"."PPC_OPERATION_TYPE"              6.382 KB       5 rows
+. . exported "GILLANI"."PPC_POSITION"                    7.054 KB       1 rows
+. . exported "GILLANI"."PPC_SUB_SECTION"                 6.648 KB       1 rows
+. . exported "GILLANI"."PROD_OPERATION"                  8.398 KB       1 rows
+. . exported "GILLANI"."PROD_OPERATION_TYPE"             6.710 KB       1 rows
+. . exported "GILLANI"."AC_CB"                               0 KB       0 rows
+. . exported "GILLANI"."AC_COA_CLOSING_1920"                 0 KB       0 rows
+. . exported "GILLANI"."AC_COA_OPENING_1920"                 0 KB       0 rows
+. . exported "GILLANI"."AC_COA_PHOTO"                        0 KB       0 rows
+. . exported "GILLANI"."AC_DAY_CLOSE"                        0 KB       0 rows
+. . exported "GILLANI"."AC_MONTH_PL"                         0 KB       0 rows
+. . exported "GILLANI"."AC_MONTH_PL_DET"                     0 KB       0 rows
+. . exported "GILLANI"."AC_PAYMENT"                          0 KB       0 rows
+. . exported "GILLANI"."AC_RECEIPT"                          0 KB       0 rows
+. . exported "GILLANI"."AC_SETUP"                            0 KB       0 rows
+. . exported "GILLANI"."AC_VD"                               0 KB       0 rows
+. . exported "GILLANI"."AC_YEAR_CLOSE"                       0 KB       0 rows
+. . exported "GILLANI"."ADM_TASK"                            0 KB       0 rows
+. . exported "GILLANI"."ADM_THINGS_TO_DO"                    0 KB       0 rows
+. . exported "GILLANI"."EXP_CPO_MATERIAL"                    0 KB       0 rows
+. . exported "GILLANI"."EXP_HSK"                             0 KB       0 rows
+. . exported "GILLANI"."EXP_PACKING"                         0 KB       0 rows
+. . exported "GILLANI"."EXP_PACKING_DETAIL"                  0 KB       0 rows
+. . exported "GILLANI"."HR_ATTENDANCE_DETAIL"                0 KB       0 rows
+. . exported "GILLANI"."HR_ATTEN_ERRORS"                     0 KB       0 rows
+. . exported "GILLANI"."HR_BANK"                             0 KB       0 rows
+. . exported "GILLANI"."HR_CITY"                             0 KB       0 rows
+. . exported "GILLANI"."HR_EMPLOYEE_ACC"                     0 KB       0 rows
+. . exported "GILLANI"."HR_EMPLOYEE_LATE_POLICY"             0 KB       0 rows
+. . exported "GILLANI"."HR_EMPLOYEE_MV"                      0 KB       0 rows
+. . exported "GILLANI"."HR_EMPLOYEE_SALARY"                  0 KB       0 rows
+. . exported "GILLANI"."HR_EMPLOYEE_SHIFT"                   0 KB       0 rows
+. . exported "GILLANI"."HR_EMP_BRANCH_CLASS_SEC"             0 KB       0 rows
+. . exported "GILLANI"."HR_EMP_OP"                           0 KB       0 rows
+. . exported "GILLANI"."HR_FAVOUR"                           0 KB       0 rows
+. . exported "GILLANI"."HR_GH"                               0 KB       0 rows
+. . exported "GILLANI"."HR_LATE"                             0 KB       0 rows
+. . exported "GILLANI"."HR_LEAVE"                            0 KB       0 rows
+. . exported "GILLANI"."HR_LEAVE_BALANCE"                    0 KB       0 rows
+. . exported "GILLANI"."HR_LEAVE_TYPE"                       0 KB       0 rows
+. . exported "GILLANI"."HR_LOAN"                             0 KB       0 rows
+. . exported "GILLANI"."HR_LOAN_DEDUCTION"                   0 KB       0 rows
+. . exported "GILLANI"."HR_LOAN_LEDGER"                      0 KB       0 rows
+. . exported "GILLANI"."HR_MONTH"                            0 KB       0 rows
+. . exported "GILLANI"."HR_MONTHLY_ATTENDANCE"               0 KB       0 rows
+. . exported "GILLANI"."HR_OT"                               0 KB       0 rows
+. . exported "GILLANI"."HR_QUALIFICATION"                    0 KB       0 rows
+. . exported "GILLANI"."HR_REST"                             0 KB       0 rows
+. . exported "GILLANI"."HR_SALARY_DETAIL"                    0 KB       0 rows
+. . exported "GILLANI"."HR_SHIFT"                            0 KB       0 rows
+. . exported "GILLANI"."HR_SUNDAY_WORKING_DAY"               0 KB       0 rows
+. . exported "GILLANI"."INV_BTN"                             0 KB       0 rows
+. . exported "GILLANI"."INV_CUSTOMER_CODE"                   0 KB       0 rows
+. . exported "GILLANI"."INV_DAIRY_WEEK"                      0 KB       0 rows
+. . exported "GILLANI"."INV_DELETED_TRANS"                   0 KB       0 rows
+. . exported "GILLANI"."INV_IGP_EXPENSE"                     0 KB       0 rows
+. . exported "GILLANI"."INV_IR_DELETED"                      0 KB       0 rows
+. . exported "GILLANI"."INV_IR_DETAIL_DELETED"               0 KB       0 rows
+. . exported "GILLANI"."INV_IR_MV_VIEW"                      0 KB       0 rows
+. . exported "GILLANI"."INV_MGIR"                            0 KB       0 rows
+. . exported "GILLANI"."INV_MGIR_DETAIL"                     0 KB       0 rows
+. . exported "GILLANI"."INV_PAYMENT"                         0 KB       0 rows
+. . exported "GILLANI"."INV_PI"                              0 KB       0 rows
+. . exported "GILLANI"."INV_PO_BILL"                         0 KB       0 rows
+. . exported "GILLANI"."INV_PO_BILL_DET"                     0 KB       0 rows
+. . exported "GILLANI"."INV_PO_TERMS"                        0 KB       0 rows
+. . exported "GILLANI"."INV_PO_TERMS_ALL"                    0 KB       0 rows
+. . exported "GILLANI"."INV_PR"                              0 KB       0 rows
+. . exported "GILLANI"."INV_PR1"                             0 KB       0 rows
+. . exported "GILLANI"."INV_PR1_DETAIL"                      0 KB       0 rows
+. . exported "GILLANI"."INV_PR_DETAIL"                       0 KB       0 rows
+. . exported "GILLANI"."INV_SC2"                             0 KB       0 rows
+. . exported "GILLANI"."INV_SC_FINISH"                       0 KB       0 rows
+. . exported "GILLANI"."INV_SC_LOCATION"                     0 KB       0 rows
+. . exported "GILLANI"."INV_SC_MAIN"                         0 KB       0 rows
+. . exported "GILLANI"."INV_SC_MATERIAL"                     0 KB       0 rows
+. . exported "GILLANI"."INV_SC_PHOTO"                        0 KB       0 rows
+. . exported "GILLANI"."INV_SC_SUB"                          0 KB       0 rows
+. . exported "GILLANI"."INV_SC_TEMP"                         0 KB       0 rows
+. . exported "GILLANI"."INV_STORE"                           0 KB       0 rows
+. . exported "GILLANI"."INV_STORE_RACK"                      0 KB       0 rows
+. . exported "GILLANI"."INV_SUPPLIER_TYPE"                   0 KB       0 rows
+. . exported "GILLANI"."INV_TRANS_DELETED"                   0 KB       0 rows
+. . exported "GILLANI"."INV_TRANS_TEMP"                      0 KB       0 rows
+. . exported "GILLANI"."INV_WO"                              0 KB       0 rows
+. . exported "GILLANI"."INV_WO_DETAIL"                       0 KB       0 rows
+. . exported "GILLANI"."INV_WO_OUT_DETAIL"                   0 KB       0 rows
+. . exported "GILLANI"."INV_WO_REQ"                          0 KB       0 rows
+. . exported "GILLANI"."INV_WO_REQ_DET"                      0 KB       0 rows
+. . exported "GILLANI"."PPC_MPD"                             0 KB       0 rows
+. . exported "GILLANI"."PPC_MPD_SC"                          0 KB       0 rows
+. . exported "GILLANI"."PPC_MPR"                             0 KB       0 rows
+. . exported "GILLANI"."PPC_MP_OP_EMP"                       0 KB       0 rows
+. . exported "GILLANI"."PROD_JC"                             0 KB       0 rows
+. . exported "GILLANI"."PROD_JC_STYLE"                       0 KB       0 rows
+. . exported "GILLANI"."PROD_JC_STYLE_DETAIL"                0 KB       0 rows
+. . exported "GILLANI"."PROD_JC_STYLE_L4"                    0 KB       0 rows
+. . exported "GILLANI"."PROD_LOT"                            0 KB       0 rows
+. . exported "GILLANI"."PROD_LOT_DET"                        0 KB       0 rows
+. . exported "GILLANI"."PROD_WORKER"                         0 KB       0 rows
+. . exported "GILLANI"."PROD_WORKER_PHOTO"                   0 KB       0 rows
+Master table "SYSTEM"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for SYSTEM.SYS_EXPORT_SCHEMA_01 is:
+  C:\ORACLE\ADMIN\ORCL\DPDUMP\JIL_29-SE.DMP
+Job "SYSTEM"."SYS_EXPORT_SCHEMA_01" successfully completed at 20:30:59

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<SBDataFilterHistory>
+  <TEST>
+    <SAL_CONT_DETAIL>
+      <Name>Most Recently Used (Unnamed)<Where>EMPLOYEE_ID=1036 AND
+SAL_CONT_ID = &apos;15-DEC-2012&apos;</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </SAL_CONT_DETAIL>
+    <SALARY_ADVANCE>
+      <Name>Most Recently Used (Unnamed)<Where>EMPLOYEE_ID = 71</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </SALARY_ADVANCE>
+    <PO_DETAIL>
+      <Name>Most Recently Used (Unnamed)<Where>PO_ID in ( &apos;13&apos;)</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </PO_DETAIL>
+    <PO>
+      <Name>Most Recently Used (Unnamed)<Where>PO_ID in ( &apos;14&apos;)</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </PO>
+    <PO_DETAIL_VIEW>
+      <Name>Most Recently Used (Unnamed)<Where>PO_ID = &apos;701&apos;</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </PO_DETAIL_VIEW>
+    <CPO_DETAIL>
+      <Name>Most Recently Used (Unnamed)<Where>OUR_CPO = &apos;46&apos;</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </CPO_DETAIL>
+    <IGP_VIEW>
+      <Name>Most Recently Used (Unnamed)<Where>IGP_ID IN (1984,1986,35)
+ AND IGP_YEAR = &apos;13&apos;</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </IGP_VIEW>
+    <IGP_DETAIL_VIEW>
+      <Name>Most Recently Used (Unnamed)<Where>IGP_ID IN (35,1984,1986)
+ AND IGP_YEAR = &apos;13&apos;</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </IGP_DETAIL_VIEW>
+    <GIR_DETAIL_VIEW>
+      <Name>Most Recently Used (Unnamed)<Where>GIR_ID &gt; 1255</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </GIR_DETAIL_VIEW>
+    <GIR>
+      <Name>Most Recently Used (Unnamed)<Where>GIR_YEAR = &apos;14&apos;</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </GIR>
+    <GIR_DETAIL>
+      <Name>Most Recently Used (Unnamed)<Where>GIR_YEAR = &apos;14&apos;</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </GIR_DETAIL>
+    <TIF_DETAIL>
+      <Name>Most Recently Used (Unnamed)<Where>SC_MAIN_ID = 4
+ AND SC_SUB_ID = 850
+ AND SC_ID = 1</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </TIF_DETAIL>
+    <PO_BALANCE_VIEW2>
+      <Name>Most Recently Used (Unnamed)<Where>SC_MAIN_ID = 1
+ AND SC_SUB_ID = 100
+ and sc_id = 1</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </PO_BALANCE_VIEW2>
+    <IGP_DETAIL>
+      <Name>Most Recently Used (Unnamed)<Where>IGP_ID = 38</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </IGP_DETAIL>
+    <IGP>
+      <Name>Most Recently Used (Unnamed)<Where>IGP_ID = 2011</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </IGP>
+    <VOUCHER>
+      <Name>Most Recently Used (Unnamed)<Where>VOUCHER_ID IN (94,96,97,95)
+AND VOUCHER_MONTH_ID = &apos;01-JUL-2013&apos;
+ AND VOUCHER_TYPE_ID = &apos;JOURNAL VOUCHER&apos;</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </VOUCHER>
+    <LOAN>
+      <Name>Most Recently Used (Unnamed)<Where>LOAN_ID &gt; 1103</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </LOAN>
+    <VOUCHER_DETAIL_NEW>
+      <Name>Most Recently Used (Unnamed)<Where>VOUCHER_ID IN (94,96,97,95)
+AND VOUCHER_MONTH_ID = &apos;01-JUL-2013&apos;
+ AND VOUCHER_TYPE_ID = &apos;JOURNAL VOUCHER&apos;</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </VOUCHER_DETAIL_NEW>
+    <TRANS>
+      <Name>Most Recently Used (Unnamed)<Where>GIR_ID = 2</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </TRANS>
+    <CPO>
+      <Name>Most Recently Used (Unnamed)<Where>CPO_YEAR = &apos;14&apos;</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </CPO>
+    <OGP>
+      <Name>Most Recently Used (Unnamed)<Where>OGP_ID = 859</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </OGP>
+    <VOUCHER_DETAIL_VIEW_NEW>
+      <Name>Most Recently Used (Unnamed)<Where>VOUCHER_SUB_TYPE_ID = &apos;S5-AJV&apos;</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </VOUCHER_DETAIL_VIEW_NEW>
+    <SUPPLIER>
+      <Name>Most Recently Used (Unnamed)<Where>SUPPLIER_ID = 149</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </SUPPLIER>
+  </TEST>
+</SBDataFilterHistory>

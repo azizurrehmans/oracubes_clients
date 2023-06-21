@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<History>
+  <Object>
+    <Type>VIEW</Type>
+    <Schema>TEST</Schema>
+    <Name>CPO_DETAIL_VIEW</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>0</XtraFlag>
+    <Table />
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>53860</ObjID>
+  </Object>
+  <Object>
+    <Type>VIEW</Type>
+    <Schema>TEST</Schema>
+    <Name>CPO_SHIPMENT_STATUS_VIEW</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>0</XtraFlag>
+    <Table />
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>53869</ObjID>
+  </Object>
+  <Object>
+    <Type>VIEW</Type>
+    <Schema>TEST</Schema>
+    <Name>CPO_VIEW</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>0</XtraFlag>
+    <Table />
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>57516</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>CPO_DETAIL</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41547.9178819444</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>1184</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>CPO</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41561.9173726852</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>66</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>SAL_CONT</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41554.9181134259</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>52</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>SAL_CONT_DETAIL</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41554.9186226852</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>2284</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>VOUCHER_DETAIL_NEW</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41516.9175347222</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>25771</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>UNCLOSED_QTY_HISTORY</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41014.4916435185</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>0</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>VOUCHER</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41554.9187037037</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>12847</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>BARCODE_ATTENDANCE</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41535.917349537</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>12450</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>BARCODE_ATTENDANCE_05102013</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>-1</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>ATTENDANCE</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41551.9168981481</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>10054</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>HR_LATE</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41523.916712963</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>2</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>EMPLOYEE_LATE_POLICY</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41523.916712963</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>23</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>CPO_PAYMENT_DET</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41551.9170486111</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>5</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>CPO_PAYMENT</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41488.916712963</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>0</ObjID>
+  </Object>
+  <Object>
+    <Type>FUNCTION</Type>
+    <Schema>TEST</Schema>
+    <Name>HOURS_DIFF</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table />
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>54242</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>SUNDAY_WORKING_DAY</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41214.916712963</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>0</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>THINGS_TO_DO</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>USERS</Table>
+    <TableSchema>41549.9178703704</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>0</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>ATTEN_ERRORS</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41551.9168518518</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>545</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>SAL_ADV_CONT</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41533.917974537</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>146</ObjID>
+  </Object>
+  <Object>
+    <Type>FUNCTION</Type>
+    <Schema>TEST</Schema>
+    <Name>STORE_LIFO</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>0</XtraFlag>
+    <Table />
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>73602</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>GIR</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41543.9172453704</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>1583</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>TEST</Schema>
+    <Name>GIR_DETAIL</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>TEST</Table>
+    <TableSchema>41530.9175810185</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>2475</ObjID>
+  </Object>
+</History>

@@ -1,0 +1,1 @@
+insert into ns1.sc_sub select * from cmi1.sc_sub

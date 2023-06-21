@@ -1,0 +1,32 @@
+[12/25/22 14:53:11 Pakistan Standard Time]::Client Status [ConnId=0, PID=18416]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  67C10266 01:0000F266
+Module: c:\orant\BIN\mmc60.dll
+
+System Information:
+Operating System: Windows NT Version 6.2 Build 9200 
+Command line: c:\orant\BIN\ifrun60.EXE  m:\control\forms\login
+FORM/BLOCK/FIELD: LOGIN:BLOCK2.SUBMIT
+Last Trigger: WHEN-BUTTON-PRESSED - (Execution Suspended)
+Msg: <NULL>
+Last Builtin: EXIT_FORM - (Successfully Completed)
+
+Registers:
+EAX:06FC4B20
+EBX:0000024D
+ECX:06FC41F9
+EDX:0000000A
+ESI:0000024C
+EDI:00000493
+CS:EIP:0023:67C10266
+SS:ESP:002B:0019DF14  EBP:0765FFFF
+DS:002B  ES:002B  FS:0053  GS:002B
+Flags:00010216
+
+SymInitialize failed, error code -1073741819
+
+Call stack:
+Address   Frame     Logical addr  Module

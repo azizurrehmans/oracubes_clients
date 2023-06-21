@@ -1,0 +1,3 @@
+ALTER TABLE ASKARI.WO
+ ADD (cpo_type  VARCHAR2(20));
+

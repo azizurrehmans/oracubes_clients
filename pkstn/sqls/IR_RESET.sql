@@ -1,0 +1,1 @@
+update trans set issue_qty=0 where sc_main_id=3 and sc_sub_id=8000 and sc_id=1

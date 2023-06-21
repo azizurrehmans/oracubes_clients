@@ -1,0 +1,34 @@
+CREATE TABLE CLASSIC.student_log
+(
+  STUDENT_ID  NUMBER(6),
+  USER_ID     VARCHAR2(50 BYTE),
+  fdatetime   VARCHAR2(50 BYTE)                 DEFAULT 'HOLD',
+  log         VARCHAR2(500)                     DEFAULT 0
+)
+TABLESPACE USERS
+PCTUSED    0
+PCTFREE    10
+INITRANS   1
+MAXTRANS   255
+STORAGE    (
+            INITIAL          320K
+            MINEXTENTS       1
+            MAXEXTENTS       UNLIMITED
+            PCTINCREASE      0
+            BUFFER_POOL      DEFAULT
+           )
+LOGGING 
+NOCOMPRESS 
+NOCACHE
+NOPARALLEL
+MONITORING;
+
+
+ALTER TABLE CLASSIC.student_log ADD (
+  CONSTRAINT student_log_stu_fks 
+ FOREIGN KEY (STUDENT_ID) 
+ REFERENCES CLASSIC.STUDENT (STUDENT_ID),
+  CONSTRAINT student_log_user_fk 
+ FOREIGN KEY (USER_ID) 
+ REFERENCES CLASSIC.USERS (USER_ID));
+

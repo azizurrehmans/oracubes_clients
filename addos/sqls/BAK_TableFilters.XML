@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<SBDataFilterHistory>
+  <BAK>
+    <SALARY_DETAIL_VIEW>
+      <Name>Most Recently Used (Unnamed)<Where>EMPLOYEE_ID = 5</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </SALARY_DETAIL_VIEW>
+  </BAK>
+</SBDataFilterHistory>

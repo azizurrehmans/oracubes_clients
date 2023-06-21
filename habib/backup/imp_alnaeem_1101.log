@@ -1,0 +1,14 @@
+
+Connected to: Oracle Database 10g Enterprise Edition Release 10.2.0.1.0 - Production
+With the Partitioning, OLAP and Data Mining options
+
+Export file created by EXPORT:V10.02.01 via conventional path
+
+Warning: the objects were exported by SYSTEM, not by you
+
+import done in WE8MSWIN1252 character set and AL16UTF16 NCHAR character set
+. importing ALNAEEM's objects into HABIB
+. . importing table               "INV_SC_OPENING"
+.....................................................
+                                                        53100 rows imported
+Import terminated successfully without warnings.

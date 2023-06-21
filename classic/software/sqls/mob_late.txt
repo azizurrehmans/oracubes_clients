@@ -1,0 +1,7 @@
+create table late_mobile
+(fdatetime date default sysdate,
+student_id number(6),
+mobile varchar(20),
+constraint c_fdatetime primary key (fdatetime),
+constraint c_student_fk foreign key (student_id) references student(student_id),
+constraint c_mobile_fk foreign key (mobile) references student(mobile))

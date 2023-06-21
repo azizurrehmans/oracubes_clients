@@ -1,0 +1,211 @@
+
+Connected to: Oracle Database 10g Enterprise Edition Release 10.2.0.1.0 - Production
+With the Partitioning, OLAP and Data Mining options
+Export done in WE8MSWIN1252 character set and AL16UTF16 NCHAR character set
+server uses UTF8 character set (possible charset conversion)
+
+About to export specified users ...
+. exporting pre-schema procedural objects and actions
+. exporting foreign function library names for user HR_FLEX 
+. exporting PUBLIC type synonyms
+. exporting private type synonyms
+. exporting object type definitions for user HR_FLEX 
+About to export HR_FLEX's objects ...
+. exporting database links
+. exporting sequence numbers
+. exporting cluster definitions
+. about to export HR_FLEX's tables via Conventional Path ...
+. . exporting table                   HR_ALLOWANCE
+                                                           10 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                  HR_ATTENDANCE
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table           HR_ATTENDANCE_DETAIL
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                HR_ATTEN_ERRORS
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                        HR_BANK
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table          HR_BARCODE_ATTENDANCE
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                        HR_CITY
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                  HR_DEPARTMENT
+                                                           13 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                 HR_DESIGNATION
+                                                           35 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                    HR_EMPLOYEE
+                                                           91 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                HR_EMPLOYEE_ACC
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table         HR_EMPLOYEE_DEPT_DESIG
+                                                           84 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                 HR_EMPLOYEE_JD
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table        HR_EMPLOYEE_LATE_POLICY
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                 HR_EMPLOYEE_MV
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table               HR_EMPLOYEE_NOTE
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table              HR_EMPLOYEE_PHOTO
+                                                            1 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table             HR_EMPLOYEE_SALARY
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table              HR_EMPLOYEE_SHIFT
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table        HR_EMP_BRANCH_CLASS_SEC
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                 HR_EMP_DISEASE
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                     HR_EMP_EXP
+                                                            1 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                     HR_EMP_FIN
+                                                           87 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                 HR_EMP_FIN_DET
+                                                           85 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                      HR_EMP_OP
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table           HR_EMP_QUALIFICATION
+                                                            1 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                     HR_EMP_REF
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                      HR_FAVOUR
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                          HR_GH
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                        HR_LATE
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                       HR_LEAVE
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table               HR_LEAVE_BALANCE
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                  HR_LEAVE_TYPE
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                        HR_LOAN
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table              HR_LOAN_DEDUCTION
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                 HR_LOAN_LEDGER
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                       HR_MONTH
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table          HR_MONTHLY_ATTENDANCE
+                                                           82 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table               HR_QUALIFICATION
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                        HR_REST
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                      HR_SALARY
+                                                            1 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table              HR_SALARY_ADVANCE
+                                                           55 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table               HR_SALARY_DETAIL
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table           HR_SALARY_DETAIL_EMP
+                                                          729 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                 HR_SALARY_TEMP
+                                                           59 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                       HR_SETUP
+                                                            0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                       HR_SHIFT
+                                                            4 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                      RUPD$_COA
+. . exporting table                    RUPD$_TRANS
+. exporting synonyms
+. exporting views
+. exporting stored procedures
+. exporting operators
+. exporting referential integrity constraints
+. exporting triggers
+. exporting indextypes
+. exporting bitmap, functional and extensible indexes
+. exporting posttables actions
+. exporting materialized views
+. exporting snapshot logs
+. exporting job queues
+. exporting refresh groups and children
+. exporting dimensions
+. exporting post-schema procedural objects and actions
+. exporting statistics
+Export terminated successfully with warnings.

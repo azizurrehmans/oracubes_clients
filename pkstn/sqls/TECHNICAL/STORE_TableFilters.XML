@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<SBDataFilterHistory>
+  <PRODUCTION>
+    <DP>
+      <Name>Most Recently Used (Unnamed)<Where>DOC_NO = 23069</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </DP>
+    <DP_DETAIL>
+      <Name>Most Recently Used (Unnamed)<Where>PPC_ID = &apos;1043/13&apos;
+ AND POSITION = 60</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </DP_DETAIL>
+    <JOB_CARD_DETAIL_STATUS>
+      <Name>Most Recently Used (Unnamed)<Where>PPC_ID = &apos;1043/13&apos;
+ AND POSITION = 60</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </JOB_CARD_DETAIL_STATUS>
+  </PRODUCTION>
+  <STORE>
+    <FRR>
+      <Name>Most Recently Used (Unnamed)<Where>CPO_ID = &apos;130710&apos;</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </FRR>
+    <FRR_DETAIL>
+      <Name>Most Recently Used (Unnamed)<Where>CPO_ID = &apos;130710&apos;</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </FRR_DETAIL>
+  </STORE>
+</SBDataFilterHistory>

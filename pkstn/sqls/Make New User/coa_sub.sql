@@ -1,0 +1,1 @@
+insert into national.coa_sub select * from askari4.coa_sub

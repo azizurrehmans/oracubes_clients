@@ -1,0 +1,3 @@
+ALTER TABLE ORACLE.PO_DELETED
+ ADD (rate_status_id  VARCHAR2(20));
+

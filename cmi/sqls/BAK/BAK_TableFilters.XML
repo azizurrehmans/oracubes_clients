@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<SBDataFilterHistory>
+  <BAK>
+    <VOUCHER>
+      <Name>Most Recently Used (Unnamed)<Where>VOUCHER_ID IN (327,328)
+ AND VOUCHER_TYPE_ID = &apos;CASH VOUCHER&apos;</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </VOUCHER>
+    <SALARY_DETAIL>
+      <Name>Most Recently Used (Unnamed)<Where>EMPLOYEE_ID in (40)
+ AND SALARY_ID = TO_DATE(&apos;08/01/2013 00:00:00&apos;, &apos;MM/DD/YYYY HH24:MI:SS&apos;)</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </SALARY_DETAIL>
+  </BAK>
+</SBDataFilterHistory>

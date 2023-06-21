@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<SBDataFilterHistory>
+  <ASKARI2>
+    <CPO_VIEW>
+      <Name>Most Recently Used (Unnamed)<Where>CPO_YEAR = &apos;14&apos;</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </CPO_VIEW>
+    <CPO_STYLE_COLOR_VIEW>
+      <Name>Most Recently Used (Unnamed)<Where>CPO_ID = &apos;4&apos;</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </CPO_STYLE_COLOR_VIEW>
+    <ATTENDANCE>
+      <Name>Most Recently Used (Unnamed)<Where>EMPLOYEE_ID = 72
+ AND ATTENDANCE_DATE &gt; &apos;31-AUG-2013&apos;</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>NoFilter</DefaultFilter>
+    </ATTENDANCE>
+    <SALARY_DETAIL>
+      <Name>Most Recently Used (Unnamed)<Where>EMPLOYEE_ID = 37</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </SALARY_DETAIL>
+    <BARCODE_ATTENDANCE>
+      <Name>Most Recently Used (Unnamed)<Where>EMPLOYEE_ID = 72
+ AND FDATETIME BETWEEN TO_DATE(&apos;09/02/2013 18:55:11&apos;, &apos;MM/DD/YYYY HH24:MI:SS&apos;) AND TO_DATE(&apos;09/14/2013 07:45:00&apos;, &apos;MM/DD/YYYY HH24:MI:SS&apos;)</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </BARCODE_ATTENDANCE>
+  </ASKARI2>
+</SBDataFilterHistory>

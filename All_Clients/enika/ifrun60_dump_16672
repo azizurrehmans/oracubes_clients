@@ -1,0 +1,35 @@
+[12/05/22 08:57:10 Pakistan Standard Time]::Client Status [ConnId=0, PID=16672]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  67664232 01:00103232
+Module: c:\orant\BIN\ORA805.dll
+
+System Information:
+Operating System: Windows NT Version 6.2 Build 9200 
+Command line: c:\orant\BIN\ifrun60.EXE  m:\control\forms\user_login user='aziz' location='Oracubes'  server='orcl'
+FORM/BLOCK/FIELD: USER_LOGIN:ADM_COMPANY_SETUP.USER_ID
+Last Trigger: WHEN-NEW-FORM-INSTANCE - (Execution Suspended)
+Msg: <NULL>
+Last Builtin: EXECUTE_QUERY - (Successfully Completed)
+
+Registers:
+EAX:00000000
+EBX:0019F482
+ECX:00000001
+EDX:0019F482
+ESI:04602780
+EDI:00000000
+CS:EIP:0023:67664232
+SS:ESP:002B:0019F1C4  EBP:0019F1EC
+DS:002B  ES:002B  FS:0053  GS:002B
+Flags:00010293
+
+
+Call stack:
+Address   Frame
+67664232  0019F1EC  vsnupr
+6760E5A8  0019F3B4  kpugattr
+67561BC0  0019F3D4  xOCIAttrGet
+

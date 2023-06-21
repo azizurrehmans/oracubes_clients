@@ -1,0 +1,1 @@
+insert into national.users select * from askari4.users where user_id = 'aziz'

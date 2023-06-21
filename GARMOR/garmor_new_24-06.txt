@@ -1,0 +1,211 @@
+;;; 
+Export: Release 11.2.0.1.0 - Production on Thu Jun 24 13:03:55 2021
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+FLASHBACK automatically enabled to preserve database integrity.
+Starting "SYSTEM"."SYS_EXPORT_SCHEMA_01":  system/******** dumpfile=garmor_new_24-06.dmp schemas=garmor_new logfile=garmor_new_24-06.txt 
+Estimate in progress using BLOCKS method...
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 256 MB
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/TABLESPACE_QUOTA
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SYNONYM/SYNONYM
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/AUDIT_OBJ
+Processing object type SCHEMA_EXPORT/PACKAGE/PACKAGE_SPEC
+Processing object type SCHEMA_EXPORT/PACKAGE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/FUNCTION/FUNCTION
+Processing object type SCHEMA_EXPORT/FUNCTION/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+Processing object type SCHEMA_EXPORT/PROCEDURE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/PACKAGE/COMPILE_PACKAGE/PACKAGE_SPEC/ALTER_PACKAGE_SPEC
+Processing object type SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+Processing object type SCHEMA_EXPORT/VIEW/VIEW
+Processing object type SCHEMA_EXPORT/VIEW/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/PACKAGE/PACKAGE_BODY
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+. . exported "GARMOR_NEW"."PROD_JCD"                     32.37 MB  358439 rows
+. . exported "GARMOR_NEW"."HR_EMPLOYEE_PHOTO"            20.21 MB     128 rows
+. . exported "GARMOR_NEW"."AC_VOUCHER_DOCS"              32.84 MB       5 rows
+. . exported "GARMOR_NEW"."AC_ASSET_PHOTO"               1.017 MB       1 rows
+. . exported "GARMOR_NEW"."HR_SAL_CONT_MO_DETAIL"        13.26 MB  281708 rows
+. . exported "GARMOR_NEW"."INV_TRANS"                    2.366 MB   32775 rows
+. . exported "GARMOR_NEW"."INV_TRANS_DELETED"            45.18 KB     334 rows
+. . exported "GARMOR_NEW"."EXP_PACKING_DETAIL"           7.522 MB   51983 rows
+. . exported "GARMOR_NEW"."PROD_JCD_DELETED"             7.247 MB  111191 rows
+. . exported "GARMOR_NEW"."HR_ATTENDANCE"                6.534 MB  151772 rows
+. . exported "GARMOR_NEW"."LOGS"                         4.488 MB   11707 rows
+. . exported "GARMOR_NEW"."AC_VOUCHER"                   4.163 MB   24307 rows
+. . exported "GARMOR_NEW"."AC_VOUCHER_DETAIL_NEW"        3.852 MB   61821 rows
+. . exported "GARMOR_NEW"."CONT_LOGS"                    3.354 MB   67767 rows
+. . exported "GARMOR_NEW"."HR_BARCODE_ATTENDANCE"        2.645 MB  143349 rows
+. . exported "GARMOR_NEW"."HR_SAL_CONT_DETAIL"           2.572 MB   64671 rows
+. . exported "GARMOR_NEW"."INV_BILL"                     2.604 MB       2 rows
+. . exported "GARMOR_NEW"."INV_IR"                       1.241 MB   11653 rows
+. . exported "GARMOR_NEW"."INV_ME"                       1.558 MB   13901 rows
+. . exported "GARMOR_NEW"."INV_MED"                      1.582 MB   26374 rows
+. . exported "GARMOR_NEW"."PROD_JCD_ZERO"                1.542 MB   23518 rows
+. . exported "GARMOR_NEW"."AC_VOUCHER_DELETED"           43.46 KB     120 rows
+. . exported "GARMOR_NEW"."AC_VOUCHER_DETAIL_NEW_DELETED"  36.25 KB     405 rows
+. . exported "GARMOR_NEW"."INV_IR_DETAIL"                637.2 KB   25638 rows
+. . exported "GARMOR_NEW"."AC_CB"                        12.07 KB       1 rows
+. . exported "GARMOR_NEW"."HR_SALARY_DETAIL"             546.7 KB    4561 rows
+. . exported "GARMOR_NEW"."INV_OGP"                      551.9 KB    3162 rows
+. . exported "GARMOR_NEW"."INV_PO_DETAIL"                452.7 KB    7058 rows
+. . exported "GARMOR_NEW"."HR_SALARY_ADVANCE"            376.7 KB    4603 rows
+. . exported "GARMOR_NEW"."EXP_CCPO_DETAIL"              324.1 KB    2012 rows
+. . exported "GARMOR_NEW"."EXP_CPO_DETAIL"               347.5 KB    2012 rows
+. . exported "GARMOR_NEW"."HR_MONTHLY_ATTENDANCE"        328.3 KB    5023 rows
+. . exported "GARMOR_NEW"."INV_GIR_DETAIL"               316.1 KB    7358 rows
+. . exported "GARMOR_NEW"."INV_IGP"                        323 KB    2558 rows
+. . exported "GARMOR_NEW"."INV_IGP_DETAIL"               301.3 KB    7393 rows
+. . exported "GARMOR_NEW"."INV_OGP_DETAIL"                 265 KB    3424 rows
+. . exported "GARMOR_NEW"."INV_PO"                       271.3 KB    2347 rows
+. . exported "GARMOR_NEW"."PPC_CPO_MATERIAL"             291.7 KB   10951 rows
+. . exported "GARMOR_NEW"."PPC_MPD"                      262.8 KB    6005 rows
+. . exported "GARMOR_NEW"."HR_EMPLOYEE"                  250.4 KB     947 rows
+. . exported "GARMOR_NEW"."HR_SUP_COMM_DET"              214.8 KB    3810 rows
+. . exported "GARMOR_NEW"."INV_GIR"                      206.8 KB    2461 rows
+. . exported "GARMOR_NEW"."AC_CHEQUE_BOOK_DET"           196.1 KB    6823 rows
+. . exported "GARMOR_NEW"."INV_SC_OPENING"               153.0 KB    3656 rows
+. . exported "GARMOR_NEW"."INV_TRANS_AZIZ"               20.73 KB      36 rows
+. . exported "GARMOR_NEW"."EXP_CCPO"                     117.8 KB     433 rows
+. . exported "GARMOR_NEW"."EXP_CPO"                      147.9 KB     896 rows
+. . exported "GARMOR_NEW"."EXP_PACKING"                  144.4 KB     259 rows
+. . exported "GARMOR_NEW"."AC_ASSET"                     70.38 KB     647 rows
+. . exported "GARMOR_NEW"."AC_ASSET_13042018"            79.14 KB     845 rows
+. . exported "GARMOR_NEW"."AC_COA"                       60.17 KB     770 rows
+. . exported "GARMOR_NEW"."AC_COA_OPENING"               68.35 KB    1672 rows
+. . exported "GARMOR_NEW"."HR_EMPLOYEE_DEPT_DESIG"       87.21 KB    1175 rows
+. . exported "GARMOR_NEW"."HR_EMP_FIN"                   59.34 KB     707 rows
+. . exported "GARMOR_NEW"."HR_LOAN"                      93.71 KB     844 rows
+. . exported "GARMOR_NEW"."HR_PE"                        68.59 KB     534 rows
+. . exported "GARMOR_NEW"."HR_SUP_COMM"                  50.37 KB     717 rows
+. . exported "GARMOR_NEW"."INV_SC4"                      40.57 KB     856 rows
+. . exported "GARMOR_NEW"."INV_SC5"                         92 KB    1761 rows
+. . exported "GARMOR_NEW"."INV_SC_OPENING_1819"          52.10 KB    1139 rows
+. . exported "GARMOR_NEW"."PPC_MPD_ITEM"                 59.73 KB    2303 rows
+. . exported "GARMOR_NEW"."PPC_MP_OP"                    62.22 KB    1603 rows
+. . exported "GARMOR_NEW"."SC_OPENING_1920"              59.29 KB    1311 rows
+. . exported "GARMOR_NEW"."SC_OPENING_2021"              65.47 KB    1457 rows
+. . exported "GARMOR_NEW"."AC_ASSET_TRX"                 7.609 KB       3 rows
+. . exported "GARMOR_NEW"."AC_ASSET_TYPE"                5.976 KB       7 rows
+. . exported "GARMOR_NEW"."AC_ASSET_USER"                12.22 KB     161 rows
+. . exported "GARMOR_NEW"."AC_BANK_ACCOUNT"                 10 KB       9 rows
+. . exported "GARMOR_NEW"."AC_CB_IOU"                    22.76 KB     449 rows
+. . exported "GARMOR_NEW"."AC_CHEQUE_BOOK"               16.03 KB      77 rows
+. . exported "GARMOR_NEW"."AC_COA_CLOSING_1617"          28.06 KB     564 rows
+. . exported "GARMOR_NEW"."AC_COA_CLOSING_1617_2"        26.96 KB     533 rows
+. . exported "GARMOR_NEW"."AC_COA_CLOSING_1819"           30.5 KB     627 rows
+. . exported "GARMOR_NEW"."AC_COA_CONT"                  15.28 KB     112 rows
+. . exported "GARMOR_NEW"."AC_COA_MAIN"                  9.531 KB      11 rows
+. . exported "GARMOR_NEW"."AC_COA_OPENING_1617"          14.96 KB     247 rows
+. . exported "GARMOR_NEW"."AC_COA_SUB"                   10.32 KB      22 rows
+. . exported "GARMOR_NEW"."AC_CREDITOR_BALANCES"         31.71 KB     310 rows
+. . exported "GARMOR_NEW"."AC_SETUP"                     8.804 KB       1 rows
+. . exported "GARMOR_NEW"."AC_VOUCHER_TYPE"              10.17 KB       3 rows
+. . exported "GARMOR_NEW"."AC_VOUCHER_TYPE_DETAIL"       8.289 KB      10 rows
+. . exported "GARMOR_NEW"."COA_CLOSING_1920"             26.96 KB     531 rows
+. . exported "GARMOR_NEW"."COA_CLOSING_1920_T"           25.62 KB     531 rows
+. . exported "GARMOR_NEW"."COA_CLOSING_2021"             33.81 KB     719 rows
+. . exported "GARMOR_NEW"."CONT_THINGS_TO_DO"            13.16 KB       1 rows
+. . exported "GARMOR_NEW"."CONT_USERS"                   9.156 KB      28 rows
+. . exported "GARMOR_NEW"."CONT_USER_MODULE"             20.96 KB     227 rows
+. . exported "GARMOR_NEW"."CONT_YEAR"                    7.265 KB       5 rows
+. . exported "GARMOR_NEW"."CON_COMPANY_SETUP"            14.96 KB       1 rows
+. . exported "GARMOR_NEW"."CON_FIREWALL"                 7.304 KB      14 rows
+. . exported "GARMOR_NEW"."CON_FRM_RPT_ACCESS"           7.117 KB      12 rows
+. . exported "GARMOR_NEW"."CON_FRM_RPT_ACCESS_DET"       10.21 KB      45 rows
+. . exported "GARMOR_NEW"."ERR_JCD_ERROR"                41.71 KB     262 rows
+. . exported "GARMOR_NEW"."ERR_SAL_CONT_MO_DETAIL_ERROR"  20.85 KB     262 rows
+. . exported "GARMOR_NEW"."ERR_SAL_CONT_MO_DETAIL_ERROR2"  20.75 KB     259 rows
+. . exported "GARMOR_NEW"."EXPORT_SETUP"                 14.62 KB       1 rows
+. . exported "GARMOR_NEW"."EXP_CPO_TYPE"                 5.484 KB       2 rows
+. . exported "GARMOR_NEW"."EXP_CUSTOMER"                 15.63 KB      12 rows
+. . exported "GARMOR_NEW"."EXP_RSIZE"                    7.671 KB      23 rows
+. . exported "GARMOR_NEW"."HR_DEPARTMENT"                11.39 KB      61 rows
+. . exported "GARMOR_NEW"."HR_DESIGNATION"               14.01 KB     135 rows
+. . exported "GARMOR_NEW"."HR_EMP_EXP"                   8.476 KB       2 rows
+. . exported "GARMOR_NEW"."HR_EMP_QUALIFICATION"         8.390 KB       1 rows
+. . exported "GARMOR_NEW"."HR_GH"                        8.179 KB      50 rows
+. . exported "GARMOR_NEW"."HR_LEAVE_APP"                 20.87 KB     128 rows
+. . exported "GARMOR_NEW"."HR_LOAN_LEDGER"               10.54 KB      26 rows
+. . exported "GARMOR_NEW"."HR_SALARY"                    9.820 KB      45 rows
+. . exported "GARMOR_NEW"."HR_SAL_ADV_CONT"              27.56 KB     193 rows
+. . exported "GARMOR_NEW"."HR_SAL_CONT"                  16.31 KB     272 rows
+. . exported "GARMOR_NEW"."HR_SECTION"                   5.125 KB       8 rows
+. . exported "GARMOR_NEW"."HR_SETUP"                     11.64 KB       1 rows
+. . exported "GARMOR_NEW"."INV_BTN"                      12.01 KB       1 rows
+. . exported "GARMOR_NEW"."INV_BUNDLE"                   6.765 KB      20 rows
+. . exported "GARMOR_NEW"."INV_IGP_BUNDLE"               5.531 KB       1 rows
+. . exported "GARMOR_NEW"."INV_PO_TYPE"                  5.046 KB       2 rows
+. . exported "GARMOR_NEW"."INV_PREQ_DET"                 7.789 KB      31 rows
+. . exported "GARMOR_NEW"."INV_SAN"                      11.77 KB      14 rows
+. . exported "GARMOR_NEW"."INV_SC1"                      7.359 KB       9 rows
+. . exported "GARMOR_NEW"."INV_SC2"                      13.28 KB     155 rows
+. . exported "GARMOR_NEW"."INV_SC3"                      26.32 KB     495 rows
+. . exported "GARMOR_NEW"."INV_SC_LOC"                   24.22 KB     832 rows
+. . exported "GARMOR_NEW"."INV_SC_OPENING_1718"          28.78 KB     584 rows
+. . exported "GARMOR_NEW"."INV_STORE"                    6.968 KB       9 rows
+. . exported "GARMOR_NEW"."INV_STORE_CELL"               12.92 KB     166 rows
+. . exported "GARMOR_NEW"."INV_SUPPLIER"                 28.20 KB     235 rows
+. . exported "GARMOR_NEW"."INV_UOM"                      6.718 KB      17 rows
+. . exported "GARMOR_NEW"."INV_WO"                       40.86 KB     307 rows
+. . exported "GARMOR_NEW"."INV_WO_DETAIL"                34.47 KB     313 rows
+. . exported "GARMOR_NEW"."INV_WO_JOB"                   7.578 KB       1 rows
+. . exported "GARMOR_NEW"."INV_WO_OUT_DETAIL"            20.25 KB     314 rows
+. . exported "GARMOR_NEW"."PPC_MP"                       28.70 KB     302 rows
+. . exported "GARMOR_NEW"."PPC_MP_ITEM"                  5.468 KB      27 rows
+. . exported "GARMOR_NEW"."PPC_OPERATION"                7.890 KB       9 rows
+. . exported "GARMOR_NEW"."PPC_OPERATION_TYPE"           6.789 KB       4 rows
+. . exported "GARMOR_NEW"."PROD_ALTERATION"              8.226 KB      23 rows
+. . exported "GARMOR_NEW"."PROD_ALTER_TYPE"              5.539 KB       7 rows
+. . exported "GARMOR_NEW"."REP_COPIES"                   5.484 KB       4 rows
+. . exported "GARMOR_NEW"."TEMP"                         5.742 KB      78 rows
+. . exported "GARMOR_NEW"."TEMP3"                        5.156 KB      11 rows
+. . exported "GARMOR_NEW"."VOUCHER_12032019"             26.62 KB      25 rows
+. . exported "GARMOR_NEW"."AC_ASSET_SUB_TYPE"                0 KB       0 rows
+. . exported "GARMOR_NEW"."AC_DAY_CLOSE"                     0 KB       0 rows
+. . exported "GARMOR_NEW"."CONT_MESSAGES"                    0 KB       0 rows
+. . exported "GARMOR_NEW"."CONT_TASK_CC"                     0 KB       0 rows
+. . exported "GARMOR_NEW"."CONT_THINGS_TO_DO_DETAIL"         0 KB       0 rows
+. . exported "GARMOR_NEW"."CONT_THINGS_TO_DO_LOG"            0 KB       0 rows
+. . exported "GARMOR_NEW"."CONT_THINGS_TO_DO_PRIORITY"       0 KB       0 rows
+. . exported "GARMOR_NEW"."EXP_CURRENCY"                     0 KB       0 rows
+. . exported "GARMOR_NEW"."HR_EMPLOYEE_JD"                   0 KB       0 rows
+. . exported "GARMOR_NEW"."HR_EMPLOYEE_LATE_POLICY"          0 KB       0 rows
+. . exported "GARMOR_NEW"."HR_EMPLOYEE_NOTE"                 0 KB       0 rows
+. . exported "GARMOR_NEW"."HR_EMPLOYEE_SHIFT"                0 KB       0 rows
+. . exported "GARMOR_NEW"."HR_EMP_DISEASE"                   0 KB       0 rows
+. . exported "GARMOR_NEW"."HR_EMP_REF"                       0 KB       0 rows
+. . exported "GARMOR_NEW"."HR_FAVOUR"                        0 KB       0 rows
+. . exported "GARMOR_NEW"."HR_FINAL_SETTLEMENT"              0 KB       0 rows
+. . exported "GARMOR_NEW"."HR_LEAVE_BALANCE"                 0 KB       0 rows
+. . exported "GARMOR_NEW"."HR_QUALIFICATION"                 0 KB       0 rows
+. . exported "GARMOR_NEW"."HR_SHIFT"                         0 KB       0 rows
+. . exported "GARMOR_NEW"."HR_SUNDAY_WORKING_DAY"            0 KB       0 rows
+. . exported "GARMOR_NEW"."INV_PO_SUB_DETAIL"                0 KB       0 rows
+. . exported "GARMOR_NEW"."INV_PR"                           0 KB       0 rows
+. . exported "GARMOR_NEW"."INV_PREQ"                         0 KB       0 rows
+. . exported "GARMOR_NEW"."INV_PR_DETAIL"                    0 KB       0 rows
+. . exported "GARMOR_NEW"."INV_SC_PHOTO"                     0 KB       0 rows
+Master table "SYSTEM"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for SYSTEM.SYS_EXPORT_SCHEMA_01 is:
+  C:\ORACLE\ADMIN\ORCL\DPDUMP\GARMOR_NEW_24-06.DMP
+Job "SYSTEM"."SYS_EXPORT_SCHEMA_01" successfully completed at 13:04:31

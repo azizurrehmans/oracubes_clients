@@ -1,0 +1,4 @@
+alter table salary_detail add (
+  PROVIDENT_FUND     NUMBER                     DEFAULT 0,
+  SL                 NUMBER                     DEFAULT 0,
+  CL                 NUMBER                     DEFAULT 0)

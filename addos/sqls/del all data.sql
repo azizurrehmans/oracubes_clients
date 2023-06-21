@@ -1,0 +1,65 @@
+select table_name from user_constraints where constraint_name like '%60275%';
+select table_name from user_constraints where constraint_name like '%60268%';
+select table_name from user_constraints where constraint_name like '%TASK%';
+
+update igp_detail set ogp_id=null, ogp_year=null, ogp_detail_id = null;
+delete from ogp_detail;
+delete from pr_detail;
+delete from gir_detail;
+delete from igp_detail;
+update voucher set gir_id=null, gir_year = null;
+delete from gir;
+delete from po_detail;
+delete from po;
+delete from wo_out_detail;
+delete from wo_detail;
+
+delete from igp;
+delete from ogp;
+delete from wo;
+delete from preq_det;
+delete from preq;
+delete from cpo;
+
+delete from salary;
+delete from salary_detail;
+delete from adm_user_module where user_id <> 'aziz';
+delete from adm_frm_rpt_access_det where user_id <> 'aziz';
+delete from ir_detail;
+delete from ir;
+delete from salary_advance;
+delete from sal_adv_cont;
+delete from loan;
+delete from btn;
+delete from emp_disease;
+delete from emp_exp;
+delete from emp_fin;
+delete from emp_qualification;
+delete from sc_opening;
+delete from sc;
+delete from supplier;
+delete from designation;
+delete from employee_photo;
+
+delete from salary_other_info;
+delete from barcode_attendance;
+delete from attendance;
+delete from monthly_attendance;
+delete from monthly_ot;
+delete from atten_errors;
+delete from employee_dept_desig;
+delete from employee_jd;
+delete from employee;
+delete from department;
+delete from adm_frm_rpt_access_det;
+DELETE FROM MP_OP;
+DELETE FROM OPERATION_TYPE;
+delete from operation;
+DELETE FROM POSITION;
+UPDATE RSIZE SET USER_ID='aziz';
+delete from task_USER;
+DELETE FROM TASK_CC;
+DELETE FROM TASK;
+DELETE FROM TRANS_AZIZ;
+delete from adm_users where user_id <> 'aziz';
+

@@ -1,0 +1,9 @@
+ALTER TABLE ASKARI.BRS
+ ADD (coa_main_id  NUMBER(2));
+
+ALTER TABLE ASKARI.BRS
+ ADD (coa_sub_id  NUMBER(4));
+
+ALTER TABLE ASKARI.BRS
+ ADD (coa_id  NUMBER(6));
+

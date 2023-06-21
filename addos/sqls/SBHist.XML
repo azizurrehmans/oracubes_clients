@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<History>
+  <Object>
+    <Type>USER</Type>
+    <Schema />
+    <Name>ASKARI4</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData>OPEN</XtraData>
+    <XtraFlag>0</XtraFlag>
+    <Table>41569.8134837963</Table>
+    <TableSchema>TEMP</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>-1</ObjID>
+  </Object>
+  <Object>
+    <Type>USER</Type>
+    <Schema />
+    <Name>ASKARI3</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData>OPEN</XtraData>
+    <XtraFlag>0</XtraFlag>
+    <Table>41553.5693171296</Table>
+    <TableSchema>TEMP</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>-1</ObjID>
+  </Object>
+  <Object>
+    <Type>USER</Type>
+    <Schema />
+    <Name>ASKARI2</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData>OPEN</XtraData>
+    <XtraFlag>0</XtraFlag>
+    <Table>41533.6490972222</Table>
+    <TableSchema>TEMP</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>-1</ObjID>
+  </Object>
+  <Object>
+    <Type>USER</Type>
+    <Schema />
+    <Name>ASKARI1</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData>OPEN</XtraData>
+    <XtraFlag>0</XtraFlag>
+    <Table>41478.316412037</Table>
+    <TableSchema>TEMP</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>-1</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>NATIONAL</Schema>
+    <Name>COMPANY_SETUP</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>ASKARI</Table>
+    <TableSchema>41570.8181944444</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>1</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>NATIONAL</Schema>
+    <Name>CUSTOMER</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>ASKARI</Table>
+    <TableSchema>41570.8182523148</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>19</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>NATIONAL</Schema>
+    <Name>VOUCHER_TYPE</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>ASKARI</Table>
+    <TableSchema>41570.8207986111</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>26</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>NATIONAL</Schema>
+    <Name>VOUCHER_TYPE_DETAIL</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>ASKARI</Table>
+    <TableSchema>41570.8207986111</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>44</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>NATIONAL</Schema>
+    <Name>USERS</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>ASKARI</Table>
+    <TableSchema>41570.8206712963</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>27</ObjID>
+  </Object>
+  <Object>
+    <Type>PACKAGE</Type>
+    <Schema>ASKARI3</Schema>
+    <Name>OPENING</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData>X</XtraData>
+    <XtraFlag>0</XtraFlag>
+    <Table />
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>76416</ObjID>
+  </Object>
+  <Object>
+    <Type>PACKAGE BODY</Type>
+    <Schema>ASKARI3</Schema>
+    <Name>OPENING</Name>
+    <Valid>False</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>0</XtraFlag>
+    <Table />
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>76426</ObjID>
+  </Object>
+  <Object>
+    <Type>PACKAGE</Type>
+    <Schema>ASKARI3</Schema>
+    <Name>CLOSING</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData>X</XtraData>
+    <XtraFlag>0</XtraFlag>
+    <Table />
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>76421</ObjID>
+  </Object>
+  <Object>
+    <Type>VIEW</Type>
+    <Schema>ASKARI3</Schema>
+    <Name>SC_VIEW</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>0</XtraFlag>
+    <Table />
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>76147</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>ASKARI3</Schema>
+    <Name>SC</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>ASKARI</Table>
+    <TableSchema>41553.6122569444</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>1783</ObjID>
+  </Object>
+  <Object>
+    <Type>FUNCTION</Type>
+    <Schema>ASKARI3</Schema>
+    <Name>OPENING_QTYF_DATE</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>0</XtraFlag>
+    <Table />
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>76240</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>ASKARI3</Schema>
+    <Name>SC_SUB</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>ASKARI</Table>
+    <TableSchema>41553.6124189815</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>421</ObjID>
+  </Object>
+  <Object>
+    <Type>VIEW</Type>
+    <Schema>ASKARI3</Schema>
+    <Name>SC_SUB_VIEW</Name>
+    <Valid>False</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>0</XtraFlag>
+    <Table />
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>76151</ObjID>
+  </Object>
+  <Object>
+    <Type>VIEW</Type>
+    <Schema>ASKARI3</Schema>
+    <Name>SC_MAIN_VIEW</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>0</XtraFlag>
+    <Table />
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>76167</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>ASKARI3</Schema>
+    <Name>ATTENDANCE</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>ASKARI</Table>
+    <TableSchema>41558.962025463</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>9816</ObjID>
+  </Object>
+  <Object>
+    <Type>VIEW</Type>
+    <Schema>ASKARI3</Schema>
+    <Name>EMPLOYEE_VIEW</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>0</XtraFlag>
+    <Table />
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>76204</ObjID>
+  </Object>
+  <Object>
+    <Type>VIEW</Type>
+    <Schema>ASKARI3</Schema>
+    <Name>EMPLOYEE_LATEST_LATE_POLICY</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>0</XtraFlag>
+    <Table />
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>76252</ObjID>
+  </Object>
+  <Object>
+    <Type>VIEW</Type>
+    <Schema>ASKARI3</Schema>
+    <Name>EMPLOYEE_LATEST_FINANCIAL_VIEW</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>0</XtraFlag>
+    <Table />
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>76246</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>ASKARI3</Schema>
+    <Name>EMPLOYEE_LATE_POLICY</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>ASKARI</Table>
+    <TableSchema>41553.611099537</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>23</ObjID>
+  </Object>
+  <Object>
+    <Type>FUNCTION</Type>
+    <Schema>ASKARI3</Schema>
+    <Name>MONTHLY_PRESENTS</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table />
+    <TableSchema />
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>76523</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>CLASSIC1</Schema>
+    <Name>STUDENT_FEE</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>USERS</Table>
+    <TableSchema>41512.9168171296</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>0</ObjID>
+  </Object>
+</History>

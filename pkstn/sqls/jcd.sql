@@ -1,0 +1,6 @@
+ALTER TABLE ORACLE4.JCD
+ ADD (issue_user_id  VARCHAR2(20));
+
+ALTER TABLE ORACLE4.JCD
+ ADD (rec_user_id  VARCHAR2(20));
+

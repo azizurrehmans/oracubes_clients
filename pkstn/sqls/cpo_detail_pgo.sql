@@ -1,0 +1,3 @@
+ALTER TABLE ORACLE.CPO_DETAIL
+ ADD (prod_goahead  VARCHAR2(10));
+

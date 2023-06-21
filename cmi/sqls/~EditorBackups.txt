@@ -1,0 +1,20 @@
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebDFD.tmp,"TEST.MAT_RES_OTHER_MO [FUNCTION] (not compiled)","5/22/2013 5:10:58 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb16F6.tmp,"CREATE TABLE COA_VIEW_MV AS","9/13/2013 3:28:43 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebFE9B.tmp,"select balance, dr_balance(balance) dr_balance, cr_balance(balance) cr_balance from coa_view_mv","9/13/2013 3:28:44 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb2694.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\employee4.sql,"10/7/2013 5:53:12 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb26A4.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\monthly_atten.sql,"10/7/2013 5:53:12 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebE60D.tmp,"insert into monthly_attendance (employee_id, month, days, ot_hours, gate_employee_no)","10/7/2013 5:53:12 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebB779.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\voucher2.sql,"10/11/2013 2:49:35 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb256.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\update_missing_voucher_seq.sql,"10/11/2013 2:49:35 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebB3BD.tmp,"ASKARI3.LATE_VS_ALLOWED [FUNCTION]","10/11/2013 2:49:35 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebB3CD.tmp,"ASKARI3.MONTHLY_PRESENTS [FUNCTION]","10/11/2013 2:49:35 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb7384.tmp,"ASKARI3.BALANCE_DEDUCTABLE_LOAN [FUNCTION]","10/11/2013 2:49:35 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb7395.tmp,"ASKARI3.BALANCE_SALARY_ADV [FUNCTION]","10/11/2013 2:49:35 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb3426.tmp,"CREATE OR REPLACE FORCE VIEW employee_latest_late_policy (employee_id,","10/11/2013 2:49:35 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebC59D.tmp,"ASKARI3.MONTHLY_LATE [FUNCTION]","10/11/2013 2:49:32 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebDA7D.tmp,"SELECT D.COLOR, D.CPO_YEAR, D.EMPLOYEE_ID, D.OUR_CPO, D.PAIR, D.RATE, D.SAL_CONT_ID, D.SAL_CONT_NO, D.SIZES, D.STYLE, D.RATE*D.PAIR AMOUNT","10/11/2013 4:27:21 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebB3DA.tmp,"SELECT m.sc_main_id, m.description, q.qty closing_qty","10/15/2013 3:22:10 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb3F21.tmp,"TEST.MONTHLY_LATE [FUNCTION]","10/15/2013 3:22:06 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb7446.tmp,"ASKARI3.MONTHLY_LATE [FUNCTION]","10/15/2013 3:21:32 PM",5
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb7409.tmp,"update employee set gate_employee_no=employee_id where employee_id <> gate_employee_no","10/15/2013 3:22:06 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb30A5.tmp,"CREATE OR REPLACE FORCE VIEW sc_main_view (sc_main_id,","10/15/2013 3:21:32 PM",4

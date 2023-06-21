@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<SBDataFilterHistory>
+  <ASKARI3>
+    <ATTENDANCE_VIEW>
+      <Name>Most Recently Used (Unnamed)<Where>EMPLOYEE_ID IN (72,131,144)</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </ATTENDANCE_VIEW>
+    <EMP_FIN>
+      <Name>Most Recently Used (Unnamed)<Where>EMPLOYEE_ID IN (72,131,144)</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </EMP_FIN>
+    <MONTHLY_ATTENDANCE>
+      <Name>Most Recently Used (Unnamed)<Where>MONTH = &apos;01-SEP-2013&apos;</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </MONTHLY_ATTENDANCE>
+    <VOUCHER>
+      <Name>Most Recently Used (Unnamed)<Where>VOUCHER_SEQ IS NULL</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </VOUCHER>
+    <BARCODE_ATTENDANCE>
+      <Name>Most Recently Used (Unnamed)<Where>EMPLOYEE_ID = 109</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </BARCODE_ATTENDANCE>
+    <ATTENDANCE>
+      <Name>Most Recently Used (Unnamed)<Where>EMPLOYEE_ID = 12</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </ATTENDANCE>
+  </ASKARI3>
+</SBDataFilterHistory>

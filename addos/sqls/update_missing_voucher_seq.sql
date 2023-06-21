@@ -1,0 +1,1 @@
+update voucher set voucher_seq=voucher_seq.nextval where voucher_seq is null

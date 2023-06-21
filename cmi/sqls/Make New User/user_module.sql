@@ -1,0 +1,1 @@
+insert into national.user_module select * from askari4.user_module where user_id='aziz'

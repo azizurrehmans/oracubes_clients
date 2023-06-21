@@ -1,0 +1,173 @@
+;;; 
+Export: Release 10.2.0.1.0 - Production on Friday, 27 August, 2021 21:22:59
+
+Copyright (c) 2003, 2005, Oracle.  All rights reserved.
+;;; 
+Connected to: Oracle Database 10g Enterprise Edition Release 10.2.0.1.0 - Production
+With the Partitioning, OLAP and Data Mining options
+Starting "QADRI"."SYS_EXPORT_SCHEMA_01":  qadri/******** schemas=qadri1 directory=data_pump_dir dumpfile=ora27082021.dmp logfile=ora.log 
+Estimate in progress using BLOCKS method...
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 234.1 MB
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/TABLESPACE_QUOTA
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SYNONYM/SYNONYM
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/PACKAGE/PACKAGE_SPEC
+Processing object type SCHEMA_EXPORT/PACKAGE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/FUNCTION/FUNCTION
+Processing object type SCHEMA_EXPORT/FUNCTION/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+Processing object type SCHEMA_EXPORT/PROCEDURE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/PACKAGE/COMPILE_PACKAGE/PACKAGE_SPEC/ALTER_PACKAGE_SPEC
+Processing object type SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+Processing object type SCHEMA_EXPORT/VIEW/VIEW
+Processing object type SCHEMA_EXPORT/PACKAGE/PACKAGE_BODY
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+. . exported "QADRI1"."AC_VOUCHER_DETAIL"                43.44 MB  608538 rows
+. . exported "QADRI1"."ADM_ACTIVITY_LOG"                 9.078 KB       1 rows
+. . exported "QADRI1"."AC_VOUCHER"                       14.83 MB  103395 rows
+. . exported "QADRI1"."INV_TRANS"                        14.51 MB  176482 rows
+. . exported "QADRI1"."INV_TRANS_2122_BACKUP"            13.65 MB  165943 rows
+. . exported "QADRI1"."INV_TRANS_1920_BACKUP"            10.04 MB  121767 rows
+. . exported "QADRI1"."INV_IR"                           7.866 MB   92165 rows
+. . exported "QADRI1"."AC_RECEIPT"                       16.49 KB      88 rows
+. . exported "QADRI1"."AC_CTRL"                          6.429 KB      19 rows
+. . exported "QADRI1"."AC_PARENT"                        5.546 KB      12 rows
+. . exported "QADRI1"."AC_SUB"                           6.203 KB      25 rows
+. . exported "QADRI1"."INV_IR_DETAIL"                    5.139 MB  162966 rows
+. . exported "QADRI1"."INV_TRANS_1819_BACKUP"            5.867 MB   71030 rows
+. . exported "QADRI1"."INV_IGP_DETAIL"                   610.7 KB   19300 rows
+. . exported "QADRI1"."INV_PR1_DETAIL"                   164.0 KB    2804 rows
+. . exported "QADRI1"."INV_PR_DETAIL"                    355.8 KB    6777 rows
+. . exported "QADRI1"."INV_SC_OPENING"                   1.780 MB   44656 rows
+. . exported "QADRI1"."INV_TRANS_31052018"               2.064 MB   25182 rows
+. . exported "QADRI1"."ADM_COMPANY_SETUP"                19.60 KB       1 rows
+. . exported "QADRI1"."INV_BTN"                          342.7 KB    4972 rows
+. . exported "QADRI1"."INV_IGP"                          136.8 KB    1230 rows
+. . exported "QADRI1"."INV_IGP_EXPENSE"                  10.04 KB     129 rows
+. . exported "QADRI1"."INV_PR"                           279.9 KB    4961 rows
+. . exported "QADRI1"."INV_PR1"                          19.92 KB     219 rows
+. . exported "QADRI1"."INV_SC_OPENING_2122_BACKUP"       1.253 MB   31453 rows
+. . exported "QADRI1"."INV_TRANS_01082018B"              1.060 MB   12808 rows
+. . exported "QADRI1"."INV_TRANS_AZIZ"                   18.63 KB       3 rows
+. . exported "QADRI1"."INV_SC_OPENING_1920_BACKUP"       798.5 KB   19579 rows
+. . exported "QADRI1"."INV_TRANS_1718_BACKUP2"           768.8 KB    9022 rows
+. . exported "QADRI1"."INV_SC"                           469.2 KB    4457 rows
+. . exported "QADRI1"."INV_TRANS_1718_BACKUP"            514.6 KB    5972 rows
+. . exported "QADRI1"."AC_COA"                           396.6 KB    6294 rows
+. . exported "QADRI1"."INV_OPENING_21072018"             390.7 KB    9600 rows
+. . exported "QADRI1"."INV_SC_OPENING_1718_BACKUP2"      381.6 KB    9600 rows
+. . exported "QADRI1"."INV_SC_OPENING_1819_BACKUP"       393.8 KB    9682 rows
+. . exported "QADRI1"."INV_SC_OPENING_1718_BACKUP"       293.8 KB    7101 rows
+. . exported "QADRI1"."AC_CB"                            10.72 KB       6 rows
+. . exported "QADRI1"."INV_OPENING_QTY_1819"             193.3 KB    9897 rows
+. . exported "QADRI1"."INV_OPENING_QTY_1920"             230.7 KB   11874 rows
+. . exported "QADRI1"."INV_OPENING_QTY_2122"             255.3 KB   13203 rows
+. . exported "QADRI1"."INV_SC_RETAIL_RATE"               203.8 KB    7264 rows
+. . exported "QADRI1"."AC_COA_CLOSING_1718A"             169.1 KB    4126 rows
+. . exported "QADRI1"."AC_COA_CLOSING_1718B"             169.3 KB    4131 rows
+. . exported "QADRI1"."AC_COA_CLOSING_1718C"             169.3 KB    4131 rows
+. . exported "QADRI1"."INV_OPENING_QTY_1718"             148.6 KB    7539 rows
+. . exported "QADRI1"."INV_OPENING_QTY_1718D"            148.6 KB    7539 rows
+. . exported "QADRI1"."AC_VOUCHER_DETAIL_DELETED"        113.0 KB    1610 rows
+. . exported "QADRI1"."INV_L2"                           94.38 KB    4048 rows
+. . exported "QADRI1"."INV_OPENING_QTY_31052018"         138.2 KB    7098 rows
+. . exported "QADRI1"."INV_SC_22112017"                  148.9 KB    1430 rows
+. . exported "QADRI1"."INV_TRIAL_TEMP"                   100.6 KB    1595 rows
+. . exported "QADRI1"."AC_COA_OPENING"                   38.88 KB     736 rows
+. . exported "QADRI1"."ADM_ERROR_LOG"                    47.17 KB     579 rows
+. . exported "QADRI1"."INV_L3"                           65.53 KB    2134 rows
+. . exported "QADRI1"."INV_OPENING_QTY_1718A"            48.02 KB    2499 rows
+. . exported "QADRI1"."INV_OPENING_QTY_1718C"            48.02 KB    2499 rows
+. . exported "QADRI1"."INV_SC_25112017"                  47.86 KB     394 rows
+. . exported "QADRI1"."INV_SC_OPENING_31052018"          94.46 KB    2288 rows
+. . exported "QADRI1"."AC_BANK_ACCOUNT"                  10.12 KB       3 rows
+. . exported "QADRI1"."AC_CHEQUE_BOOK"                   7.742 KB       1 rows
+. . exported "QADRI1"."AC_CHEQUE_BOOK_DET"               9.187 KB     100 rows
+. . exported "QADRI1"."AC_COA_CLOSING_1819"              13.11 KB     162 rows
+. . exported "QADRI1"."AC_COA_CLOSING_1920"              14.44 KB     196 rows
+. . exported "QADRI1"."AC_COA_CLOSING_2122"              15.78 KB     231 rows
+. . exported "QADRI1"."AC_DAY_CLOSE"                     13.03 KB      96 rows
+. . exported "QADRI1"."AC_SETUP"                         5.453 KB      13 rows
+. . exported "QADRI1"."AC_VOUCHER_DELETED"               50.49 KB     277 rows
+. . exported "QADRI1"."AC_VOUCHER_TYPE"                  8.890 KB       3 rows
+. . exported "QADRI1"."AC_VOUCHER_TYPE_DETAIL"           8.601 KB       9 rows
+. . exported "QADRI1"."AC_YEAR"                          8.984 KB       5 rows
+. . exported "QADRI1"."ADM_CITY"                         7.046 KB      22 rows
+. . exported "QADRI1"."ADM_COUNTRY"                      6.460 KB       8 rows
+. . exported "QADRI1"."ADM_CURRENCY"                     8.539 KB       4 rows
+. . exported "QADRI1"."ADM_FIREWALL"                     6.796 KB      12 rows
+. . exported "QADRI1"."ADM_FRM_RPT_ACCESS"               6.398 KB       6 rows
+. . exported "QADRI1"."ADM_FRM_RPT_ACCESS_DET"           8.140 KB      23 rows
+. . exported "QADRI1"."ADM_MODULE"                       8.125 KB      23 rows
+. . exported "QADRI1"."ADM_USERS"                        7.453 KB       8 rows
+. . exported "QADRI1"."ADM_USER_MODULE"                  11.64 KB      84 rows
+. . exported "QADRI1"."HR_DEPARTMENT"                    12.42 KB      26 rows
+. . exported "QADRI1"."HR_DESIGNATION"                   12.63 KB      82 rows
+. . exported "QADRI1"."HR_SHIFT"                         6.960 KB       4 rows
+. . exported "QADRI1"."INV_EXPENSE_TYPE"                 5.414 KB      30 rows
+. . exported "QADRI1"."INV_L1"                           5.554 KB      50 rows
+. . exported "QADRI1"."INV_L4"                           5.953 KB       4 rows
+. . exported "QADRI1"."INV_L5"                           6.265 KB       2 rows
+. . exported "QADRI1"."INV_TRANS_01082018"               11.33 KB     106 rows
+. . exported "QADRI1"."INV_UOM"                          5.046 KB      15 rows
+. . exported "QADRI1"."INV_VEHICLE_TYPE"                 5.023 KB       7 rows
+. . exported "QADRI1"."AC_VD"                                0 KB       0 rows
+. . exported "QADRI1"."AC_YEAR_CLOSE"                        0 KB       0 rows
+. . exported "QADRI1"."HR_ALLOWANCE"                         0 KB       0 rows
+. . exported "QADRI1"."HR_ATTENDANCE"                        0 KB       0 rows
+. . exported "QADRI1"."HR_EMPLOYEE"                          0 KB       0 rows
+. . exported "QADRI1"."HR_EMPLOYEE_ACC"                      0 KB       0 rows
+. . exported "QADRI1"."HR_EMPLOYEE_DEPT_DESIG"               0 KB       0 rows
+. . exported "QADRI1"."HR_EMPLOYEE_JD"                       0 KB       0 rows
+. . exported "QADRI1"."HR_EMPLOYEE_LATE_POLICY"              0 KB       0 rows
+. . exported "QADRI1"."HR_EMPLOYEE_MV"                       0 KB       0 rows
+. . exported "QADRI1"."HR_EMPLOYEE_NOTE"                     0 KB       0 rows
+. . exported "QADRI1"."HR_EMPLOYEE_PHOTO"                    0 KB       0 rows
+. . exported "QADRI1"."HR_EMPLOYEE_SALARY"                   0 KB       0 rows
+. . exported "QADRI1"."HR_EMPLOYEE_SHIFT"                    0 KB       0 rows
+. . exported "QADRI1"."HR_EMP_DISEASE"                       0 KB       0 rows
+. . exported "QADRI1"."HR_EMP_EXP"                           0 KB       0 rows
+. . exported "QADRI1"."HR_EMP_FIN"                           0 KB       0 rows
+. . exported "QADRI1"."HR_EMP_FIN_DET"                       0 KB       0 rows
+. . exported "QADRI1"."HR_EMP_OP"                            0 KB       0 rows
+. . exported "QADRI1"."HR_EMP_QUALIFICATION"                 0 KB       0 rows
+. . exported "QADRI1"."HR_EMP_REF"                           0 KB       0 rows
+. . exported "QADRI1"."HR_GH"                                0 KB       0 rows
+. . exported "QADRI1"."HR_LATE"                              0 KB       0 rows
+. . exported "QADRI1"."HR_LEAVE_BALANCE"                     0 KB       0 rows
+. . exported "QADRI1"."HR_LOAN"                              0 KB       0 rows
+. . exported "QADRI1"."HR_MONTH"                             0 KB       0 rows
+. . exported "QADRI1"."HR_MONTHLY_ATTENDANCE"                0 KB       0 rows
+. . exported "QADRI1"."HR_REST"                              0 KB       0 rows
+. . exported "QADRI1"."HR_SALARY_ADVANCE"                    0 KB       0 rows
+. . exported "QADRI1"."HR_SALARY_DETAIL"                     0 KB       0 rows
+. . exported "QADRI1"."HR_SETUP"                             0 KB       0 rows
+. . exported "QADRI1"."INV_DELETED_TRANS"                    0 KB       0 rows
+. . exported "QADRI1"."INV_IR_MV_VIEW"                       0 KB       0 rows
+. . exported "QADRI1"."INV_SAN"                              0 KB       0 rows
+. . exported "QADRI1"."INV_SC_PHOTO"                         0 KB       0 rows
+. . exported "QADRI1"."INV_SC_TEMP"                          0 KB       0 rows
+. . exported "QADRI1"."INV_STORE"                            0 KB       0 rows
+. . exported "QADRI1"."INV_STORE_RACK"                       0 KB       0 rows
+. . exported "QADRI1"."INV_SUPPLIER_TYPE"                    0 KB       0 rows
+. . exported "QADRI1"."INV_TRANS_DELETED"                    0 KB       0 rows
+. . exported "QADRI1"."INV_TRANS_TEMP"                       0 KB       0 rows
+Master table "QADRI"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for QADRI.SYS_EXPORT_SCHEMA_01 is:
+  C:\ORACLE\PRODUCT\10.2.0\ADMIN\ORCL\DPDUMP\ORA27082021.DMP
+Job "QADRI"."SYS_EXPORT_SCHEMA_01" successfully completed at 21:23:17

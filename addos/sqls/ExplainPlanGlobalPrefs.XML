@@ -1,0 +1,24 @@
+<epuser mode="TR" fontname="ms shell dlg 2" fontsize="8" fontstyle="" color="8388608" maincolwidth="0" maincolpos="0">
+  <column id="10" fontsize="0" fontstyle="B"/>
+  <column id="20" fontsize="0" fontstyle="B"/>
+  <column id="21" fontsize="0" fontstyle="B"/>
+  <column id="23" fontsize="0"/>
+  <column id="25" fontsize="0"/>
+  <column id="30" fontsize="0"/>
+  <column id="35" fontsize="0" color="33023"/>
+  <column id="40" fontsize="0" color="0"/>
+  <column id="50" fontsize="0" color="0"/>
+  <column id="90" fontsize="0" color="128"/>
+  <column id="100" fontsize="0" color="128"/>
+  <column id="110" fontsize="0" color="128"/>
+  <column id="120" fontsize="0" color="0"/>
+  <column id="130" fontsize="0" color="0"/>
+  <column id="180" fontsize="0" color="32768"/>
+  <column id="190" fontsize="0" color="0"/>
+  <column id="197" fontsize="0" color="0"/>
+  <column id="199" fontsize="0" color="0"/>
+  <column id="220" fontsize="0" color="0"/>
+  <column id="270" fontsize="0" color="0"/>
+  <column id="280" fontsize="0" color="0"/>
+  <column id="290" fontsize="0" color="0"/>
+</epuser>

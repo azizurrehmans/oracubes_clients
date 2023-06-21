@@ -1,0 +1,35 @@
+[12/18/13 01:23:36 Pakistan Standard Time]::Client Status [ConnId=0, PID=6136]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  5DF15971 01:00024971
+Module: C:\orant\BIN\ifr60.dll
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7601 Service Pack 1
+Command line: "C:\orant\BIN\ifrun60.EXE" m:\forms\user_checking5 askari4/one
+FORM/BLOCK/FIELD: REPORTS_LEDGER_14:BLOCK2.FROM_DATE
+Last Trigger: ON-ERROR - (Successfully Completed)
+Msg: <NULL>
+Last Builtin: DBMS_ERROR_CODE - (Successfully Completed)
+
+Registers:
+EAX:00000005
+EBX:FFFFFFC9
+ECX:00000001
+EDX:00000000
+ESI:00A7B348
+EDI:061AB146
+CS:EIP:001B:5DF15971
+SS:ESP:0023:0012DF5C  EBP:061AB0CC
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010206
+
+
+Call stack:
+Address   Frame
+5DF15971  0012DF78  exiterr
+5DEF792F  0012DFC0  ifzcal
+67248912  0012DFDC  uiwzpp
+

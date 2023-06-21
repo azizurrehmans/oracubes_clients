@@ -1,0 +1,65 @@
+create table student (
+  STUDENT_ID        NUMBER(6),
+  FIRST_NAME        VARCHAR2(20 BYTE)           NOT NULL,
+  GENDER            VARCHAR2(6 BYTE)            NOT NULL,
+  DATE_OF_BIRTH     DATE                        NOT NULL,
+  FATHER_NAME       VARCHAR2(50 BYTE)           NOT NULL,
+  ADDRESS           VARCHAR2(500 BYTE),
+  INQUIRY_ID        NUMBER(6),
+  FAMILY_CODE       NUMBER(6),
+  ADDMISSION_NO     VARCHAR2(5 BYTE)            NOT NULL,
+  CLASS             NUMBER(2),
+  SECTION           VARCHAR2(8 BYTE),
+  CITY_ID           VARCHAR2(50 BYTE),
+  CNIC              VARCHAR2(16 BYTE),
+  FATHER_CNIC       VARCHAR2(16 BYTE),
+  SURNAME           VARCHAR2(20 BYTE),
+  AGE_AT_ADMISSION  VARCHAR2(20 BYTE),
+  BIRTH_PLACE       VARCHAR2(30 BYTE),
+  RELIGION          VARCHAR2(20 BYTE),
+  CLASS_ADMITTED    VARCHAR2(10 BYTE),
+  PRE_SCHOOL_NAME   VARCHAR2(50 BYTE),
+  FATHER_OCCUP      VARCHAR2(50 BYTE),
+  MOTHER_NAME       VARCHAR2(30 BYTE),
+  MOTHER_OCCUP      VARCHAR2(50 BYTE),
+  GUARDIAN_NAME     VARCHAR2(50 BYTE),
+  GUARD_RELATION    VARCHAR2(30 BYTE),
+  SIBLINGS          VARCHAR2(200 BYTE),
+  REMARKS           VARCHAR2(100 BYTE),
+  FATHER_OFF_TEL    VARCHAR2(20 BYTE),
+  MOTHER_OFF_TEL    VARCHAR2(20 BYTE),
+  RESI_TEL          VARCHAR2(20 BYTE),
+  EMERGENCY_TEL     VARCHAR2(20 BYTE),
+  MOBILE            VARCHAR2(20 BYTE),
+  GUARDIAN_TEL      VARCHAR2(20 BYTE),
+  REGISTER_DATE     DATE,
+  ADMISSION_DATE    DATE,
+  REGISTER_NO       VARCHAR2(20 BYTE),
+  FDATETIME         DATE                        DEFAULT sysdate,
+  USER_ID           VARCHAR2(50 BYTE),
+  STATUS_ID         VARCHAR2(50 BYTE)           DEFAULT 'HOLD',
+  DISCOUNT_AMOUNT   NUMBER(6),
+  DISCOUNT_PER      VARCHAR2(3 BYTE),
+  OLD_STUDENT_ID    NUMBER(7),
+			constraint student_city_fk 	foreign key (city_id) references city(city_id),
+			constraint student_user_fk 	foreign key (user_id) references users(user_id),
+			constraint student_inquiry_fk 	foreign key (inquiry_id) references inquiry(inquiry_id),
+			constraint student_pk primary key (student_id));
+
+
+alter table student add ();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

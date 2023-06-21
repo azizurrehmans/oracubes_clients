@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<SBDataFilterHistory>
+  <ASKARI1>
+    <SAL_CONT_DETAIL>
+      <Name>Most Recently Used (Unnamed)<Where>SAL_CONT_ID = TO_DATE(&apos;05/04/2013 00:00:00&apos;, &apos;MM/DD/YYYY HH24:MI:SS&apos;)
+ AND EMPLOYEE_ID IN (1017,1038,1037)</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </SAL_CONT_DETAIL>
+    <PO>
+      <Name>Most Recently Used (Unnamed)<Where>PREQ_ID IS NOT NULL</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </PO>
+    <PO_VIEW>
+      <Name>Most Recently Used (Unnamed)<Where>PREQ_ID IS NOT NULL</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </PO_VIEW>
+    <PO_DETAIL>
+      <Name>Most Recently Used (Unnamed)<Where>to_number(PO_ID) &gt;= 746</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </PO_DETAIL>
+    <PO_BALANCE_VIEW2>
+      <Name>Most Recently Used (Unnamed)<Where>PO_ID = &apos;434&apos;</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </PO_BALANCE_VIEW2>
+    <SALARY_DETAIL>
+      <Name>Most Recently Used (Unnamed)<Where>EMPLOYEE_ID = 86</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </SALARY_DETAIL>
+  </ASKARI1>
+</SBDataFilterHistory>

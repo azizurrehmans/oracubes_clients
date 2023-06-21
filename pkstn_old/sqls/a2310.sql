@@ -1,0 +1,1 @@
+alter table hr_employee add(english_name varchar2(50));

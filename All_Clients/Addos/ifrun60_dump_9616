@@ -1,0 +1,44 @@
+[03/25/23 17:41:43 Pakistan Standard Time]::Client Status [ConnId=0, PID=9616]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  00B13370 01:000A2370
+Module: c:\orant\BIN\PLS805.dll
+
+System Information:
+Operating System: Windows NT Version 6.2 Build 9200 
+Command line: c:\orant\BIN\ifrun60.EXE  m:\control\forms\login_server 
+FORM/BLOCK/FIELD: PACKING_DASHBOARD:PACKING_VIEW.EDIT
+Last Trigger: WHEN-BUTTON-PRESSED - (In Progress)
+Msg: <NULL>
+Last Builtin: CREATE_PARAMETER_LIST - (Successfully Completed)
+
+Registers:
+EAX:00000000
+EBX:03E29F54
+ECX:00000000
+EDX:0736F70C
+ESI:0019D4EC
+EDI:03D66D90
+CS:EIP:0023:00B13370
+SS:ESP:002B:0019C7DC  EBP:0019C7FC
+DS:002B  ES:002B  FS:0053  GS:002B
+Flags:00010246
+
+
+Call stack:
+Address   Frame
+00B13370  0019C7FC  0001:000A2370 c:\orant\BIN\PLS805.dll
+00AD82B9  0019D8FC  0001:000672B9 c:\orant\BIN\PLS805.dll
+00A8452A  0019D964  0001:0001352A c:\orant\BIN\PLS805.dll
+67E26797  0019DA04  depxcrun
+675CB525  0019DA84  kohinu
+675CD477  0019DAA0  kohalc
+675CD308  0019DB2C  kohalc
+00AFF380  0019DB4C  0001:0008E380 c:\orant\BIN\PLS805.dll
+00A86ED8  0019DBD4  0001:00015ED8 c:\orant\BIN\PLS805.dll
+5D12F57C  0019DC44  ipdemf
+67E13A39  0019DC58  deppudsfree
+67E27841  0019DCFC  depxcnamespaceactive
+

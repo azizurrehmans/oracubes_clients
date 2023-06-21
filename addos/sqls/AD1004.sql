@@ -1,0 +1,1 @@
+update exp_cpo_detail set prod_status='OPEN' WHERE PROD_STATUS IS NULL;

@@ -1,0 +1,1435 @@
+
+Connected to: Oracle Database 10g Enterprise Edition Release 10.2.0.1.0 - Production
+With the Partitioning, OLAP and Data Mining options
+
+Export file created by EXPORT:V10.02.01 via conventional path
+
+Warning: the objects were exported by SYSTEM, not by you
+
+import done in WE8MSWIN1252 character set and AL16UTF16 NCHAR character set
+import server uses UTF8 character set (possible charset conversion)
+. importing CJMA's objects into CJMA
+. . importing table         "ACCOUNTS_MONTH_CLOSE"
+                                                           40 rows imported
+. . importing table                     "AC_SETUP"
+                                                            1 rows imported
+. . importing table            "ADMISSION_CHALLAN"
+                                                            0 rows imported
+. . importing table                 "ADVANCE_20TH"
+                                                            0 rows imported
+. . importing table             "ADVANCE_20TH_DET"
+                                                            0 rows imported
+. . importing table                    "ALLOWANCE"
+                                                           28 rows imported
+. . importing table              "APP_MAIN_MODULE"
+                                                            0 rows imported
+. . importing table                   "APP_MODULE"
+                                                            0 rows imported
+. . importing table               "APP_MODULE_LOV"
+                                                            0 rows imported
+. . importing table             "APP_MODULE_RIGHT"
+                                                            0 rows imported
+. . importing table             "APP_MODULE_TABLE"
+                                                            0 rows imported
+. . importing table       "APP_MODULE_TABLE_OTHER"
+                                                            0 rows imported
+. . importing table                   "APP_REPORT"
+                                                            0 rows imported
+. . importing table             "APP_REPORT_RIGHT"
+                                                            0 rows imported
+. . importing table             "APP_REVOKE_RIGHT"
+                                                            0 rows imported
+. . importing table                     "APP_USER"
+                                                            0 rows imported
+. . importing table                         "AREA"
+                                                            0 rows imported
+. . importing table              "ARTICLE_HISTORY"
+                                                            0 rows imported
+. . importing table                   "ATTENDANCE"
+                                                            0 rows imported
+. . importing table            "ATTENDANCE_DETAIL"
+                                                            0 rows imported
+. . importing table              "ATTENDANCE_TEMP"
+                                                            0 rows imported
+. . importing table                 "ATTEN_ERRORS"
+                                                            0 rows imported
+. . importing table                    "BAD_TRIAL"
+                                                            0 rows imported
+. . importing table                         "BANK"
+                                                            0 rows imported
+. . importing table                 "BANK_ACCOUNT"
+                                                            2 rows imported
+. . importing table           "BARCODE_ATTENDANCE"
+                                                            0 rows imported
+. . importing table                         "BILL"
+                                                            0 rows imported
+. . importing table                  "BILL_DETAIL"
+                                                            0 rows imported
+. . importing table                    "BILL_TYPE"
+                                                            0 rows imported
+. . importing table                       "BRANCH"
+                                                            5 rows imported
+. . importing table              "BRANCH_AC_SETUP"
+                                                            0 rows imported
+. . importing table                 "BRANCH_CLASS"
+                                                           11 rows imported
+. . importing table             "BRANCH_CLASS_SEC"
+                                                           46 rows imported
+. . importing table                          "BTN"
+                                                            0 rows imported
+. . importing table                           "CB"
+                                                          158 rows imported
+. . importing table            "CHANGE_MANAGEMENT"
+                                                            0 rows imported
+. . importing table                  "CHEQUE_BOOK"
+                                                            0 rows imported
+. . importing table              "CHEQUE_BOOK_DET"
+                                                            0 rows imported
+. . importing table                         "CITY"
+                                                            7 rows imported
+. . importing table                        "CLASS"
+                                                           11 rows imported
+. . importing table             "CLOSING_QTY_TEMP"
+                                                            0 rows imported
+. . importing table                          "COA"
+                                                          179 rows imported
+. . importing table                 "COA_20121129"
+                                                            0 rows imported
+. . importing table               "COA_CLOSING_16"
+                                                          176 rows imported
+. . importing table                     "COA_MAIN"
+                                                            5 rows imported
+. . importing table                 "COA_MAIN_NEW"
+                                                            0 rows imported
+. . importing table                      "COA_NEW"
+                                                            0 rows imported
+. . importing table                 "COA_OPENING_"
+                                                          236 rows imported
+. . importing table         "COA_OPENING_20130708"
+                                                            0 rows imported
+. . importing table                      "COA_SUB"
+                                                           64 rows imported
+. . importing table                  "COA_SUB_NEW"
+                                                            0 rows imported
+. . importing table                        "COLOR"
+                                                            0 rows imported
+. . importing table                "COMPANY_SETUP"
+                                                            1 rows imported
+. . importing table                    "COUNTRIES"
+                                                            0 rows imported
+. . importing table                      "COUNTRY"
+                                                            4 rows imported
+. . importing table                          "CPO"
+                                                            0 rows imported
+. . importing table                 "CPO_17092012"
+                                                            0 rows imported
+. . importing table                   "CPO_DETAIL"
+                                                            0 rows imported
+. . importing table          "CPO_DETAIL_17092012"
+                                                            0 rows imported
+. . importing table           "CPO_DETAIL_HISTORY"
+                                                            0 rows imported
+. . importing table              "CPO_DETAIL_TEMP"
+                                                            0 rows imported
+. . importing table                 "CPO_MATERIAL"
+                                                            0 rows imported
+. . importing table                     "CPO_TYPE"
+                                                            0 rows imported
+. . importing table            "CREDITOR_BALANCES"
+                                                            0 rows imported
+. . importing table                     "CURRENCY"
+                                                            0 rows imported
+. . importing table                     "CUSTOMER"
+                                                            0 rows imported
+. . importing table                "CUSTOMER_CODE"
+                                                            0 rows imported
+. . importing table        "CUSTOMER_RATE_HISTORY"
+                                                            0 rows imported
+. . importing table                       "CUTTER"
+                                                            0 rows imported
+. . importing table                "CUTTER_DETAIL"
+                                                            0 rows imported
+. . importing table                  "CUTTER_TYPE"
+                                                            0 rows imported
+. . importing table                "DELETED_TRANS"
+                                                            0 rows imported
+. . importing table               "DEMO_CUSTOMERS"
+                                                            0 rows imported
+. . importing table                  "DEMO_ORDERS"
+                                                            0 rows imported
+. . importing table             "DEMO_ORDER_ITEMS"
+                                                            0 rows imported
+. . importing table          "DEMO_PAGE_HIERARCHY"
+                                                            0 rows imported
+. . importing table                  "DEMO_STATES"
+                                                            0 rows imported
+. . importing table                   "DEMO_USERS"
+                                                            0 rows imported
+. . importing table                   "DEPARTMENT"
+                                                           36 rows imported
+. . importing table                  "DEPARTMENTS"
+                                                            0 rows imported
+IMP-00017: following statement failed with ORACLE error 1917:
+ "GRANT SELECT ON "DEPARTMENTS" TO "OE""
+IMP-00003: ORACLE error 1917 encountered
+ORA-01917: user or role 'OE' does not exist
+. . importing table                         "DEPT"
+                                                            0 rows imported
+. . importing table                  "DESIGNATION"
+                                                          182 rows imported
+. . importing table              "DISCOUNT_DETAIL"
+                                                            0 rows imported
+. . importing table                        "EFROM"
+                                                            0 rows imported
+. . importing table                          "EMP"
+                                                            0 rows imported
+. . importing table                     "EMPLOYEE"
+                                                          173 rows imported
+. . importing table                    "EMPLOYEES"
+                                                            0 rows imported
+IMP-00017: following statement failed with ORACLE error 1917:
+ "GRANT SELECT ON "EMPLOYEES" TO "OE""
+IMP-00003: ORACLE error 1917 encountered
+ORA-01917: user or role 'OE' does not exist
+IMP-00017: following statement failed with ORACLE error 1917:
+ "GRANT REFERENCES ON "EMPLOYEES" TO "OE""
+IMP-00003: ORACLE error 1917 encountered
+ORA-01917: user or role 'OE' does not exist
+. . importing table                 "EMPLOYEE_ACC"
+                                                            0 rows imported
+. . importing table "EMPLOYEE_BRANCH_CLASS_SECTION"
+                                                          171 rows imported
+. . importing table          "EMPLOYEE_DEPT_DESIG"
+                                                          172 rows imported
+. . importing table           "EMPLOYEE_FINANCIAL"
+                                                            0 rows imported
+. . importing table                  "EMPLOYEE_JD"
+                                                            0 rows imported
+. . importing table         "EMPLOYEE_LATE_POLICY"
+                                                            0 rows imported
+. . importing table                  "EMPLOYEE_MV"
+                                                            0 rows imported
+. . importing table                "EMPLOYEE_NOTE"
+                                                            0 rows imported
+. . importing table            "EMPLOYEE_OFFICIAL"
+                                                            0 rows imported
+. . importing table            "EMPLOYEE_OLD_DATA"
+                                                            0 rows imported
+. . importing table               "EMPLOYEE_PHOTO"
+                                                           59 rows imported
+. . importing table               "EMPLOYEE_SHIFT"
+                                                            0 rows imported
+. . importing table             "EMPLOYE_29102005"
+                                                            0 rows imported
+. . importing table                  "EMP_DISEASE"
+                                                            4 rows imported
+. . importing table                      "EMP_EXP"
+                                                           91 rows imported
+. . importing table                      "EMP_FIN"
+                                                          761 rows imported
+. . importing table                  "EMP_FIN_DET"
+..................
+                                                        18077 rows imported
+. . importing table         "EMP_FIN_DET_04102016"
+.........
+                                                         9296 rows imported
+. . importing table         "EMP_FIN_DET_08112016"
+.........
+                                                         9415 rows imported
+. . importing table                       "EMP_OP"
+                                                            0 rows imported
+. . importing table            "EMP_QUALIFICATION"
+                                                          304 rows imported
+. . importing table                      "EMP_REF"
+                                                            0 rows imported
+. . importing table                  "EXPORT_RATE"
+                                                            0 rows imported
+. . importing table                 "EXPORT_SETUP"
+                                                            0 rows imported
+. . importing table                     "FEE_HEAD"
+                                                           10 rows imported
+. . importing table                   "FEE_MONTHS"
+                                                            4 rows imported
+. . importing table                  "FEE_SESSION"
+                                                           12 rows imported
+. . importing table                "FEE_STRUCTURE"
+                                                            1 rows imported
+. . importing table      "FEE_STRUCTURE_CLASS_DET"
+                                                           98 rows imported
+. . importing table            "FEE_STRUCTURE_DET"
+                                                           11 rows imported
+. . importing table                         "FGRR"
+                                                            0 rows imported
+. . importing table             "FINAL_SETTLEMENT"
+                                                            0 rows imported
+. . importing table                       "FINISH"
+                                                            0 rows imported
+. . importing table                 "FINISH_PHOTO"
+                                                            0 rows imported
+. . importing table                     "FIREWALL"
+                                                            1 rows imported
+. . importing table                      "FORGING"
+                                                            0 rows imported
+. . importing table               "FORGING_DETAIL"
+                                                            0 rows imported
+. . importing table           "FORGING_DETAIL_NEW"
+                                                            0 rows imported
+. . importing table                  "FORGING_NEW"
+                                                            0 rows imported
+. . importing table                          "FRR"
+                                                            0 rows imported
+. . importing table                   "FRR_DETAIL"
+                                                            0 rows imported
+. . importing table               "FRR_DETAIL_OLD"
+                                                            0 rows imported
+. . importing table                           "FX"
+                                                            0 rows imported
+. . importing table                       "FX_DET"
+                                                            0 rows imported
+. . importing table                      "F_CYCLE"
+                                                            2 rows imported
+. . importing table                           "GH"
+                                                            0 rows imported
+. . importing table                          "GIR"
+                                                            0 rows imported
+. . importing table                     "GIR_2005"
+                                                            0 rows imported
+. . importing table                      "GIR_DET"
+                                                            0 rows imported
+. . importing table                   "GIR_DETAIL"
+                                                            0 rows imported
+. . importing table               "GIR_ZERO_VALUE"
+                                                            0 rows imported
+. . importing table              "GROUP_INSURANCE"
+                                                            0 rows imported
+. . importing table                      "HR_LATE"
+                                                            0 rows imported
+. . importing table                     "HR_SETUP"
+                                                            0 rows imported
+. . importing table                     "HR_SHIFT"
+                                                            0 rows imported
+. . importing table                          "IGP"
+                                                            0 rows imported
+. . importing table                      "IGP_DET"
+                                                            0 rows imported
+. . importing table                   "IGP_DETAIL"
+                                                            0 rows imported
+. . importing table          "IGP_DETAIL_17032008"
+                                                            0 rows imported
+. . importing table                      "INQUIRY"
+                                                            0 rows imported
+. . importing table                      "INVOICE"
+                                                            0 rows imported
+. . importing table               "INVOICE_DETAIL"
+                                                            0 rows imported
+. . importing table                           "IR"
+                                                            0 rows imported
+. . importing table                  "IR_28072007"
+                                                            0 rows imported
+. . importing table                    "IR_DETAIL"
+                                                            0 rows imported
+. . importing table           "IR_DETAIL_28072007"
+                                                            0 rows imported
+. . importing table                 "IR_DETAIL_JC"
+                                                            0 rows imported
+. . importing table               "IR_DETAIL_TEMP"
+                                                            0 rows imported
+. . importing table                    "ITEM_SIZE"
+                                                            0 rows imported
+. . importing table                           "JC"
+                                                            0 rows imported
+. . importing table                          "JCD"
+                                                            0 rows imported
+. . importing table                 "JC_MAT_SETUP"
+                                                            0 rows imported
+. . importing table             "JC_MAT_SETUP_DET"
+                                                            0 rows imported
+. . importing table                         "JOBS"
+                                                            0 rows imported
+IMP-00017: following statement failed with ORACLE error 1917:
+ "GRANT SELECT ON "JOBS" TO "OE""
+IMP-00003: ORACLE error 1917 encountered
+ORA-01917: user or role 'OE' does not exist
+. . importing table                  "JOB_HISTORY"
+                                                            0 rows imported
+IMP-00017: following statement failed with ORACLE error 1917:
+ "GRANT SELECT ON "JOB_HISTORY" TO "OE""
+IMP-00003: ORACLE error 1917 encountered
+ORA-01917: user or role 'OE' does not exist
+. . importing table                        "LEAVE"
+                                                            0 rows imported
+. . importing table                    "LEAVE_APP"
+                                                            0 rows imported
+. . importing table                "LEAVE_BALANCE"
+                                                            0 rows imported
+. . importing table                "LEAVE_HISTORY"
+                                                            0 rows imported
+. . importing table                   "LEAVE_TYPE"
+                                                            0 rows imported
+. . importing table                  "LEDGER_TEMP"
+                                                            0 rows imported
+. . importing table                         "LOAN"
+                                                            0 rows imported
+. . importing table                     "LOAN_APP"
+                                                            0 rows imported
+. . importing table                 "LOAN_APP_DET"
+                                                            0 rows imported
+. . importing table               "LOAN_DEDUCTION"
+                                                            0 rows imported
+. . importing table                  "LOAN_LEDGER"
+                                                            0 rows imported
+. . importing table                    "LOCATIONS"
+                                                            0 rows imported
+IMP-00017: following statement failed with ORACLE error 1917:
+ "GRANT SELECT ON "LOCATIONS" TO "OE""
+IMP-00003: ORACLE error 1917 encountered
+ORA-01917: user or role 'OE' does not exist
+IMP-00017: following statement failed with ORACLE error 1917:
+ "GRANT REFERENCES ON "LOCATIONS" TO "OE""
+IMP-00003: ORACLE error 1917 encountered
+ORA-01917: user or role 'OE' does not exist
+. . importing table                          "LOV"
+                                                            0 rows imported
+. . importing table           "MAIN_SCREEN_ALERTS"
+                                                            0 rows imported
+. . importing table                      "MANSOOR"
+                                                            0 rows imported
+. . importing table                     "MESSAGES"
+                                                            0 rows imported
+. . importing table                      "MESSGES"
+                                                            0 rows imported
+. . importing table                         "MGIR"
+                                                            0 rows imported
+. . importing table                  "MGIR_DETAIL"
+                                                            0 rows imported
+. . importing table                    "MLOG$_COA"
+                                                            0 rows imported
+. . importing table             "MLOG$_CPO_DETAIL"
+                                                            0 rows imported
+. . importing table                  "MLOG$_TRANS"
+                                                            0 rows imported
+. . importing table                       "MODULE"
+                                                            7 rows imported
+. . importing table                        "MONTH"
+                                                            0 rows imported
+. . importing table           "MONTHLY_ATTENDANCE"
+                                                            9 rows imported
+. . importing table           "MONTHLY_CHALLAN_NO"
+.
+                                                         1960 rows imported
+. . importing table                   "MONTHLY_OT"
+                                                            0 rows imported
+. . importing table                  "MONTH_CLOSE"
+                                                            0 rows imported
+. . importing table                           "MP"
+                                                            0 rows imported
+. . importing table                          "MPD"
+                                                            0 rows imported
+. . importing table                 "MPD_01032013"
+                                                            0 rows imported
+. . importing table                          "MPR"
+                                                            0 rows imported
+. . importing table                  "MP_01032013"
+                                                            0 rows imported
+. . importing table                        "MP_OP"
+                                                            0 rows imported
+. . importing table               "MP_OP_01032013"
+                                                            0 rows imported
+. . importing table                    "MP_OP_EMP"
+                                                            0 rows imported
+. . importing table                     "MP_PHOTO"
+                                                            0 rows imported
+. . importing table                   "MP_REMARKS"
+                                                            0 rows imported
+. . importing table          "MP_REMARKS_01032013"
+                                                            0 rows imported
+. . importing table                     "NEXTCHAR"
+                                                            0 rows imported
+. . importing table                   "OCCUPATION"
+                                                          236 rows imported
+. . importing table                          "OCR"
+                                                            0 rows imported
+. . importing table                   "OCR_DETAIL"
+                                                            0 rows imported
+. . importing table                          "OGP"
+                                                            0 rows imported
+. . importing table                   "OGP_DETAIL"
+                                                            0 rows imported
+. . importing table                    "OPERATION"
+                                                            0 rows imported
+. . importing table                     "OPERATOR"
+                                                            0 rows imported
+. . importing table           "OPERATOR_AUTHORITY"
+                                                            0 rows imported
+. . importing table                           "OT"
+                                                            0 rows imported
+. . importing table                      "PACKING"
+                                                            0 rows imported
+. . importing table               "PACKING_DETAIL"
+                                                            0 rows imported
+. . importing table            "PACKING_DETAIL_MV"
+                                                            0 rows imported
+. . importing table          "PACKING_DETAIL_TEMP"
+                                                            0 rows imported
+. . importing table             "PACKING_RAW_DATA"
+                                                            0 rows imported
+. . importing table                "PENDING_ORDER"
+                                                            0 rows imported
+. . importing table               "PENDNING_ORDER"
+                                                            0 rows imported
+. . importing table                           "PI"
+                                                            0 rows imported
+. . importing table                    "PI_DETAIL"
+                                                            0 rows imported
+. . importing table                           "PO"
+                                                            0 rows imported
+. . importing table                     "POSITION"
+                                                            0 rows imported
+. . importing table                   "PO_DELETED"
+                                                            0 rows imported
+. . importing table                    "PO_DETAIL"
+                                                            0 rows imported
+. . importing table            "PO_DETAIL_DELETED"
+                                                            0 rows imported
+. . importing table                   "PO_HISTORY"
+                                                            0 rows imported
+. . importing table                      "PO_TYPE"
+                                                            0 rows imported
+. . importing table                           "PR"
+                                                            0 rows imported
+. . importing table                         "PREQ"
+                                                            0 rows imported
+. . importing table                     "PREQ_DET"
+                                                            0 rows imported
+. . importing table                    "PR_DETAIL"
+                                                            0 rows imported
+. . importing table                "QUALIFICATION"
+                                                           20 rows imported
+. . importing table                       "REASON"
+                                                            0 rows imported
+. . importing table                      "REGIONS"
+                                                            0 rows imported
+. . importing table                     "RELATION"
+                                                            4 rows imported
+. . importing table                     "RELIGION"
+                                                            5 rows imported
+. . importing table                "REP_DUPLICATE"
+                                                            2 rows imported
+. . importing table                    "REP_PARAM"
+                                                            0 rows imported
+. . importing table                        "RSIZE"
+                                                            0 rows imported
+. . importing table                       "SALARY"
+                                                           28 rows imported
+. . importing table               "SALARY_ADVANCE"
+                                                            0 rows imported
+. . importing table      "SALARY_ADVANCE_EMPLOYEE"
+                                                            0 rows imported
+. . importing table                "SALARY_DETAIL"
+...
+                                                         3744 rows imported
+. . importing table            "SALARY_DETAIL_EMP"
+...........................................................................
+............
+                                                        87589 rows imported
+. . importing table                 "SALARY_GROUP"
+                                                            0 rows imported
+. . importing table                    "SALARY_JV"
+                                                            0 rows imported
+. . importing table             "SALARY_JV_DETAIL"
+                                                            0 rows imported
+. . importing table                 "SALARY_MONTH"
+                                                            0 rows imported
+. . importing table            "SALARY_OTHER_INFO"
+                                                            0 rows imported
+. . importing table                  "SALARY_TEMP"
+                                                          126 rows imported
+. . importing table                 "SAL_ADV_CONT"
+                                                            0 rows imported
+. . importing table                     "SAL_CONT"
+                                                            0 rows imported
+. . importing table              "SAL_CONT_DETAIL"
+                                                            0 rows imported
+. . importing table           "SAL_CONT_MO_DETAIL"
+                                                            0 rows imported
+. . importing table               "SAMPLE_ISU_REC"
+                                                            0 rows imported
+. . importing table                          "SAN"
+                                                            0 rows imported
+. . importing table                           "SC"
+                                                            0 rows imported
+. . importing table                        "SCREW"
+                                                            0 rows imported
+. . importing table                       "SC_CAT"
+                                                            0 rows imported
+. . importing table                    "SC_FINISH"
+                                                            0 rows imported
+. . importing table                  "SC_LOCATION"
+                                                            0 rows imported
+. . importing table            "SC_LOCATION_PHOTO"
+                                                            0 rows imported
+. . importing table                      "SC_MAIN"
+                                                            0 rows imported
+. . importing table                "SC_MAIN_PHOTO"
+                                                            0 rows imported
+. . importing table                   "SC_OPENING"
+                                                            0 rows imported
+. . importing table          "SC_OPENING_01082009"
+                                                            0 rows imported
+. . importing table          "SC_OPENING_05032009"
+                                                            0 rows imported
+. . importing table          "SC_OPENING_25082007"
+                                                            0 rows imported
+. . importing table          "SC_OPENING_27092009"
+                                                            0 rows imported
+. . importing table                   "SC_OP_RATE"
+                                                            0 rows imported
+. . importing table          "SC_OP_RATE_04022008"
+                                                            0 rows imported
+. . importing table                       "SC_REQ"
+                                                            0 rows imported
+. . importing table                "SC_STAGE_WISE"
+                                                            0 rows imported
+. . importing table                       "SC_SUB"
+                                                            0 rows imported
+. . importing table            "SHIPMENT_CALANDER"
+                                                            0 rows imported
+. . importing table                       "STATUS"
+                                                            0 rows imported
+. . importing table                  "STORE_TRIAL"
+                                                            0 rows imported
+. . importing table       "STORE_TRIAL_VS_SHIPPED"
+                                                            0 rows imported
+. . importing table                      "STUDENT"
+                                                            0 rows imported
+. . importing table                  "STUDENT_FEE"
+                                                            0 rows imported
+. . importing table              "STUDENT_FEE_DET"
+                                                            0 rows imported
+. . importing table           "STUDENT_FEE_STATUS"
+                                                            0 rows imported
+. . importing table     "STUDENT_FINAL_SETTLEMENT"
+                                                            0 rows imported
+. . importing table              "STUDENT_HISTORY"
+                                                            0 rows imported
+. . importing table                  "STUDENT_LOG"
+                                                            0 rows imported
+. . importing table                "STUDENT_PHOTO"
+                                                            0 rows imported
+. . importing table             "STUDENT_TRANSFER"
+                                                            0 rows imported
+. . importing table                 "STU_HIST_DET"
+                                                            0 rows imported
+. . importing table                 "SUB_CUSTOMER"
+                                                            0 rows imported
+. . importing table                  "SUB_SECTION"
+                                                            0 rows imported
+. . importing table           "SUNDAY_WORKING_DAY"
+                                                            0 rows imported
+. . importing table                     "SUPPLIER"
+                                                            0 rows imported
+. . importing table              "SURGICAL_STOCKS"
+                                                            0 rows imported
+. . importing table                         "TASK"
+                                                            0 rows imported
+. . importing table                      "TASK_CC"
+                                                            0 rows imported
+. . importing table                    "TASK_USER"
+                                                            0 rows imported
+. . importing table                         "TEMP"
+                                                            0 rows imported
+. . importing table                 "THINGS_TO_DO"
+                                                            0 rows imported
+. . importing table          "THINGS_TO_DO_DETAIL"
+                                                            0 rows imported
+. . importing table                          "TIF"
+                                                            0 rows imported
+. . importing table                 "TIF_17032009"
+                                                            0 rows imported
+. . importing table                   "TIF_DETAIL"
+                                                            0 rows imported
+. . importing table                        "TRANS"
+                                                            0 rows imported
+. . importing table "TRANS_280808_SURJ_BF_01072006"
+                                                            0 rows imported
+. . importing table    "TRANS_AVG_COSING_13092008"
+                                                            0 rows imported
+. . importing table                   "TRANS_AZIZ"
+                                                            0 rows imported
+. . importing table                "TRANS_DELETED"
+                                                            0 rows imported
+. . importing table                     "TRANS_MV"
+                                                            0 rows imported
+. . importing table                   "TRANS_TEMP"
+                                                            0 rows imported
+. . importing table               "TRANS_TEMP_NEW"
+                                                            0 rows imported
+. . importing table                    "TRIAL_COA"
+                                                           21 rows imported
+. . importing table                   "TRIAL_TEMP"
+                                                            0 rows imported
+. . importing table                     "TRX_TEST"
+                                                            0 rows imported
+. . importing table         "UNCLOSED_QTY_HISTORY"
+                                                            0 rows imported
+. . importing table                         "UNIT"
+                                                            0 rows imported
+. . importing table                  "UNVALUED_SC"
+                                                            0 rows imported
+. . importing table                        "USERS"
+                                                            5 rows imported
+. . importing table                  "USER_MODULE"
+                                                           22 rows imported
+. . importing table             "VALUATION_ERRORS"
+                                                            0 rows imported
+. . importing table                      "VOUCHER"
+......
+                                                         6897 rows imported
+. . importing table              "VOUCHER_DELETED"
+                                                          445 rows imported
+. . importing table           "VOUCHER_DETAIL_NEW"
+.............
+                                                        13934 rows imported
+. . importing table   "VOUCHER_DETAIL_NEW_DELETED"
+                                                          827 rows imported
+. . importing table                 "VOUCHER_TYPE"
+                                                            3 rows imported
+. . importing table          "VOUCHER_TYPE_DETAIL"
+                                                            6 rows imported
+. . importing table                           "WO"
+                                                            0 rows imported
+. . importing table                   "WORK_ORDER"
+                                                            0 rows imported
+. . importing table            "WORK_ORDER_DETAIL"
+                                                            0 rows imported
+. . importing table                    "WO_DETAIL"
+                                                            0 rows imported
+. . importing table                       "WO_JOB"
+                                                            0 rows imported
+. . importing table                "WO_OUT_DETAIL"
+                                                            0 rows imported
+. . importing table                          "XFR"
+                                                            0 rows imported
+. . importing table                         "YEAR"
+                                                            4 rows imported
+. . importing table                  "YEAR_BUDGET"
+                                                          105 rows imported
+. . importing table                   "YEAR_CLOSE"
+                                                            0 rows imported
+. . importing table                           "cb"
+                                                            0 rows imported
+. . importing table                      "test.cb"
+                                                            0 rows imported
+IMP-00041: Warning: object created with compilation warnings
+ "CREATE FORCE VIEW "CJMA"."ATTENDANCE_VIEW"                            ("GAT"
+ "E_EMPLOYEE_NO","EMPLOYEE_ID","NAME","DESIGNATION_ID","DEPARTMENT_ID","OT_AL"
+ "LOWED","ATTENDANCE_DATE","ATTENDANCE_MONTH","INTIME","OUTTIME","OT_HOURS",""
+ "HOURS","OT_MIN","STATUS","ERROR","PRESENT","ABSENT","REST","LEAVE","GH","WO"
+ "P","NOL","LEAVE_TYPE","LEAVE_STATUS","EMPLOYEE_STATUS") AS "
+ "SELECT ALL "
+ "E.GATE_EMPLOYEE_NO, "
+ "A.EMPLOYEE_ID, "
+ "E.NAME, "
+ "E.DESIGNATION_ID, "
+ "E.DEPARTMENT_ID,  "
+ "E.OT_ALLOWED, "
+ "A.ATTENDANCE_DATE,  "
+ "to_date('01-'||to_char(A.ATTENDANCE_DATE,'mon-yyyy')) attendance_month, "
+ "A.INTIME, "
+ "A.OUTTIME, "
+ "A.OT_HOURS, "
+ "A.HOURS,"
+ "number_to_min(a.ot_hours) ot_min,"
+ "A.STATUS,"
+ "DECODE(A.STATUS,'E',1,0) error,"
+ "decode(a.status,'P',1,'CL',1,0) - decode(a.leave_type,'CL',a.leave_status,0"
+ ") present,"
+ "decode(a.status,'A',1,0) absent,"
+ "decode(a.status,'R',1,0) rest,"
+ "decode(a.status,'CL',1,'SL',a.leave_status,0) leave,"
+ "decode(a.status,'GH',1,0) gh,"
+ "decode(a.status,'WOP',a.leave_status,0) WOP,"
+ "decode(a.leave_type,'CL',a.status,0) nol,"
+ "a.leave_type,"
+ "a.leave_status,"
+ "e.status_id active_status"
+ "FROM "
+ "  ATTENDANCE a, "
+ "  EMPLOYEE e"
+ "WHERE (A.EMPLOYEE_ID = E.EMPLOYEE_ID(+)) "
+IMP-00041: Warning: object created with compilation warnings
+ "CREATE FORCE VIEW "CJMA"."ATTENDNACE_VIEW"                            ("GAT"
+ "E_EMPLOYEE_NO","EMPLOYEE_ID","ATTENDANCE_MONTH","INTIME","OUTTIME","OT_HOUR"
+ "S","HOURS","OT_MIN","STATUS","ERROR","PRESENT","ABSENT","REST","LEAVE","GH""
+ ","NOL","LEAVE_TYPE","LEAVE_STATUS") AS "
+ "SELECT ALL "
+ "EMPLOYEE.GATE_EMPLOYEE_NO,  "
+ "HR.ATTENDANCE.EMPLOYEE_ID,  "
+ "---EMPLOYEE.NAME, EMPLOYEE.DESIGNATION_ID, EMPLOYEE.DEPARTMENT_ID,  EMPLOYE"
+ "E.STATUS_ID, "
+ "--ATTENDANCE.ATTENDANCE_DATE, "
+ "to_char(ATTENDANCE.ATTENDANCE_DATE,'month yyyy') attendance_month, "
+ "ATTENDANCE.INTIME, "
+ "ATTENDANCE.OUTTIME, "
+ "ATTENDANCE.OT_HOURS,  "
+ "ATTENDANCE.HOURS,"
+ "hr.number_to_min(attendance.ot_hours) ot_min,"
+ "ATTENDANCE.STATUS,"
+ "DECODE(ATTENDANCE.STATUS,'E',1,0) error,"
+ "decode(attendance.status,'P',1,'CL',1,0) - decode(attendance.leave_type,'CL"
+ "',Attendance.leave_status,0) present,"
+ "decode(attendance.status,'A',1,0) absent,"
+ "decode(attendance.status,'R',1,0) rest,"
+ "decode(attendance.status,'CL',1,'SL',1,0) leave,"
+ "decode(attendance.status,'GH',1,0) gh,"
+ "decode(attendance.leave_type,'CL',attendance.status,0) nol,"
+ "attendance.leave_type, "
+ "attendance.leave_status"
+ "FROM "
+ "  HR.ATTENDANCE, "
+ "  HR.EMPLOYEE"
+ "WHERE (HR.ATTENDANCE.EMPLOYEE_ID = HR.EMPLOYEE.EMPLOYEE_ID(+))"
+IMP-00041: Warning: object created with compilation warnings
+ "CREATE FORCE VIEW "CJMA"."LEAVE_VIEW"                            ("LEAVE_NO"
+ "","EMPLOYEE_ID","LEAVE_MONTH","LEAVEFROM","LEAVETO","LEAVE_TYPE_ID","ALLOWE"
+ "DLEAVES","NUMBEROFLEAVES","REMARKS","OPERATOR_ID","FDATETIME","STATUS_ID") "
+ "AS "
+ "SELECT "
+ "  LEAVE_NO,"
+ "  EMPLOYEE_ID,"
+ "  TO_DATE('01-'||TO_CHAR(LEAVEFROM,'MON-YYYY')) LEAVE_MONTH,"
+ "  LEAVEFROM, "
+ "  LEAVETO, "
+ "  LEAVE_tYPE_ID, "
+ "  ALLOWEDLEAVES, "
+ "  NUMBEROFLEAVES, "
+ "  REMARKS, "
+ "  OPERATOR_ID, "
+ "  FDATETIME, "
+ "  STATUS_ID "
+ "FROM "
+ "  HR.LEAVE"
+IMP-00041: Warning: object created with compilation warnings
+ "CREATE FORCE VIEW "CJMA"."SALARY_ADVANCE_VIEW"                            ("
+ ""VOUCHER_SEQ","EMPLOYEE_ID","FDATETIME","REASON","USER_ID","AMOUNT","SAV_ST"
+ "ATUS","SALARY_ID","SALARY_ADVANCE_ID","NAME","EMPLOYEE_STATUS","STATUS_DESC"
+ "","COA_MAIN_ID","COA_SUB_ID","COA_ID","VOUCHER_ID","VOUCHER_TYPE_ID","VOUCH"
+ "ER_MONTH_ID","VOUCHER_NO") AS "
+ "SELECT SA.VOUCHER_SEQ,sa.employee_id, sa.fdatetime, sa.reason, sa.user_id, "
+ "sa.amount,"
+ "          sa.status_id sav_status, sa.salary_id, sa.salary_advance_id, e.NA"
+ "ME,"
+ "          e.status_id employee_status, e.status_id status_desc, e.coa_main_"
+ "id,"
+ "          e.coa_sub_id, e.coa_id, v.voucher_id, v.voucher_type_id,"
+ "          v.voucher_month_id, vd.voucher_no"
+ "     FROM salary_advance sa,"
+ "          employee e,"
+ "          voucher v,"
+ "          voucher_detail_summary_view1 vd"
+ "    WHERE sa.employee_id = e.employee_id"
+ "      AND sa.employee_id = v.employee_id(+)"
+ "      AND sa.salary_id = v.salary_id(+)"
+ "      AND sa.salary_advance_id = v.loan_id(+)"
+ "      AND v.voucher_id = vd.voucher_id(+)"
+ "      AND v.voucher_month_id = vd.voucher_month_id(+)"
+ "      AND v.voucher_type_id = vd.voucher_type_id(+) "
+IMP-00041: Warning: object created with compilation warnings
+ "CREATE FORCE VIEW "CJMA"."SAL_ADV_CONT_VIEW"                            ("V"
+ "OUCHER_SEQ","EMPLOYEE_ID","FDATETIME","REASON","USER_ID","AMOUNT","SAV_STAT"
+ "US","SAL_ADV_CONT_ID","NAME","EMPLOYEE_STATUS","STATUS_DESC","VOUCHER_NO",""
+ "VOUCHER_ID","VOUCHER_TYPE_ID","VOUCHER_MONTH_ID") AS "
+ "SELECT sa.voucher_seq, sa.employee_id, sa.fdatetime, sa.reason, sa.user_id,"
+ " sa.amount, "
+ "          sa.status_id sav_status, sa.sal_adv_cont_id, e.NAME,"
+ "          e.status_id employee_status, e.status_id status_desc, voucher_no "
+ "voucher_no, VOUCHER_ID, VOUCHER_TYPE_ID, VOUCHER_MONTH_ID"
+ "     FROM sal_adv_cont sa, "
+ "     employee e,"
+ "     voucher_detail_summary_view1 v"
+ "    WHERE sa.employee_id = e.employee_id"
+ "    and sa.sal_adv_cont_id = v.loan_id(+)"
+ "    and sa.loan_type = v.loan_type(+) "
+IMP-00041: Warning: object created with compilation warnings
+ "CREATE FORCE VIEW "CJMA"."VOUCHER_DETAIL_VIEW_NEW"                         "
+ "   ("VOUCHER_MONTH","BRANCH_ID","BANK_ID","VOUCHER_YEAR","RELEASED_BY","REL"
+ "EASE_DATETIME","SAN_ID","SAN_YEAR","IR_ID","IR_YEAR","CPO_TYPE","OUR_CPO",""
+ "CPO_YEAR","CHEQUE_STATUS","CANCEL_DATE","CANCEL_REASON","CANCELLED_BY","VOU"
+ "CHER_SEQ","BLAN","STATUS","VOUCHER_CATAGORY","PR_ID","PR_YEAR","GIR_ID","VO"
+ "UCHER_SUB_TYPE_ID","GIR_YEAR","VOUCHER_ID","VOUCHER_TYPE_ID","VOUCHER_MONTH"
+ "_ID","VOUCHER_DATE","VOUCHER_NO","USER_ID","FDATETIME","SHORT_VOUCHER_TYPE""
+ ","CHEQUE_NO","LOAN_ID","LOAN_TYPE","CHEQUE_DATE","DESCRIPTION","REMARKS","S"
+ "ALARY_ID","STATUS_ID","SALARY_GROUP_ID","VOUCHER_DETAIL_DESC","VOUCHER_DETA"
+ "IL_ID","PAGE","PAGE_TYPE","ROW_NO","COA_MAIN_ID","COA_SUB_ID","COA_ID","ACC"
+ "","COA","COA_MAIN_SUB_ID","DR_AMOUNT","CR_AMOUNT","DR_CR_DIFF","ACCT","CHQ""
+ ","SUB_ACC_DESC","COA_DESC","ACC_DESC","MAIN_SUB_ACC_DESC","MAIN_ACC_DESC",""
+ "VOUCHER_SUB_TYPE_DESCRIPTION") AS "
+ "SELECT TRUNC (v.voucher_date, 'month') voucher_month, v.branch_id,"
+ "          v.bank_id, fisical_year (v.voucher_date) voucher_year,"
+ "          v.released_by, v.release_datetime, v.san_id, v.san_year, v.ir_id,"
+ "          v.ir_year, i.cpo_type, i.our_cpo, i.cpo_year,"
+ "          cheque_status (v.cheque_no) cheque_status, v.cancel_date,"
+ "          v.cancel_reason, cancelled_by, v.voucher_seq, sac.blan,"
+ "          DECODE (v.status_id,"
+ "                  0, 'HOLD',"
+ "                  1, 'RELEASE',"
+ "                  2, 'CANCEL',"
+ "                  'OTHER'"
+ "                 ) status,"
+ "          vt.catagory voucher_catagory, v.pr_id, v.pr_year, v.gir_id,"
+ "          v.voucher_sub_type_id, v.gir_year, v.voucher_id,"
+ "          v.voucher_type_id voucher_type_id, v.voucher_month_id,"
+ "          v.voucher_date,"
+ "             NVL (v.voucher_sub_type_id, vt.short_name)"
+ "          || '/'"
+ "          || v.voucher_id"
+ "          || '/'"
+ "          || vd.voucher_detail_id voucher_no,"
+ "          v.user_id, v.fdatetime, vt.short_name short_voucher_type,"
+ "          v.cheque_no, v.loan_id, v.loan_type, v.cheque_date, v.description"
+ ","
+ "          v.remarks, v.salary_id, v.status_id, v.salary_group_id,"
+ "          vd.description voucher_detail_desc, vd.voucher_detail_id, vd.page"
+ ","
+ "          vd.page_type, vd.row_no, vd.coa_main_id, vd.coa_sub_id, vd.coa_id"
+ ","
+ "          TRANSLATE (   TO_CHAR (vd.coa_main_id, '000')"
+ "                     || '-'"
+ "                     || TO_CHAR (vd.coa_sub_id, '0000')"
+ "                     || '-'"
+ "                     || TO_CHAR (vd.coa_id, '00000'),"
+ "                     '0123456789- ',"
+ "                     '0123456789-'"
+ "                    ) acc,"
+ "          TRANSLATE (   TO_CHAR (vd.coa_main_id, '000')"
+ "                     || '-'"
+ "                     || TO_CHAR (vd.coa_sub_id, '000')"
+ "                     || '-'"
+ "                     || TO_CHAR (vd.coa_id, '000'),"
+ "                     '0123456789- ',"
+ "                     '0123456789-'"
+ "                    ) coa,"
+ "          TRANSLATE (   TO_CHAR (vd.coa_main_id, '000')"
+ "                     || '-'"
+ "                     || TO_CHAR (vd.coa_sub_id, '000'),"
+ "                     '0123456789- ',"
+ "                     '0123456789-'"
+ "                    ) coa_main_sub_id,"
+ "          vd.dr_amount, vd.cr_amount, vd.dr_amount - vd.cr_amount dr_cr_dif"
+ "f,"
+ "          vd.account_no acct, vd.cheque_no chq,"
+ "                                               -----DRCR,"
+ "                                               sac.description sub_acc_desc"
+ ","
+ "          coa.description coa_desc,"
+ "          mac.description || '-' || sac.description"
+ "          || coa.description acc_desc,"
+ "          mac.description || '-' || sac.description main_sub_acc_desc,"
+ "          mac.description main_acc_desc,"
+ "          vtd.description voucher_sub_type_description"
+ "     FROM voucher v,"
+ "          voucher_detail_new vd,"
+ "          coa,"
+ "          coa_main mac,"
+ "          coa_sub sac,"
+ "          voucher_type vt,"
+ "          voucher_type_detail vtd,"
+ "          ir i"
+ "    WHERE v.voucher_id = vd.voucher_id"
+ "      AND v.voucher_type_id = vd.voucher_type_id"
+ "      AND v.voucher_month_id = vd.voucher_month_id"
+ "---"
+ "      AND vd.coa_main_id = coa.coa_main_id"
+ "      AND vd.coa_sub_id = coa.coa_sub_id"
+ "      AND vd.coa_id = coa.coa_id"
+ "---"
+ "      AND vd.coa_main_id = sac.coa_main_id"
+ "      AND vd.coa_sub_id = sac.coa_sub_id"
+ "---"
+ "      AND vd.coa_main_id = mac.coa_main_id"
+ "---"
+ "      AND v.voucher_type_id = vt.voucher_type_id"
+ "---"
+ "      AND v.voucher_type_id = vtd.voucher_type_id(+)"
+ "      AND v.voucher_sub_type_id = vtd.sub_voucher_type_id(+)"
+ "---"
+ "      AND v.ir_id = i.ir_id(+)"
+ "      AND v.ir_year = i.ir_year(+) "
+IMP-00041: Warning: object created with compilation warnings
+ "CREATE FORCE VIEW "CJMA"."TESTPREQ_DET_VIEW"                            ("C"
+ "PO","OUR_CPO","CPO_YEAR","UNIT_ID","PREQ_ID","PREQ_YEAR","SC_MAIN_ID","SC_S"
+ "UB_ID","SC_ID","QTY","STORE_CODE","SC_DESC","PREQ","PO_QTY","BALANCE") AS "
+ "SELECT cpo, our_cpo, cpo_year, sc.unit_id, pd.preq_id, pd.preq_year,"
+ "          pd.sc_main_id, pd.sc_sub_id, pd.sc_id, pd.qty, sc.store_code,"
+ "          sc.sc_desc, pd.preq_id || '/' || pd.preq_year preq,"
+ "          NVL (pod.po_qty, 0) po_qty,"
+ "          (NVL (pd.qty, 0) - NVL (pod.po_qty, 0)) balance"
+ "     FROM preq_det pd,"
+ "          preq_view p,"
+ "          sc_view sc,"
+ "          (SELECT   sc_main_id, sc_sub_id, sc_id, preq_id, preq_year,"
+ "                    SUM (po_quantity) po_qty"
+ "               FROM po_detail_view"
+ "           GROUP BY sc_main_id, sc_sub_id, sc_id, preq_id, preq_year) pod"
+ "    WHERE pd.sc_main_id = sc.sc_main_id"
+ "      AND pd.sc_sub_id = sc.sc_sub_id"
+ "      AND pd.sc_id = sc.sc_id"
+ "---"
+ "      AND pd.preq_id = pod.preq_id(+)"
+ "      AND pd.preq_year = pod.preq_year(+)"
+ "      AND pd.sc_main_id = pod.sc_main_id(+)"
+ "      AND pd.sc_sub_id = pod.sc_sub_id(+)"
+ "      AND pd.sc_id = pod.sc_id(+)"
+ "---"
+ "      AND pd.preq_id = p.preq_id"
+ "      AND pd.preq_year = p.preq_year"
+IMP-00041: Warning: object created with compilation warnings
+ "CREATE FORCE VIEW "CJMA"."EMPLOYEE_VIEW"                            ("EARNI"
+ "NG","DEDUCTION","NET_SALARY","QUALIFICATION_ID","SERVICE_AGE2","AGE2","NTN""
+ ","MUSLIM","CHRISTIAN","HINDU","MALE","FEMALE","MARRIED","SINGLE","WIDOW","S"
+ "EPERATED","TEACHER","NON_TEACHER","SERVICE_AGE","AGE","CUR_COA_MAIN_ID","CU"
+ "R_COA_SUB_ID","CUR_COA_ID","EMPLOYEE_TYPE","ADVANCE_20TH","PAGE_NO","COA_MA"
+ "IN_ID","PROVIDENT_BANK_AC","COA_SUB_ID","COA_ID","BANK_ID","BANK_ACCOUNT",""
+ "BANK_CITY_ID","EXPERIENCE","OT_ALLOWED","INCOME_TAX_AMOUNT","SS_NO","EOBI_N"
+ "O","BLOOD_GROUP","MARITAL_STATUS","GATE_EMPLOYEE_NO","EMPLOYEE_ID","NAME",""
+ "FNAME","ADDRESS1","ADDRESS2","NAMEFNAME","NIC","NID_NO","RELIGION","SALARY_"
+ "GROUP","STATUS_ID","DOJ","JOINING_MONTH","DOL","LEAVING_MONTH","REFERENCE","
+ ""ADDRESS","DESIGNATION","DESIGNATION_ID","DEPARTMENT","DEPARTMENT_ID","GRAD"
+ "E","ORDER_BY","GROSSSALARY","DOB","CITY_ID","COUNTRY_ID","EMAIL","BASIC_SAL"
+ "ARY","HRENT","HOUSE_RENT","UTILITIE","FIXED_OT","UTILITY","NET_SALARY_1","G"
+ "ROSS_SALARY","SERVICE_AGE_1","DOC","OT_RATE","ABSENT_RATE","ADDTION_ALLOW","
+ ""DEDUCTABLE_LOAN_BALANCE","GENDER","OLD_NIC","FAMILY_CODE","BRANCH_ID","CLA"
+ "SS_ID","SECTION_ID","SALARY_ADVANCE_BALANCE","CELL") AS "
+ "SELECT ef2.earning, ef2.deduction, ef2.net_salary, q.qualification_id, serv"
+ "ice_age2 (doj) service_age2, service_age2 (dob) age2,e.ntn,"
+ "          DECODE (religion, 'MUSLIM', 1, 0) muslim,"
+ "          DECODE (religion, 'CHRISTIAN', 1, 0) christian,"
+ "          DECODE (religion, 'HINDU', 1, 0) hindu,"
+ "          DECODE (gender, 'MALE', 1, 0) male,"
+ "          DECODE (gender, 'FEMALE', 1, 0) female,"
+ "          DECODE (marital_status, 'MARRIED', 1, 0) married,"
+ "          DECODE (marital_status, 'SINGLE', 1, 0) SINGLE,"
+ "          DECODE (marital_status, 'WIDOW', 1, 'WIDOWED', 1, 0) widow,"
+ "          DECODE (marital_status, 'SEPERATED', 1, 0) seperated,"
+ "          DECODE (dd.designation_id,"
+ "                  'TEACHER', 1,"
+ "                  'MUSIC TEACHER', 1,"
+ "                  'ART TEACHER', 0,"
+ "                  'COMPUTER TEACHER', 1,"
+ "                  0"
+ "                 ) teacher,"
+ "          DECODE (dd.designation_id,"
+ "                  'TEACHER', 0,"
+ "                  'MUSIC TEACHER', 0,"
+ "                  'ART TEACHER', 0,"
+ "                  'COMPUTER TEACHER', 0,"
+ "                  1"
+ "                 ) non_teacher,"
+ "          service_age (doj) service_age, service_age (dob) age,"
+ "          e.cur_coa_main_id, e.cur_coa_sub_id, e.cur_coa_id, e.employee_typ"
+ "e,"
+ "          e.advance_20th, e.page_no, e.coa_main_id, e.provident_bank_ac,"
+ "          e.coa_sub_id, e.coa_id, e.bank_id, e.bank_account, e.bank_city_id"
+ ","
+ "          e.experience, ef.ot_allowed, e.income_tax_amount, e.ss_no,"
+ "          e.eobi_no, e.blood_group, e.marital_status, e.gate_employee_no,"
+ "          e.employee_id, e.NAME, e.fname, e.address1, e.address2,"
+ "          e.NAME || ' / ' || e.fname namefname, e.nid_no nic, e.nid_no,"
+ "          e.religion, ef.salary_group"
+ "-- ,e.SEX"
+ "          , e.status_id, e.doj, TO_CHAR (doj, 'MON yyyy') joining_month,"
+ "          e.dol, TO_CHAR (dol, 'MON yyyy') leaving_month"
+ "-- ,e.REMARKS"
+ "          , e.REFERENCE, e.address1 || ' ' || address2 address,"
+ "          dd.designation_id designation, dd.designation_id,"
+ "          dd.department_id department, dd.department_id, dd.grade, d.order_"
+ "by,"
+ "          ef.basic_salary + ef.house_rent + ef.utiltiy grosssalary"
+ "-- ,e.PROBATION"
+ "-- ,e.MARITALSTATUS"
+ "          , e.dob"
+ "-- ,e.JOBTYPE"
+ "-- ,e.QUALIFICATION"
+ "-- ,e.LEDGERCODE"
+ "          , e.city_id, e.country_id"
+ "-- ,e.TEL"
+ "          , e.email, ef.basic_salary, ef.house_rent hrent, ef.house_rent,"
+ "          "
+ "          ---ef.convy,"
+ "          ef.utiltiy utilitie, ef.fixed_ot, ef.utiltiy utility,"
+ "          (ef.basic_salary + ef.house_rent + ef.utiltiy) net_salary,"
+ "          (  ef.basic_salary"
+ "           + ef.house_rent"
+ "           + ef.utiltiy"
+ "           + ef.fixed_ot                                         ---+ ef.co"
+ "nvy"
+ "          ) gross_salary,"
+ "          (SYSDATE - e.doc) service_age, doc, ef.ot_rate, ef.absent_rate,"
+ "          ef.addtion_allow"
+ "-- ,e.EXPERIENCE"
+ "--  ,s.salary_id month_id"
+ "  ---,'abc' month_id"
+ "          ,"
+ "          balance_deductable_loan (e.employee_id) deductable_loan_balance,"
+ "          e.gender, e.old_nic, e.family_code,"
+ "                                             --e.insert_by, e.insert_date, "
+ "    e.insert_term, e.last_updated_by, e.last_updated_date,  e.last_updated_"
+ "term,"
+ "                                             ebcs.branch_id, ebcs.class_id,"
+ "          ebcs.section_id, 0 salary_advance_balance, 0 cell"
+ "     FROM employee e,"
+ "          emp_latest_dept_desig_view dd,"
+ "          emp_branch_class_sec_view ebcs,"
+ "          employee_latest_financial_view ef, "
+ "          emp_latest_qualification_view q ,"
+ "          department d,"
+ "          emp_fin_latest_view2 ef2"
+ "    WHERE e.employee_id = dd.employee_id(+)"
+ "      AND e.employee_id = ebcs.employee_id(+)"
+ "      AND e.employee_id = ef.employee_id(+)"
+ "      AND dd.department_id = d.department_id(+)  "
+ "      and e.employee_id = q.employee_id(+)  "
+ "      and e.employee_id = ef2.employee_id(+) "
+IMP-00041: Warning: object created with compilation warnings
+ "CREATE FORCE VIEW "CJMA"."ACCOUNTS_CASH_BANK_STS_VIEW"                     "
+ "       ("COA_MAIN_ID","COA_SUB_ID","COA_ID","COA","SUB_DESC","DESCRIPTION","
+ ""BALANCE") AS "
+ "SELECT   coa_main_id, coa_sub_id, coa_id, coa, sub_desc, description,"
+ "            coa_opening_dt (coa_main_id, coa_sub_id, coa_id, SYSDATE) balan"
+ "ce"
+ "       FROM coa_view"
+ "      WHERE coa_main_id = 110 AND coa_sub_id IN (160,170)    "
+ "   ORDER BY coa_main_id, coa_sub_id, coa_id "
+IMP-00041: Warning: object created with compilation warnings
+ "CREATE FORCE VIEW "CJMA"."VOUCHER_DET"                            ("SAN_ID""
+ ","SAN_YEAR","PR_ID","PR_YEAR","IR_ID","IR_YEAR","GIR_ID","GIR_YEAR","CANCEL"
+ "_DATE","CANCELLED_BY","CANCEL_REASON","FDATETIME","VOUCHER_SEQ","VOUCHER_SU"
+ "B_TYPE_ID","STATUS","SHORT_VOUCHER_TYPE","VOUCHER_TYPE_ID","VOUCHER_MONTH_I"
+ "D","STATUS_ID","VOUCHER","VOUCHER2","VOUCHER_DATE","VOUCHER_ID","CHEQUE_NO""
+ ","DESCRIPTION","REMARKS","SALARY_ID","DR_AMOUNT","CR_AMOUNT","CPO_TYPE","OU"
+ "R_CPO","CPO_YEAR","CPO") AS "
+ "SELECT   v.san_id, v.san_year, v.pr_id, v.pr_year, v.ir_id, v.ir_year,"
+ "            v.gir_id, v.gir_year, v.cancel_date, v.cancelled_by,"
+ "            v.cancel_reason, v.fdatetime, v.voucher_seq,"
+ "            v.voucher_sub_type_id, v.status, v.short_voucher_type,"
+ "            v.voucher_type_id, v.voucher_month_id, v.status_id,"
+ "               v.short_voucher_type"
+ "            || '/'"
+ "            || v.voucher_id"
+ "            || '/'"
+ "            || TO_CHAR (v.voucher_month_id, 'YYYY') voucher,"
+ "            v.short_voucher_type || '/' || v.voucher_id voucher2,"
+ "            v.voucher_date, v.voucher_id, v.cheque_no, v.description, remar"
+ "ks,"
+ "            v.salary_id, SUM (v.dr_amount) dr_amount,"
+ "            SUM (v.cr_amount) cr_amount, v.cpo_type, v.our_cpo, v.cpo_year,"
+ "            v.cpo_type || '/' || v.our_cpo || '/' || v.cpo_year cpo"
+ "       FROM voucher_detail_view_new v"
+ "   GROUP BY v.san_id,"
+ "            v.san_year,"
+ "            v.pr_id,"
+ "            v.pr_year,"
+ "            v.status_id,"
+ "            v.ir_id,"
+ "            v.ir_year,"
+ "            v.gir_id,"
+ "            v.gir_year,"
+ "            v.fdatetime,"
+ "            v.voucher_seq,"
+ "            v.voucher_type_id,"
+ "            v.status,"
+ "            v.short_voucher_type,"
+ "            v.voucher_sub_type_id,"
+ "            v.voucher_month_id,"
+ "            v.voucher_date,"
+ "            v.voucher_id,"
+ "            v.cheque_no,"
+ "            v.description,"
+ "            v.remarks,"
+ "            v.salary_id,"
+ "            v.cancelled_by,"
+ "            v.cancel_reason,"
+ "            v.cancel_date,"
+ "            v.cpo_type,"
+ "            v.cpo_year,"
+ "            v.our_cpo "
+IMP-00041: Warning: object created with compilation warnings
+ "CREATE FORCE VIEW "CJMA"."SALARY_DETAIL_VIEW"                            (""
+ "EOBI_EMPLOYEE","EOBI_EMPLOYEER","GROSS","BASIC","HRENT","CONVY","ALLOWANCES"
+ "","DEDUTIONS","COA_MAIN_ID","COA_SUB_ID","COA_ID","CUR_COA_MAIN_ID","NTN",""
+ "BANK_LETTER_DATE","TAX_PAYMENT_DATE","TAX_PAYMENT_AMT","CUR_COA_SUB_ID","CU"
+ "R_COA_ID","GRADE","SD_STATUS_ID","ACV_VOUCHER_SEQ","VOUCHER_SEQ","PROVIDENT"
+ "_FUND","BRANCH_ID","ACTUAL_PAY","LOAN_DED","GROSS_SALARY","FIXED_OT","STATU"
+ "S_ID","BANK_ID","BANK_ACCOUNT","BANK_CITY_ID","ADVANCE_20TH","EMPLOYEE_TYPE"
+ "","FISICAL_YEAR","MONTH_DAYS","SALARY_ID","EMPLOYEE_ID","DAYS","ABSENT_DAYS"
+ "","ABSENT_AMOUNT","OT_HOURS","OT_MIN","OT_DAYS","MEAL_CHARGES","OT_AMOUNT","
+ ""TOTAL_OT_AMOUNT","ABSENT_RATE","NAMEFNAME","NAME","FNAME","DESIGNATION","D"
+ "EPARTMENT","DOJ","SALARY","GATE_EMPLOYEE_NO","SALARY_GROUP","SALARY_GROUP_I"
+ "D","SS_CONT","SS_EXMPT","TOT_LOANS","JV_PROCESSED") AS "
+ "SELECT salary_alw_sum (s.employee_id, s.salary_id, 19) eobi_employee,"
+ "          salary_alw_sum (s.employee_id, s.salary_id, 27) eobi_employeer,"
+ "            NVL (salary_alw_sum (s.employee_id, s.salary_id, 1), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 2), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 4), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 5), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 6), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 8), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 9), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 10), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 11), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 12), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 13), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 15), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 16), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 17), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 18), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 25), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 26), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 28), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 22), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 3), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 14), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 7), 0) gross,"
+ "          NVL (salary_alw_sum (s.employee_id, s.salary_id, 1), 0) basic,"
+ "          NVL (salary_alw_sum (s.employee_id, s.salary_id, 2), 0) hrent,"
+ "          NVL (salary_alw_sum (s.employee_id, s.salary_id, 17), 0) convy,"
+ "            NVL (salary_alw_sum (s.employee_id, s.salary_id, 4),"
+ "                 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 5), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 6), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 8), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 9), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 10), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 11), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 12), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 13), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 15), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 16), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 18), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 25), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 26), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 28), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 22), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 3), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 14), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 7), 0)"
+ "                                                                   allowanc"
+ "es,"
+ "            NVL (salary_alw_sum (s.employee_id, s.salary_id, 19),"
+ "                 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 20), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 21), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 23), 0)"
+ "          + NVL (salary_alw_sum (s.employee_id, s.salary_id, 24), 0)"
+ "                                                                    dedutio"
+ "ns,"
+ "          e.coa_main_id, e.coa_sub_id, e.coa_id, e.cur_coa_main_id, e.ntn,"
+ "          ms.bank_letter_date, s.tax_payment_date, s.tax_payment_amt,"
+ "          e.cur_coa_sub_id, e.cur_coa_id, e.grade, s.status_id sd_status_id"
+ ","
+ "          s.acv_voucher_seq, s.voucher_seq, s.provident_fund, e.branch_id,"
+ "          gross actual_pay, 0 loan_ded, f.gross gross_salary, 0 fixed_ot,"
+ "          ms.status_id, s.bank_id, s.bank_account, s.bank_city_id,"
+ "          0 advance_20th, e.employee_type,"
+ "          fisical_year (s.salary_id) fisical_year, ms.days month_days,"
+ "          s.salary_id, s.employee_id, s.days, ms.days - s.days absent_days,"
+ "          ROUND (((s.absent_rate) / ms.days) * (ms.days - s.days)"
+ "                ) absent_amount,"
+ "          s.ot_hours, number_to_min (s.ot_hours) ot_min,"
+ "          (number_to_min (s.ot_hours) / 360) ot_days,"
+ "          ROUND ((number_to_min (s.ot_hours) / 360) * 5) meal_charges,"
+ "          "
+ "          ---s.ot_rate,"
+ "          ROUND (NVL (ROUND (  (number_to_min (s.ot_hours) / 360)"
+ "                             * ((s.ot_rate) / ms.days)"
+ "                            ),"
+ "                      0"
+ "                     ),"
+ "                 -1"
+ "                ) ot_amount,"
+ "          "
+ "            ---ROUND((HR.NUMBER_TO_MIN(S.OT_HOURS)/360) * ((S.BASIC_SALARY+"
+ "S.HOUSE_RENT+S.UTILITY) /MS.DAYS) )+ROUND((NUMBER_TO_MIN(S.OT_HOURS)/360)*5"
+ ")  TOTAL_OT_AMOUNT,"
+ "            ROUND (  (number_to_min (s.ot_hours) / 360)"
+ "                   * ((s.ot_rate) / ms.days)"
+ "                  )"
+ "          + ROUND ((number_to_min (s.ot_hours) / 360) * 5) total_ot_amount,"
+ "          "
+ "          --.convy_allow,-- s.income_tax_ded, --s.addtion_allow,"
+ "          s.absent_rate, e.namefname, e.NAME, e.fname, e.designation,"
+ "          e.department, e.doj, NVL (s.salary, e.grosssalary) salary,"
+ "          e.gate_employee_no,"
+ "---  OT_AMOUNT     NVL(OT_AMOUNT,"
+ "                             e.salary_group, e.salary_group salary_group_id"
+ ","
+ "          "
+ "          -----"
+ ""
+ "          --e.family_code, s.nic, s.dob, s.dol, --s.eobi_emp_cont,"
+ "          s.ss_cont, s.ss_exmpt,"
+ "                                            ---s.eobi_emplr_cont, s.eobi_ex"
+ "mpt,"
+ "                                --s.eobi_emp_cont + s.eobi_emplr_cont total"
+ "_eobi_cont,"
+ "                                s.tot_loans,"
+ "          hr_salary_jv_processed (s.salary_id, s.employee_id) jv_processed"
+ "     FROM salary ms,"
+ "          salary_detail s,"
+ "          employee_view e,"
+ "          (SELECT   employee_id, SUM (amount) gross"
+ "               FROM emp_fin_det"
+ "           GROUP BY employee_id) f"
+ "    WHERE s.salary_id = ms.salary_id"
+ "      AND s.employee_id = e.employee_id"
+ "      AND s.employee_id = f.employee_id "
+IMP-00041: Warning: object created with compilation warnings
+ "CREATE FORCE VIEW "CJMA"."CHEQUE_BOOK_DETAIL_VIEW"                         "
+ "   ("ACCOUNT","ACCOUNT_TYPE","CHEQUE_BOOK_STATUS","CHEQUE_BOOK_NO","CHEQUE_"
+ "NO","VOUCHER","VOUCHER_SEQ","VOUCHER_DATE","DESCRIPTION","VOUCHER_STATUS",""
+ "DR_AMOUNT","CHQ_STATUS") AS "
+ "SELECT b.ACCOUNT, b.account_type, b.status_id cheque_book_status,"
+ "          c.cheque_book_no, c.cheque_no, v.voucher, v.voucher_seq,"
+ "          v.voucher_date, v.description, v.status voucher_status, v.dr_amou"
+ "nt,"
+ "          c.status_id chq_status"
+ "     FROM cheque_book_det c, voucher_det v, cheque_book b"
+ "    WHERE TO_CHAR (c.cheque_no) = v.cheque_no(+)"
+ "          AND b.cheque_book_no = c.cheque_book_no "
+IMP-00041: Warning: object created with compilation warnings
+ "CREATE FORCE VIEW "CJMA"."EMP_FIN_VIEW"                            ("NAME","
+ ""DEPARTMENT","DESIGNATION","EMPLOYEE_ID","FDATETIME","ALLOWANCE_ID","AMOUNT"
+ "","DESCRIPTION","EFFECT") AS "
+ "SELECT e.NAME, e.department, e.designation, ed.employee_id, ed.fdatetime,"
+ "          ed.allowance_id, ed.amount, A.description, a.effect"
+ "     FROM employee_view e,"
+ "          (SELECT   employee_id, MAX (fdatetime) fdatetime"
+ "               FROM emp_fin"
+ "           GROUP BY employee_id) ef,"
+ "          emp_fin_det ed,"
+ "          allowance a"
+ "    WHERE e.employee_id = ef.employee_id"
+ "      AND ef.employee_id = ed.employee_id"
+ "      AND ef.fdatetime = ed.fdatetime"
+ "      AND ed.allowance_id = a.allowance_id "
+IMP-00041: Warning: object created with compilation warnings
+ "CREATE FORCE VIEW "CJMA"."TRIAL_VIEW"                            ("COA","CO"
+ "A_MAIN_ID","COA_SUB_ID","COA_ID","MAIN_SUB","ACC_DESC","MAIN_ACC_DESC","COA"
+ "_DESC","SUB_ACC_DESC","VOUCHER_DATE","OPENING_DR","OPENING_CR","DR","CR","C"
+ "LOSING") AS "
+ "select"
+ "  COA, coa_main_id, coa_sub_id, coa_id,"
+ "  coa_main_id||'-'||coa_sub_id main_sub,"
+ "  acc_desc,main_acc_desc, COA_DESC, SUB_ACC_DESC, VOUCHER_DATE,"
+ "  accounts.coa_opening_dr(coa_main_id, coa_sub_id, coa_id ) opening_dr,"
+ "  accounts.coa_opening_cr(coa_main_id, coa_sub_id, coa_id ) opening_cr,"
+ "  sum(dr_amount) DR, sum(cr_amount) CR,"
+ "     accounts.coa_opening(coa_main_id, coa_sub_id, coa_id )"
+ "     ----  + sum(dr_amount) - sum(cr_amount)   "
+ "     closing"
+ "from accounts.voucher_detail_view_new"
+ "group by"
+ "   COA, coa_main_id, coa_sub_id, coa_id, acc_desc, main_acc_desc, SUB_ACC_D"
+ "ESC, COA_DESC, VOUCHER_DATE"
+IMP-00041: Warning: object created with compilation warnings
+ "CREATE FORCE VIEW "CJMA"."HR_COA_VIEW"                            ("COA_ID""
+ ","COA_MAIN_ID","COA_SUB_ID","COA","MAIN_SUB_ID","CATAGORY","SUBSIDARY","DES"
+ "CRIPTION","COA_DESCRIPTION","CTYPE","FINCODE","EMPLOYEE_ID","STATUS_ID","FD"
+ "ATETIME","SUB_DESC","MAIN_DESC","COA_DESC","MAIN_SUB_DESC") AS "
+ "SELECT"
+ "   COA.COA_ID,"
+ "   COA.COA_MAIN_ID,"
+ "   COA.COA_SUB_ID,"
+ "   translate("
+ "   to_char(COA.COA_MAIN_ID,'00')||'-'||TO_CHAR(COA.COA_SUB_ID,'0000')||'-'|"
+ "|TO_CHAR(COA.COA_ID,'00000'),"
+ "   '0123456789- ','0123456789-')  COA,"
+ "   translate("
+ "   to_char(COA.COA_MAIN_ID,'00')||'-'||TO_CHAR(COA.COA_SUB_ID,'0000'), "
+ "   '0123456789- ','0123456789-') MAIN_SUB_ID,"
+ "   COA.CATAGORY,"
+ "   COA.SUBSIDARY,"
+ "   COA.DESCRIPTION,"
+ "   COA.DESCRIPTION COA_DESCRIPTION,"
+ "   COA.CTYPE,"
+ "   COA.FINCODE,"
+ "   COA.EMPLOYEE_ID,"
+ "   COA.STATUS_ID,"
+ "   COA.FDATETIME,"
+ "   COAS.DESCRIPTION SUB_DESC,"
+ "   COAM.DESCRIPTION MAIN_DESC,"
+ "   COAM.DESCRIPTION||'-'||COAS.DESCRIPTION||'-'||COA.DESCRIPTION COA_DESC,"
+ "   COAM.DESCRIPTION||'-'||COAS.DESCRIPTION MAIN_SUB_DESC"
+ " FROM"
+ "   ACCOUNTS.COA,"
+ "   ACCOUNTS.COA_SUB COAS,"
+ "   ACCOUNTS.COA_MAIN COAM"
+ " WHERE"
+ "     COA.COA_MAIN_ID = COAS.COA_MAIN_ID"
+ " AND COA.COA_SUB_ID = COAS.COA_SUB_ID"
+ " ---"
+ " AND COA.COA_MAIN_ID = COAM.COA_MAIN_ID "
+IMP-00041: Warning: object created with compilation warnings
+ "CREATE FORCE VIEW "CJMA"."HR_VOUCHER_DETAIL_VIEW_NEW"                      "
+ "      ("VOUCHER_ID","VOUCHER_TYPE_ID","VOUCHER_MONTH_ID","VOUCHER_DATE","VO"
+ "UCHER_NO","SHORT_VOUCHER_TYPE","CHEQUE_NO","DESCRIPTION","REMARKS","VOUCHER"
+ "_DETAIL_DESC","VOUCHER_DETAIL_ID","COA_MAIN_ID","COA_SUB_ID","COA_ID","ACC""
+ ","COA","COA_MAIN_SUB_ID","DR_AMOUNT","CR_AMOUNT","DR_CR_DIFF","ACCT","CHQ","
+ ""SUB_ACC_DESC","COA_DESC","ACC_DESC","MAIN_SUB_ACC_DESC","MAIN_ACC_DESC") A"
+ "S "
+ "SELECT"
+ "  V.VOUCHER_ID, V.VOUCHER_TYPE_ID, V.VOUCHER_MONTH_ID , V.VOUCHER_DATE,"
+ "  VT.SHORT_NAME||'/'||V.VOUCHER_ID||'/'||VD.VOUCHER_DETAIL_ID VOUCHER_NO,"
+ "  VT.SHORT_NAME SHORT_VOUCHER_TYPE,"
+ "  V.CHEQUE_NO,"
+ "  V.DESCRIPTION,"
+ "  V.REMARKS,"
+ "  VD.DESCRIPTION VOUCHER_DETAIL_DESC,"
+ "  VD.VOUCHER_DETAIL_ID,"
+ "  VD.COA_MAIN_ID, VD.COA_SUB_ID, VD.COA_ID, "
+ "  TRANSLATE("
+ "  TO_CHAR(VD.COA_MAIN_ID,'00')||'-'||TO_CHAR(VD.COA_SUB_ID,'0000')||'-'||TO"
+ "_CHAR(VD.COA_ID,'0000'),"
+ "  '0123456789- ','0123456789-') ACC,"
+ "  TRANSLATE("
+ "  TO_CHAR(VD.COA_MAIN_ID,'00')||'-'||TO_CHAR(VD.COA_SUB_ID,'0000')||'-'||TO"
+ "_CHAR(VD.COA_ID,'0000'),"
+ "  '0123456789- ','0123456789-') COA,"
+ "  TRANSLATE("
+ "  TO_CHAR(VD.COA_MAIN_ID,'00')||'-'||TO_CHAR(VD.COA_SUB_ID,'0000'),"
+ "  '0123456789- ','0123456789-') COA_MAIN_SUB_ID,"
+ "  VD.DR_AMOUNT,"
+ "  VD.CR_AMOUNT,"
+ "  VD.DR_AMOUNT - VD.CR_AMOUNT DR_CR_DIFF,"
+ "  VD.ACCOUNT_NO ACCT,"
+ "  VD.CHEQUE_NO CHQ,"
+ "  -----DRCR,"
+ "  SAC.DESCRIPTION SUB_ACC_DESC,"
+ "  COA.DESCRIPTION COA_DESC,"
+ "  MAC.DESCRIPTION||'-'||SAC.DESCRIPTION||COA.DESCRIPTION ACC_DESC,"
+ "  MAC.DESCRIPTION||'-'||SAC.DESCRIPTION MAIN_SUB_ACC_DESC,"
+ "  MAC.DESCRIPTION MAIN_ACC_DESC"
+ "FROM"
+ "  ACCOUNTS.VOUCHER V,"
+ "  ACCOUNTS.VOUCHER_DETAIL_NEW VD,"
+ "  ACCOUNTS.COA, "
+ "  ACCOUNTS.COA_MAIN MAC,"
+ "  ACCOUNTS.COA_SUB SAC,"
+ "  ACCOUNTS.VOUCHER_TYPE VT"
+ "WHERE"
+ "    V.VOUCHER_ID       = VD.VOUCHER_ID"
+ "AND V.VOUCHER_TYPE_ID  = VD.VOUCHER_TYPE_ID"
+ "AND V.VOUCHER_MONTH_ID = VD.VOUCHER_MONTH_ID"
+ "---"
+ "AND VD.COA_MAIN_ID = COA.COA_MAIN_ID"
+ "AND VD.COA_SUB_ID  = COA.COA_SUB_ID"
+ "AND VD.COA_ID  = COA.COA_ID"
+ "---"
+ "AND VD.COA_MAIN_ID = SAC.COA_MAIN_ID "
+ "AND VD.COA_SUB_ID  = SAC.COA_SUB_ID"
+ "---"
+ "AND VD.COA_MAIN_ID = MAC.COA_MAIN_ID"
+ "---"
+ "AND V.VOUCHER_TYPE_ID = VT.VOUCHER_TYPE_ID "
+About to enable constraints...
+Import terminated successfully with warnings.

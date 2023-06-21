@@ -1,0 +1,3 @@
+ALTER TABLE ASKARI.THINGS_TO_DO
+ ADD (task_description  VARCHAR2(100));
+

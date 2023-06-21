@@ -1,0 +1,49 @@
+
+Starting report VOUCHER_HFP_14 [Wed Jul 20 23:29:15 2022] ...
+End report VOUCHER_HFP_14 [Wed Jul 20 23:35:00 2022].
+
+Starting report VOUCHER_HFP_14 [Wed Jul 20 23:48:51 2022] ...
+End report VOUCHER_HFP_14 [Wed Jul 20 23:51:17 2022].
+
+Starting report VOUCHER_HFP_14 [Thu Jul 21 10:18:16 2022] ...
+End report VOUCHER_HFP_14 [Thu Jul 21 10:18:22 2022].
+
+Starting report VOUCHER_HFP_14 [Thu Jul 21 10:19:37 2022] ...
+End report VOUCHER_HFP_14 [Thu Jul 21 10:19:44 2022].
+
+Starting report VOUCHER_HFP_14 [Thu Jul 21 10:24:45 2022] ...
+End report VOUCHER_HFP_14 [Thu Jul 21 10:24:52 2022].
+
+Starting report AWB0 [Mon Jul 25 15:38:38 2022] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report AWB0 [Mon Jul 25 15:38:42 2022].
+
+Starting report po [Tue Jul 26 17:07:00 2022] ...
+REP-0501: Unable to connect to the specified database.
+ORA-24323: value not allowed
+
+REP-0501: Unable to connect to the specified database.
+End report po [Tue Jul 26 17:07:03 2022].
+
+Starting report store_trial_QTY [Sun May 07 21:22:35 2023] ...
+End report store_trial_QTY [Sun May 07 21:23:11 2023].
+
+Starting report store_trial [Sun May 07 21:23:14 2023] ...
+End report store_trial [Sun May 07 21:23:32 2023].
+
+Starting report sub_ledger [Mon May 08 15:22:31 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report sub_ledger [Mon May 08 15:22:31 2023].
+
+Starting report sub_ledger [Mon May 08 15:22:49 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-24323: value not allowed
+
+REP-0501: Unable to connect to the specified database.
+End report sub_ledger [Mon May 08 15:22:51 2023].

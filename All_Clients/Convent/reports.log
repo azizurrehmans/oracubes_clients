@@ -1,0 +1,85 @@
+
+Starting report rec_daily_summary [Wed Feb 17 14:00:44 2021] ...
+REP-0099: Report is aborted upon user request.
+End report rec_daily_summary [Wed Feb 17 14:00:54 2021].
+
+Starting report salary_temp [Thu Apr 27 21:27:49 2023] ...
+End report salary_temp [Thu Apr 27 21:29:29 2023].
+
+Starting report salary_temp [Thu Apr 27 21:29:29 2023] ...
+REP-0081: Error during file I/O operation.
+REP-0110: Unable to open file 'C:\REPORTS_BACKUP\OFFICE_MAR-23_270423212929'.
+scaba 14
+End report salary_temp [Thu Apr 27 21:29:38 2023].
+
+Starting report salary_temp [Thu Apr 27 21:35:49 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report salary_temp [Thu Apr 27 21:35:49 2023].
+
+Starting report salary_temp [Thu Apr 27 21:35:49 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-24323: value not allowed
+
+REP-0501: Unable to connect to the specified database.
+End report salary_temp [Thu Apr 27 21:35:51 2023].
+
+Starting report salary_temp [Tue May 02 14:23:33 2023] ...
+End report salary_temp [Tue May 02 14:24:01 2023].
+
+Starting report salary_temp [Tue May 02 14:24:01 2023] ...
+REP-0081: Error during file I/O operation.
+REP-0110: Unable to open file 'C:\REPORTS_BACKUP\OFFICE_MAR-23_020523142401'.
+scaba 14
+End report salary_temp [Tue May 02 14:24:09 2023].
+
+Starting report signsheet [Tue May 02 14:24:12 2023] ...
+End report signsheet [Tue May 02 14:24:54 2023].
+
+Starting report signsheet [Tue May 02 14:24:54 2023] ...
+REP-0081: Error during file I/O operation.
+REP-0110: Unable to open file 'C:\REPORTS_BACKUP\SIGN_OFFICE_MAR-23_020523142454'.
+scaba 14
+End report signsheet [Tue May 02 14:24:54 2023].
+
+Starting report signsheet [Tue May 02 14:38:25 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report signsheet [Tue May 02 14:38:25 2023].
+
+Starting report signsheet [Tue May 02 14:38:25 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-24323: value not allowed
+
+REP-0501: Unable to connect to the specified database.
+End report signsheet [Tue May 02 14:38:29 2023].
+
+Starting report signsheet [Tue May 02 14:38:38 2023] ...
+End report signsheet [Tue May 02 14:39:01 2023].
+
+Starting report signsheet [Tue May 02 14:39:01 2023] ...
+REP-0081: Error during file I/O operation.
+REP-0110: Unable to open file 'C:\REPORTS_BACKUP\SIGN_OFFICE_MAR-23_020523143901'.
+scaba 14
+End report signsheet [Tue May 02 14:39:10 2023].
+
+Starting report salary_slip [Tue May 02 14:39:14 2023] ...
+End report salary_slip [Tue May 02 14:39:30 2023].
+
+Starting report salary_temp3 [Thu May 04 15:51:50 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report salary_temp3 [Thu May 04 15:51:52 2023].
+
+Starting report salary_temp3 [Thu May 04 15:52:32 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-24323: value not allowed
+
+REP-0501: Unable to connect to the specified database.
+End report salary_temp3 [Thu May 04 15:52:34 2023].

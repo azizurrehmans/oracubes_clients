@@ -1,0 +1,1 @@
+insert into ns1.ac_setup select * from askari5.ac_setup

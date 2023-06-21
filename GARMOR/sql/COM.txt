@@ -1,0 +1,14 @@
+CREATE OR REPLACE FORCE VIEW garmor.comm_view (amount,
+                                               pair,
+                                               rate,
+                                               department_id,
+                                               style,
+                                               color,
+                                               SIZES,
+                                               sal_cont_id
+                                              )
+AS
+   SELECT   SUM (amount) amount, SUM (pair) pair, AVG (rate) rate,
+            s.department_id, s.style, s.color, s.SIZES, sal_cont_id
+       FROM sal_cont_mo_detail_view s
+   GROUP BY s.department_id, s.style, s.color, s.SIZES, sal_cont_id;

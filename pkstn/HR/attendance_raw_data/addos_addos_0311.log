@@ -1,0 +1,414 @@
+;;; 
+Export: Release 11.2.0.1.0 - Production on Wed Nov 3 19:15:10 2021
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+;;; Legacy Mode Active due to the following parameters:
+;;; Legacy Mode Parameter: "log=addos_addos_0311.log" Location: Command Line, Replaced with: "logfile=addos_addos_0311.log"
+;;; Legacy Mode has set reuse_dumpfiles=true parameter.
+Starting "SYSTEM"."SYS_EXPORT_SCHEMA_01":  system/********@orcl schemas=addos directory=data_pump_dir dumpfile=addos_0311.dmp logfile=addos_addos_0311.log reuse_dumpfiles=true 
+Estimate in progress using BLOCKS method...
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 472.6 MB
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/TABLESPACE_QUOTA
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SYNONYM/SYNONYM
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/PACKAGE/PACKAGE_SPEC
+Processing object type SCHEMA_EXPORT/PACKAGE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/FUNCTION/FUNCTION
+Processing object type SCHEMA_EXPORT/FUNCTION/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+Processing object type SCHEMA_EXPORT/PROCEDURE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/PACKAGE/COMPILE_PACKAGE/PACKAGE_SPEC/ALTER_PACKAGE_SPEC
+Processing object type SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+Processing object type SCHEMA_EXPORT/VIEW/VIEW
+Processing object type SCHEMA_EXPORT/VIEW/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/PACKAGE/PACKAGE_BODY
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+. . exported "ADDOS"."INV_SC_PHOTO"                      1.192 MB       7 rows
+. . exported "ADDOS"."AC_VOUCHER_DETAIL"                 300.0 KB    4087 rows
+. . exported "ADDOS"."ADM_ACTIVITY_LOG"                  10.38 KB       1 rows
+. . exported "ADDOS"."HR_OT"                             8.109 KB      50 rows
+. . exported "ADDOS"."HR_ATTENDANCE"                     158.7 KB    1736 rows
+. . exported "ADDOS"."PPC_MP_PHOTO"                      634.7 KB       2 rows
+. . exported "ADDOS"."AC_VOUCHER"                        353.2 KB    2468 rows
+. . exported "ADDOS"."HR_BARCODE_ATTENDANCE"             96.32 KB    4930 rows
+. . exported "ADDOS"."AC_CTRL"                           7.968 KB      64 rows
+. . exported "ADDOS"."AC_PARENT"                         5.718 KB      12 rows
+. . exported "ADDOS"."AC_SUB"                            6.585 KB      29 rows
+. . exported "ADDOS"."INV_IR_DETAIL"                     9.953 KB       4 rows
+. . exported "ADDOS"."HR_SALARY_DETAIL_EMP"              21.39 KB     442 rows
+. . exported "ADDOS"."INV_IR"                            13.28 KB       4 rows
+. . exported "ADDOS"."INV_TRANS"                         17.85 KB       5 rows
+. . exported "ADDOS"."INV_IGP_DETAIL"                    14.01 KB       1 rows
+. . exported "ADDOS"."EXP_CPO_DETAIL"                    17.92 KB       8 rows
+. . exported "ADDOS"."EXP_PACKING_DETAIL"                14.40 KB       2 rows
+. . exported "ADDOS"."INV_IGP"                           18.67 KB       1 rows
+. . exported "ADDOS"."INV_IR_EXPENSE"                    6.046 KB      10 rows
+. . exported "ADDOS"."INV_OGP"                              73 KB     335 rows
+. . exported "ADDOS"."INV_OGP_DETAIL"                    108.5 KB     834 rows
+. . exported "ADDOS"."INV_PO_DETAIL"                     16.43 KB       1 rows
+. . exported "ADDOS"."INV_SC_OPENING"                    7.625 KB       3 rows
+. . exported "ADDOS"."INV_TRANS_AZIZ"                    22.76 KB       4 rows
+. . exported "ADDOS"."PROD_JCD"                          14.86 KB       2 rows
+. . exported "ADDOS"."INV_SC"                            19.69 KB       5 rows
+. . exported "ADDOS"."ADM_COMPANY_SETUP"                 22.88 KB       1 rows
+. . exported "ADDOS"."HR_SALARY_DETAIL"                  18.28 KB      55 rows
+. . exported "ADDOS"."INV_SC_OPENING_1920_BACKUP"        661.6 KB   17301 rows
+. . exported "ADDOS"."HR_EMP_FIN_DET"                    7.703 KB      32 rows
+. . exported "ADDOS"."INV_GIR"                           8.820 KB       1 rows
+. . exported "ADDOS"."INV_GIR_DETAIL"                    12.44 KB       1 rows
+. . exported "ADDOS"."ATT_EXPORTSCHEDULE"                14.34 KB       1 rows
+. . exported "ADDOS"."HR_RAW_ATTENDANCE"                 462.7 KB    5619 rows
+. . exported "ADDOS"."INV_PO"                            17.35 KB       1 rows
+. . exported "ADDOS"."INV_TRANS_1920_BACKUP"             423.8 KB    4779 rows
+. . exported "ADDOS"."AC_COA"                            30.98 KB     222 rows
+. . exported "ADDOS"."INV_SAN"                           376.4 KB    3431 rows
+. . exported "ADDOS"."HR_ATTEN_ERRORS"                   7.734 KB      44 rows
+. . exported "ADDOS"."AC_CB"                             16.03 KB      19 rows
+. . exported "ADDOS"."INV_L4"                            6.218 KB       1 rows
+. . exported "ADDOS"."INV_SC_OPENING_1819_BACKUP"        257.2 KB    6645 rows
+. . exported "ADDOS"."INV_TRANS_1819_BACKUP"             256.3 KB    2824 rows
+. . exported "ADDOS"."EXP_CPO"                           27.84 KB       6 rows
+. . exported "ADDOS"."HR_EMPLOYEE"                       46.15 KB      32 rows
+. . exported "ADDOS"."INV_OPENING_QTY_1920"              208.5 KB   11583 rows
+. . exported "ADDOS"."PPC_MPD"                           10.32 KB       8 rows
+. . exported "ADDOS"."EXP_CSC_PHOTO"                     137.4 KB       1 rows
+. . exported "ADDOS"."AC_COA_OPENING"                    11.40 KB      68 rows
+. . exported "ADDOS"."AC_VOUCHER_DETAIL_DELETED"         27.05 KB     213 rows
+. . exported "ADDOS"."DJANGO_SESSION"                    6.718 KB       2 rows
+. . exported "ADDOS"."EXP_PACKING"                       27.60 KB       1 rows
+. . exported "ADDOS"."HR_EMP_FIN"                        12.68 KB      30 rows
+. . exported "ADDOS"."HR_MONTHLY_ATTENDANCE"             15.85 KB      56 rows
+. . exported "ADDOS"."INV_OPENING_QTY_1718"              94.49 KB    5079 rows
+. . exported "ADDOS"."INV_SC_20180419"                   103.2 KB     675 rows
+. . exported "ADDOS"."LEAVECLASS1"                       15.32 KB       8 rows
+. . exported "ADDOS"."PAYROLL_CURRENCY"                  9.328 KB       1 rows
+. . exported "ADDOS"."ACCESS_ACGROUP"                    10.71 KB       1 rows
+. . exported "ADDOS"."ACCESS_ACTIMEZONE"                 10.26 KB       1 rows
+. . exported "ADDOS"."ACCESS_ACTIMEZONES"                34.66 KB       1 rows
+. . exported "ADDOS"."ACTION_LOG"                        16.28 KB     167 rows
+. . exported "ADDOS"."AC_BANK_ACCOUNT"                   11.78 KB       5 rows
+. . exported "ADDOS"."AC_CHEQUE_BOOK"                    8.664 KB       1 rows
+. . exported "ADDOS"."AC_CHEQUE_BOOK_DET"                10.01 KB     100 rows
+. . exported "ADDOS"."AC_VOUCHER_DELETED"                33.14 KB      59 rows
+. . exported "ADDOS"."AC_VOUCHER_TYPE"                   10.10 KB       3 rows
+. . exported "ADDOS"."AC_VOUCHER_TYPE_DETAIL"            9.664 KB      10 rows
+. . exported "ADDOS"."AC_YEAR"                           7.515 KB       2 rows
+. . exported "ADDOS"."ADM_CITY"                            7.5 KB      22 rows
+. . exported "ADDOS"."ADM_COUNTRY"                       6.914 KB       8 rows
+. . exported "ADDOS"."ADM_CURRENCY"                      9.656 KB       4 rows
+. . exported "ADDOS"."ADM_ERROR_LOG"                     47.81 KB     579 rows
+. . exported "ADDOS"."ADM_FIREWALL"                      6.765 KB       3 rows
+. . exported "ADDOS"."ADM_FRM_RPT_ACCESS"                6.898 KB       7 rows
+. . exported "ADDOS"."ADM_FRM_RPT_ACCESS_DET"            8.773 KB      19 rows
+. . exported "ADDOS"."ADM_HELP"                          7.664 KB       5 rows
+. . exported "ADDOS"."ADM_MODULE"                        8.765 KB      23 rows
+. . exported "ADDOS"."ADM_MONTH"                         6.218 KB       1 rows
+. . exported "ADDOS"."ADM_USERS"                         8.125 KB       7 rows
+. . exported "ADDOS"."ADM_USER_MODULE"                    16.5 KB     119 rows
+. . exported "ADDOS"."ATTPARAM"                          15.53 KB      78 rows
+. . exported "ADDOS"."ATT_AUTOCAL_LOG"                   7.703 KB      43 rows
+. . exported "ADDOS"."ATT_AUTOEXPORTLOG"                 6.421 KB       3 rows
+. . exported "ADDOS"."AUTH_GROUP"                        5.476 KB       1 rows
+. . exported "ADDOS"."AUTH_GROUP_PERMISSIONS"            6.226 KB      20 rows
+. . exported "ADDOS"."AUTH_PERMISSION"                   29.75 KB     605 rows
+. . exported "ADDOS"."AUTH_USER"                           9.5 KB       2 rows
+. . exported "ADDOS"."AUTH_USER_GROUPS"                  5.953 KB       1 rows
+. . exported "ADDOS"."BASE_APPOPTION"                    9.429 KB       3 rows
+. . exported "ADDOS"."BASE_BASECODE"                     10.87 KB       7 rows
+. . exported "ADDOS"."BASE_COMPANYSETTING"               9.312 KB      11 rows
+. . exported "ADDOS"."BASE_DATATRANSLATION"              10.39 KB       4 rows
+. . exported "ADDOS"."BASE_EMAILSETTING"                 9.507 KB      15 rows
+. . exported "ADDOS"."BASE_OPTION"                       15.68 KB      16 rows
+. . exported "ADDOS"."DEPARTMENTS"                       10.11 KB       1 rows
+. . exported "ADDOS"."DJANGO_CONTENT_TYPE"               14.32 KB     204 rows
+. . exported "ADDOS"."EXPORT_SETUP"                      15.25 KB       1 rows
+. . exported "ADDOS"."EXP_COLOR"                         5.460 KB       4 rows
+. . exported "ADDOS"."EXP_CPO_TYPE"                      5.484 KB       3 rows
+. . exported "ADDOS"."EXP_CSC"                           7.890 KB       1 rows
+. . exported "ADDOS"."EXP_CSC_SPECIAL_INS"               6.015 KB       1 rows
+. . exported "ADDOS"."EXP_CUSTOMER"                      17.27 KB       1 rows
+. . exported "ADDOS"."EXP_SIZE"                          6.851 KB       8 rows
+. . exported "ADDOS"."HR_ALLOWANCE"                      8.937 KB      15 rows
+. . exported "ADDOS"."HR_DEPARTMENT"                     13.15 KB      12 rows
+. . exported "ADDOS"."HR_DESIGNATION"                    10.57 KB      22 rows
+. . exported "ADDOS"."HR_EMPLOYEE_DEPT_DESIG"            9.507 KB      30 rows
+. . exported "ADDOS"."HR_EMPLOYEE_JD"                    6.710 KB       1 rows
+. . exported "ADDOS"."HR_EMPLOYEE_NOTE"                  7.890 KB       1 rows
+. . exported "ADDOS"."HR_EMPLOYEE_SHIFT"                 6.835 KB       5 rows
+. . exported "ADDOS"."HR_EMP_DISEASE"                    6.695 KB       1 rows
+. . exported "ADDOS"."HR_EMP_EXP"                        8.421 KB       1 rows
+. . exported "ADDOS"."HR_EMP_QUALIFICATION"              8.765 KB       1 rows
+. . exported "ADDOS"."HR_EMP_REF"                         6.75 KB       2 rows
+. . exported "ADDOS"."HR_GH"                             6.234 KB       1 rows
+. . exported "ADDOS"."HR_REASON"                         5.460 KB       2 rows
+. . exported "ADDOS"."HR_SALARY"                           8.5 KB       4 rows
+. . exported "ADDOS"."HR_SALARY_ADVANCE"                 11.30 KB      24 rows
+. . exported "ADDOS"."HR_SALARY_TEMP"                    24.25 KB      30 rows
+. . exported "ADDOS"."HR_SETUP"                          11.96 KB       1 rows
+. . exported "ADDOS"."HR_SHIFT"                          8.445 KB       5 rows
+. . exported "ADDOS"."ICLOCK"                            53.03 KB       1 rows
+. . exported "ADDOS"."ICLOCK_DININGHALL"                 9.304 KB       1 rows
+. . exported "ADDOS"."INV_CUSTOMER_CODE_20180419"        42.89 KB     652 rows
+. . exported "ADDOS"."INV_EXPENSE_TYPE"                  5.492 KB      30 rows
+. . exported "ADDOS"."INV_L1"                            5.437 KB       4 rows
+. . exported "ADDOS"."INV_L2"                            5.445 KB       3 rows
+. . exported "ADDOS"."INV_L3"                            5.835 KB       2 rows
+. . exported "ADDOS"."INV_L5"                            7.132 KB       4 rows
+. . exported "ADDOS"."INV_PO_TERMS_ALL"                      6 KB       4 rows
+. . exported "ADDOS"."INV_PO_TYPE"                       5.031 KB       2 rows
+. . exported "ADDOS"."INV_SC_LOCATION"                   7.171 KB       5 rows
+. . exported "ADDOS"."INV_SC_OPENING_1718_BACKUP"        41.25 KB     926 rows
+. . exported "ADDOS"."INV_SC_RETAIL_RATE"                19.03 KB     440 rows
+. . exported "ADDOS"."INV_STORE"                         5.023 KB       1 rows
+. . exported "ADDOS"."INV_STORE_RACK"                    6.226 KB       1 rows
+. . exported "ADDOS"."INV_STORE_RACK_ROW_COL"            7.187 KB       3 rows
+. . exported "ADDOS"."INV_TRANS_1718_BACKUP"             19.96 KB      40 rows
+. . exported "ADDOS"."INV_TRIAL_TEMP"                    9.156 KB       2 rows
+. . exported "ADDOS"."INV_UOM"                           6.445 KB       8 rows
+. . exported "ADDOS"."INV_VEHICLE_TYPE"                  5.101 KB       7 rows
+. . exported "ADDOS"."LEAVECLASS"                        13.30 KB       6 rows
+. . exported "ADDOS"."PAYROLL_FORMULASIGN"               9.953 KB       5 rows
+. . exported "ADDOS"."PERSONNEL_AREA"                    9.718 KB       1 rows
+. . exported "ADDOS"."PERSONNEL_ICCARD"                  14.26 KB       1 rows
+. . exported "ADDOS"."PERSONNEL_MEAL"                    11.48 KB       8 rows
+. . exported "ADDOS"."PPC_MP"                            8.476 KB       5 rows
+. . exported "ADDOS"."PPC_MPD_SC"                        6.664 KB       4 rows
+. . exported "ADDOS"."PPC_MP_OP"                         8.523 KB       4 rows
+. . exported "ADDOS"."PPC_MP_REMARKS"                    6.781 KB       1 rows
+. . exported "ADDOS"."PPC_OPERATION"                     7.726 KB       6 rows
+. . exported "ADDOS"."PPC_OPERATION_TYPE"                6.320 KB       3 rows
+. . exported "ADDOS"."PPC_POSITION"                      7.046 KB       1 rows
+. . exported "ADDOS"."PPC_SUB_SECTION"                   6.648 KB       1 rows
+. . exported "ADDOS"."PROD_OPERATION"                    8.398 KB       1 rows
+. . exported "ADDOS"."PROD_OPERATION_TYPE"               6.710 KB       1 rows
+. . exported "ADDOS"."WORKTABLE_MSGTYPE"                 10.30 KB       3 rows
+. . exported "ADDOS"."ACCESS_ACACCESSLEVEL"                  0 KB       0 rows
+. . exported "ADDOS"."ACCESS_ACACCESSLEVEL_DOORS"            0 KB       0 rows
+. . exported "ADDOS"."ACCESS_ACACCESSLEVEL_EMPLOYEES"        0 KB       0 rows
+. . exported "ADDOS"."ACCESS_ACANTIPASSBACK"                 0 KB       0 rows
+. . exported "ADDOS"."ACCESS_ACCOMBGROUP"                    0 KB       0 rows
+. . exported "ADDOS"."ACCESS_ACDOOR"                         0 KB       0 rows
+. . exported "ADDOS"."ACCESS_ACHOLIDAYS"                     0 KB       0 rows
+. . exported "ADDOS"."ACCESS_ACUNLOCKCOMB"                   0 KB       0 rows
+. . exported "ADDOS"."ACC_MORECARDEMPGROUP"                  0 KB       0 rows
+. . exported "ADDOS"."AC_COA_CLOSING_1920"                   0 KB       0 rows
+. . exported "ADDOS"."AC_COA_OPENING_1920"                   0 KB       0 rows
+. . exported "ADDOS"."AC_COA_PHOTO"                          0 KB       0 rows
+. . exported "ADDOS"."AC_DAY_CLOSE"                          0 KB       0 rows
+. . exported "ADDOS"."AC_MONTH_PL"                           0 KB       0 rows
+. . exported "ADDOS"."AC_MONTH_PL_DET"                       0 KB       0 rows
+. . exported "ADDOS"."AC_PAYMENT"                            0 KB       0 rows
+. . exported "ADDOS"."AC_RECEIPT"                            0 KB       0 rows
+. . exported "ADDOS"."AC_SETUP"                              0 KB       0 rows
+. . exported "ADDOS"."AC_VD"                                 0 KB       0 rows
+. . exported "ADDOS"."AC_YEAR_CLOSE"                         0 KB       0 rows
+. . exported "ADDOS"."ADM_TASK"                              0 KB       0 rows
+. . exported "ADDOS"."ADM_THINGS_TO_DO"                      0 KB       0 rows
+. . exported "ADDOS"."AREAADMIN"                             0 KB       0 rows
+. . exported "ADDOS"."ATTCALCLOG"                            0 KB       0 rows
+. . exported "ADDOS"."ATTEXCEPTION"                          0 KB       0 rows
+. . exported "ADDOS"."ATTRECABNORMITE"                       0 KB       0 rows
+. . exported "ADDOS"."ATTSHIFTS"                             0 KB       0 rows
+. . exported "ADDOS"."ATT_APPROVEDHISTORY"                   0 KB       0 rows
+. . exported "ADDOS"."ATT_ATTREPORT"                         0 KB       0 rows
+. . exported "ADDOS"."ATT_ATTREPORTPERMS"                    0 KB       0 rows
+. . exported "ADDOS"."ATT_BREAKTIME"                         0 KB       0 rows
+. . exported "ADDOS"."ATT_CHANGESCHEDULE"                    0 KB       0 rows
+. . exported "ADDOS"."ATT_MULTIPLETRANSACTION"               0 KB       0 rows
+. . exported "ADDOS"."ATT_OVERTIME"                          0 KB       0 rows
+. . exported "ADDOS"."ATT_REPORTOPTION"                      0 KB       0 rows
+. . exported "ADDOS"."ATT_RULE"                              0 KB       0 rows
+. . exported "ADDOS"."ATT_TRAINING"                          0 KB       0 rows
+. . exported "ADDOS"."ATT_TRAININGCATEGORY"                  0 KB       0 rows
+. . exported "ADDOS"."ATT_WAITFORPROCESSDATA"                0 KB       0 rows
+. . exported "ADDOS"."AUTH_MESSAGE"                          0 KB       0 rows
+. . exported "ADDOS"."AUTH_USER_USER_PERMISSIONS"            0 KB       0 rows
+. . exported "ADDOS"."BASE_ADDITIONDATA"                     0 KB       0 rows
+. . exported "ADDOS"."BASE_EMAILTEMPLATE"                    0 KB       0 rows
+. . exported "ADDOS"."BASE_FTPSERVER"                        0 KB       0 rows
+. . exported "ADDOS"."BASE_OPERATORTEMPLATE"                 0 KB       0 rows
+. . exported "ADDOS"."BASE_PERSONALOPTION"                   0 KB       0 rows
+. . exported "ADDOS"."BASE_STRRESOURCE"                      0 KB       0 rows
+. . exported "ADDOS"."BASE_STRTRANSLATION"                   0 KB       0 rows
+. . exported "ADDOS"."BASE_SYSTEMOPTION"                     0 KB       0 rows
+. . exported "ADDOS"."CHECKEXACT"                            0 KB       0 rows
+. . exported "ADDOS"."CHECKINOUT"                            0 KB       0 rows
+. . exported "ADDOS"."DBAPP_VIEWMODEL"                       0 KB       0 rows
+. . exported "ADDOS"."DBBACKUPLOG"                           0 KB       0 rows
+. . exported "ADDOS"."DEPARTMENT_HOLIDAY"                    0 KB       0 rows
+. . exported "ADDOS"."DEPARTMENT_RULE"                       0 KB       0 rows
+. . exported "ADDOS"."DEPTADMIN"                             0 KB       0 rows
+. . exported "ADDOS"."DEVCMDS"                               0 KB       0 rows
+. . exported "ADDOS"."DEVCMDS_BAK"                           0 KB       0 rows
+. . exported "ADDOS"."DEVLOG"                                0 KB       0 rows
+. . exported "ADDOS"."EMPITEMDEFINE"                         0 KB       0 rows
+. . exported "ADDOS"."EXP_CPO_MATERIAL"                      0 KB       0 rows
+. . exported "ADDOS"."EXP_CUSTOMER_STYLE_COLOR"              0 KB       0 rows
+. . exported "ADDOS"."EXP_CUSTOMER_STYLE_COLOR_PHOTO"        0 KB       0 rows
+. . exported "ADDOS"."EXP_HSK"                               0 KB       0 rows
+. . exported "ADDOS"."FACE_TEMPLATE"                         0 KB       0 rows
+. . exported "ADDOS"."FINGER_TEMPLATE"                       0 KB       0 rows
+. . exported "ADDOS"."HOLIDAYS"                              0 KB       0 rows
+. . exported "ADDOS"."HR_ATTENDANCE_DETAIL"                  0 KB       0 rows
+. . exported "ADDOS"."HR_BANK"                               0 KB       0 rows
+. . exported "ADDOS"."HR_CITY"                               0 KB       0 rows
+. . exported "ADDOS"."HR_EMPLOYEE_ACC"                       0 KB       0 rows
+. . exported "ADDOS"."HR_EMPLOYEE_LATE_POLICY"               0 KB       0 rows
+. . exported "ADDOS"."HR_EMPLOYEE_MV"                        0 KB       0 rows
+. . exported "ADDOS"."HR_EMPLOYEE_PHOTO"                     0 KB       0 rows
+. . exported "ADDOS"."HR_EMPLOYEE_SALARY"                    0 KB       0 rows
+. . exported "ADDOS"."HR_EMP_BRANCH_CLASS_SEC"               0 KB       0 rows
+. . exported "ADDOS"."HR_EMP_OP"                             0 KB       0 rows
+. . exported "ADDOS"."HR_FAVOUR"                             0 KB       0 rows
+. . exported "ADDOS"."HR_LATE"                               0 KB       0 rows
+. . exported "ADDOS"."HR_LEAVE"                              0 KB       0 rows
+. . exported "ADDOS"."HR_LEAVE_BALANCE"                      0 KB       0 rows
+. . exported "ADDOS"."HR_LEAVE_TYPE"                         0 KB       0 rows
+. . exported "ADDOS"."HR_LOAN"                               0 KB       0 rows
+. . exported "ADDOS"."HR_LOAN_DEDUCTION"                     0 KB       0 rows
+. . exported "ADDOS"."HR_LOAN_LEDGER"                        0 KB       0 rows
+. . exported "ADDOS"."HR_MONTH"                              0 KB       0 rows
+. . exported "ADDOS"."HR_QUALIFICATION"                      0 KB       0 rows
+. . exported "ADDOS"."HR_REST"                               0 KB       0 rows
+. . exported "ADDOS"."HR_SAL_CONT"                           0 KB       0 rows
+. . exported "ADDOS"."HR_SAL_CONT_DETAIL"                    0 KB       0 rows
+. . exported "ADDOS"."HR_SAL_CONT_MO_DETAIL"                 0 KB       0 rows
+. . exported "ADDOS"."HR_SUNDAY_WORKING_DAY"                 0 KB       0 rows
+. . exported "ADDOS"."ICLOCK_ANNOUNCEMENT"                   0 KB       0 rows
+. . exported "ADDOS"."ICLOCK_APPACTIONLOG"                   0 KB       0 rows
+. . exported "ADDOS"."ICLOCK_APPLIST"                        0 KB       0 rows
+. . exported "ADDOS"."ICLOCK_BIODATA"                        0 KB       0 rows
+. . exported "ADDOS"."ICLOCK_DEVICEOPLOG"                    0 KB       0 rows
+. . exported "ADDOS"."ICLOCK_DEVICETRANSACTION"              0 KB       0 rows
+. . exported "ADDOS"."ICLOCK_DSTIME"                         0 KB       0 rows
+. . exported "ADDOS"."ICLOCK_NOTICE"                         0 KB       0 rows
+. . exported "ADDOS"."ICLOCK_NOTIFICATION"                   0 KB       0 rows
+. . exported "ADDOS"."ICLOCK_OPLOG"                          0 KB       0 rows
+. . exported "ADDOS"."ICLOCK_TESTDATA"                       0 KB       0 rows
+. . exported "ADDOS"."ICLOCK_TESTDATA_ADMIN_AREA"            0 KB       0 rows
+. . exported "ADDOS"."ICLOCK_TESTDATA_ADMIN_DEPT"            0 KB       0 rows
+. . exported "ADDOS"."ICLOCK_USBTRANSACTION"                 0 KB       0 rows
+. . exported "ADDOS"."ICLOCK_WORKCODE"                       0 KB       0 rows
+. . exported "ADDOS"."ICLOCK_WORKCODE_DEVICES"               0 KB       0 rows
+. . exported "ADDOS"."INV_BTN"                               0 KB       0 rows
+. . exported "ADDOS"."INV_CUSTOMER_CODE"                     0 KB       0 rows
+. . exported "ADDOS"."INV_DAIRY_WEEK"                        0 KB       0 rows
+. . exported "ADDOS"."INV_DELETED_TRANS"                     0 KB       0 rows
+. . exported "ADDOS"."INV_IGP_EXPENSE"                       0 KB       0 rows
+. . exported "ADDOS"."INV_IR_DELETED"                        0 KB       0 rows
+. . exported "ADDOS"."INV_IR_DETAIL_DELETED"                 0 KB       0 rows
+. . exported "ADDOS"."INV_IR_MV_VIEW"                        0 KB       0 rows
+. . exported "ADDOS"."INV_MGIR"                              0 KB       0 rows
+. . exported "ADDOS"."INV_MGIR_DETAIL"                       0 KB       0 rows
+. . exported "ADDOS"."INV_PAYMENT"                           0 KB       0 rows
+. . exported "ADDOS"."INV_PI"                                0 KB       0 rows
+. . exported "ADDOS"."INV_PO_BILL"                           0 KB       0 rows
+. . exported "ADDOS"."INV_PO_BILL_DET"                       0 KB       0 rows
+. . exported "ADDOS"."INV_PO_HISTORY"                        0 KB       0 rows
+. . exported "ADDOS"."INV_PO_TERMS"                          0 KB       0 rows
+. . exported "ADDOS"."INV_PR"                                0 KB       0 rows
+. . exported "ADDOS"."INV_PR1"                               0 KB       0 rows
+. . exported "ADDOS"."INV_PR1_DETAIL"                        0 KB       0 rows
+. . exported "ADDOS"."INV_PREQ"                              0 KB       0 rows
+. . exported "ADDOS"."INV_PREQ_DET"                          0 KB       0 rows
+. . exported "ADDOS"."INV_PR_DETAIL"                         0 KB       0 rows
+. . exported "ADDOS"."INV_SC2"                               0 KB       0 rows
+. . exported "ADDOS"."INV_SC_FINISH"                         0 KB       0 rows
+. . exported "ADDOS"."INV_SC_MAIN"                           0 KB       0 rows
+. . exported "ADDOS"."INV_SC_MATERIAL"                       0 KB       0 rows
+. . exported "ADDOS"."INV_SC_SUB"                            0 KB       0 rows
+. . exported "ADDOS"."INV_SC_TEMP"                           0 KB       0 rows
+. . exported "ADDOS"."INV_SUPPLIER_TYPE"                     0 KB       0 rows
+. . exported "ADDOS"."INV_TRANS_DELETED"                     0 KB       0 rows
+. . exported "ADDOS"."INV_TRANS_TEMP"                        0 KB       0 rows
+. . exported "ADDOS"."INV_WO"                                0 KB       0 rows
+. . exported "ADDOS"."INV_WO_DETAIL"                         0 KB       0 rows
+. . exported "ADDOS"."INV_WO_OUT_DETAIL"                     0 KB       0 rows
+. . exported "ADDOS"."INV_WO_REQ"                            0 KB       0 rows
+. . exported "ADDOS"."INV_WO_REQ_DET"                        0 KB       0 rows
+. . exported "ADDOS"."NUM_RUN"                               0 KB       0 rows
+. . exported "ADDOS"."NUM_RUN_DEIL"                          0 KB       0 rows
+. . exported "ADDOS"."OPERATECMDS"                           0 KB       0 rows
+. . exported "ADDOS"."PAYROLL_ALLOWANCE"                     0 KB       0 rows
+. . exported "ADDOS"."PAYROLL_ALLOWANCETYPE"                 0 KB       0 rows
+. . exported "ADDOS"."PAYROLL_CASHADVANCE"                   0 KB       0 rows
+. . exported "ADDOS"."PAYROLL_DEDUCTION"                     0 KB       0 rows
+. . exported "ADDOS"."PAYROLL_DEDUCTIONTYPE"                 0 KB       0 rows
+. . exported "ADDOS"."PAYROLL_EXCEPTIONFORMULA"              0 KB       0 rows
+. . exported "ADDOS"."PAYROLL_EXPENSE"                       0 KB       0 rows
+. . exported "ADDOS"."PAYROLL_INCREMENT"                     0 KB       0 rows
+. . exported "ADDOS"."PAYROLL_LEAVEFORMULA"                  0 KB       0 rows
+. . exported "ADDOS"."PAYROLL_OTFORMULA"                     0 KB       0 rows
+. . exported "ADDOS"."PAYROLL_PAYROLLCREDIT"                 0 KB       0 rows
+. . exported "ADDOS"."PAYROLL_PAYROLLLEAVECREDIT"            0 KB       0 rows
+. . exported "ADDOS"."PAYROLL_SALARY"                        0 KB       0 rows
+. . exported "ADDOS"."PAYROLL_SALARYCHANGE"                  0 KB       0 rows
+. . exported "ADDOS"."PAYROLL_SALARY_EXCEPTION_F0EE6"        0 KB       0 rows
+. . exported "ADDOS"."PAYROLL_SALARY_LEAVE_FORMULA"          0 KB       0 rows
+. . exported "ADDOS"."PAYROLL_SALARY_OT_FORMULA"             0 KB       0 rows
+. . exported "ADDOS"."PERSONNEL_CITIES"                      0 KB       0 rows
+. . exported "ADDOS"."PERSONNEL_COUNTRIES"                   0 KB       0 rows
+. . exported "ADDOS"."PERSONNEL_DEPARTMENTAPPROVE"           0 KB       0 rows
+. . exported "ADDOS"."PERSONNEL_DEPARTMENTAPPROVER"          0 KB       0 rows
+. . exported "ADDOS"."PERSONNEL_DEPARTMENTNOTIFY"            0 KB       0 rows
+. . exported "ADDOS"."PERSONNEL_DOCUMENT"                    0 KB       0 rows
+. . exported "ADDOS"."PERSONNEL_DOCUMENTDETAIL"              0 KB       0 rows
+. . exported "ADDOS"."PERSONNEL_EDUCATION"                   0 KB       0 rows
+. . exported "ADDOS"."PERSONNEL_EMPCHANGE"                   0 KB       0 rows
+. . exported "ADDOS"."PERSONNEL_EMPLOYEEOPTION"              0 KB       0 rows
+. . exported "ADDOS"."PERSONNEL_ICCARD_POSMEAL"              0 KB       0 rows
+. . exported "ADDOS"."PERSONNEL_ICCARD_USE_MECHINE"          0 KB       0 rows
+. . exported "ADDOS"."PERSONNEL_ISSUECARD"                   0 KB       0 rows
+. . exported "ADDOS"."PERSONNEL_LEAVELOG"                    0 KB       0 rows
+. . exported "ADDOS"."PERSONNEL_NATIONAL"                    0 KB       0 rows
+. . exported "ADDOS"."PERSONNEL_POSITIONS"                   0 KB       0 rows
+. . exported "ADDOS"."PERSONNEL_STATE"                       0 KB       0 rows
+. . exported "ADDOS"."PPC_MPR"                               0 KB       0 rows
+. . exported "ADDOS"."PPC_MP_OP_EMP"                         0 KB       0 rows
+. . exported "ADDOS"."PROD_JC"                               0 KB       0 rows
+. . exported "ADDOS"."PROD_JC_STYLE"                         0 KB       0 rows
+. . exported "ADDOS"."PROD_JC_STYLE_DETAIL"                  0 KB       0 rows
+. . exported "ADDOS"."PROD_JC_STYLE_L4"                      0 KB       0 rows
+. . exported "ADDOS"."PROD_LOT"                              0 KB       0 rows
+. . exported "ADDOS"."PROD_LOT_DET"                          0 KB       0 rows
+. . exported "ADDOS"."PROD_WORKER"                           0 KB       0 rows
+. . exported "ADDOS"."PROD_WORKER_PHOTO"                     0 KB       0 rows
+. . exported "ADDOS"."SCHCLASS"                              0 KB       0 rows
+. . exported "ADDOS"."SCHCLASS_BREAK_TIMES"                  0 KB       0 rows
+. . exported "ADDOS"."SETUSERATT"                            0 KB       0 rows
+. . exported "ADDOS"."SYNC_AREA"                             0 KB       0 rows
+. . exported "ADDOS"."SYNC_DEPARTMENT"                       0 KB       0 rows
+. . exported "ADDOS"."SYNC_EMPLOYEE"                         0 KB       0 rows
+. . exported "ADDOS"."SYNC_JOB"                              0 KB       0 rows
+. . exported "ADDOS"."USERINFO"                              0 KB       0 rows
+. . exported "ADDOS"."USERINFO_ATTAREA"                      0 KB       0 rows
+. . exported "ADDOS"."USERUUSEDSCLASSES"                     0 KB       0 rows
+. . exported "ADDOS"."USER_OF_RUN"                           0 KB       0 rows
+. . exported "ADDOS"."USER_SPEDAY"                           0 KB       0 rows
+. . exported "ADDOS"."USER_TEMP_SCH"                         0 KB       0 rows
+. . exported "ADDOS"."WORKTABLE_GROUPMSG"                    0 KB       0 rows
+. . exported "ADDOS"."WORKTABLE_INSTANTMSG"                  0 KB       0 rows
+. . exported "ADDOS"."WORKTABLE_USRMSG"                      0 KB       0 rows
+Master table "SYSTEM"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for SYSTEM.SYS_EXPORT_SCHEMA_01 is:
+  C:\ORACLE\ADMIN\ORCL\DPDUMP\ADDOS_0311.DMP
+Job "SYSTEM"."SYS_EXPORT_SCHEMA_01" successfully completed at 19:15:41

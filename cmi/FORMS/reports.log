@@ -1,0 +1,26 @@
+
+Starting report ledger_without_trx [Tue Dec 17 02:11:26 2013] ...
+End report ledger_without_trx [Tue Dec 17 02:12:11 2013].
+
+Starting report cpo_mat_st_clr_sum0 [Tue Dec 17 13:47:17 2013] ...
+End report cpo_mat_st_clr_sum0 [Tue Dec 17 13:47:27 2013].
+
+Starting report cpo_mat_planning_vs_stock [Tue Dec 17 13:47:32 2013] ...
+End report cpo_mat_planning_vs_stock [Tue Dec 17 13:47:43 2013].
+
+Starting report cpo_mat_st_clr_sum0 [Tue Dec 17 13:48:09 2013] ...
+End report cpo_mat_st_clr_sum0 [Tue Dec 17 13:49:19 2013].
+
+Starting report coa_complete [Tue Dec 17 17:14:28 2013] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report coa_complete [Tue Dec 17 17:14:37 2013].
+
+Starting report coa_main_sub [Tue Dec 17 17:14:53 2013] ...
+REP-0501: Unable to connect to the specified database.
+ORA-24323: value not allowed
+
+REP-0501: Unable to connect to the specified database.
+End report coa_main_sub [Tue Dec 17 17:15:00 2013].

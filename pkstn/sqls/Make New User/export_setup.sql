@@ -1,0 +1,1 @@
+insert into national.export_setup select * from askari3.export_setup

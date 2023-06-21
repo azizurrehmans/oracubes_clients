@@ -1,0 +1,219 @@
+<PlanDefs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="R:\ExplainPlanDisplayv2\ExplainPLan Schema\PlanDefs.xsd">
+	<Columns font="tahoma" fontsize="8" color="clNavy">
+		<Column id="1" show="0" shown="0" type="s" name="Object Owner" line="1" attr="object_owner" tag="" inline_name="0" fontsize="8" fontstyle="B" color="clNavy"/>
+		<Column id="2" show="0" shown="0" type="s" name="Object Name" attr="object_name" color="clBlack"/>
+		<Column id="3" show="0" shown="0" type="s" name="ID" attr="id" color="clBlack"/>
+		<Column id="4" show="0" shown="0" type="s" name="Parent ID" attr="pid" color="clBlack"/>
+		<Column id="5" show="0" shown="0" type="s" name="Position" attr="position" color="clBlack"/>
+		<Column id="6" show="0" shown="0" type="s" name="Part Start" attr="partition_start" color="clBlack"/>
+		<Column id="7" show="0" shown="0" type="s" name="Part Stop" attr="partition_stop" color="clBlack"/>
+		<Column id="10" show="1" shown="1" type="s" name="Operation" sample="TABLE ACCESS" line="1" attr="operation" inline_name="0" fontstyle="B" color="clNavy" fontname="Tahoma"/>
+		<Column id="20" show="1" shown="1" type="s" name="Option" sample="FULL" line="1" attr="option" inline_name="0" fontstyle="B" color="clNavy"/>
+		<Column id="21" show="1" shown="1" type="s" name="Object Type" sample="UNIQUE" line="1" attr="object_type" inline_name="0" fontstyle="B" color="clNavy"/>
+		<Column id="23" show="1" shown="1" type="s" name="Other Tag" sample="SERIAL_FROM_REMOTE" line="1" attr="other_tag" inline_name="0" color="clNavy"/>
+<!--		<Column id="24" show="1" shown="1" type="s" name="Simulated" sample="(Simulated)" line="1" attr="simulated" inline_name="0" fontstyle="B" color="clRed"/>     -->
+		<Column id="25" show="1" shown="1" type="q" name="Object" sample="SYS.TABLE1" line="1" inline_name="0" color="clNavy">
+			<query left="attr:object_owner" oper="gt" right="const:" type="c">
+				<val type="s" attr="object_owner"/>
+				<val type="s" const="."/>
+				<val type="s" attr="object_name"/>
+				<val type="s" const=" "/>
+				<val type="s" tag="alias_h"/>
+			</query>
+			<query oper="else" type="c">
+				<val type="s" attr="object_name"/>
+				<val type="s" const=" "/>
+				<val type="s" tag="alias_h"/>
+			</query>
+		</Column>
+<!--		<Column id="26" show="1" shown="1" type="s" name="error_h" attr="error_h" inline_name="0" fontstyle="B" color="clNavy"/>                                       -->
+<!--		<Column id="27" show="1" shown="1" type="s" name="Tablespace" sample="On ABC Tablespace" line="1" attr="tablespace" inline_name="0" color="clNavy"/>           -->
+		<Column id="30" show="1" shown="1" type="q" name="Optimizer" sample="CHOOSE" line="1" inline_name="0" color="clNavy">
+			<query left="attr:optimizer" oper="eq" right="const:ANALYZED" type="s">[Analyzed]</query>
+			<query oper="else" type="c">
+				<val type="s" attr="optimizer"/>
+			</query>
+		</Column>
+		<Column id="35" show="1" shown="1" type="s" name="Remote" sample="UNIX1.CORP.COM" line="1" attr="object_node" inline_name="0" color="$000080FF"/>
+		<Column id="40" show="3" shown="1" type="q" name="Partition #" sample="1" line="5" color="clBlack">
+			<query left="attr:partition_id" oper="gt" right="const:" type="c">
+				<val type="s" attr="partition_id"/>
+			</query>
+		</Column>
+		<Column id="50" show="3" shown="1" type="q" name="Partition Info" sample="partitions accessed #1 - #4" line="5" inline_name="0" color="clBlack">
+			<query left="attr:partition_start" oper="gt" right="const:" type="q">
+				<query left="attr:partition_start" oper="eq" right="const:KEY" type="s">
+        Partitions determined by Key Values
+      </query>
+				<query left="attr:partition_start" oper="eq" right="const:ROW LOCATION" type="s">
+        Partition access computed by row location
+      </query>
+				<query left="attr:partition_start" oper="eq" right="const:INVALID" type="s">
+        &gt;Partition(s) are empty
+      </query>
+				<query left="attr:partition_start" oper="eq" right="attr:partition_stop" type="c">
+					<val type="s" const="Partitions accessed #"/>
+					<val type="s" attr="partition_start"/>
+				</query>
+				<query oper="else" type="c">
+					<val type="s" const="Partitions accessed #"/>
+					<val type="s" attr="partition_start"/>
+					<val type="s" const=" - #"/>
+					<val type="s" attr="partition_stop"/>
+				</query>
+			</query>
+		</Column>
+<!--		<Column id="60" show="1" shown="1" type="s" name="Filter Text" sample="GROUP BY a.column1" line="3" tag="filter_h" inline_name="0" color="clTeal"/>    -->
+<!--		<Column id="70" show="1" shown="1" type="s" name="Join Text" sample="CONTACT to CUSTOMER" line="1" tag="join_h" inline_name="0" color="clBlue"/>       -->
+		<Column id="90" show="3" shown="1" type="f" name="Cost" line="4" attr="cost" color="clMaroon"/>
+		<Column id="100" show="3" shown="1" type="f" name="Bytes" line="4" attr="bytes" color="clMaroon"/>
+		<Column id="110" show="3" shown="1" type="f" name="Cardinality" line="4" attr="cardinality" color="clMaroon"/>
+		<Column id="120" show="3" shown="0" type="s" name="Distribution" sample="QC (RANDOM)" line="4" attr="distribution" color="clBlack"/>
+		<Column id="130" show="3" shown="1" type="s" name="Object Instance" attr="object_instance" fontstyle="B" color="$BBCCFF"/>
+		<Column id="180" show="3" shown="0" type="s" name="Other" sample="SELECT /*+ ORDERED NO_EXPAND USE_NL(A2) INDEX(A2 &quot;PK_CUSTOMERS&quot;) */ " line="2" tag="Other" inline_name="0" color="$000080FF"/>
+		<Column id="190" show="3" shown="0" type="s" name="Search Columns" attr="search_columns" color="clBlack"/>
+		<Column id="197" show="3" shown="0" type="f" name="CPU Cost" line="4" attr="cpu_cost" inline_name="1" color="clBlack"/>
+		<Column id="199" show="3" shown="0" type="f" name="IO Cost" line="4" attr="io_cost" inline_name="1" color="clBlack"/>
+<!--		<Column id="202" show="1" shown="0" type="n" name="Table Rows" line="4" attr="actual_rows" inline_name="1" color="clBlack"/>  -->
+<!--		<Column id="210" show="0" shown="0" type="s" name="Est Rows" line="4" attr="est_rows" color="clBlack"/>                       -->
+<!--		<Column id="215" show="0" shown="0" type="q" name="rows" color="clBlack">                                                     -->
+<!--			<query left="attr:act_rows" oper="gt" right="const:" type="c">                                                        -->
+<!--				<val type="s" attr="act_rows"/>                                                                               -->
+<!--			</query>                                                                                                              -->
+<!--			<query oper="else" type="c">                                                                                          -->
+<!--				<val type="s" attr="est_rows"/>                                                                               -->
+<!--			</query>                                                                                                              -->
+<!--		</Column>                                                                                                                     -->
+		<Column id="220" show="3" shown="0" type="s" name="Time" line="4" attr="time" color="clBlack"/>
+		<Column id="230" show="0" shown="0" type="q" name="GraphicText1" fontsize="10" fontstyle="B" color="clBlack">
+			<query left="attr:option" oper="gt" right="const:" type="c">
+				<val type="s" attr="operation"/>
+				<val type="s" const=" : "/>
+				<val type="s" attr="option"/>
+			</query>
+			<query oper="else" type="c">
+				<val type="s" attr="operation"/>
+			</query>
+		</Column>
+		<Column id="230" show="0" shown="0" type="q" name="GraphicText1" fontsize="10" fontstyle="B" color="clBlack">
+			<query left="attr:option" oper="gt" right="const:" type="c">
+				<val type="s" attr="operation"/>
+				<val type="s" const=" : "/>
+				<val type="s" attr="option"/>
+			</query>
+			<query oper="else" type="c">
+				<val type="s" attr="operation"/>
+			</query>
+		</Column>
+		<Column id="240" show="0" shown="0" type="q" name="GraphicText2" color="clBlack">
+			<query left="attr:object_owner" oper="gt" right="const:" type="c">
+				<val type="s" attr="object_owner"/>
+				<val type="s" const="."/>
+				<val type="s" attr="object_name"/>
+			</query>
+			<query oper="else" type="c">
+				<val type="s" attr="object_name"/>
+			</query>
+		</Column>
+		<Column id="250" show="0" shown="0" type="c" name="GraphicHint" color="clBlack">
+			<val type="s" const="^\TAC^\^\FS=B^\"/>
+			<val type="s" attr="operation"/>
+			<query left="attr:option" oper="gt" right="const:" type="c">
+				<val type="s" const=" : "/>
+				<val type="s" attr="option"/>
+			</query>
+			<val type="s" const="^\TAL^\^\FS=^\^\NL^\^\PL^\^\NL^\"/>
+			<query left="attr:object_name" oper="gt" right="const:" type="q">
+				<query left="attr:object_owner" oper="gt" right="const:" type="c">
+					<val type="s" const="^\NL^\^\FS=B^\"/>
+					<val type="s" const="Object: "/>
+					<val type="s" const="^\TAR^\^\FS=^\"/>
+					<val type="s" attr="object_owner"/>
+					<val type="s" const="."/>
+					<val type="s" attr="object_name"/>
+					<val type="s" const="^\TAL^\"/>
+				</query>
+				<query oper="else" type="c">
+					<val type="s" const="^\NL^\^\FS=B^\"/>
+					<val type="s" const="Object: "/>
+					<val type="s" const="^\TAR^\^\FS=^\"/>
+					<val type="s" attr="object_name"/>
+					<val type="s" const="^\TAL^\"/>
+				</query>
+			</query>
+			<query left="attr:cost" oper="gt" right="const:" type="c">
+				<val type="s" const="^\NL^\^\FS=B^\"/>
+				<val type="s" const="Cost: "/>
+				<val type="s" const="^\TAR^\^\FS=^\"/>
+				<val type="s" attr="cost"/>
+				<val type="s" const="^\TAL^\"/>
+			</query>
+			<query left="attr:cpu_cost" oper="gt" right="const:" type="c">
+				<val type="s" const="^\NL^\^\FS=B^\"/>
+				<val type="s" const="CPU Cost: "/>
+				<val type="s" const="^\TAR^\^\FS=^\"/>
+				<val type="s" attr="cpu_cost"/>
+				<val type="s" const="^\TAL^\"/>
+			</query>
+			<query left="attr:io_cost" oper="gt" right="const:" type="c">
+				<val type="s" const="^\NL^\^\FS=B^\"/>
+				<val type="s" const="IO Cost: "/>
+				<val type="s" const="^\TAR^\^\FS=^\"/>
+				<val type="s" attr="io_cost"/>
+				<val type="s" const="^\TAL^\"/>
+			</query>
+			<query left="attr:act_rows" oper="gt" right="const:" type="c">
+				<val type="s" const="^\NL^\^\FS=B^\"/>
+				<val type="s" const="Actual Rows: "/>
+				<val type="s" const="^\TAR^\^\FS=^\"/>
+				<val type="s" attr="act_rows"/>
+				<val type="s" const="^\TAL^\"/>
+			</query>
+			<query left="attr:actual_rows" oper="gt" right="const:" type="c">
+				<val type="s" const="^\NL^\^\FS=B^\"/>
+				<val type="s" const="Table Rows: "/>
+				<val type="s" const="^\TAR^\^\FS=^\"/>
+				<val type="s" attr="actual_rows"/>
+				<val type="s" const="^\TAL^\"/>
+			</query>
+			<query left="attr:last_cr_buffer_gets" oper="gt" right="const:" type="c">
+				<val type="s" const="^\NL^\^\FS=B^\"/>
+				<val type="s" const="Buffer Gets: "/>
+				<val type="s" const="^\TAR^\^\FS=^\"/>
+				<val type="s" attr="last_cr_buffer_gets"/>
+				<val type="s" const="^\TAL^\"/>
+			</query>
+			<query left="attr:last_disk_reads" oper="gt" right="const:" type="c">
+				<val type="s" const="^\NL^\^\FS=B^\"/>
+				<val type="s" const="Disk Reads: "/>
+				<val type="s" const="^\TAR^\^\FS=^\"/>
+				<val type="s" attr="last_disk_reads"/>
+				<val type="s" const="^\TAL^\"/>
+			</query>
+			<query left="attr:cardinality" oper="gt" right="const:" type="c">
+				<val type="s" const="^\NL^\^\FS=B^\"/>
+				<val type="s" const="Cardinality: "/>
+				<val type="s" const="^\TAR^\^\FS=^\"/>
+				<val type="s" attr="cardinality"/>
+				<val type="s" const="^\TAL^\"/>
+			</query>
+			<query left="attr:distribution" oper="gt" right="const:" type="c">
+				<val type="s" const="^\NL^\^\FS=B^\"/>
+				<val type="s" const="Distriution: "/>
+				<val type="s" const="^\TAR^\^\FS=^\"/>
+				<val type="s" attr="distribution"/>
+				<val type="s" const="^\TAL^\"/>
+			</query>
+			<query left="tag:filter_h" oper="gt" right="const:" type="c">
+				<val type="s" const="^\NL^\^\FS=B^\"/>
+				<val type="s" const="Filter: "/>
+				<val type="s" const="^\NL^\^\FS=^\"/>
+				<val type="s" tag="filter_h"/>
+			</query>
+		</Column>
+		<Column id="260" show="0" shown="0" type="s" name="object_id" attr="o_id" color="clBlack"/>
+		<Column id="270" show="3" shown="0" type="s" name="Temp Space" attr="temp_space" color="clBlack"/>
+		<Column id="280" show="3" shown="0" type="s" name="Access Predicates" attr="access_predicates" color="clBlack"/>
+		<Column id="290" show="3" shown="0" type="s" name="Filter Predicates" attr="filter_predicates" color="clBlack"/>
+	</Columns>
+</PlanDefs>

@@ -1,0 +1,10 @@
+F:\Clients\Askari\Dropbox\Askari\sqls\Make New User\companyt_setup.sql
+F:\Clients\Askari\Dropbox\Askari\sqls\Make New User\export_setup.sql
+F:\Clients\Askari\Dropbox\Askari\sqls\Make New User\rsize2.sql
+F:\Clients\Askari\Dropbox\Askari\sqls\Make New User\rsize.sql
+F:\Clients\Askari\Dropbox\Askari\sqls\Make New User\CPO_type.sql
+F:\Clients\Askari\Dropbox\Askari\sqls\Make New User\voucher_type_detail.sql
+F:\Clients\Askari\Dropbox\Askari\sqls\Make New User\voucher_type.sql
+F:\Clients\Askari\Dropbox\Askari\sqls\Make New User\ac_setup.sql
+F:\Clients\Askari\Dropbox\Askari\sqls\Make New User\coa_sub.sql
+F:\Clients\Askari\Dropbox\Askari\sqls\Make New User\coa_main.sql

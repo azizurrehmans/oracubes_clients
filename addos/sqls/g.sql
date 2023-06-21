@@ -1,0 +1,2 @@
+select g.AMOUNT, g.GIR, g.GIR_DATE, g.IGP, g.IGP_DATE, g.PO, g.PO_DATE, g.PO_TYPE, g.STATUS_ID, g.SUPPLIER_ID, g.SUPPLIER_NAME, g.VOUCHER_NO, g.VOUCHER_TYPE_ID
+from gir_detail_view g

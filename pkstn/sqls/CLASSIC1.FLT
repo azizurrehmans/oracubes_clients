@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<Filter>
+  <Data>
+    <AllowTableQryCancel>False</AllowTableQryCancel>
+    <AllSchemasTables>False</AllSchemasTables>
+    <AssignedProfs>False</AssignedProfs>
+    <ClusterFilterHow />
+    <ClusterFilterText />
+    <ClusterOrderByMode>0</ClusterOrderByMode>
+    <ClusterTS />
+    <ConsColFilterHow />
+    <ConsColFilterText />
+    <ConsFilterHow />
+    <ConsFilterText />
+    <ConstraintOrderByMode>0</ConstraintOrderByMode>
+    <ConstraintsEnabled />
+    <DimInvalidOnly>False</DimInvalidOnly>
+    <DimNameFilterHow />
+    <DimNameFilterText />
+    <DimOrderByMode>0</DimOrderByMode>
+    <DimValidOnly>False</DimValidOnly>
+    <DirectoryFilterHow />
+    <DirectoryFilterText />
+    <DirectoryOrderByMode>0</DirectoryOrderByMode>
+    <ExcludeSlashSyns>False</ExcludeSlashSyns>
+    <ExcSysCons>False</ExcSysCons>
+    <HideIOTOverFlow>False</HideIOTOverFlow>
+    <HideNestedTables>False</HideNestedTables>
+    <IncTrigStatus>True</IncTrigStatus>
+    <IndAn>False</IndAn>
+    <IndexColumnNameFilterHow />
+    <IndexColumnNameFilterText />
+    <IndexFilter />
+    <IndexFilterHow />
+    <IndexFilterText />
+    <IndexOrderByMode>0</IndexOrderByMode>
+    <IndexTableNameFilterHow />
+    <IndexTableNameFilterText />
+    <IndTablespace />
+    <IndUnAn>False</IndUnAn>
+    <IndUnusableOnly>False</IndUnusableOnly>
+    <IndUsableOnly>False</IndUsableOnly>
+    <JavaCaseSens>False</JavaCaseSens>
+    <JavaClass>False</JavaClass>
+    <JavaData>False</JavaData>
+    <JavaInvalidOnly>False</JavaInvalidOnly>
+    <JavaNameFilterHow />
+    <JavaNameFilterText />
+    <JavaOrderByMode>0</JavaOrderByMode>
+    <JavaResource>False</JavaResource>
+    <JavaSource>False</JavaSource>
+    <JavaValidOnly>False</JavaValidOnly>
+    <JobCaseSens>False</JobCaseSens>
+    <JobClassOrderByMode>0</JobClassOrderByMode>
+    <JobOrderByMode>0</JobOrderByMode>
+    <JobsBrokenOnly>False</JobsBrokenOnly>
+    <JobsCurrentSchemaOnly>False</JobsCurrentSchemaOnly>
+    <JobsExecutedOnly>False</JobsExecutedOnly>
+    <JobsExecutingOnly>False</JobsExecutingOnly>
+    <JobsNonExecutingOnly>False</JobsNonExecutingOnly>
+    <JobsFailedOnly>False</JobsFailedOnly>
+    <JobsUnbrokenOnly>False</JobsUnbrokenOnly>
+    <JobWhatFilterHow />
+    <JobWhatFilterText />
+    <LastClusterAlter>0</LastClusterAlter>
+    <LastConstraintAlter>0</LastConstraintAlter>
+    <LastDimAlter>0</LastDimAlter>
+    <LastTypeAlter>0</LastTypeAlter>
+    <LastDirectoryAlter>0</LastDirectoryAlter>
+    <LastIndexAlter>0</LastIndexAlter>
+    <LastJavaAlter>0</LastJavaAlter>
+    <LastJobClassAlter>0</LastJobClassAlter>
+    <LastLibraryAlter>0</LastLibraryAlter>
+    <LastContextAlter>0</LastContextAlter>
+    <LastLinkCreate>0</LastLinkCreate>
+    <LastProcAlter>0</LastProcAlter>
+    <LastFuncAlter>0</LastFuncAlter>
+    <LastPackAlter>0</LastPackAlter>
+    <LastProgramAlter>0</LastProgramAlter>
+    <LastChainAlter>0</LastChainAlter>
+    <LastScheduleAlter>0</LastScheduleAlter>
+    <LastSchedJobAlter>0</LastSchedJobAlter>
+    <LastSequenceAlter>0</LastSequenceAlter>
+    <LastTableAlter>0</LastTableAlter>
+    <LastTriggerAlter>0</LastTriggerAlter>
+    <LastViewAlter>0</LastViewAlter>
+    <LastWindowAlter>0</LastWindowAlter>
+    <LastWindowGroupAlter>0</LastWindowGroupAlter>
+    <LastClusterAlterMode>0</LastClusterAlterMode>
+    <LastConstraintAlterMode>0</LastConstraintAlterMode>
+    <LastDimAlterMode>0</LastDimAlterMode>
+    <LastTypeAlterMode>0</LastTypeAlterMode>
+    <LastDirectoryAlterMode>0</LastDirectoryAlterMode>
+    <LastIndexAlterMode>0</LastIndexAlterMode>
+    <LastJavaAlterMode>0</LastJavaAlterMode>
+    <LastJobClassAlterMode>0</LastJobClassAlterMode>
+    <LastLibraryAlterMode>0</LastLibraryAlterMode>
+    <LastContextAlterMode>0</LastContextAlterMode>
+    <LastProcAlterMode>0</LastProcAlterMode>
+    <LastFuncAlterMode>0</LastFuncAlterMode>
+    <LastPackAlterMode>0</LastPackAlterMode>
+    <LastProgramAlterMode>0</LastProgramAlterMode>
+    <LastChainAlterMode>0</LastChainAlterMode>
+    <LastScheduleAlterMode>0</LastScheduleAlterMode>
+    <LastSchedJobAlterMode>0</LastSchedJobAlterMode>
+    <LastSequenceAlterMode>0</LastSequenceAlterMode>
+    <LastTableAlterMode>0</LastTableAlterMode>
+    <LastTriggerAlterMode>0</LastTriggerAlterMode>
+    <LastViewAlterMode>0</LastViewAlterMode>
+    <LastWindowAlterMode>0</LastWindowAlterMode>
+    <LastWindowGroupAlterMode>0</LastWindowGroupAlterMode>
+    <LibraryFilterHow />
+    <LibraryFilterText />
+    <LibraryOrderByMode>0</LibraryOrderByMode>
+    <ContextFilterHow />
+    <ContextFilterText />
+    <ContextOrderByMode>0</ContextOrderByMode>
+    <LinkFilterHow />
+    <LinkFilterText />
+    <LinkOrderByMode>0</LinkOrderByMode>
+    <NoRecycleCons>False</NoRecycleCons>
+    <NoRecycleIndexes>False</NoRecycleIndexes>
+    <NoRecycleTables>False</NoRecycleTables>
+    <NoRecycleTriggers>False</NoRecycleTriggers>
+    <NoSnapLogTables>False</NoSnapLogTables>
+    <OmitQueueTables>False</OmitQueueTables>
+    <OmitSnapTables>False</OmitSnapTables>
+    <PolDelete>False</PolDelete>
+    <PolDisabled>False</PolDisabled>
+    <PolDynamic>False</PolDynamic>
+    <PolEnabled>False</PolEnabled>
+    <PolFuncNameFilterHow />
+    <PolFuncNameFilterText />
+    <PolGroupFilterHow />
+    <PolGroupFilterText />
+    <PolGroupNameFilterHow />
+    <PolGroupNameFilterText />
+    <PolGroupOrderByMode>0</PolGroupOrderByMode>
+    <PolInsert>False</PolInsert>
+    <PolNameFilterHow />
+    <PolNameFilterText />
+    <PolObjNameFilterHow />
+    <PolObjNameFilterText />
+    <PolOrderByMode>0</PolOrderByMode>
+    <PolPkgNameFilterHow />
+    <PolPkgNameFilterText />
+    <PolSelect>False</PolSelect>
+    <PolStatic>False</PolStatic>
+    <PolUpdate>False</PolUpdate>
+    <PrivateLinks>False</PrivateLinks>
+    <PrivateOwnerOnly>False</PrivateOwnerOnly>
+    <ProcFilterHow />
+    <FuncFilterHow />
+    <PackFilterHow />
+    <ProcFilterText />
+    <FuncFilterText />
+    <PackFilterText />
+    <ProcNoDebugInfo>False</ProcNoDebugInfo>
+    <FuncNoDebugInfo>False</FuncNoDebugInfo>
+    <PackNoDebugInfo>False</PackNoDebugInfo>
+    <ProcOrderByMode>0</ProcOrderByMode>
+    <FuncOrderByMode>0</FuncOrderByMode>
+    <PackOrderByMode>0</PackOrderByMode>
+    <ProgramOrderByMode>0</ProgramOrderByMode>
+    <ChainOrderByMode>0</ChainOrderByMode>
+    <ProcsValidity />
+    <FuncsValidity />
+    <PacksValidity />
+    <ProcAuthIDFilterMode>0</ProcAuthIDFilterMode>
+    <FuncAuthIDFilterMode>0</FuncAuthIDFilterMode>
+    <PackAuthIDFilterMode>0</PackAuthIDFilterMode>
+    <ProfileFilterHow />
+    <ProfileFilterText />
+    <ProfileOrderByMode>0</ProfileOrderByMode>
+    <PublicLinks>False</PublicLinks>
+    <PublicOwnerOnly>False</PublicOwnerOnly>
+    <QTableNameFilterHow />
+    <QTableNameFilterText />
+    <QTableOrderByMode>0</QTableOrderByMode>
+    <QueueException>False</QueueException>
+    <QueueNameFilterHow />
+    <QueueNameFilterText />
+    <QueueNonPersistent>False</QueueNonPersistent>
+    <QueueNormal>False</QueueNormal>
+    <QueueOrderByMode>0</QueueOrderByMode>
+    <RBSNameFilterHow />
+    <RBSNameFilterText />
+    <RBSOffline>False</RBSOffline>
+    <RBSOnline>False</RBSOnline>
+    <RBSOrderByMode>0</RBSOrderByMode>
+    <RecycleNameFilterHow />
+    <RecycleNameFilterText />
+    <RecycleOrderByMode>0</RecycleOrderByMode>
+    <RecycleTS />
+    <RecycleTables>True</RecycleTables>
+    <RecycleIndexes>False</RecycleIndexes>
+    <RecycleTriggers>True</RecycleTriggers>
+    <RefreshGroupFilterHow />
+    <RefreshGroupFilterText />
+    <RefreshGroupOrderByMode>0</RefreshGroupOrderByMode>
+    <RGroupFilterHow />
+    <RGroupFilterText />
+    <RGroupOrderByMode>0</RGroupOrderByMode>
+    <RogueGroupsOnly>False</RogueGroupsOnly>
+    <RoleNameFilterHow />
+    <RoleNameFilterText />
+    <RoleOrderByMode>0</RoleOrderByMode>
+    <RoleRoleFilter />
+    <RoleRoleFilterMode>0</RoleRoleFilterMode>
+    <RPlanFilterHow />
+    <RPlanFilterText />
+    <RPlanOrderByMode>0</RPlanOrderByMode>
+    <SchedJobOrderByMode>0</SchedJobOrderByMode>
+    <ScheduleOrderByMode>0</ScheduleOrderByMode>
+    <SeqNameFilterHow />
+    <SeqNameFilterText />
+    <SequenceOrderByMode>0</SequenceOrderByMode>
+    <SequencesFilter />
+    <UserOpen>False</UserOpen>
+    <UserExpired>False</UserExpired>
+    <UserExpiredGrace>False</UserExpiredGrace>
+    <UserLockedTimed>False</UserLockedTimed>
+    <UserLocked>False</UserLocked>
+    <UserExpiredLockedTimed>False</UserExpiredLockedTimed>
+    <UserExpiredGraceLockedTimed>False</UserExpiredGraceLockedTimed>
+    <UserExpiredLocked>False</UserExpiredLocked>
+    <UserExpiredGraceLocked>False</UserExpiredGraceLocked>
+    <ShowAllSyns>False</ShowAllSyns>
+    <ShowConsChecks>True</ShowConsChecks>
+    <ShowConsPKeys>True</ShowConsPKeys>
+    <ShowConsRefer>True</ShowConsRefer>
+    <ShowConsRO>False</ShowConsRO>
+    <ShowConsTableNm>False</ShowConsTableNm>
+    <ShowConsUnique>True</ShowConsUnique>
+    <ShowConsVChecks>True</ShowConsVChecks>
+    <ShowSynFunctions>False</ShowSynFunctions>
+    <ShowSynJava>False</ShowSynJava>
+    <ShowSynPackages>False</ShowSynPackages>
+    <ShowSynProcs>False</ShowSynProcs>
+    <ShowSynSyn>False</ShowSynSyn>
+    <ShowSynTables>False</ShowSynTables>
+    <ShowSynTypes>False</ShowSynTypes>
+    <ShowSynViews>False</ShowSynViews>
+    <ShowSynSeqs>False</ShowSynSeqs>
+    <ShowTrigEvents />
+    <ShowTrigState />
+    <ShowTrigStatus />
+    <ShowTrigTypes />
+    <ShowWhichViews />
+    <SnapColFilterHow />
+    <SnapColFilterText />
+    <SnapLogColFilterHow />
+    <SnapLogColFilterText />
+    <SnapLogNameFilterHow />
+    <SnapLogNameFilterText />
+    <SnapLogOrderByMode>0</SnapLogOrderByMode>
+    <SnapNameFilterHow />
+    <SnapNameFilterText />
+    <SnapOrderByMode>0</SnapOrderByMode>
+    <SynFilterHow />
+    <SynFilterText />
+    <SynOrderByMode>0</SynOrderByMode>
+    <SynOwnedByMode>2</SynOwnedByMode>
+    <SynPrivateAny>True</SynPrivateAny>
+    <SynPrivateCurrent>True</SynPrivateCurrent>
+    <SynPublic>False</SynPublic>
+    <SynsLinkOnly>False</SynsLinkOnly>
+    <SynsNoLinkOnly>False</SynsNoLinkOnly>
+    <SysPrivFilterHow />
+    <SysPrivFilterText />
+    <SysPrivOrderByMode>0</SysPrivOrderByMode>
+    <TableAn>False</TableAn>
+    <TableColFilterHow />
+    <TableColFilterText />
+    <TableFilterHow />
+    <TableFilterText />
+    <TableOrderByMode>0</TableOrderByMode>
+    <TableUnan>False</TableUnan>
+    <TopLevelPlansOnly>False</TopLevelPlansOnly>
+    <TrigColFilterHow />
+    <TrigColFilterText />
+    <TrigFilterHow />
+    <TrigFilterNameHow />
+    <TrigFilterNameText />
+    <TrigFilterText />
+    <TriggerOrderByMode>0</TriggerOrderByMode>
+    <TrigsValidity />
+    <TriggerAllSchemas>False</TriggerAllSchemas>
+    <TriggerBaseObjectType />
+    <UseClusterQuery>False</UseClusterQuery>
+    <UseConstraintQuery>False</UseConstraintQuery>
+    <UseDBLinkQuery>False</UseDBLinkQuery>
+    <UseDimensionQuery>False</UseDimensionQuery>
+    <UseIndexQuery>False</UseIndexQuery>
+    <UseJavaQuery>False</UseJavaQuery>
+    <UseJobQuery>False</UseJobQuery>
+    <UseLibraryQuery>False</UseLibraryQuery>
+    <UseContextQuery>False</UseContextQuery>
+    <UsePolicyQuery>False</UsePolicyQuery>
+    <UsePolicyGroupQuery>False</UsePolicyGroupQuery>
+    <UseProcQuery>False</UseProcQuery>
+    <UsePackQuery>False</UsePackQuery>
+    <UseFuncQuery>False</UseFuncQuery>
+    <UseProfileQuery>False</UseProfileQuery>
+    <UseQueueTableQuery>False</UseQueueTableQuery>
+    <UseQueueQuery>False</UseQueueQuery>
+    <UseRecycleQuery>False</UseRecycleQuery>
+    <UseRefreshGroupQuery>False</UseRefreshGroupQuery>
+    <UseResourceGroupQuery>False</UseResourceGroupQuery>
+    <UseResourcePlanQuery>False</UseResourcePlanQuery>
+    <UseRoleQuery>False</UseRoleQuery>
+    <UseRBSQuery>False</UseRBSQuery>
+    <UseSchedJobQuery>False</UseSchedJobQuery>
+    <UseSchedJobClassQuery>False</UseSchedJobClassQuery>
+    <UseSchedProgramQuery>False</UseSchedProgramQuery>
+    <UseSchedChainQuery>False</UseSchedChainQuery>
+    <UseSchedScheduleQuery>False</UseSchedScheduleQuery>
+    <UseSchedWindowQuery>False</UseSchedWindowQuery>
+    <UseSchedWindowGroupQuery>False</UseSchedWindowGroupQuery>
+    <UseSequenceQuery>False</UseSequenceQuery>
+    <UseSnapshotLogQuery>False</UseSnapshotLogQuery>
+    <UseSnapshotQuery>False</UseSnapshotQuery>
+    <UseDirectoryQuery>False</UseDirectoryQuery>
+    <UseSynonymQuery>False</UseSynonymQuery>
+    <UseSysPrivQuery>False</UseSysPrivQuery>
+    <UseTableQuery>False</UseTableQuery>
+    <UseTypeQuery>False</UseTypeQuery>
+    <UseTablespaceQuery>False</UseTablespaceQuery>
+    <UseTriggerQuery>False</UseTriggerQuery>
+    <UseUserQuery>False</UseUserQuery>
+    <UseViewQuery>False</UseViewQuery>
+    <ClusterQuery />
+    <ConstraintQuery />
+    <DBLinkQuery />
+    <DimensionQuery />
+    <IndexQuery />
+    <JavaQuery />
+    <JobQuery />
+    <LibraryQuery />
+    <ContextQuery />
+    <PolicyQuery />
+    <PolicyGroupQuery />
+    <ProcQuery />
+    <FuncQuery />
+    <PackQuery />
+    <ProfileQuery />
+    <QueueTableQuery />
+    <QueueQuery />
+    <RecycleQuery />
+    <RefreshGroupQuery />
+    <ResourceGroupQuery />
+    <ResourcePlanQuery />
+    <RoleQuery />
+    <RBSQuery />
+    <SchedJobQuery />
+    <SchedJobClassQuery />
+    <SchedProgramQuery />
+    <SchedChainQuery />
+    <SchedScheduleQuery />
+    <SchedWindowQuery />
+    <SchedWindowGroupQuery />
+    <SequenceQuery />
+    <SnapshotLogQuery />
+    <SnapshotQuery />
+    <DirectoryQuery />
+    <SynonymQuery />
+    <SysPrivQuery />
+    <TableQuery />
+    <TypeQuery />
+    <TablespaceQuery />
+    <TriggerQuery />
+    <UserQuery />
+    <ViewQuery />
+    <TSDict>False</TSDict>
+    <TSLocal>False</TSLocal>
+    <TSMultiFile>False</TSMultiFile>
+    <TSNameFilterHow />
+    <TSNameFilterText />
+    <TSOffline>False</TSOffline>
+    <TSOnline>False</TSOnline>
+    <TSOrderByMode>0</TSOrderByMode>
+    <TSPerm>False</TSPerm>
+    <TSRBS>False</TSRBS>
+    <TSSingleFile>False</TSSingleFile>
+    <TSTemp>False</TSTemp>
+    <txtSynOwner />
+    <txtTblSpace />
+    <TypeCollTypes>False</TypeCollTypes>
+    <TypeNameFilterHow />
+    <TypeNameFilterText />
+    <TypeObjectTypes>False</TypeObjectTypes>
+    <TypeOrderByMode>0</TypeOrderByMode>
+    <UnassignedProfs>False</UnassignedProfs>
+    <UserFilterHow />
+    <UserFilterText />
+    <UserOrderByMode>0</UserOrderByMode>
+    <UserRoleFilter />
+    <UserRoleFilterMode>0</UserRoleFilterMode>
+    <ViewColFilterHow />
+    <ViewColFilterText />
+    <ViewFilterHow />
+    <ViewFilterText />
+    <ViewOrderByMode>0</ViewOrderByMode>
+    <ViewTblHow />
+    <ViewTblName />
+    <ProgramFilterHow />
+    <ProgramFilterText />
+    <ChainFilterHow />
+    <ChainFilterText />
+    <ScheduleFilterHow />
+    <ScheduleFilterText />
+    <SchedJobFilterHow />
+    <SchedJobFilterText />
+    <JobClassFilterHow />
+    <JobClassFilterText />
+    <WindowFilterHow />
+    <WindowFilterText />
+    <WindowOrderByMode>0</WindowOrderByMode>
+    <WindowGroupFilterHow />
+    <WindowGroupFilterText />
+    <WindowGroupOrderByMode>0</WindowGroupOrderByMode>
+    <AppsUserAccountMode>0</AppsUserAccountMode>
+    <AppsUserLastNDays>31</AppsUserLastNDays>
+    <AppsMenuMode>1</AppsMenuMode>
+    <AppsLookupType>*</AppsLookupType>
+    <AppsLookupMeaning>*</AppsLookupMeaning>
+    <AppsLookupCode>*</AppsLookupCode>
+    <AppsLookupTypeCS>False</AppsLookupTypeCS>
+    <AppsLookupCodeCS>False</AppsLookupCodeCS>
+    <AppsLookupMeaningCS>False</AppsLookupMeaningCS>
+    <AppsActivityDeadSessions>False</AppsActivityDeadSessions>
+    <InvalidOrderByMode>0</InvalidOrderByMode>
+    <LastInvalidAlterMode>0</LastInvalidAlterMode>
+    <LastInvalidAlter>0</LastInvalidAlter>
+    <invalidFilterHow />
+    <InvalidFilterText />
+    <InvalidQuery />
+    <UseInvalidQuery>False</UseInvalidQuery>
+    <InvalidFunctions>False</InvalidFunctions>
+    <InvalidJava>False</InvalidJava>
+    <InvalidMViews>False</InvalidMViews>
+    <InvalidProcs>False</InvalidProcs>
+    <InvalidPackSpecs>False</InvalidPackSpecs>
+    <InvalidPackBodies>False</InvalidPackBodies>
+    <InvalidTriggers>False</InvalidTriggers>
+    <InvalidTypeSpecs>False</InvalidTypeSpecs>
+    <InvalidTypeBodies>False</InvalidTypeBodies>
+    <InvalidViews>False</InvalidViews>
+    <InvalidIndexes>False</InvalidIndexes>
+    <InvalidIndexParts>False</InvalidIndexParts>
+    <InvalidIndexSubParts>False</InvalidIndexSubParts>
+    <InvalidAllSchemas>False</InvalidAllSchemas>
+    <InvalidHideDisabled>False</InvalidHideDisabled>
+    <InvalidShowDisabled>False</InvalidShowDisabled>
+    <InvalidDisConstraints>False</InvalidDisConstraints>
+    <InvalidDisTriggers>False</InvalidDisTriggers>
+    <InvalidDisTablespaces>False</InvalidDisTablespaces>
+    <InvalidDisDBMSJobs>False</InvalidDisDBMSJobs>
+    <InvalidDisSchedJobs>False</InvalidDisSchedJobs>
+    <InvalidDisSchedPrograms>False</InvalidDisSchedPrograms>
+    <InvalidDisSchedWindows>False</InvalidDisSchedWindows>
+    <InvalidDisSchedWinGroups>False</InvalidDisSchedWinGroups>
+  </Data>
+</Filter>

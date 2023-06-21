@@ -1,0 +1,78 @@
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebDFD.tmp,"TEST.MAT_RES_OTHER_MO [FUNCTION] (not compiled)","5/22/2013 5:10:58 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb9A2D.tmp,"SELECT SUM(ACCEPTED_QTY) FROM GIR_DETAIL_VIEW WHERE PO_ID='578' AND PO_YEAR='13' AND PO_TYPE='CASH' AND PO_DETAIL_ID=1","6/7/2013 5:21:57 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb3ED6.tmp,"ASKARI1.PO_BALANCE_QTY [FUNCTION]","6/7/2013 5:22:06 PM",5
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebEC35.tmp,"CREATE OR REPLACE FORCE VIEW cpo_material_reserve_veiw1 (preq_qty,","6/7/2013 5:21:47 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebE033.tmp,"SELECT CONSTRAINT_NAME, TABLE_NAME FROM USER_CONSTRAINTS","6/17/2013 5:34:04 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb9407.tmp,"select distinct our_cpo from cpo_material","6/17/2013 5:33:42 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebCB8C.tmp,"CREATE OR REPLACE FORCE VIEW igp_detail_view (po_type_new,","6/17/2013 3:03:41 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebE9AA.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\COMPANY_SETUP.sql,"6/17/2013 3:03:41 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebA904.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\COMPANY_SETUP1.sql,"6/17/2013 3:03:41 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebA905.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\material_reserve.sql,"6/17/2013 3:03:41 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebC01F.tmp,"select operation_id from production.job_Card_detail_view","6/17/2013 5:33:27 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb77D2.tmp,"grant dba to classic1","7/16/2013 7:03:33 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb48C6.tmp,"delete from store.sc_opening where sc_opening_year='13-14'","7/18/2013 5:51:44 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebBE93.tmp,"select sc_opening_qty_fdate(901,1,1,sysdate,'GENERAL') FROM DUAL;","7/18/2013 5:51:44 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb1F7D.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\LOAN4.sql,"7/18/2013 9:41:41 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb1F8D.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\SAL_CONT_DET1.sql,"7/18/2013 9:41:41 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb1F8E.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\employee3.sql,"7/18/2013 9:41:41 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebDF16.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\SAL_ADV1.sql,"7/18/2013 9:41:41 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebDF27.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\AC_SETUP1.sql,"7/18/2013 9:41:41 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebDF38.tmp,"CREATE OR REPLACE FORCE VIEW salary_advance_view (employee_id,","7/18/2013 9:41:41 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb90DD.tmp,SELECT,"7/18/2013 9:41:41 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb8866.tmp,"CREATE OR REPLACE FORCE VIEW voucher_detail_view_new (voucher_seq,","7/18/2013 9:41:41 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb3E37.tmp,"create table askari.year as select * from askari1.year","7/22/2013 6:39:52 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebFAB3.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\employee3.sql,"7/22/2013 6:39:52 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebDFA6.tmp,"create table store.sc_closing_gen_1112","7/23/2013 3:40:06 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebDA1C.tmp,"--update store.sc_closing_sur_1112 set amount = 0 , qty = 0 where  amount < 0","7/23/2013 3:40:06 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb99A4.tmp,"INSERT INTO STORE.SC_OPENING","7/23/2013 3:40:06 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb3912.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\CLOSING_VALUEF_DATE.fnc,"7/24/2013 2:33:32 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb5DD4.tmp,"create table store.sc_opening_23072013 as select * from store.sc_opening;","7/23/2013 3:40:06 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb6FE3.tmp,"select coa_main_id, coa_sub_id, coa_id, description from coa_desc where description like '%VEHI%' order by ctrl_desc","7/24/2013 6:25:56 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb6D45.tmp,"TEST.COA_CLOSING_DT [FUNCTION]","7/25/2013 5:20:35 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb2CAE.tmp,"INSERT INTO COA_OPENING_ SELECT * FROM COA_OPENING_24072013 WHERE YEAR_ID='14'","7/25/2013 5:20:35 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebE915.tmp,"update supplier set coa_main_id=null, coa_sub_id=null, coa_id=null","7/29/2013 1:39:15 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebBE4B.tmp,"select * from student","7/27/2013 2:03:49 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb516A.tmp,"I:\new devlopment\sqls\city.txt","7/31/2013 11:46:26 AM",1
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb519A.tmp,"I:\new devlopment\sqls\student.txt","7/31/2013 11:46:26 AM",1
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb1B7E.tmp,"drop table student","7/31/2013 11:46:26 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebDB16.tmp,"CREATE TABLE CLASSIC1.STUDENT_PHOTO","7/31/2013 11:46:26 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb9B1B.tmp,"I:\new devlopment\sqls\students.txt","7/31/2013 11:46:26 AM",1
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb42A8.tmp,F:\Clients\Askari\Dropbox\Askari\sqls\~eb42A8.tmp,"7/31/2013 10:26:03 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb2C8.tmp,"select coa_main_id, coa_sub_id, coa_id , sum(S.SALARY) gross_salary, sum(s.fixed_ot) fixed_ot, sum(s.absent_amount) absent_amount","8/5/2013 9:50:56 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebC231.tmp,"select sum(S.ADVANCE_20TH) sal_adv, sum(S.FIXED_OT) ot, sum(S.LOAN_DED) loan_ded , sum(S.OT_AMOUNT) ot_amt, sum(S.SALARY) gross_salary,","8/5/2013 9:50:56 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb3C4B.tmp,"CREATE TABLE CPO_PAYMENT","8/5/2013 9:50:59 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb3C7B.tmp,"CREATE OR REPLACE FORCE VIEW employee_view (coa_main_id,","8/5/2013 9:50:59 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebFC03.tmp,"CREATE OR REPLACE FORCE VIEW salary_detail_view (coa_main_id,","8/5/2013 9:50:59 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebD399.tmp,"select SUPPLIER_NAME, PO, PO_DATE, GIR, GIR_DATE, STORE_CODE, ITEM_DESCRIPTION, ACCEPTED_QTY, RATE, AMOUNT FROM GIR_DETAIL_VIEW WHERE SUPPLIER_NAME LIKE '%NATIONAL LEAT%'","8/5/2013 9:50:59 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb55A3.tmp,"SELECT count(*) SALARY_DETAIL WHERE salary_id='01-JUL-2013' and employee_id=13;","8/6/2013 8:36:29 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb736.tmp,"SELECT SALARY_ID,count(*) FROM SALARY_DETAIL GROUP BY SALARY_ID","8/8/2013 1:42:09 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb3A87.tmp,K:\oracubes\branch_class.sql,"8/7/2013 12:41:29 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebFB56.tmp,K:\oracubes\branch_class_sec.sql,"8/7/2013 12:41:29 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebFB67.tmp,K:\oracubes\fee_str_tab.sql,"8/7/2013 12:41:29 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebBAD0.tmp,K:\oracubes\fee_stu_det.sql,"8/7/2013 12:41:29 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebBAE1.tmp,K:\oracubes\class_tab.sql,"8/7/2013 12:41:29 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb6711.tmp,"SELECT reg_amount , lpad(reg_amount,20,'*') FROM INQUIRY_VIEW","8/12/2013 12:33:56 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb170A.tmp,"select SH.BRANCH, SH.CLASS, SH.DISCOUNT_AMOUNT,","8/19/2013 9:56:11 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebD3E4.tmp,"SELECT SH.ADMISSION_FEE, SH.ARREARS, SH.CHALLAN_ID, SH.COMPUTER, SH.DUE_DATE, SH.FDATETIME, SH.FEE_MONTH, SH.LAB, SH.LATE, SH.OTHERS, SH.PE, SH.SECURITY, SH.STUDENT_ID, SH.TOTAL, SH.TOTAL_LATE, SH.TUTION_FEE","8/19/2013 9:56:12 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebAB21.tmp,"select trunc((sysdate - to_date('16-mar-1966'))/365)||' yr' year,trunc(trunc(mod(sysdate - to_date('16-mar-1966'),365))/30)||' mn' month,","8/19/2013 9:56:12 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb4AFA.tmp,"CLASSIC1.AGE [FUNCTION]","8/19/2013 9:55:35 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb652F.tmp,"select age('18-aug-2000') from dual;","8/19/2013 9:56:13 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb4D0A.tmp,"select number_to_min(to_char(sysdate,'hh24.mi'))  from dual;","8/24/2013 3:09:31 AM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebBDB7.tmp,M:\sqls\AC_SETUP.sql,"8/26/2013 11:02:45 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebBADB.tmp,M:\sqls\CASH_VOUCHER_SUB_TYPES.sql,"8/26/2013 11:02:45 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebE02A.tmp,"CREATE OR REPLACE FORCE VIEW salary_detail_view (coa_main_id,","8/26/2013 11:02:45 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb9B11.tmp,"CREATE OR REPLACE FORCE VIEW employee_view (coa_main_id,","8/26/2013 11:02:45 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb1A30.tmp,M:\sqls\DEPT.sql,"8/26/2013 11:02:45 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb995E.tmp,"UPDATE SALARY","8/26/2013 11:02:45 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebE1A2.tmp,"SELECT USER_ID, TRUNC(FDATETIME) DATETIME, COUNT(*) FROM STUDENT","8/26/2013 8:38:48 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb3E3A.tmp,"SELECT i.class_id, i.father_name, i.inquiry_id, i.phone, i.student_name,","8/26/2013 8:38:49 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebFDA3.tmp,select,"8/26/2013 8:38:49 PM",4
+,"SELECT   our_cpo, cpo_year, POSITION, operation_no, operation_id,operation_type,",12/30/1899,4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb5D36.tmp,"select cpo_id, cpo_year, style, sum(balance_qty) from cpo_balance_view","8/31/2013 1:45:40 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb9B5F.tmp,"select voucher_id, voucher_type_id, voucher_date,voucher_month_id from voucher_detail_view_new","8/31/2013 1:45:40 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb4E0F.tmp,"<No name>","8/29/2013 3:32:51 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebDB27.tmp,"select our_cpo, cpo_year, position, rec_qty rec, qty issue, stage, prod_issuable_balance(45,'13',40,1,0,2)  issueable from jcd","9/2/2013 9:30:57 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebE101.tmp,"select our_cpo,cpo_year, position, stage, min(nvl(rec_qty,0)), min(qty), operation_no, operation_id, prod_issuable_balance(45,'13',40,1,0,2) issuable from jcd","9/2/2013 9:30:57 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebC96.tmp,"SELECT c.cpo_id, c.cpo_year, c.our_cpo, style,-- color_id, c.rsize,","9/2/2013 9:30:57 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~ebC9BE.tmp,"select sum(nvl(rec_qty,0)) rec_qty from jcd","9/2/2013 9:30:57 PM",4
+F:\Clients\Askari\Dropbox\Askari\sqls\~eb1061.tmp,"select count(*) from (","9/2/2013 9:30:57 PM",4

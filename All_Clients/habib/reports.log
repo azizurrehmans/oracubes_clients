@@ -1,0 +1,295 @@
+
+Starting report EXP_PAYMENT_BANK_VOUCHER [Fri May 13 11:55:00 2022] ...
+End report EXP_PAYMENT_BANK_VOUCHER [Fri May 13 11:55:34 2022].
+
+Starting report EXP_PAYMENT_BANK_VOUCHER [Fri May 13 11:56:20 2022] ...
+End report EXP_PAYMENT_BANK_VOUCHER [Fri May 13 14:11:19 2022].
+
+Starting report BANK_PI [Fri May 13 17:10:44 2022] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report BANK_PI [Fri May 13 17:10:44 2022].
+
+Starting report BANK_PI [Fri May 13 17:10:56 2022] ...
+ORA-00918: column ambiguously defined
+select p . cpo , p . customer_id , p . inv_payment_id , p . mo , p . pi_date , p . pi_no , p . ship_to , pd . color , pd . inv_payment_id , pd . item_desc , pd . item_size , pd . price , pd . qty , pd . style , pd . qty * pd . price amount , pd . uom
+End report BANK_PI [Fri May 13 17:12:18 2022].
+
+Starting report BANK_PI [Fri May 13 17:12:51 2022] ...
+End report BANK_PI [Fri May 13 17:13:01 2022].
+
+Starting report BANK_PI [Fri May 13 19:35:41 2022] ...
+End report BANK_PI [Fri May 13 19:35:58 2022].
+
+Starting report BANK_PI [Fri May 13 19:38:58 2022] ...
+End report BANK_PI [Fri May 13 19:39:14 2022].
+
+Starting report EXP_PAYMENT_BANK_VOUCHER [Fri May 13 19:48:04 2022] ...
+End report EXP_PAYMENT_BANK_VOUCHER [Fri May 13 19:48:18 2022].
+
+Starting report EXP_PAYMENT_BANK_VOUCHER [Fri May 13 19:48:53 2022] ...
+End report EXP_PAYMENT_BANK_VOUCHER [Fri May 13 19:48:59 2022].
+
+Starting report BANK_PI [Fri May 13 19:50:26 2022] ...
+ORA-00904: "PD"."STYLE": invalid identifier
+select p . cpo , p . customer_id , p . inv_payment_id , p . mo , p . pi_date , p . pi_no , p . ship_to , pd . color , pd . inv_payment_id , pd . item_desc , pd . item_size , pd . price , pd . qty ,  ==> pd . style , pd . qty * pd . price amount , pd . uom
+End report BANK_PI [Fri May 13 19:50:37 2022].
+
+Starting report BANK_PI [Fri May 13 19:50:55 2022] ...
+ORA-00904: "PD"."STYLE": invalid identifier
+select p . cpo , p . customer_id , p . inv_payment_id , p . mo , p . pi_date , p . pi_no , p . ship_to , pd . color , pd . inv_payment_id , pd . item_desc , pd . item_size , pd . price , pd . qty ,  ==> pd . style , pd . qty * pd . price amount , pd . uom
+End report BANK_PI [Fri May 13 19:51:07 2022].
+
+Starting report BANK_PI [Fri May 13 19:52:50 2022] ...
+End report BANK_PI [Fri May 13 19:52:59 2022].
+
+Starting report BANK_PI [Fri May 13 21:47:54 2022] ...
+End report BANK_PI [Fri May 13 21:48:01 2022].
+
+Starting report EXP_PAYMENT_BANK_VOUCHER [Fri May 13 21:50:24 2022] ...
+End report EXP_PAYMENT_BANK_VOUCHER [Fri May 13 21:50:37 2022].
+
+Starting report BANK_PI [Fri May 13 21:50:40 2022] ...
+End report BANK_PI [Fri May 13 21:50:48 2022].
+
+Starting report EXP_PAYMENT_BANK_VOUCHER [Fri May 13 21:51:38 2022] ...
+End report EXP_PAYMENT_BANK_VOUCHER [Fri May 13 21:51:46 2022].
+
+Starting report BANK_PI [Fri May 13 21:51:48 2022] ...
+End report BANK_PI [Fri May 13 21:52:19 2022].
+
+Starting report BANK_PI [Fri May 13 22:02:51 2022] ...
+End report BANK_PI [Fri May 13 22:03:23 2022].
+
+Starting report EXP_PAYMENT_BANK_VOUCHER [Fri May 13 22:49:48 2022] ...
+End report EXP_PAYMENT_BANK_VOUCHER [Fri May 13 22:50:00 2022].
+
+Starting report BANK_PI [Fri May 13 22:50:10 2022] ...
+End report BANK_PI [Fri May 13 22:50:19 2022].
+
+Starting report BANK_PI [Fri May 13 22:59:30 2022] ...
+End report BANK_PI [Sat May 14 12:12:08 2022].
+
+Starting report BANK_PI [Sat May 14 12:12:17 2022] ...
+End report BANK_PI [Sat May 14 12:14:30 2022].
+
+Starting report BANK_PI [Sat May 14 12:14:36 2022] ...
+End report BANK_PI [Sat May 14 18:30:12 2022].
+
+Starting report EXP_PAYMENT_BANK_VOUCHER [Sat May 14 18:43:19 2022] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report EXP_PAYMENT_BANK_VOUCHER [Sat May 14 18:43:19 2022].
+
+Starting report BANK_PI [Mon May 16 13:56:39 2022] ...
+REP-0826: Invalid printer driver 'c:\reports\pdf' specified by parameter DESFORMAT.
+End report BANK_PI [Mon May 16 13:57:34 2022].
+
+Starting report BANK_PI [Mon May 16 13:59:29 2022] ...
+REP-0826: Invalid printer driver 'c:\reports\pdf' specified by parameter DESFORMAT.
+End report BANK_PI [Mon May 16 13:59:50 2022].
+
+Starting report BANK_PI [Mon May 16 14:01:58 2022] ...
+End report BANK_PI [Mon May 16 14:02:13 2022].
+
+Starting report BANK_PI [Mon May 16 14:05:46 2022] ...
+End report BANK_PI [Mon May 16 14:05:49 2022].
+
+Starting report BANK_PI [Mon May 16 14:24:56 2022] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report BANK_PI [Mon May 16 14:24:56 2022].
+
+Starting report BANK_PI [Thu May 19 16:29:19 2022] ...
+End report BANK_PI [Thu May 19 16:30:06 2022].
+
+Starting report BANK_PI [Thu May 19 16:47:33 2022] ...
+End report BANK_PI [Thu May 19 16:47:39 2022].
+
+Starting report BANK_PI [Thu May 19 16:48:06 2022] ...
+End report BANK_PI [Thu May 19 16:48:14 2022].
+
+Starting report BANK_PI [Thu May 19 16:50:04 2022] ...
+End report BANK_PI [Thu May 19 16:51:11 2022].
+
+Starting report BANK_PI [Thu May 19 16:52:59 2022] ...
+End report BANK_PI [Thu May 19 16:53:13 2022].
+
+Starting report BANK_PI [Thu May 19 17:25:28 2022] ...
+End report BANK_PI [Thu May 19 17:25:38 2022].
+
+Starting report EXP_PAYMENT_BANK_VOUCHER [Thu May 19 17:25:40 2022] ...
+End report EXP_PAYMENT_BANK_VOUCHER [Thu May 19 17:25:46 2022].
+
+Starting report EXP_PAYMENT_BANK_VOUCHER [Thu May 19 17:25:54 2022] ...
+End report EXP_PAYMENT_BANK_VOUCHER [Thu May 19 17:25:59 2022].
+
+Starting report BANK_PI [Thu May 19 17:26:01 2022] ...
+End report BANK_PI [Thu May 19 17:26:19 2022].
+
+Starting report BANK_PI [Thu May 19 17:27:18 2022] ...
+End report BANK_PI [Thu May 19 17:27:46 2022].
+
+Starting report BANK_PI [Thu May 19 17:31:38 2022] ...
+End report BANK_PI [Thu May 19 17:32:01 2022].
+
+Starting report EXP_PAYMENT_BANK_VOUCHER [Thu May 19 17:32:06 2022] ...
+End report EXP_PAYMENT_BANK_VOUCHER [Thu May 19 17:32:16 2022].
+
+Starting report EXP_PAYMENT_BANK_VOUCHER [Thu May 19 17:32:56 2022] ...
+End report EXP_PAYMENT_BANK_VOUCHER [Thu May 19 17:32:59 2022].
+
+Starting report BANK_PI [Thu May 19 17:33:00 2022] ...
+End report BANK_PI [Thu May 19 17:33:04 2022].
+
+Starting report BANK_PI [Thu May 19 17:33:06 2022] ...
+End report BANK_PI [Thu May 19 17:33:11 2022].
+
+Starting report EXP_PAYMENT_BANK_VOUCHER [Thu May 19 17:33:14 2022] ...
+End report EXP_PAYMENT_BANK_VOUCHER [Thu May 19 17:33:18 2022].
+
+Starting report EXP_PAYMENT_BANK_VOUCHER [Thu May 19 17:34:08 2022] ...
+End report EXP_PAYMENT_BANK_VOUCHER [Thu May 19 17:34:13 2022].
+
+Starting report BANK_PI [Thu May 19 17:34:14 2022] ...
+End report BANK_PI [Thu May 19 17:34:17 2022].
+
+Starting report BANK_PI [Thu May 19 17:35:01 2022] ...
+End report BANK_PI [Thu May 19 17:35:24 2022].
+
+Starting report BANK_PI [Thu May 19 17:51:22 2022] ...
+End report BANK_PI [Thu May 19 17:51:40 2022].
+
+Starting report EXP_PAYMENT_BANK_VOUCHER [Thu May 19 17:51:48 2022] ...
+ORA-00904: "PI_NO": invalid identifier
+ select inv_payment_id , v . bank_date , v . bank_voc_customer , v . payment_in_fc , v . currency_id from exp_inv_payment_view v  where  ==> pi_no = '1140'
+End report EXP_PAYMENT_BANK_VOUCHER [Thu May 19 17:51:49 2022].
+
+Starting report EXP_PAYMENT_BANK_VOUCHER [Thu May 19 17:55:40 2022] ...
+ORA-00904: "PI_NO": invalid identifier
+ select inv_payment_id , v . bank_date , v . bank_voc_customer , v . payment_in_fc , v . currency_id from exp_inv_payment_view v  where  ==> pi_no = '1140'
+End report EXP_PAYMENT_BANK_VOUCHER [Thu May 19 17:55:40 2022].
+
+Starting report EXP_PAYMENT_BANK_VOUCHER [Thu May 19 17:58:32 2022] ...
+ORA-00904: "PI_NO": invalid identifier
+ select inv_payment_id , v . bank_date , v . bank_voc_customer , v . payment_in_fc , v . currency_id from exp_inv_payment_view v  where  ==> pi_no = '1140'
+End report EXP_PAYMENT_BANK_VOUCHER [Thu May 19 17:59:32 2022].
+
+Starting report EXP_PAYMENT_BANK_VOUCHER [Thu May 19 17:59:36 2022] ...
+End report EXP_PAYMENT_BANK_VOUCHER [Thu May 19 18:00:01 2022].
+
+Starting report EXP_PAYMENT_BANK_VOUCHER [Thu May 19 18:03:30 2022] ...
+End report EXP_PAYMENT_BANK_VOUCHER [Thu May 19 18:03:35 2022].
+
+Starting report export_invoice [Thu May 19 20:26:20 2022] ...
+End report export_invoice [Thu May 19 20:26:25 2022].
+
+Starting report export_invoice [Thu May 19 20:28:50 2022] ...
+End report export_invoice [Thu May 19 20:28:51 2022].
+
+Starting report sub_ledger [Sat May 28 17:58:25 2022] ...
+End report sub_ledger [Sat May 28 17:59:16 2022].
+
+Starting report sub_ledger [Sat May 28 17:59:19 2022] ...
+End report sub_ledger [Sat May 28 18:01:14 2022].
+
+Starting report VOUCHER_HFP_14 [Sat May 28 18:01:25 2022] ...
+End report VOUCHER_HFP_14 [Sat May 28 18:01:31 2022].
+
+Starting report VOUCHER_HFP_14 [Sat May 28 18:15:47 2022] ...
+End report VOUCHER_HFP_14 [Sat May 28 18:15:56 2022].
+
+Starting report VOUCHER_HFP_14 [Sat May 28 18:15:57 2022] ...
+End report VOUCHER_HFP_14 [Sat May 28 18:16:03 2022].
+
+Starting report daily_sale_35 [Sat May 28 18:16:47 2022] ...
+ORA-00904: "I"."ADVANCE_TAX_PER": invalid identifier
+SELECT DISCOUNT_PER || '%' DISCOUNT_PER , I . CUSTOMER_ID , INCENTIVE , ir_type , rate_bf_discount ,  ==> I . ADVANCE_TAX_PER , I . ADVANCE_TAX_AMT , INV_LATEST_RETAIL_RATE ( I . SC_ID ) LATEST_RATE , I . DESCRIPTION , I . IR , I . IR_DATE , I . IR_TYPE ,
+End report daily_sale_35 [Sat May 28 18:16:48 2022].
+
+Starting report daily_sale_3 [Sat May 28 18:16:56 2022] ...
+REP-0099: Report is aborted upon user request.
+End report daily_sale_3 [Sat May 28 18:17:30 2022].
+
+Starting report daily_sale_35 [Sat May 28 18:28:55 2022] ...
+ORA-00904: "I"."ADVANCE_TAX_PER": invalid identifier
+SELECT DISCOUNT_PER || '%' DISCOUNT_PER , I . CUSTOMER_ID , INCENTIVE , ir_type , rate_bf_discount ,  ==> I . ADVANCE_TAX_PER , I . ADVANCE_TAX_AMT , INV_LATEST_RETAIL_RATE ( I . SC_ID ) LATEST_RATE , I . DESCRIPTION , I . IR , I . IR_DATE , I . IR_TYPE ,
+End report daily_sale_35 [Sat May 28 18:28:55 2022].
+
+Starting report daily_sale_3 [Sat May 28 18:28:59 2022] ...
+End report daily_sale_3 [Sat May 28 18:29:33 2022].
+
+Starting report daily_sale_3 [Sat May 28 18:29:37 2022] ...
+End report daily_sale_3 [Sat May 28 18:29:38 2022].
+
+Starting report daily_sale_35 [Sat May 28 18:29:38 2022] ...
+ORA-00904: "I"."ADVANCE_TAX_PER": invalid identifier
+SELECT DISCOUNT_PER || '%' DISCOUNT_PER , I . CUSTOMER_ID , INCENTIVE , ir_type , rate_bf_discount ,  ==> I . ADVANCE_TAX_PER , I . ADVANCE_TAX_AMT , INV_LATEST_RETAIL_RATE ( I . SC_ID ) LATEST_RATE , I . DESCRIPTION , I . IR , I . IR_DATE , I . IR_TYPE ,
+End report daily_sale_35 [Sat May 28 18:29:39 2022].
+
+Starting report daily_sale_35 [Mon May 30 11:45:48 2022] ...
+ORA-00904: "I"."ADVANCE_TAX_PER": invalid identifier
+SELECT DISCOUNT_PER || '%' DISCOUNT_PER , I . CUSTOMER_ID , INCENTIVE , ir_type , rate_bf_discount ,  ==> I . ADVANCE_TAX_PER , I . ADVANCE_TAX_AMT , INV_LATEST_RETAIL_RATE ( I . SC_ID ) LATEST_RATE , I . DESCRIPTION , I . IR , I . IR_DATE , I . IR_TYPE ,
+End report daily_sale_35 [Mon May 30 11:45:48 2022].
+
+Starting report daily_sale_3 [Mon May 30 11:45:42 2022] ...
+End report daily_sale_3 [Mon May 30 11:45:50 2022].
+
+Starting report daily_sale_35 [Mon May 30 11:46:23 2022] ...
+ORA-00904: "I"."ADVANCE_TAX_PER": invalid identifier
+SELECT DISCOUNT_PER || '%' DISCOUNT_PER , I . CUSTOMER_ID , INCENTIVE , ir_type , rate_bf_discount ,  ==> I . ADVANCE_TAX_PER , I . ADVANCE_TAX_AMT , INV_LATEST_RETAIL_RATE ( I . SC_ID ) LATEST_RATE , I . DESCRIPTION , I . IR , I . IR_DATE , I . IR_TYPE ,
+End report daily_sale_35 [Mon May 30 11:46:24 2022].
+
+Starting report daily_sale_3 [Mon May 30 11:46:19 2022] ...
+End report daily_sale_3 [Mon May 30 11:46:27 2022].
+
+Starting report daily_sale_35 [Mon May 30 11:49:07 2022] ...
+ORA-00904: "I"."ADVANCE_TAX_PER": invalid identifier
+SELECT DISCOUNT_PER || '%' DISCOUNT_PER , I . CUSTOMER_ID , INCENTIVE , ir_type , rate_bf_discount ,  ==> I . ADVANCE_TAX_PER , I . ADVANCE_TAX_AMT , INV_LATEST_RETAIL_RATE ( I . SC_ID ) LATEST_RATE , I . DESCRIPTION , I . IR , I . IR_DATE , I . IR_TYPE ,
+End report daily_sale_35 [Mon May 30 11:49:08 2022].
+
+Starting report daily_sale_3 [Mon May 30 11:49:09 2022] ...
+End report daily_sale_3 [Mon May 30 11:49:09 2022].
+
+Starting report export_customs_invoice [Mon May 30 14:54:41 2022] ...
+REP-3300: Fatal error in the toolkit.
+UI-9: This function call is out of context.
+End report export_customs_invoice [Mon May 30 20:28:34 2022].
+
+Starting report purchase_bill [Wed Jun 08 13:50:24 2022] ...
+End report purchase_bill [Wed Jun 08 13:51:04 2022].
+
+Starting report purchase_bill [Wed Jun 08 13:51:27 2022] ...
+End report purchase_bill [Wed Jun 08 13:51:52 2022].
+
+Starting report purchase_bill [Wed Jun 08 14:56:05 2022] ...
+End report purchase_bill [Wed Jun 08 14:56:30 2022].
+
+Starting report purchase_bill [Wed Jun 08 14:56:39 2022] ...
+End report purchase_bill [Wed Jun 08 14:56:43 2022].
+
+Starting report daily_sale_35 [Wed Jun 08 14:59:28 2022] ...
+ORA-00904: "I"."ADVANCE_TAX_PER": invalid identifier
+SELECT DISCOUNT_PER || '%' DISCOUNT_PER , I . CUSTOMER_ID , INCENTIVE , ir_type , rate_bf_discount ,  ==> I . ADVANCE_TAX_PER , I . ADVANCE_TAX_AMT , INV_LATEST_RETAIL_RATE ( I . SC_ID ) LATEST_RATE , I . DESCRIPTION , I . IR , I . IR_DATE , I . IR_TYPE ,
+End report daily_sale_35 [Wed Jun 08 14:59:34 2022].
+
+Starting report daily_sale_3 [Wed Jun 08 14:59:36 2022] ...
+End report daily_sale_3 [Wed Jun 08 14:59:48 2022].
+
+Starting report daily_sale_35 [Wed Jun 08 14:59:50 2022] ...
+ORA-00904: "I"."ADVANCE_TAX_PER": invalid identifier
+SELECT DISCOUNT_PER || '%' DISCOUNT_PER , I . CUSTOMER_ID , INCENTIVE , ir_type , rate_bf_discount ,  ==> I . ADVANCE_TAX_PER , I . ADVANCE_TAX_AMT , INV_LATEST_RETAIL_RATE ( I . SC_ID ) LATEST_RATE , I . DESCRIPTION , I . IR , I . IR_DATE , I . IR_TYPE ,
+End report daily_sale_35 [Wed Jun 08 14:59:52 2022].
+
+Starting report salary_contractors_signsheet [Wed Jun 08 18:16:00 2022] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report salary_contractors_signsheet [Wed Jun 08 18:16:03 2022].

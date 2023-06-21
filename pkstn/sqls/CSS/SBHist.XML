@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<History>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>CLASSIC1</Schema>
+    <Name>BRANCH_CLASS_SEC</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>USERS</Table>
+    <TableSchema>39142.9032523148</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>13</ObjID>
+  </Object>
+  <Object>
+    <Type>TABLE</Type>
+    <Schema>CLASSIC1</Schema>
+    <Name>BRANCH_CLASS</Name>
+    <Valid>True</Valid>
+    <Enabled>True</Enabled>
+    <XtraData />
+    <XtraFlag>1</XtraFlag>
+    <Table>USERS</Table>
+    <TableSchema>39142.9032523148</TableSchema>
+    <Wrapped>False</Wrapped>
+    <WrapChecked>False</WrapChecked>
+    <ObjID>5</ObjID>
+  </Object>
+</History>

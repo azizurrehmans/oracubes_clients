@@ -1,0 +1,103 @@
+
+Connected to: Oracle Database 10g Enterprise Edition Release 10.2.0.1.0 - Production
+With the Partitioning, OLAP and Data Mining options
+
+Export file created by EXPORT:V10.02.01 via conventional path
+import done in WE8MSWIN1252 character set and AL16UTF16 NCHAR character set
+import server uses UTF8 character set (possible charset conversion)
+. . importing table                 "HR_ALLOWANCE"
+                                                           10 rows imported
+. . importing table                "HR_ATTENDANCE"
+                                                            0 rows imported
+. . importing table         "HR_ATTENDANCE_DETAIL"
+                                                            0 rows imported
+. . importing table              "HR_ATTEN_ERRORS"
+                                                            0 rows imported
+. . importing table                      "HR_BANK"
+                                                            0 rows imported
+. . importing table        "HR_BARCODE_ATTENDANCE"
+                                                            0 rows imported
+. . importing table                      "HR_CITY"
+                                                            0 rows imported
+. . importing table                "HR_DEPARTMENT"
+                                                           13 rows imported
+. . importing table               "HR_DESIGNATION"
+                                                           35 rows imported
+. . importing table                  "HR_EMPLOYEE"
+                                                           91 rows imported
+. . importing table              "HR_EMPLOYEE_ACC"
+                                                            0 rows imported
+. . importing table       "HR_EMPLOYEE_DEPT_DESIG"
+                                                           84 rows imported
+. . importing table               "HR_EMPLOYEE_JD"
+                                                            0 rows imported
+. . importing table      "HR_EMPLOYEE_LATE_POLICY"
+                                                            0 rows imported
+. . importing table               "HR_EMPLOYEE_MV"
+                                                            0 rows imported
+. . importing table             "HR_EMPLOYEE_NOTE"
+                                                            0 rows imported
+. . importing table            "HR_EMPLOYEE_PHOTO"
+                                                            1 rows imported
+. . importing table           "HR_EMPLOYEE_SALARY"
+                                                            0 rows imported
+. . importing table            "HR_EMPLOYEE_SHIFT"
+                                                            0 rows imported
+. . importing table      "HR_EMP_BRANCH_CLASS_SEC"
+                                                            0 rows imported
+. . importing table               "HR_EMP_DISEASE"
+                                                            0 rows imported
+. . importing table                   "HR_EMP_EXP"
+                                                            1 rows imported
+. . importing table                   "HR_EMP_FIN"
+                                                           87 rows imported
+. . importing table               "HR_EMP_FIN_DET"
+                                                           85 rows imported
+. . importing table                    "HR_EMP_OP"
+                                                            0 rows imported
+. . importing table         "HR_EMP_QUALIFICATION"
+                                                            1 rows imported
+. . importing table                   "HR_EMP_REF"
+                                                            0 rows imported
+. . importing table                    "HR_FAVOUR"
+                                                            0 rows imported
+. . importing table                        "HR_GH"
+                                                            0 rows imported
+. . importing table                      "HR_LATE"
+                                                            0 rows imported
+. . importing table                     "HR_LEAVE"
+                                                            0 rows imported
+. . importing table             "HR_LEAVE_BALANCE"
+                                                            0 rows imported
+. . importing table                "HR_LEAVE_TYPE"
+                                                            0 rows imported
+. . importing table                      "HR_LOAN"
+                                                            0 rows imported
+. . importing table            "HR_LOAN_DEDUCTION"
+                                                            0 rows imported
+. . importing table               "HR_LOAN_LEDGER"
+                                                            0 rows imported
+. . importing table                     "HR_MONTH"
+                                                            0 rows imported
+. . importing table        "HR_MONTHLY_ATTENDANCE"
+                                                           82 rows imported
+. . importing table             "HR_QUALIFICATION"
+                                                            0 rows imported
+. . importing table                      "HR_REST"
+                                                            0 rows imported
+. . importing table                    "HR_SALARY"
+                                                            1 rows imported
+. . importing table            "HR_SALARY_ADVANCE"
+                                                           55 rows imported
+. . importing table             "HR_SALARY_DETAIL"
+                                                            0 rows imported
+. . importing table         "HR_SALARY_DETAIL_EMP"
+                                                          729 rows imported
+. . importing table               "HR_SALARY_TEMP"
+                                                           59 rows imported
+. . importing table                     "HR_SETUP"
+                                                            0 rows imported
+. . importing table                     "HR_SHIFT"
+                                                            4 rows imported
+About to enable constraints...
+Import terminated successfully without warnings.

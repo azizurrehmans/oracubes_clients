@@ -1,0 +1,1 @@
+alter table voucher modify(voucher_seq number(8) not null);

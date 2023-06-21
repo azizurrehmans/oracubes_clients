@@ -1,0 +1,3 @@
+ALTER TABLE ASKARI.PO
+ ADD (po_type_new  VARCHAR2(10));
+

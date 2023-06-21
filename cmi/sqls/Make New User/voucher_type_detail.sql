@@ -1,0 +1,1 @@
+insert into national.voucher_type_detail select * from askari4.voucher_type_detail where voucher_type_id in ('CASH VOUCHER','JOURNAL VOUCHER','BANK VOUCHER')

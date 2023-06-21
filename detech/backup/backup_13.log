@@ -1,0 +1,224 @@
+
+Connected to: Oracle Database 10g Enterprise Edition Release 10.2.0.1.0 - Production
+With the Partitioning, OLAP and Data Mining options
+Export done in UTF8 character set and AL16UTF16 NCHAR character set
+
+About to export specified users ...
+. exporting pre-schema procedural objects and actions
+. exporting foreign function library names for user DETECH 
+. exporting PUBLIC type synonyms
+. exporting private type synonyms
+. exporting object type definitions for user DETECH 
+About to export DETECH's objects ...
+. exporting database links
+. exporting sequence numbers
+. exporting cluster definitions
+. about to export DETECH's tables via Conventional Path ...
+. . exporting table                       AC_SETUP          1 rows exported
+. . exporting table                       ADM_HELP          1 rows exported
+. . exporting table                     ATTENDANCE      85219 rows exported
+. . exporting table                   BANK_ACCOUNT          5 rows exported
+. . exporting table             BARCODE_ATTENDANCE      43484 rows exported
+. . exporting table                            BRS          0 rows exported
+. . exporting table                        BRS_DET          0 rows exported
+. . exporting table                            BTN        151 rows exported
+. . exporting table                             CB        266 rows exported
+. . exporting table                    CHEQUE_BOOK          1 rows exported
+. . exporting table                CHEQUE_BOOK_DET        100 rows exported
+. . exporting table                            COA        745 rows exported
+. . exporting table               COA_CLOSING_1415        779 rows exported
+. . exporting table               COA_CLOSING_1516        779 rows exported
+. . exporting table               COA_CLOSING_1617        779 rows exported
+. . exporting table               COA_CLOSING_1718        779 rows exported
+. . exporting table               COA_CLOSING_1819        779 rows exported
+. . exporting table               COA_CLOSING_1920        745 rows exported
+. . exporting table        COA_CLOSING_BACKUP_1718        611 rows exported
+. . exporting table                       COA_MAIN          9 rows exported
+. . exporting table                   COA_OPENING_       1676 rows exported
+. . exporting table        COA_OPENING_BACKUP_1718        477 rows exported
+. . exporting table                        COA_SUB         50 rows exported
+. . exporting table                    COA_VIEW_MV        635 rows exported
+. . exporting table                  COMPANY_SETUP          1 rows exported
+. . exporting table                            CPO        167 rows exported
+. . exporting table                    CPOD_STATUS        758 rows exported
+. . exporting table                     CPO_DETAIL       1829 rows exported
+. . exporting table                CPO_DETAIL_PROD       3763 rows exported
+. . exporting table                   CPO_MATERIAL          0 rows exported
+. . exporting table                    CPO_PAYMENT          0 rows exported
+. . exporting table                CPO_PAYMENT_DET          2 rows exported
+. . exporting table                       CPO_TYPE          3 rows exported
+. . exporting table              CREDITOR_BALANCES         26 rows exported
+. . exporting table                       CURRENCY          0 rows exported
+. . exporting table                       CUSTOMER         32 rows exported
+. . exporting table                  CUSTOMER_CODE        339 rows exported
+. . exporting table                      DAY_CLOSE          7 rows exported
+. . exporting table                     DEPARTMENT         21 rows exported
+. . exporting table                    DESIGNATION         73 rows exported
+. . exporting table                            EBR         93 rows exported
+. . exporting table                 EBR_DEFINATION         65 rows exported
+. . exporting table                     EBR_DETAIL       8309 rows exported
+. . exporting table                       EMPLOYEE        485 rows exported
+. . exporting table                   EMPLOYEE_ACC          0 rows exported
+. . exporting table            EMPLOYEE_DEPT_DESIG        200 rows exported
+. . exporting table                    EMPLOYEE_JD          0 rows exported
+. . exporting table           EMPLOYEE_LATE_POLICY          0 rows exported
+. . exporting table                    EMPLOYEE_MV          0 rows exported
+. . exporting table                  EMPLOYEE_NOTE          0 rows exported
+. . exporting table              EMPLOYEE_OLD_DATA          0 rows exported
+. . exporting table               EMPLOYEE_OP_RATE        672 rows exported
+. . exporting table                 EMPLOYEE_PHOTO         67 rows exported
+. . exporting table                EMPLOYEE_SALARY          0 rows exported
+. . exporting table                 EMPLOYEE_SHIFT          0 rows exported
+. . exporting table                    EMP_DISEASE          0 rows exported
+. . exporting table                        EMP_EXP          0 rows exported
+. . exporting table                        EMP_FIN        201 rows exported
+. . exporting table                         EMP_OP          0 rows exported
+. . exporting table              EMP_QUALIFICATION          0 rows exported
+. . exporting table                        EMP_REF          0 rows exported
+. . exporting table                   EXPORT_SETUP          1 rows exported
+. . exporting table                    EXP_INVOICE          4 rows exported
+. . exporting table                EXP_INVOICE_DET          5 rows exported
+. . exporting table                EXP_PACKING_DOC          2 rows exported
+. . exporting table                         FAVOUR          0 rows exported
+. . exporting table                           FGRR        193 rows exported
+. . exporting table               FINAL_SETTLEMENT          0 rows exported
+. . exporting table                       FIREWALL          8 rows exported
+. . exporting table                 FRM_RPT_ACCESS         15 rows exported
+. . exporting table             FRM_RPT_ACCESS_DET        116 rows exported
+. . exporting table                             GH          5 rows exported
+. . exporting table                            GIR       1095 rows exported
+. . exporting table                     GIR_DETAIL       2027 rows exported
+. . exporting table                       HR_SETUP          1 rows exported
+. . exporting table                       HR_SHIFT          0 rows exported
+. . exporting table                            IGP       1115 rows exported
+. . exporting table                     IGP_DETAIL       2054 rows exported
+. . exporting table                    INV_PAYMENT          5 rows exported
+. . exporting table                             IR       2953 rows exported
+. . exporting table                      IR_DETAIL       2663 rows exported
+. . exporting table                             JC       3735 rows exported
+. . exporting table                            JCD      50041 rows exported
+. . exporting table                       JC_STYLE        135 rows exported
+. . exporting table                JC_STYLE_DETAIL       1337 rows exported
+. . exporting table                   JC_STYLE_SC2          8 rows exported
+. . exporting table                           JOBS          0 rows exported
+. . exporting table                          LEAVE          0 rows exported
+. . exporting table                      LEAVE_APP          0 rows exported
+. . exporting table                  LEAVE_BALANCE          0 rows exported
+. . exporting table                  LEAVE_HISTORY          0 rows exported
+. . exporting table                     LEAVE_TYPE          0 rows exported
+. . exporting table                           LOAN         29 rows exported
+. . exporting table                       LOAN_APP          0 rows exported
+. . exporting table                   LOAN_APP_DET          0 rows exported
+. . exporting table                    LOAN_LEDGER          8 rows exported
+. . exporting table                           LOGS       5181 rows exported
+. . exporting table                            LOT       6983 rows exported
+. . exporting table                        LOT_DET      93047 rows exported
+. . exporting table                        LOT_TRX          0 rows exported
+. . exporting table                            LOV          0 rows exported
+. . exporting table             MAIN_SCREEN_ALERTS          0 rows exported
+. . exporting table                       MESSAGES          0 rows exported
+. . exporting table                           MGIR          9 rows exported
+. . exporting table                         MODULE         23 rows exported
+. . exporting table             MONTHLY_ATTENDANCE        772 rows exported
+. . exporting table                             MP         11 rows exported
+. . exporting table                            MPD         17 rows exported
+. . exporting table                            OGP        871 rows exported
+. . exporting table                     OGP_DETAIL        839 rows exported
+. . exporting table                      OPERATION        334 rows exported
+. . exporting table                 OPERATION_TYPE          1 rows exported
+. . exporting table                        PACKING        107 rows exported
+. . exporting table                 PACKING_DETAIL       8958 rows exported
+. . exporting table                             PO       1464 rows exported
+. . exporting table                       POSITION          1 rows exported
+. . exporting table                     PO_DELETED          0 rows exported
+. . exporting table                      PO_DETAIL       2971 rows exported
+. . exporting table              PO_DETAIL_DELETED          0 rows exported
+. . exporting table                     PO_HISTORY         35 rows exported
+. . exporting table                        PO_TYPE          2 rows exported
+. . exporting table                             PR          0 rows exported
+. . exporting table                           PREQ          0 rows exported
+. . exporting table                       PREQ_DET          0 rows exported
+. . exporting table                      PR_DETAIL          0 rows exported
+. . exporting table                  QUALIFICATION          0 rows exported
+. . exporting table                            REP         54 rows exported
+. . exporting table                      REP_PARAM          5 rows exported
+. . exporting table                         SALARY         86 rows exported
+. . exporting table                 SALARY_ADVANCE       7522 rows exported
+. . exporting table                  SALARY_DETAIL       2712 rows exported
+. . exporting table                   SALARY_GROUP          0 rows exported
+. . exporting table             SALARY_ITEM_DETAIL       4180 rows exported
+. . exporting table         SALARY_ITEM_DETAIL_EMP      12227 rows exported
+. . exporting table         SALARY_ITEM_DETAIL_OLD       4761 rows exported
+. . exporting table              SALARY_OTHER_INFO        170 rows exported
+. . exporting table                   SAL_ADV_CONT       4701 rows exported
+. . exporting table                       SAL_CONT        169 rows exported
+. . exporting table                SAL_CONT_DETAIL      11445 rows exported
+. . exporting table                            SAN         63 rows exported
+. . exporting table                            SC1         84 rows exported
+. . exporting table                            SC2       1215 rows exported
+. . exporting table                            SC3       1337 rows exported
+. . exporting table                            SC4       1334 rows exported
+. . exporting table                            SC5       2651 rows exported
+. . exporting table                        SC5_LOC        339 rows exported
+. . exporting table                   SC5_MATERIAL        440 rows exported
+. . exporting table                    SC5_OPENING       2662 rows exported
+. . exporting table           SC5_OPENING_06022019        532 rows exported
+. . exporting table           SC5_OPENING_16012019        532 rows exported
+. . exporting table                      SC5_PHOTO        230 rows exported
+. . exporting table                      SC_FINISH          5 rows exported
+. . exporting table                SC_OPENING_1920       2651 rows exported
+. . exporting table                          STORE          6 rows exported
+. . exporting table                     STORE_RACK        140 rows exported
+. . exporting table             STORE_RACK_ROW_COL          5 rows exported
+. . exporting table                    SUB_SECTION          1 rows exported
+. . exporting table             SUNDAY_WORKING_DAY          0 rows exported
+. . exporting table                       SUPPLIER        237 rows exported
+. . exporting table                           TASK          0 rows exported
+. . exporting table                        TASK_CC          0 rows exported
+. . exporting table                      TASK_USER          0 rows exported
+. . exporting table                           TEMP          0 rows exported
+. . exporting table                   THINGS_TO_DO          0 rows exported
+. . exporting table            THINGS_TO_DO_DETAIL          0 rows exported
+. . exporting table               THINGS_TO_DO_LOG          0 rows exported
+. . exporting table          THINGS_TO_DO_PRIORITY          0 rows exported
+. . exporting table                          TRANS        759 rows exported
+. . exporting table                 TRANS_06022019       4328 rows exported
+. . exporting table                     TRANS_AZIZ          2 rows exported
+. . exporting table                  TRANS_DELETED          0 rows exported
+. . exporting table                           UNIT          0 rows exported
+. . exporting table                            UOM         24 rows exported
+. . exporting table                      URDU_WORD        271 rows exported
+. . exporting table                          USERS         34 rows exported
+. . exporting table                    USER_MODULE        266 rows exported
+. . exporting table                        VOUCHER      26027 rows exported
+. . exporting table                VOUCHER_DELETED        616 rows exported
+. . exporting table             VOUCHER_DETAIL_NEW      55224 rows exported
+. . exporting table     VOUCHER_DETAIL_NEW_DELETED       1355 rows exported
+. . exporting table                   VOUCHER_TYPE          3 rows exported
+. . exporting table            VOUCHER_TYPE_DETAIL         29 rows exported
+. . exporting table                             WO          6 rows exported
+. . exporting table                         WORKER          3 rows exported
+. . exporting table                   WORKER_PHOTO          3 rows exported
+. . exporting table                      WO_DETAIL          0 rows exported
+. . exporting table                         WO_JOB          0 rows exported
+. . exporting table                  WO_OUT_DETAIL          0 rows exported
+. . exporting table                         WO_REQ          0 rows exported
+. . exporting table                     WO_REQ_DET          0 rows exported
+. . exporting table                           YEAR          6 rows exported
+. exporting synonyms
+. exporting views
+. exporting stored procedures
+. exporting operators
+. exporting referential integrity constraints
+. exporting triggers
+. exporting indextypes
+. exporting bitmap, functional and extensible indexes
+. exporting posttables actions
+. exporting materialized views
+. exporting snapshot logs
+. exporting job queues
+. exporting refresh groups and children
+. exporting dimensions
+. exporting post-schema procedural objects and actions
+. exporting statistics
+Export terminated successfully without warnings.

@@ -1,0 +1,1 @@
+insert into national.module select * from askari4.module 

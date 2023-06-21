@@ -1,0 +1,753 @@
+
+Starting report hr_loan_ledger [Wed Jan 06 15:46:56 2021] ...
+End report hr_loan_ledger [Wed Jan 06 15:47:40 2021].
+
+Starting report hr_loan_ledger [Wed Jan 06 15:48:43 2021] ...
+End report hr_loan_ledger [Wed Jan 06 15:49:55 2021].
+
+Starting report hr_loan_ledger [Wed Jan 06 15:49:59 2021] ...
+End report hr_loan_ledger [Thu Jan 07 15:44:13 2021].
+
+Starting report sub_ledger [Tue Feb 02 15:06:20 2021] ...
+End report sub_ledger [Tue Feb 02 15:20:01 2021].
+
+Starting report worker_lots [Tue Feb 09 14:53:19 2021] ...
+End report worker_lots [Tue Feb 09 14:54:26 2021].
+
+Starting report worker_lots [Tue Feb 09 14:55:13 2021] ...
+End report worker_lots [Tue Feb 09 15:10:12 2021].
+
+Starting report worker_lots [Tue Feb 09 15:28:36 2021] ...
+End report worker_lots [Tue Feb 09 15:29:16 2021].
+
+Starting report worker_lots [Tue Feb 09 15:30:09 2021] ...
+End report worker_lots [Tue Feb 09 15:31:11 2021].
+
+Starting report worker_lots [Tue Feb 09 15:38:12 2021] ...
+End report worker_lots [Tue Feb 09 15:38:31 2021].
+
+Starting report worker_lots [Tue Feb 09 15:39:44 2021] ...
+End report worker_lots [Tue Feb 09 15:40:07 2021].
+
+Starting report worker_lots [Tue Feb 09 15:40:41 2021] ...
+End report worker_lots [Tue Feb 09 15:41:02 2021].
+
+Starting report stage_lots [Tue Feb 09 15:41:53 2021] ...
+REP-0499: Column '' selected by the query is incompatible with report definition.
+End report stage_lots [Tue Feb 09 15:41:59 2021].
+
+Starting report abc [Tue Feb 09 15:42:16 2021] ...
+REP-0099: Report is aborted upon user request.
+End report abc [Tue Feb 09 15:43:04 2021].
+
+Starting report worker_lots [Tue Feb 09 15:45:15 2021] ...
+End report worker_lots [Wed Feb 10 11:30:18 2021].
+
+Starting report worker_lots [Wed Feb 10 12:09:08 2021] ...
+REP-0099: Report is aborted upon user request.
+End report worker_lots [Wed Feb 10 12:10:27 2021].
+
+Starting report worker_lots [Wed Feb 10 15:18:58 2021] ...
+End report worker_lots [Wed Feb 10 15:19:07 2021].
+
+Starting report worker_lots [Wed Feb 10 15:20:32 2021] ...
+End report worker_lots [Wed Feb 10 15:21:47 2021].
+
+Starting report sub_ledger [Fri Feb 12 11:32:16 2021] ...
+REP-1401: 'desc2formula': Fatal PL/SQL error occurred.
+ORA-06502: PL/SQL: numeric or value error
+
+REP-0594: No report output generated.
+End report sub_ledger [Fri Feb 12 11:32:29 2021].
+
+Starting report sub_ledger [Fri Feb 12 11:32:44 2021] ...
+End report sub_ledger [Fri Feb 12 11:32:56 2021].
+
+Starting report sub_ledger [Fri Feb 12 11:32:59 2021] ...
+End report sub_ledger [Fri Feb 12 11:33:02 2021].
+
+Starting report sub_ledger [Fri Feb 12 11:33:19 2021] ...
+End report sub_ledger [Fri Feb 12 11:33:40 2021].
+
+Starting report sub_ledger [Fri Feb 12 11:34:59 2021] ...
+End report sub_ledger [Fri Feb 12 11:35:03 2021].
+
+Starting report sub_ledger [Fri Feb 12 11:37:56 2021] ...
+End report sub_ledger [Fri Feb 12 11:38:08 2021].
+
+Starting report JOURNAL_VOUCHER [Fri Feb 12 16:37:28 2021] ...
+End report JOURNAL_VOUCHER [Fri Feb 12 16:37:38 2021].
+
+Starting report igp [Tue Jun 07 18:37:44 2022] ...
+End report igp [Tue Jun 07 18:38:35 2022].
+
+Starting report igp [Tue Jun 07 18:38:43 2022] ...
+End report igp [Tue Jun 07 18:39:02 2022].
+
+Starting report purchase_bill [Wed Jun 08 13:50:15 2022] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report purchase_bill [Wed Jun 08 13:50:18 2022].
+
+Starting report sub_ledger [Sat Jul 02 11:26:50 2022] ...
+End report sub_ledger [Sat Jul 02 11:27:58 2022].
+
+Starting report GIR_LISTING [Wed Jul 06 14:36:37 2022] ...
+End report GIR_LISTING [Wed Jul 06 14:55:40 2022].
+
+Starting report GIR_LISTING [Wed Jul 06 14:55:52 2022] ...
+End report GIR_LISTING [Wed Jul 06 14:56:04 2022].
+
+Starting report GIR_LISTING [Wed Jul 06 14:56:37 2022] ...
+End report GIR_LISTING [Wed Jul 06 14:57:10 2022].
+
+Starting report GIR_LISTING [Wed Jul 06 14:57:22 2022] ...
+End report GIR_LISTING [Wed Jul 06 15:05:09 2022].
+
+Starting report JOURNAL_VOUCHER [Mon Aug 29 16:21:40 2022] ...
+End report JOURNAL_VOUCHER [Mon Aug 29 16:22:56 2022].
+
+Starting report JOURNAL_VOUCHER [Mon Aug 29 17:32:14 2022] ...
+End report JOURNAL_VOUCHER [Mon Aug 29 17:33:07 2022].
+
+Starting report JOURNAL_VOUCHER [Tue Aug 30 11:04:12 2022] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report JOURNAL_VOUCHER [Tue Aug 30 11:04:12 2022].
+
+Starting report salary_envelops [Mon Nov 07 16:39:28 2022] ...
+End report salary_envelops [Mon Nov 07 16:40:51 2022].
+
+Starting report salary_envelops [Mon Nov 07 16:41:03 2022] ...
+End report salary_envelops [Mon Nov 07 16:41:06 2022].
+
+Starting report salary_envelops [Mon Nov 07 16:41:11 2022] ...
+End report salary_envelops [Mon Nov 07 16:41:21 2022].
+
+Starting report salary_envelops [Mon Nov 07 16:41:25 2022] ...
+End report salary_envelops [Mon Nov 07 16:41:41 2022].
+
+Starting report salary_envelops [Mon Nov 07 16:41:47 2022] ...
+End report salary_envelops [Mon Nov 07 16:41:51 2022].
+
+Starting report salary_envelops [Mon Nov 07 16:52:20 2022] ...
+End report salary_envelops [Mon Nov 07 16:52:22 2022].
+
+Starting report salary_detail_dept_mis [Mon Nov 07 17:24:06 2022] ...
+End report salary_detail_dept_mis [Mon Nov 07 17:24:09 2022].
+
+Starting report salary_detail_dept_mis [Mon Nov 07 17:24:32 2022] ...
+End report salary_detail_dept_mis [Mon Nov 07 17:25:03 2022].
+
+Starting report AWB0 [Tue Nov 08 21:56:14 2022] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report AWB0 [Tue Nov 08 21:56:17 2022].
+
+Starting report daily_atten [Tue Nov 22 10:44:16 2022] ...
+End report daily_atten [Tue Nov 22 10:44:43 2022].
+
+Starting report daily_atten [Tue Nov 22 10:51:27 2022] ...
+End report daily_atten [Tue Nov 22 10:51:43 2022].
+
+Starting report daily_atten [Tue Nov 22 10:51:51 2022] ...
+End report daily_atten [Tue Nov 22 10:51:55 2022].
+
+Starting report daily_atten [Tue Nov 22 10:53:49 2022] ...
+End report daily_atten [Tue Nov 22 10:53:51 2022].
+
+Starting report daily_atten [Tue Nov 22 10:53:59 2022] ...
+End report daily_atten [Tue Nov 22 10:54:01 2022].
+
+Starting report daily_atten [Tue Nov 22 10:54:11 2022] ...
+End report daily_atten [Tue Nov 22 10:54:16 2022].
+
+Starting report daily_atten [Tue Nov 22 10:56:30 2022] ...
+End report daily_atten [Tue Nov 22 10:56:38 2022].
+
+Starting report daily_atten [Tue Nov 22 10:56:45 2022] ...
+End report daily_atten [Tue Nov 22 10:56:48 2022].
+
+Starting report daily_atten [Tue Nov 22 11:03:16 2022] ...
+End report daily_atten [Tue Nov 22 11:03:18 2022].
+
+Starting report daily_atten [Tue Nov 22 11:03:22 2022] ...
+End report daily_atten [Tue Nov 22 11:03:27 2022].
+
+Starting report daily_atten [Tue Nov 22 11:03:49 2022] ...
+End report daily_atten [Tue Nov 22 11:03:57 2022].
+
+Starting report attendance_detail_register1 [Tue Nov 22 11:04:13 2022] ...
+End report attendance_detail_register1 [Tue Nov 22 11:05:09 2022].
+
+Starting report daily_atten [Tue Nov 22 11:06:48 2022] ...
+End report daily_atten [Tue Nov 22 11:06:50 2022].
+
+Starting report attendance_detail_register1 [Tue Nov 22 11:07:07 2022] ...
+End report attendance_detail_register1 [Tue Nov 22 11:07:11 2022].
+
+Starting report employee_attendance [Tue Nov 22 11:07:25 2022] ...
+End report employee_attendance [Tue Nov 22 11:07:29 2022].
+
+Starting report employee_attendance [Tue Nov 22 11:07:37 2022] ...
+End report employee_attendance [Tue Nov 22 11:07:41 2022].
+
+Starting report daily_atten [Tue Nov 22 11:07:52 2022] ...
+End report daily_atten [Tue Nov 22 11:08:00 2022].
+
+Starting report attendance_detail_register1 [Tue Nov 22 11:08:08 2022] ...
+End report attendance_detail_register1 [Tue Nov 22 11:08:12 2022].
+
+Starting report daily_atten [Tue Nov 22 11:11:33 2022] ...
+End report daily_atten [Tue Nov 22 11:11:36 2022].
+
+Starting report attendance_register [Tue Nov 22 11:11:43 2022] ...
+End report attendance_register [Tue Nov 22 11:12:28 2022].
+
+Starting report attendance_register [Tue Nov 22 11:12:37 2022] ...
+End report attendance_register [Tue Nov 22 11:13:28 2022].
+
+Starting report attendance_register [Tue Nov 22 11:15:13 2022] ...
+End report attendance_register [Tue Nov 22 11:16:04 2022].
+
+Starting report attendance_register [Tue Nov 22 11:16:31 2022] ...
+End report attendance_register [Tue Nov 22 11:16:51 2022].
+
+Starting report attendance_register [Tue Nov 22 11:18:51 2022] ...
+End report attendance_register [Tue Nov 22 11:18:54 2022].
+
+Starting report attendance_register [Tue Nov 22 11:19:13 2022] ...
+End report attendance_register [Tue Nov 22 11:19:18 2022].
+
+Starting report employee_attendance [Tue Nov 22 11:19:28 2022] ...
+End report employee_attendance [Tue Nov 22 11:19:34 2022].
+
+Starting report employee_attendance [Tue Nov 22 11:19:43 2022] ...
+ORA-00904: "A"."ATTENDANCE_DATE": invalid identifier
+SELECT ALL EMPLOYEE . GATE_EMPLOYEE_NO , ATTENDANCE . EMPLOYEE_ID , EMPLOYEE . NAME , EMPLOYEE . DESIGNATION_ID , EMPLOYEE . DEPARTMENT_ID , EMPLOYEE . STATUS_ID , ATTENDANCE . ATTENDANCE_DATE , to_char ( aTTENDANCE . ATTENDANCE_DATE , 'dy' ) attenda
+End report employee_attendance [Tue Nov 22 11:19:48 2022].
+
+Starting report employee_attendance [Tue Nov 22 11:20:01 2022] ...
+ORA-00904: "A"."ATTENDANCE_DATE": invalid identifier
+SELECT ALL EMPLOYEE . GATE_EMPLOYEE_NO , ATTENDANCE . EMPLOYEE_ID , EMPLOYEE . NAME , EMPLOYEE . DESIGNATION_ID , EMPLOYEE . DEPARTMENT_ID , EMPLOYEE . STATUS_ID , ATTENDANCE . ATTENDANCE_DATE , to_char ( aTTENDANCE . ATTENDANCE_DATE , 'dy' ) attenda
+End report employee_attendance [Tue Nov 22 11:20:12 2022].
+
+Starting report daily_atten [Tue Nov 22 11:26:48 2022] ...
+End report daily_atten [Tue Nov 22 11:26:52 2022].
+
+Starting report attendance_register [Tue Nov 22 11:27:04 2022] ...
+End report attendance_register [Tue Nov 22 14:29:52 2022].
+
+Starting report employee_attendance [Tue Nov 22 14:30:07 2022] ...
+End report employee_attendance [Tue Nov 22 14:30:12 2022].
+
+Starting report employee_raw_attendance [Tue Nov 22 14:30:25 2022] ...
+End report employee_raw_attendance [Tue Nov 22 14:30:30 2022].
+
+Starting report employee_raw_attendance [Tue Nov 22 14:30:39 2022] ...
+End report employee_raw_attendance [Tue Nov 22 14:30:53 2022].
+
+Starting report employee_raw_attendance [Tue Nov 22 14:30:58 2022] ...
+End report employee_raw_attendance [Tue Nov 22 14:31:23 2022].
+
+Starting report attendance_register [Tue Nov 22 14:31:31 2022] ...
+End report attendance_register [Tue Nov 22 14:31:40 2022].
+
+Starting report daily_atten [Tue Nov 22 14:32:17 2022] ...
+End report daily_atten [Tue Nov 22 14:33:01 2022].
+
+Starting report daily_atten [Tue Nov 22 14:33:07 2022] ...
+End report daily_atten [Tue Nov 22 14:33:31 2022].
+
+Starting report cpo_det_pcs [Wed Nov 23 20:59:33 2022] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report cpo_det_pcs [Wed Nov 23 20:59:40 2022].
+
+Starting report packing_list [Sat Dec 24 19:26:45 2022] ...
+End report packing_list [Sat Dec 24 19:32:26 2022].
+
+Starting report ir [Sat Dec 24 19:53:52 2022] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report ir [Sat Dec 24 19:53:55 2022].
+
+Starting report packing_performa_inv [Wed Jan 04 11:36:57 2023] ...
+End report packing_performa_inv [Wed Jan 04 11:38:04 2023].
+
+Starting report packing_performa_inv [Wed Jan 04 11:38:50 2023] ...
+End report packing_performa_inv [Wed Jan 04 11:40:09 2023].
+
+Starting report packing_performa_inv [Wed Jan 04 11:40:33 2023] ...
+End report packing_performa_inv [Wed Jan 04 11:41:10 2023].
+
+Starting report packing_performa_inv [Wed Jan 04 11:43:29 2023] ...
+End report packing_performa_inv [Wed Jan 04 11:45:51 2023].
+
+Starting report packing_performa_inv [Wed Jan 04 11:45:55 2023] ...
+End report packing_performa_inv [Wed Jan 04 11:47:23 2023].
+
+Starting report export_invoice [Wed Jan 04 11:47:31 2023] ...
+End report export_invoice [Wed Jan 04 11:47:39 2023].
+
+Starting report export_invoice [Wed Jan 04 11:48:29 2023] ...
+End report export_invoice [Wed Jan 04 11:48:40 2023].
+
+Starting report packing_performa_inv [Wed Jan 04 11:48:43 2023] ...
+End report packing_performa_inv [Wed Jan 04 11:50:56 2023].
+
+Starting report packing_performa_inv [Wed Jan 04 11:51:00 2023] ...
+End report packing_performa_inv [Wed Jan 04 11:51:55 2023].
+
+Starting report packing_performa_inv [Wed Jan 04 11:51:59 2023] ...
+End report packing_performa_inv [Wed Jan 04 12:01:57 2023].
+
+Starting report export_invoice [Wed Jan 04 12:02:26 2023] ...
+End report export_invoice [Wed Jan 04 12:02:41 2023].
+
+Starting report store_ledger_new [Wed Jan 04 12:04:32 2023] ...
+End report store_ledger_new [Wed Jan 04 12:04:48 2023].
+
+Starting report export_invoice [Wed Jan 04 12:31:03 2023] ...
+End report export_invoice [Wed Jan 04 12:31:09 2023].
+
+Starting report export_invoice [Wed Jan 04 12:38:04 2023] ...
+End report export_invoice [Wed Jan 04 12:38:18 2023].
+
+Starting report export_invoice [Wed Jan 04 12:38:43 2023] ...
+End report export_invoice [Wed Jan 04 12:38:54 2023].
+
+Starting report packing_list [Wed Jan 04 12:38:57 2023] ...
+End report packing_list [Wed Jan 04 12:39:10 2023].
+
+Starting report packing_list [Wed Jan 04 12:42:42 2023] ...
+End report packing_list [Wed Jan 04 12:42:52 2023].
+
+Starting report packing_list_enika [Wed Jan 04 12:42:55 2023] ...
+End report packing_list_enika [Wed Jan 04 12:43:12 2023].
+
+Starting report carton_label [Wed Jan 04 12:43:14 2023] ...
+End report carton_label [Wed Jan 04 12:43:25 2023].
+
+Starting report export_instruction_letter [Wed Jan 04 12:43:28 2023] ...
+End report export_instruction_letter [Wed Jan 04 12:43:35 2023].
+
+Starting report export_instruction_letter [Wed Jan 04 12:43:37 2023] ...
+End report export_instruction_letter [Wed Jan 04 12:43:45 2023].
+
+Starting report export_letter_of_origion [Wed Jan 04 12:43:49 2023] ...
+End report export_letter_of_origion [Wed Jan 04 12:43:58 2023].
+
+Starting report PERFORMA_MATRIX [Wed Jan 04 12:44:24 2023] ...
+End report PERFORMA_MATRIX [Wed Jan 04 12:44:36 2023].
+
+Starting report PERFORMA_MATRIX [Wed Jan 04 12:57:52 2023] ...
+End report PERFORMA_MATRIX [Wed Jan 04 12:58:12 2023].
+
+Starting report PERFORMA_MATRIX [Wed Jan 04 12:58:33 2023] ...
+End report PERFORMA_MATRIX [Wed Jan 04 12:58:43 2023].
+
+Starting report prod_cpo [Wed Jan 04 12:58:51 2023] ...
+End report prod_cpo [Wed Jan 04 12:58:59 2023].
+
+Starting report prod_cpo [Wed Jan 04 15:03:27 2023] ...
+End report prod_cpo [Wed Jan 04 15:03:30 2023].
+
+Starting report PERFORMA_MATRIX [Wed Jan 04 15:03:33 2023] ...
+End report PERFORMA_MATRIX [Wed Jan 04 15:03:54 2023].
+
+Starting report PERFORMA_MATRIX [Wed Jan 04 15:03:56 2023] ...
+End report PERFORMA_MATRIX [Wed Jan 04 15:04:11 2023].
+
+Starting report carton_label [Wed Jan 04 21:27:44 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report carton_label [Wed Jan 04 21:27:50 2023].
+
+Starting report carton_label [Wed Jan 04 21:27:50 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-24323: value not allowed
+
+REP-0501: Unable to connect to the specified database.
+End report carton_label [Wed Jan 04 21:27:51 2023].
+
+Starting report sample_isu_rec [Tue Jan 24 12:57:02 2023] ...
+End report sample_isu_rec [Tue Jan 24 12:57:27 2023].
+
+Starting report sample_isu_rec [Tue Jan 24 12:58:10 2023] ...
+REP-0091: Invalid value for parameter 'wher'.
+End report sample_isu_rec [Tue Jan 24 12:58:15 2023].
+
+Starting report sample_isu_rec [Tue Jan 24 12:59:10 2023] ...
+ORA-00933: SQL command not properly ended
+ SELECT I . DESCRIPTION , I . ISSUE_DATETIME , I . ISSUE_TO , I . ISSUED_BY , I . RECEIVED_BY , I . RECEIVED_DATETIME , I . SAMPLE_ID FROM EXP_SAMPLE_ISU_REC I   ==> sample_id=6
+End report sample_isu_rec [Tue Jan 24 12:59:15 2023].
+
+Starting report sample_isu_rec [Tue Jan 24 12:59:35 2023] ...
+End report sample_isu_rec [Tue Jan 24 13:00:06 2023].
+
+Starting report exp_payment_trial [Tue Jan 24 13:20:02 2023] ...
+REP-0099: Report is aborted upon user request.
+REP-0098: Report not run - user cancelled in the parameter form.
+End report exp_payment_trial [Tue Jan 24 13:20:07 2023].
+
+Starting report exp_payment_trial [Tue Jan 24 13:21:19 2023] ...
+ORA-00904: "CUSTOMER_NAME": invalid identifier
+select p . inv_payment_id , p . payment_in_fc , p . customer_id , c . description , p . bank_id , p . bank_date , sum ( pp . amount ) amount , NULLIF ( p . payment_in_fc - nvl ( sum ( pp . amount ) , 0 ) , 0 ) balance , exp_payment_packing_ids ( p . 
+End report exp_payment_trial [Tue Jan 24 13:21:24 2023].
+
+Starting report exp_payment_trial [Tue Jan 24 13:21:27 2023] ...
+ORA-00933: SQL command not properly ended
+ select p . inv_payment_id , p . payment_in_fc , p . customer_id , c . description , p . bank_id , p . bank_date , sum ( pp . amount ) amount , NULLIF ( p . payment_in_fc - nvl ( sum ( pp . amount ) , 0 ) , 0 ) balance , exp_payment_packing_ids ( p .
+End report exp_payment_trial [Tue Jan 24 13:21:40 2023].
+
+Starting report exp_payment_trial [Tue Jan 24 13:21:43 2023] ...
+ORA-00933: SQL command not properly ended
+ select p . inv_payment_id , p . payment_in_fc , p . customer_id , c . description , p . bank_id , p . bank_date , sum ( pp . amount ) amount , NULLIF ( p . payment_in_fc - nvl ( sum ( pp . amount ) , 0 ) , 0 ) balance , exp_payment_packing_ids ( p .
+End report exp_payment_trial [Tue Jan 24 13:21:49 2023].
+
+Starting report EXP_PAYMENT_PACKING_LEDGER [Tue Jan 24 13:21:53 2023] ...
+ORA-00904: "CUSTOMER_NAME": invalid identifier
+select p . inv_payment_id , p . PAYMENT_IN_FC , p . BANK_ID , p . bank_date , p . customer_id , p . PAYMENT_IN_FC , c . description customer , pp . PACKING_ID , to_number ( pp . AMOUNT ) amount , exp_packing_cpos ( pp . packing_id ) cpos , pdv . pack
+End report EXP_PAYMENT_PACKING_LEDGER [Tue Jan 24 13:21:58 2023].
+
+Starting report exp_payment_trial [Tue Jan 24 13:26:00 2023] ...
+ORA-00904: "CUSTOMER_NAME": invalid identifier
+select p . inv_payment_id , p . payment_in_fc , p . customer_id , c . description , p . bank_id , p . bank_date , sum ( pp . amount ) amount , NULLIF ( p . payment_in_fc - nvl ( sum ( pp . amount ) , 0 ) , 0 ) balance , exp_payment_packing_ids ( p . 
+End report exp_payment_trial [Tue Jan 24 13:26:14 2023].
+
+Starting report EXP_PAYMENT_PACKING_LEDGER [Tue Jan 24 13:26:40 2023] ...
+End report EXP_PAYMENT_PACKING_LEDGER [Tue Jan 24 13:26:52 2023].
+
+Starting report exp_payment_trial [Tue Jan 24 13:27:07 2023] ...
+End report exp_payment_trial [Tue Jan 24 13:27:17 2023].
+
+Starting report AWB0 [Tue Jan 24 13:27:29 2023] ...
+REP-0099: Report is aborted upon user request.
+REP-0098: Report not run - user cancelled in the parameter form.
+End report AWB0 [Tue Jan 24 13:27:35 2023].
+
+Starting report exp_payment_trial [Tue Jan 24 13:27:38 2023] ...
+End report exp_payment_trial [Tue Jan 24 13:27:50 2023].
+
+Starting report exp_payment_trial [Tue Jan 24 13:28:04 2023] ...
+End report exp_payment_trial [Tue Jan 24 13:28:17 2023].
+
+Starting report EXP_PAYMENT_PACKING_LEDGER [Tue Jan 24 13:28:20 2023] ...
+End report EXP_PAYMENT_PACKING_LEDGER [Tue Jan 24 13:28:40 2023].
+
+Starting report exp_payment_trial [Tue Jan 24 13:32:42 2023] ...
+ORA-00904: "DESRIPTION": invalid identifier
+select p . inv_payment_id , p . payment_in_fc , p . customer_id , c . description , p . bank_id , p . bank_date , sum ( pp . amount ) amount , NULLIF ( p . payment_in_fc - nvl ( sum ( pp . amount ) , 0 ) , 0 ) balance , exp_payment_packing_ids ( p . 
+End report exp_payment_trial [Tue Jan 24 13:32:47 2023].
+
+Starting report exp_payment_trial [Tue Jan 24 13:33:15 2023] ...
+End report exp_payment_trial [Tue Jan 24 13:33:19 2023].
+
+Starting report EXP_PAYMENT_PACKING_LEDGER [Tue Jan 24 13:33:20 2023] ...
+End report EXP_PAYMENT_PACKING_LEDGER [Tue Jan 24 13:33:26 2023].
+
+Starting report exp_payment_trial [Tue Jan 24 13:33:33 2023] ...
+End report exp_payment_trial [Tue Jan 24 13:33:46 2023].
+
+Starting report exp_payment_trial [Tue Jan 24 13:33:57 2023] ...
+End report exp_payment_trial [Tue Jan 24 13:34:01 2023].
+
+Starting report exp_payment_trial [Tue Jan 24 13:34:04 2023] ...
+End report exp_payment_trial [Tue Jan 24 13:34:08 2023].
+
+Starting report AWB0 [Tue Jan 24 13:34:12 2023] ...
+REP-0099: Report is aborted upon user request.
+REP-0098: Report not run - user cancelled in the parameter form.
+End report AWB0 [Tue Jan 24 13:34:14 2023].
+
+Starting report exp_payment_trial [Tue Jan 24 13:34:18 2023] ...
+End report exp_payment_trial [Tue Jan 24 13:34:23 2023].
+
+Starting report exp_payment_trial [Tue Jan 24 13:34:33 2023] ...
+End report exp_payment_trial [Tue Jan 24 13:34:46 2023].
+
+Starting report exp_payment_trial [Tue Jan 24 13:34:58 2023] ...
+End report exp_payment_trial [Tue Jan 24 13:35:05 2023].
+
+Starting report exp_payment_trial [Tue Jan 24 13:45:20 2023] ...
+ORA-00936: missing expression
+ select p . inv_payment_id , p . payment_in_fc , p . customer_id , c . description , p . bank_id , p . bank_date , sum ( pp . amount ) amount , NULLIF ( p . payment_in_fc - nvl ( sum ( pp . amount ) , 0 ) , 0 ) balance , exp_payment_packing_ids ( p .
+End report exp_payment_trial [Tue Jan 24 13:45:23 2023].
+
+Starting report EXP_PAYMENT_PACKING_LEDGER [Tue Jan 24 13:45:26 2023] ...
+End report EXP_PAYMENT_PACKING_LEDGER [Tue Jan 24 13:45:43 2023].
+
+Starting report EXP_PAYMENT_PACKING_LEDGER [Tue Jan 24 13:46:18 2023] ...
+End report EXP_PAYMENT_PACKING_LEDGER [Tue Jan 24 13:46:22 2023].
+
+Starting report EXP_PAYMENT_PACKING_LEDGER [Tue Jan 24 13:47:36 2023] ...
+End report EXP_PAYMENT_PACKING_LEDGER [Tue Jan 24 13:47:41 2023].
+
+Starting report exp_payment_trial [Tue Jan 24 13:47:46 2023] ...
+End report exp_payment_trial [Tue Jan 24 13:47:52 2023].
+
+Starting report exp_payment_trial [Tue Jan 24 13:49:54 2023] ...
+End report exp_payment_trial [Tue Jan 24 13:49:59 2023].
+
+Starting report exp_payment_trial [Tue Jan 24 13:50:49 2023] ...
+End report exp_payment_trial [Tue Jan 24 13:50:51 2023].
+
+Starting report EXP_PAYMENT_PACKING_LEDGER [Tue Jan 24 13:50:52 2023] ...
+End report EXP_PAYMENT_PACKING_LEDGER [Tue Jan 24 13:50:55 2023].
+
+Starting report exp_payment_trial [Tue Jan 24 13:50:56 2023] ...
+End report exp_payment_trial [Tue Jan 24 13:50:58 2023].
+
+Starting report ROGP_BILL [Tue Jan 24 16:39:51 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report ROGP_BILL [Tue Jan 24 16:39:54 2023].
+
+Starting report sample_isu_rec [Tue Jan 24 18:33:57 2023] ...
+End report sample_isu_rec [Tue Jan 24 18:34:24 2023].
+
+Starting report sample_isu_rec_report [Tue Jan 24 18:50:46 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report sample_isu_rec_report [Tue Jan 24 18:50:46 2023].
+
+Starting report sample_isu_rec_report [Tue Jan 24 18:50:47 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-24323: value not allowed
+
+REP-0501: Unable to connect to the specified database.
+End report sample_isu_rec_report [Tue Jan 24 18:50:49 2023].
+
+Starting report PERFORMA_MATRIX [Thu Feb 02 12:38:53 2023] ...
+End report PERFORMA_MATRIX [Thu Feb 02 12:40:02 2023].
+
+Starting report PERFORMA_MATRIX [Thu Feb 02 12:57:08 2023] ...
+End report PERFORMA_MATRIX [Thu Feb 02 12:58:26 2023].
+
+Starting report PERFORMA_MATRIX [Thu Feb 02 12:59:54 2023] ...
+End report PERFORMA_MATRIX [Thu Feb 02 13:01:32 2023].
+
+Starting report JOURNAL_VOUCHER [Thu Feb 02 14:56:19 2023] ...
+End report JOURNAL_VOUCHER [Thu Feb 02 14:58:05 2023].
+
+Starting report JOURNAL_VOUCHER [Thu Feb 02 14:58:45 2023] ...
+End report JOURNAL_VOUCHER [Thu Feb 02 14:58:57 2023].
+
+Starting report JOURNAL_VOUCHER [Thu Feb 02 15:13:45 2023] ...
+End report JOURNAL_VOUCHER [Thu Feb 02 15:14:06 2023].
+
+Starting report JOURNAL_VOUCHER [Thu Feb 02 15:54:32 2023] ...
+End report JOURNAL_VOUCHER [Thu Feb 02 15:54:39 2023].
+
+Starting report ppc_mp_ref [Sat Feb 04 15:26:58 2023] ...
+End report ppc_mp_ref [Sat Feb 04 15:29:42 2023].
+
+Starting report cpo_mat_st_clr_sum0 [Sat Feb 04 15:29:57 2023] ...
+End report cpo_mat_st_clr_sum0 [Sat Feb 04 15:30:28 2023].
+
+Starting report cpo_mat_st_clr_sum0 [Sat Feb 04 15:30:55 2023] ...
+End report cpo_mat_st_clr_sum0 [Sat Feb 04 15:31:01 2023].
+
+Starting report cpo_mat_st_clr_sum0 [Sat Feb 04 15:31:06 2023] ...
+End report cpo_mat_st_clr_sum0 [Sat Feb 04 15:31:50 2023].
+
+Starting report cpo_mat_planning_vs_stock [Sat Feb 04 15:31:52 2023] ...
+ORA-00979: not a GROUP BY expression
+select  ==> rate , cpo_id , our_cpo , cpo_year , style , color_id , main_part , mp_ref , remarks , 1 / one_l_qty unit_qty , opening_qtyf_date ( sc_main_id , sc_sub_id , sc_id , sysdate , 0 ) stock , ( opening_qtyf_date ( sc_main_id , sc_sub_id , sc_id , s
+End report cpo_mat_planning_vs_stock [Sat Feb 04 15:31:55 2023].
+
+Starting report cpo_mat_planning_vs_stock [Sat Feb 04 15:31:57 2023] ...
+ORA-00979: not a GROUP BY expression
+select  ==> rate , cpo_id , our_cpo , cpo_year , style , color_id , main_part , mp_ref , remarks , 1 / one_l_qty unit_qty , opening_qtyf_date ( sc_main_id , sc_sub_id , sc_id , sysdate , 0 ) stock , ( opening_qtyf_date ( sc_main_id , sc_sub_id , sc_id , s
+End report cpo_mat_planning_vs_stock [Sat Feb 04 15:31:59 2023].
+
+Starting report cpo_mat_planning_vs_stock [Sat Feb 04 15:32:03 2023] ...
+ORA-00979: not a GROUP BY expression
+select  ==> rate , cpo_id , our_cpo , cpo_year , style , color_id , main_part , mp_ref , remarks , 1 / one_l_qty unit_qty , opening_qtyf_date ( sc_main_id , sc_sub_id , sc_id , sysdate , 0 ) stock , ( opening_qtyf_date ( sc_main_id , sc_sub_id , sc_id , s
+End report cpo_mat_planning_vs_stock [Sat Feb 04 15:32:04 2023].
+
+Starting report cpo_mat_planning_vs_stock [Sat Feb 04 15:32:09 2023] ...
+ORA-00979: not a GROUP BY expression
+select  ==> rate , cpo_id , our_cpo , cpo_year , style , color_id , main_part , mp_ref , remarks , 1 / one_l_qty unit_qty , opening_qtyf_date ( sc_main_id , sc_sub_id , sc_id , sysdate , 0 ) stock , ( opening_qtyf_date ( sc_main_id , sc_sub_id , sc_id , s
+End report cpo_mat_planning_vs_stock [Sat Feb 04 15:32:11 2023].
+
+Starting report cpo_mat_planning_vs_stock [Sat Feb 04 15:32:15 2023] ...
+ORA-00979: not a GROUP BY expression
+select  ==> rate , cpo_id , our_cpo , cpo_year , style , color_id , main_part , mp_ref , remarks , 1 / one_l_qty unit_qty , opening_qtyf_date ( sc_main_id , sc_sub_id , sc_id , sysdate , 0 ) stock , ( opening_qtyf_date ( sc_main_id , sc_sub_id , sc_id , s
+End report cpo_mat_planning_vs_stock [Sat Feb 04 15:32:16 2023].
+
+Starting report cpo_mat_planning_vs_stock [Sat Feb 04 15:32:19 2023] ...
+ORA-00979: not a GROUP BY expression
+select  ==> rate , cpo_id , our_cpo , cpo_year , style , color_id , main_part , mp_ref , remarks , 1 / one_l_qty unit_qty , opening_qtyf_date ( sc_main_id , sc_sub_id , sc_id , sysdate , 0 ) stock , ( opening_qtyf_date ( sc_main_id , sc_sub_id , sc_id , s
+End report cpo_mat_planning_vs_stock [Sat Feb 04 15:32:21 2023].
+
+Starting report JOURNAL_VOUCHER [Sat Feb 11 16:05:53 2023] ...
+End report JOURNAL_VOUCHER [Sat Feb 11 16:06:26 2023].
+
+Starting report daily_sale_3 [Sun Feb 12 14:37:19 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report daily_sale_3 [Sun Feb 12 14:37:26 2023].
+
+Starting report san_single [Sat Feb 18 12:04:34 2023] ...
+End report san_single [Sat Feb 18 12:05:41 2023].
+
+Starting report store_ledger_new [Sat Feb 18 15:45:01 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report store_ledger_new [Sat Feb 18 15:45:01 2023].
+
+Starting report store_ledger_new [Sat Feb 18 15:45:04 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-24323: value not allowed
+
+REP-0501: Unable to connect to the specified database.
+End report store_ledger_new [Sat Feb 18 15:45:08 2023].
+
+Starting report COA_COMPLETE [Tue Feb 28 15:38:03 2023] ...
+End report COA_COMPLETE [Tue Feb 28 15:39:38 2023].
+
+Starting report salary_detail_deductions_mis [Wed Mar 01 16:10:24 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report salary_detail_deductions_mis [Wed Mar 01 16:10:25 2023].
+
+Starting report packing_performa_inv [Sat Mar 11 14:02:39 2023] ...
+End report packing_performa_inv [Sat Mar 11 14:03:21 2023].
+
+Starting report packing_performa_inv [Sat Mar 11 14:03:57 2023] ...
+End report packing_performa_inv [Sat Mar 11 14:04:23 2023].
+
+Starting report packing_performa_inv [Sat Mar 11 14:08:48 2023] ...
+End report packing_performa_inv [Sat Mar 11 14:08:52 2023].
+
+Starting report packing_performa_inv [Sat Mar 11 14:09:40 2023] ...
+End report packing_performa_inv [Sat Mar 11 14:09:47 2023].
+
+Starting report po_summary [Fri Apr 14 09:44:34 2023] ...
+End report po_summary [Fri Apr 14 09:46:59 2023].
+
+Starting report po_summary [Fri Apr 14 09:47:07 2023] ...
+REP-0099: Report is aborted upon user request.
+REP-0098: Report not run - user cancelled in the parameter form.
+End report po_summary [Fri Apr 14 09:47:21 2023].
+
+Starting report po_summary [Fri Apr 14 09:49:20 2023] ...
+End report po_summary [Fri Apr 14 09:49:39 2023].
+
+Starting report salary_temp2 [Fri Apr 14 17:52:33 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report salary_temp2 [Fri Apr 14 17:52:35 2023].
+
+Starting report pending_orders [Fri Apr 28 17:57:36 2023] ...
+End report pending_orders [Fri Apr 28 17:58:05 2023].
+
+Starting report po_summary [Fri Apr 28 17:58:12 2023] ...
+REP-0099: Report is aborted upon user request.
+REP-0098: Report not run - user cancelled in the parameter form.
+End report po_summary [Fri Apr 28 17:59:13 2023].
+
+Starting report ledger_without_trx [Fri Apr 28 21:45:57 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report ledger_without_trx [Fri Apr 28 21:46:00 2023].
+
+Starting report customer_style_wise_history [Sat Apr 29 15:57:29 2023] ...
+REP-0110: Unable to open file 'M:\expport\REPORTS\customer_style_wise_history'.
+REP-1070: Error while opening or saving a document.
+REP-0110: Unable to open file 'M:\expport\REPORTS\customer_style_wise_history'.
+End report customer_style_wise_history [Sat Apr 29 15:57:29 2023].
+
+Starting report po_summary [Sat Apr 29 15:59:10 2023] ...
+REP-0110: Unable to open file 'M:\expport\REPORTS\po_summary'.
+REP-1070: Error while opening or saving a document.
+REP-0110: Unable to open file 'M:\expport\REPORTS\po_summary'.
+End report po_summary [Sat Apr 29 15:59:10 2023].
+
+Starting report po_summary [Sat Apr 29 15:59:15 2023] ...
+REP-0110: Unable to open file 'M:\expport\REPORTS\po_summary'.
+REP-1070: Error while opening or saving a document.
+REP-0110: Unable to open file 'M:\expport\REPORTS\po_summary'.
+End report po_summary [Sat Apr 29 15:59:15 2023].
+
+Starting report po_summary [Sat Apr 29 16:00:18 2023] ...
+End report po_summary [Sat Apr 29 16:01:08 2023].
+
+Starting report po_summary [Sat Apr 29 16:01:13 2023] ...
+REP-0099: Report is aborted upon user request.
+REP-0098: Report not run - user cancelled in the parameter form.
+End report po_summary [Sat Apr 29 16:01:17 2023].
+
+Starting report po_summary [Sat Apr 29 16:05:36 2023] ...
+End report po_summary [Sat Apr 29 16:05:47 2023].
+
+Starting report po_summary [Sat Apr 29 16:06:25 2023] ...
+End report po_summary [Sat Apr 29 16:06:38 2023].
+
+Starting report po_summary [Sat Apr 29 16:06:43 2023] ...
+End report po_summary [Sat Apr 29 16:06:46 2023].
+
+Starting report po_summary [Sat Apr 29 16:08:34 2023] ...
+End report po_summary [Sat Apr 29 16:08:48 2023].
+
+Starting report po_summary [Sat Apr 29 16:08:54 2023] ...
+End report po_summary [Sat Apr 29 16:09:06 2023].
+
+Starting report po_summary [Sat Apr 29 16:10:21 2023] ...
+End report po_summary [Sat Apr 29 16:10:30 2023].
+
+Starting report sub_ledger [Sun Apr 30 15:45:55 2023] ...
+REP-0501: Unable to connect to the specified database.
+ORA-00000: normal, successful completion
+
+REP-0501: Unable to connect to the specified database.
+End report sub_ledger [Sun Apr 30 15:45:59 2023].
+
+Starting report store_daily_issue [Thu Jun 08 12:55:48 2023] ...
+End report store_daily_issue [Thu Jun 08 12:57:42 2023].
+
+Starting report issue_vs_po [Thu Jun 08 15:49:27 2023] ...
+REP-0110: Unable to open file 'm:\store\reports\issue_vs_po'.
+REP-1070: Error while opening or saving a document.
+REP-0110: Unable to open file 'm:\store\reports\issue_vs_po'.
+End report issue_vs_po [Thu Jun 08 15:49:27 2023].
+
+Starting report issue_vs_po [Thu Jun 08 15:49:36 2023] ...
+REP-0110: Unable to open file 'm:\store\reports\issue_vs_po'.
+REP-1070: Error while opening or saving a document.
+REP-0110: Unable to open file 'm:\store\reports\issue_vs_po'.
+End report issue_vs_po [Thu Jun 08 15:49:36 2023].
+
+Starting report issue_vs_cpo [Thu Jun 08 15:50:57 2023] ...
+End report issue_vs_cpo [Thu Jun 08 17:11:15 2023].
+
+Starting report issue_vs_cpo [Thu Jun 08 17:11:15 2023] ...
+End report issue_vs_cpo [Fri Jun 09 16:37:25 2023].

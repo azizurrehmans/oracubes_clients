@@ -1,0 +1,9 @@
+CREATE TABLE GARMOR.SUP_COMM
+(
+  RATE           NUMBER,
+  DEPARTMENT_ID  VARCHAR2(40 BYTE),
+  STYLE          VARCHAR2(50 BYTE)              NOT NULL,
+  COLOR          VARCHAR2(50 BYTE)              NOT NULL,
+  SIZES          VARCHAR2(10 BYTE)              NOT NULL,
+  SAL_CONT_ID    DATE
+);

@@ -1,0 +1,48 @@
+select 
+    store_code, 
+       sc_desc,
+       store.customer_code_item_code(sc_view.sc_main_id, sc_view.sc_sub_id, sc_view.sc_id) customer_codes,
+
+       STORE.opening_qtyf_date(SC_VIEW.sc_main_id, SC_VIEW.sc_sub_id, SC_VIEW.Sc_id,'01-JUL-2012','LOCAL FILED') OPEN_FILED,
+
+       STORE.opening_qtyf_date(SC_VIEW.sc_main_id, SC_VIEW.sc_sub_id, SC_VIEW.Sc_id,'01-JUL-2012','LOCAL FORGING') OPEN_FORGING,
+
+       STORE.opening_qtyf_date(SC_VIEW.sc_main_id, SC_VIEW.sc_sub_id, SC_VIEW.Sc_id,'01-JUL-2012','LOCAL POLISHED') OPEN_POLISHED,
+
+       STORE.opening_qtyf_date(SC_VIEW.sc_main_id, SC_VIEW.sc_sub_id, SC_VIEW.Sc_id,SYSDATE,'LOCAL FILED') CLOS_FILED,
+
+       STORE.opening_qtyf_date(SC_VIEW.sc_main_id, SC_VIEW.sc_sub_id, SC_VIEW.Sc_id,SYSDATE,'LOCAL FORGING') CLOSE_FORGING,
+
+       STORE.opening_qtyf_date(SC_VIEW.sc_main_id, SC_VIEW.sc_sub_id, SC_VIEW.Sc_id,SYSDATE,'LOCAL POLISHED') CLOSE_POLISHED,
+
+       t.REC_qTY PURCHASES,
+       
+       SUM(QTY) SHIPPED
+ 
+from store.sc_view,
+
+      (SELECT sc_main_id, sc_sub_id, sc_id, sum(rec_qty) rec_qty FROM STORE.TRANS 
+       WHERE TRANS_year = '12-13'
+ AND FORGING_TYPE='LOCAL FORGING'
+       group by sc_main_id, sc_sub_id, sc_id) T,
+
+      (SELECT * FROM STORE.PACKING_DETAIL WHERE PACKING_YEAR = '12-13' AND FORGING_TYPE='LOCAL FORGING') P
+
+WHERE SC_VIEW.SC_MAIN_ID = T.SC_MAIN_ID
+AND SC_VIEW.SC_SUB_ID = T.SC_SUB_ID
+AND SC_VIEW.SC_ID = T.SC_ID
+
+  AND SC_VIEW.SC_MAIN_ID = P.SC_MAIN_ID(+)
+AND SC_VIEW.SC_SUB_ID = P.SC_SUB_ID(+)
+AND SC_VIEW.SC_ID = P.SC_ID(+)
+
+  and sc_view.sc_main_id < 900
+---AND SC_VIEW.SC_MAIN_ID =13 and sc_view.sc_sub_id = 311 and sc_view.sc_id=12
+
+GROUP BY
+SC_VIEW.SC_MAIN_ID,
+SC_VIEW.SC_SUB_ID,
+SC_VIEW.SC_ID,
+sc_view.sc_desc,
+t.rec_qty
+/

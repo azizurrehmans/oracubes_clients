@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<SBDataFilterHistory>
+  <ASKARI>
+    <IGP_DETAIL_VIEW>
+      <Name>Most Recently Used (Unnamed)<Where>IGP_ID &gt; 1940</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </IGP_DETAIL_VIEW>
+    <GIR_DETAIL_VIEW>
+      <Name>Most Recently Used (Unnamed)<Where>GIR_ID &gt; 1240</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </GIR_DETAIL_VIEW>
+    <OGP>
+      <Name>Most Recently Used (Unnamed)<Where>OGP_ID = 727</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </OGP>
+    <WO_DETAIL_VIEW>
+      <Name>Most Recently Used (Unnamed)<Where>ogp_ID = 727</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </WO_DETAIL_VIEW>
+    <OGP_DETAIL_VIEW>
+      <Name>Most Recently Used (Unnamed)<Where>OGP_ID = 727</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </OGP_DETAIL_VIEW>
+    <CPO_MATERIAL_VIEW>
+      <Name>Most Recently Used (Unnamed)<Where>OUR_CPO = &apos;42&apos;
+ AND SC_MAIN_ID = 2
+ AND SC_ID = 26</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </CPO_MATERIAL_VIEW>
+    <IR>
+      <Name>Most Recently Used (Unnamed)<Where>IR_YEAR = &apos;14&apos;</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </IR>
+    <IR_DETAIL>
+      <Name>Most Recently Used (Unnamed)<Where>IR_ID = 34</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </IR_DETAIL>
+    <TRANS>
+      <Name>Most Recently Used (Unnamed)<Where>IR_ID = 34</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </TRANS>
+    <SAL_CONT_DETAIL>
+      <Name>Most Recently Used (Unnamed)<Where>EMPLOYEE_ID = 1036</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </SAL_CONT_DETAIL>
+    <VOUCHER>
+      <Name>Most Recently Used (Unnamed)<Where>VOUCHER_SEQ = 33548</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>NoFilter</DefaultFilter>
+    </VOUCHER>
+    <SAL_CONT_MO_DETAIL>
+      <Name>Most Recently Used (Unnamed)<Where>SAL_CONT_ID = TO_DATE(&apos;07/06/2013 00:00:00&apos;, &apos;MM/DD/YYYY HH24:MI:SS&apos;)
+ AND EMPLOYEE_ID = 1042
+ AND COLOR = &apos;BLACK&apos;
+ AND STYLE = &apos;ETON&apos;</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </SAL_CONT_MO_DETAIL>
+    <IGP_DETAIL>
+      <Name>Most Recently Used (Unnamed)<Where>IGP_ID = 38</Where>
+        <Order />
+        <Partition />
+      </Name>
+      <DefaultFilter>Most Recently Used (Unnamed)</DefaultFilter>
+    </IGP_DETAIL>
+  </ASKARI>
+</SBDataFilterHistory>
