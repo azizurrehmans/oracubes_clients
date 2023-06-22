@@ -183,3 +183,7 @@ ORA-00000: normal, successful completion
 
 REP-0501: Unable to connect to the specified database.
 End report VOUCHER_HFP_14 [Tue May 23 13:32:02 2023].
+
+Starting report salary_temp2 [Thu Jun 22 15:54:05 2023] ...
+REP-0099: Report is aborted upon user request.
+End report salary_temp2 [Thu Jun 22 15:54:52 2023].
